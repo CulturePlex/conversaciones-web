@@ -40,9 +40,11 @@ services:
     restart: unless-stopped
     ports:
       - "80:80"
+      - 443:443
     volumes:
       - ./:/var/www/html
       - ./docker/nginx-conf:/etc/nginx/conf.d
+      - ./docker/nginx-conf/ssl:/etc/nginx/conf.d/ssl
     networks:
       - cedro-network
 
