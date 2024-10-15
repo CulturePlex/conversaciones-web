@@ -1,0 +1,63 @@
+services:
+  database:
+    image: mysql:8.0
+    container_name: database
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "${DB_PORT}:3306"
+    expose:
+      - "3306"
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_HOST: '%' # Allow connections from any host
+      MYSQL_ROOT_HOST: '%' # Allow connections from any host
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - cedro-network
+
+  wordpress:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: wordpress
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - cedro-network
+
+  webserver:
+    depends_on:
+      - wordpress
+    image: nginx:1.15.12-alpine
+    container_name: webserver
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www/html
+      - ./docker/nginx-conf:/etc/nginx/conf.d
+    networks:
+      - cedro-network
+
+  # Cloudflare Tunnel
+  cloudflared:
+    container_name: cloudflared
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TOKEN}
+    restart: unless-stopped
+    networks:
+      - cedro-network
+      
+volumes:
+  dbdata:
+
+networks:
+  cedro-network:
+    driver: bridge
