@@ -8,5 +8,5 @@
 #### Steps:
 
     1. Clone .env.example and configure environment
-    2. `docker compose up -d --build`
+    2. Run docker compose up -d --build to start
 
