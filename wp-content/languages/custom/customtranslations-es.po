@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: customtranslations-es\n"
+"POT-Creation-Date: 2024-11-11 13:32-0500\n"
+"PO-Revision-Date: 2024-11-11 13:34-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../../plugins/learnpress/templates\n"
+"X-Poedit-KeywordsList: esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: checkout/account-logged-in.php:26
+msgid "Log out &raquo;"
+msgstr ""
+
+#: checkout/account-login.php:27 checkout/account-register.php:54
+msgid "Sign in"
+msgstr ""
+
+#: checkout/account-login.php:31 global/form-login.php:27
+msgid "Username or email"
+msgstr ""
+
+#: checkout/account-login.php:35 checkout/account-register.php:32
+#: global/form-login.php:31 global/form-register.php:36
+msgid "Password"
+msgstr ""
+
+#: checkout/account-login.php:46 global/form-login.php:40
+msgid "Remember me"
+msgstr ""
+
+#: checkout/account-login.php:50
+msgid "Lost password?"
+msgstr ""
+
+#: checkout/account-login.php:61
+msgid "Don't have an account?"
+msgstr ""
+
+#: checkout/account-register.php:18
+msgid "Sign up"
+msgstr ""
+
+#: checkout/account-register.php:24 global/form-register.php:28
+#: profile/tabs/settings/basic-information.php:51
+msgid "Email address"
+msgstr ""
+
+#: checkout/account-register.php:28 global/form-register.php:32
+msgid "Username"
+msgstr ""
+
+#: checkout/account-register.php:36 global/form-register.php:40
+msgid "Confirm Password"
+msgstr ""
+
+#: checkout/account-register.php:52
+msgid "Already had an account?"
+msgstr ""
+
+#: checkout/guest-checkout-link.php:16
+msgid "Or quick checkout as"
+msgstr ""
+
+#: checkout/guest-checkout.php:21
+msgid "As Guest"
+msgstr ""
+
+#: checkout/guest-checkout.php:26
+msgid ""
+"An order key to activate the course will be sent to your email after the "
+"payment has proceeded successfully."
+msgstr ""
+
+#: checkout/order-comment.php:16
+msgid "Additional Information"
+msgstr ""
+
+#: checkout/order-received.php:48
+msgid "Order Key"
+msgstr ""
+
+#: checkout/order-received.php:55
+msgid "Order Number"
+msgstr ""
+
+#: checkout/order-received.php:61 profile/tabs/orders/list.php:30
+msgid "Status"
+msgstr ""
+
+#: checkout/order-received.php:70 order/order-details.php:28
+msgid "Item"
+msgstr ""
+
+#: checkout/order-received.php:104 profile/tabs/orders/list.php:31
+#: profile/tabs/quizzes.php:59
+msgid "Date"
+msgstr ""
+
+#: checkout/order-received.php:117 checkout/review-order.php:106
+#: order/order-details.php:29 order/order-details.php:115
+#: profile/tabs/orders/list.php:29
+msgid "Total"
+msgstr ""
+
+#: checkout/order-received.php:127
+msgid "Payment Method"
+msgstr ""
+
+#: checkout/payment.php:25
+msgid "Payment"
+msgstr ""
+
+#: checkout/review-order.php:26
+msgid "Your order"
+msgstr ""
+
+#: content-lesson/button-complete.php:41
+msgid "Completed"
+msgstr ""
+
+#: content-quiz/js.php:144
+msgid "You haven't any question!"
+msgstr ""
+
+#: global/become-teacher-form.php:35 profile/tabs/courses/course-list.php:29
+msgid "Name"
+msgstr ""
+
+#: global/become-teacher-form.php:39
+msgid "Email"
+msgstr ""
+
+#: global/become-teacher-form.php:43
+msgid "Phone"
+msgstr ""
+
+#: global/become-teacher-form.php:47
+msgid "Message"
+msgstr ""
+
+#: global/block-content.php:16
+msgid ""
+"The content of this item has been blocked because the course has exceeded "
+"its duration."
+msgstr ""
+
+#: global/form-login.php:48
+msgid "Login"
+msgstr ""
+
+#: global/form-login.php:51
+msgid "Lost your password?"
+msgstr ""
+
+#: global/form-register.php:51
+msgid "Register"
+msgstr ""
+
+#: global/lp-modal-overlay.php:23
+msgid "No"
+msgstr ""
+
+#: global/lp-modal-overlay.php:24
+msgid "Yes"
+msgstr ""
+
+#: global/no-courses-found.php:15
+msgid "No courses were found to match your selection."
+msgstr ""
+
+#: loop/single-course/loop-section.php:56
+msgid "Show more items"
+msgstr ""
+
+#: order/confirm.php:23
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: order/confirm.php:29
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: order/confirm.php:31
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: order/confirm.php:47
+msgid "Order Number:"
+msgstr ""
+
+#: order/confirm.php:52
+msgid "Date:"
+msgstr ""
+
+#: order/confirm.php:57
+msgid "Total:"
+msgstr ""
+
+#: order/confirm.php:64
+msgid "Payment Method:"
+msgstr ""
+
+#: order/confirm.php:70
+msgid "Status:"
+msgstr ""
+
+#: order/order-details.php:23
+msgid "Order Details"
+msgstr ""
+
+#: order/order-details.php:108
+msgid "Subtotal"
+msgstr ""
+
+#: order/order-details.php:127
+msgid "Order status:"
+msgstr ""
+
+#: order/recover-form.php:21
+msgid "Recover"
+msgstr ""
+
+#: profile/tabs/courses/course-grid.php:64
+#: profile/tabs/courses/course-list.php:79
+msgid "View more"
+msgstr ""
+
+#: profile/tabs/courses/course-list.php:30 profile/tabs/quizzes.php:57
+msgid "Result"
+msgstr ""
+
+#: profile/tabs/courses/course-list.php:31
+msgid "Expiration time"
+msgstr ""
+
+#: profile/tabs/courses/course-list.php:32
+msgid "End time"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:26
+msgid "Total enrolled courses"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:27
+msgid "Enrolled Courses"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:31
+msgid "The total number of courses is being learned"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:32
+msgid "Active Courses"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:35
+msgid "Total courses have finished"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:36
+msgid "Completed Courses"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:44
+msgid "Total created courses"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:45
+msgid "Total Courses"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:48
+msgid "Total attended students"
+msgstr ""
+
+#: profile/tabs/courses/general-statistic.php:49
+msgid "Total Students"
+msgstr ""
+
+#: profile/tabs/orders/list.php:23
+msgid "My Orders"
+msgstr ""
+
+#: profile/tabs/orders/list.php:28
+msgid "Order"
+msgstr ""
+
+#: profile/tabs/orders/list.php:32
+msgid "Actions"
+msgstr ""
+
+#: profile/tabs/orders/recover-my-order.php:18
+msgid "This order was checked out by you but there is no user was assigned to."
+msgstr ""
+
+#: profile/tabs/orders/recover-my-order.php:19
+msgid ""
+"If the order is made for another one, you can send the code below to them."
+msgstr ""
+
+#: profile/tabs/orders/recover-my-order.php:20
+msgid "If the order is made for yourself, you can assign it to you here."
+msgstr ""
+
+#: profile/tabs/orders/recover-order.php:16
+msgid "If you have a valid order key, you can recover it here."
+msgstr ""
+
+#: profile/tabs/orders/recover-order.php:17
+msgid ""
+"When you checkout as a Guest, an order key will be sent to your email. You "
+"can use the order key to create an order."
+msgstr ""
+
+#: profile/tabs/quizzes.php:56
+msgid "Quiz"
+msgstr ""
+
+#: profile/tabs/quizzes.php:58
+msgid "Time spent"
+msgstr ""
+
+#: profile/tabs/settings/basic-information.php:33
+msgid "First name"
+msgstr ""
+
+#: profile/tabs/settings/basic-information.php:39
+msgid "Last name"
+msgstr ""
+
+#: profile/tabs/settings/basic-information.php:45
+msgid "Display name"
+msgstr ""
+
+#: profile/tabs/settings/basic-information.php:58
+msgid "Biographical Info"
+msgstr ""
+
+#: profile/tabs/settings/basic-information.php:68
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+#: profile/tabs/settings/basic-information.php:104
+#: profile/tabs/settings/change-password.php:59
+#: profile/tabs/settings/privacy.php:51
+msgid "Save changes"
+msgstr ""
+
+#: profile/tabs/settings/change-password.php:30
+msgid "Current password"
+msgstr ""
+
+#: profile/tabs/settings/change-password.php:36
+msgid "New password"
+msgstr ""
+
+#: profile/tabs/settings/change-password.php:42
+msgid "Confirm new password"
+msgstr ""
+
+#: profile/tabs/settings/change-password.php:45
+msgid "The new password does not match!"
+msgstr ""
+
+#: profile/tabs/settings/cover-image.php:22
+msgid "Upload"
+msgstr ""
+
+#: profile/tabs/settings/cover-image.php:23
+msgid "Save"
+msgstr ""
+
+#: single-course/buttons/enroll.php:40
+msgid "You need to be logged in to enroll in this course."
+msgstr "Debe iniciar sesión para inscribirse en este curso."
+
+#: single-course/buttons/enroll.php:42
+msgid "Login to Enroll"
+msgstr "Inicia sesión para inscribirse"
+
+#: single-course/meta/category.php:15
+msgid "Category"
+msgstr ""
+
+#: single-course/meta/category.php:19
+msgid "Uncategorized"
+msgstr ""
+
+#: single-course/meta/instructor.php:30
+msgid "Instructor"
+msgstr ""
+
+#: single-course/sidebar/user-progress.php:25
+msgid "Lessons completed:"
+msgstr ""
+
+#: single-course/sidebar/user-progress.php:37
+msgid "Quizzes finished:"
+msgstr ""
+
+#: single-course/sidebar/user-progress.php:47
+msgid "Course progress:"
+msgstr ""
+
+#: single-course/sidebar/user-time.php:30
+msgid "You started on:"
+msgstr ""
+
+#: single-course/sidebar/user-time.php:36
+msgid "Course will end:"
+msgstr ""
+
+#: single-course/sidebar/user-time.php:41
+msgid "Duration:"
+msgstr ""
+
+#: single-course/sidebar/user-time.php:42
+msgid "Lifetime"
+msgstr ""
+
+#: single-course/sidebar/user-time.php:47
+msgid "You finished on:"
+msgstr ""
+
+#: single-course/tabs/curriculum-v2.php:47
+msgid "Show more Sections"
+msgstr ""
+
+#: widgets/course-info.php:25
+msgid "Lessons"
+msgstr ""
+
+#: widgets/course-info.php:30
+msgid "Quizzes"
+msgstr ""
+
+#: widgets/course-info.php:35
+msgid "All"
+msgstr ""
+
+#: widgets/featured-courses.php:22 widgets/popular-courses.php:20
+#: widgets/recent-courses.php:20
+msgid "No courses"
+msgstr ""

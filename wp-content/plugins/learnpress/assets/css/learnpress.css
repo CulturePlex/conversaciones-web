@@ -4611,7 +4611,7 @@ body.confirm #popup_container.ready {
   opacity: 1;
 }
 .learn-press-courses .course-item:hover .course-thumbnail a img {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 .learn-press-courses .course-item:hover .course-wishlist {
   opacity: 1;
@@ -4697,7 +4697,7 @@ body.confirm #popup_container.ready {
   opacity: 1;
 }
 .learn-press-courses .course-thumbnail:hover a img {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 .learn-press-courses .course-thumbnail:hover .course-wishlist {
   opacity: 1;

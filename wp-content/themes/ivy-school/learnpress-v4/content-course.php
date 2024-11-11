@@ -28,14 +28,6 @@ $course = learn_press_get_course();
 
 			<div class="pic">
 				<?php learn_press_get_template( 'loop/course/thumbnail.php' ) ?>
-				<div class="price<?php if ( $course->is_free() ) {
-					echo ' free';
-				} ?>">
-					<?php echo esc_html( $course->get_price_html() ); ?>
-					<?php if ( $course->has_sale_price() ) { ?>
-						<span class="old-price"> <?php echo esc_html( $course->get_origin_price_html() ); ?></span>
-					<?php } ?>
-				</div>
 			</div>
 			<div class="text">
 				<div class="teacher">
