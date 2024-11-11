@@ -1,0 +1,50 @@
+.bp-element-course-categories {
+  ul {
+    margin: 0;
+    li {
+      margin: 0;
+      padding: 8px 0;
+      list-style: none;
+      display: block;
+      position: relative;
+      line-height: 20px;
+      a {
+        font-weight: 300;
+        font-size: 18px;
+        text-transform: capitalize;
+        color: #747474;
+        margin-left: 18px;
+      }
+      .count {
+        position: absolute;
+        right: 0;
+        width: 25px;
+        height: 19px;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 18px;
+        color: #747474;
+        font-weight: 300;
+        font-family: inherit;
+      }
+      &:hover {
+        &:before {
+          color:#f8b944;
+        }
+        a {
+          color:#f8b944;
+        }
+        .count {
+          color:#f8b944;
+        }
+      }
+      &:before {
+        content: '\f0da';
+        position:absolute;
+        left: 0;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+      }
+    }
+  }
+}

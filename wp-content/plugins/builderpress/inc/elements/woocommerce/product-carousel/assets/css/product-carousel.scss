@@ -1,0 +1,107 @@
+
+.bp-element-product-carousel {
+
+    .item-wrapper {
+        .item-col:last-child .content_product {
+            margin-bottom: 0;
+        }
+    }
+    .owl-stage {
+        padding-bottom: 20px;
+    }
+
+    .item-col .content_product {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+        padding: 20px 30px;
+        border: 1px solid rgba(204,204,204,.3);
+        transition: all .5s;
+        &:hover {
+            box-shadow: 6.4px 7.7px 20px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .product_thumb {
+            position: static;
+            width: 60%;
+            img {
+                width: auto;
+            }
+        }
+        .product_content {
+            position: relative;
+            text-align: center;
+            width: 40%;
+            .button {
+                margin-top: 30px;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 38px;
+                display: inline-block;
+                border-radius: 30px;
+                border: solid 1px #e9003f;
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 0.4px;
+                color: #333333;
+                background-color: #fff;
+                white-space: nowrap;
+                &:hover {
+                    background-color: #e9003f;
+                    color: #fff;
+                }
+            }
+            .title {
+                font-size: 21px;
+                font-weight: 600;
+                font-style: normal;
+                color: #333333;
+                letter-spacing: 0.6px;
+                margin-bottom: 15px;
+            }
+            .ratings {
+                font-size: 13px !important;
+                float: none !important;
+                margin: 0 auto 15px;
+            }
+
+            .price {
+                margin-top: 10px;
+                font-weight: 600;
+                >.amount,
+                ins .amount  {
+                    letter-spacing: 0.6px;
+                    font-size: 21px;
+                }
+                del .amount {
+                    letter-spacing: 0.5px;
+                    font-size: 16px;
+                    color: #666666;
+                }
+            }
+        }
+    }
+
+    .owl-dots {
+        margin-top: 20px;
+        text-align: center;
+        .owl-dot {
+            span {
+                display: inline-block;
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+                margin: 0 3.5px;
+                transition: all .5s;
+                background-color: rgba(204,204,204,.44);
+            }
+
+            &:hover span,
+            &.active span {
+                background-color: #e9003f;
+            }
+        }
+    }
+}

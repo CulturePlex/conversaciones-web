@@ -1,0 +1,762 @@
+.bp-element-our-team .our-team {
+  margin-right: -15px;
+  margin-left: -15px; }
+  .bp-element-our-team .our-team .item {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .bp-element-our-team .our-team .item .item-inner {
+      transition: all 0.2s ease-in-out 0s; }
+    .bp-element-our-team .our-team .item .avatar-contact img {
+      width: 100%;
+      max-width: 100%; }
+    .bp-element-our-team .our-team .item .information {
+      text-align: center;
+      padding: 32px 0; }
+      .bp-element-our-team .our-team .item .information .name {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2em;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        margin-bottom: 3px; }
+      .bp-element-our-team .our-team .item .information .job {
+        font-size: 20px;
+        line-height: 1.2em;
+        letter-spacing: 0.6px; }
+    .bp-element-our-team .our-team .item .contact {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 17px; }
+      .bp-element-our-team .our-team .item .contact a {
+        font-size: 16px;
+        padding: 3px 10px;
+        display: inline-block;
+        line-height: 1.4em;
+        color: #8e8e8e; }
+
+.bp-element-our-team.layout-1 .our-team .item:hover .information .contact a {
+  color: #ffffff; }
+
+.bp-element-our-team.layout-1 .our-team .item:hover .information .name a {
+  color: #ffffff; }
+
+.bp-element-our-team.layout-1 .our-team .item:hover .information .job {
+  color: #ffffff; }
+
+.bp-element-our-team.layout-1 .our-team .item:hover .item-inner {
+  box-shadow: 0 15px 14px 0 rgba(0, 0, 0, 0.2); }
+
+.bp-element-our-team.layout-2 .item .item-inner .avatar-contact {
+  position: relative; }
+  .bp-element-our-team.layout-2 .item .item-inner .avatar-contact:before {
+    content: '';
+    position: absolute;
+    background: #e9f7fe;
+    width: 100%;
+    height: 89%;
+    z-index: -1;
+    bottom: 0; }
+  .bp-element-our-team.layout-2 .item .item-inner .avatar-contact .contact {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s; }
+    .bp-element-our-team.layout-2 .item .item-inner .avatar-contact .contact > a {
+      font-size: 16px;
+      color: #fff;
+      width: 38px;
+      height: 38px;
+      line-height: 35px;
+      text-align: center;
+      border-radius: 50%;
+      margin-right: 12px;
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      background: #43ddbc;
+      background: linear-gradient(to left, #24d7b2, #25c0d9);
+      background: linear-gradient(to left, #24d7b2, #25c0d9);
+      background: linear-gradient(to left, #24d7b2, #25c0d9);
+      background: linear-gradient(to left, #24d7b2, #25c0d9);
+      transition: all 0.3s; }
+  .bp-element-our-team.layout-2 .item .item-inner .avatar-contact .avatar img {
+    width: auto;
+    margin: auto; }
+
+.bp-element-our-team.layout-2 .item .item-inner .information .name a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1d;
+  line-height: 24px; }
+
+.bp-element-our-team.layout-2 .item .item-inner .information .job {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #26aef7; }
+
+.bp-element-our-team.layout-2 .item .item-inner .information .description {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: inherit;
+  color: #7c7c7c; }
+
+.bp-element-our-team.layout-2 .item .item-inner:hover .avatar-contact .contact {
+  bottom: 25px;
+  visibility: visible;
+  opacity: 1; }
+
+.bp-element-our-team.layout-3 .item .item-inner .avatar-contact {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 281px;
+  max-width: 100%;
+  max-height: max-content;
+  margin: auto;
+  box-shadow: 9.6px 11.5px 14px 0 rgba(0, 0, 0, 0.1);
+  transition: all .3s; }
+  .bp-element-our-team.layout-3 .item .item-inner .avatar-contact:before {
+    visibility: hidden;
+    content: '';
+    position: absolute;
+    background: #f95259;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    bottom: 0;
+    opacity: 0;
+    transition: all .5s; }
+  .bp-element-our-team.layout-3 .item .item-inner .avatar-contact .contact {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s;
+    z-index: 2; }
+    .bp-element-our-team.layout-3 .item .item-inner .avatar-contact .contact > a {
+      font-size: 16px;
+      color: #fff;
+      z-index: 2; }
+  .bp-element-our-team.layout-3 .item .item-inner .avatar-contact .avatar img {
+    width: auto;
+    margin: auto; }
+  .bp-element-our-team.layout-3 .item .item-inner .avatar-contact:hover {
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.08); }
+
+.bp-element-our-team.layout-3 .item .item-inner .information .name a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1d1d1d;
+  line-height: 24px; }
+
+.bp-element-our-team.layout-3 .item .item-inner .information .job {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #f95259; }
+
+.bp-element-our-team.layout-3 .item .item-inner .information .description {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: inherit;
+  color: #7c7c7c; }
+
+.bp-element-our-team.layout-3 .item .item-inner:hover .avatar-contact .contact {
+  bottom: 25px;
+  visibility: visible;
+  opacity: 1; }
+
+.bp-element-our-team.layout-3 .item .item-inner:hover .avatar-contact:before {
+  visibility: visible;
+  opacity: 0.3; }
+
+.bp-element-our-team .owl-theme img {
+  -webkit-transform-style: unset; }
+
+.bp-element-our-team .owl-theme .owl-nav {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  top: 50%; }
+  .bp-element-our-team .owl-theme .owl-nav .owl-next, .bp-element-our-team .owl-theme .owl-nav .owl-prev {
+    font-size: 50px;
+    background: transparent;
+    position: absolute;
+    transition: 0.3s;
+    margin: 0; }
+  .bp-element-our-team .owl-theme .owl-nav .owl-next {
+    right: -35px; }
+  .bp-element-our-team .owl-theme .owl-nav .owl-prev {
+    left: -35px; }
+  .bp-element-our-team .owl-theme .owl-nav.disabled {
+    display: none !important; }
+
+.bp-element-our-team.layout-4 .our-team .item {
+  cursor: default;
+  margin-bottom: 80px; }
+  .bp-element-our-team.layout-4 .our-team .item:nth-last-child(1), .bp-element-our-team.layout-4 .our-team .item:nth-last-child(2), .bp-element-our-team.layout-4 .our-team .item:nth-last-child(3) {
+    margin-bottom: 0; }
+  .bp-element-our-team.layout-4 .our-team .item .item-inner .avatar-contact img {
+    cursor: -webkit-grabbing; }
+  .bp-element-our-team.layout-4 .our-team .item .item-inner .information {
+    padding: 34px 30px 32px;
+    border-bottom: solid 1px rgba(204, 204, 204, 0.5);
+    border-left: solid 1px rgba(204, 204, 204, 0.5);
+    border-right: solid 1px rgba(204, 204, 204, 0.5);
+    transition: all .5s;
+    text-align: center; }
+    .bp-element-our-team.layout-4 .our-team .item .item-inner .information .name {
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0.6px;
+      margin-bottom: 5px; }
+    .bp-element-our-team.layout-4 .our-team .item .item-inner .information .job {
+      font-size: 16px;
+      font-weight: normal;
+      color: #e9003f;
+      transition: all .3s; }
+    .bp-element-our-team.layout-4 .our-team .item .item-inner .information .contact a {
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      color: #8e8e8e; }
+  .bp-element-our-team.layout-4 .our-team .item .item-inner:hover {
+    box-shadow: 5.7px 8.2px 20px 0 rgba(0, 0, 0, 0.1); }
+    .bp-element-our-team.layout-4 .our-team .item .item-inner:hover .information {
+      background-color: #e9003f;
+      border-color: #e9003f; }
+      .bp-element-our-team.layout-4 .our-team .item .item-inner:hover .information * {
+        color: #fff; }
+
+.bp-element-our-team.layout-5 .wrap-element .author-item {
+  text-align: center;
+  margin-bottom: 10px; }
+  .bp-element-our-team.layout-5 .wrap-element .author-item .pic-author {
+    overflow: hidden;
+    position: relative; }
+    .bp-element-our-team.layout-5 .wrap-element .author-item .pic-author .overlay-author {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.2);
+      background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));
+      background: -o-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));
+      background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));
+      background: linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));
+      opacity: 0;
+      transition: all .3s; }
+      .bp-element-our-team.layout-5 .wrap-element .author-item .pic-author .overlay-author::before {
+        content: '\f386';
+        font-family: Ionicons;
+        font-size: 40px;
+        line-height: 1;
+        color: #fff;
+        transform: scale(0);
+        transition: all .3s; }
+    .bp-element-our-team.layout-5 .wrap-element .author-item .pic-author img {
+      width: 100%; }
+    .bp-element-our-team.layout-5 .wrap-element .author-item .pic-author:hover .overlay-author {
+      opacity: 1; }
+      .bp-element-our-team.layout-5 .wrap-element .author-item .pic-author:hover .overlay-author::before {
+        transform: scale(1); }
+  .bp-element-our-team.layout-5 .wrap-element .author-item .text-author {
+    padding: 24px 0; }
+    .bp-element-our-team.layout-5 .wrap-element .author-item .text-author .name-author {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1.333333;
+      color: #111111;
+      word-break: break-word;
+      margin-bottom: 4px; }
+      .bp-element-our-team.layout-5 .wrap-element .author-item .text-author .name-author a {
+        color: #111111; }
+        .bp-element-our-team.layout-5 .wrap-element .author-item .text-author .name-author a:hover {
+          color: #e40914; }
+    .bp-element-our-team.layout-5 .wrap-element .author-item .text-author .info-author {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #6e6e6e;
+      word-break: break-word; }
+
+.bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher {
+  position: relative; }
+  .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .slide-slick {
+    overflow: hidden; }
+    .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .slide-slick .slick-list {
+      margin-right: -20px;
+      margin-left: -20px; }
+    .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .slide-slick .item-slick {
+      padding: 0 20px 0 20px; }
+  .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .wrap-arrow-slick {
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+    .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick {
+      pointer-events: auto;
+      cursor: pointer;
+      font-size: 30px;
+      line-height: 1;
+      color: #fff;
+      display: flex;
+      margin-top: -74px;
+      justify-content: center;
+      align-items: center;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: rgba(17, 17, 17, 0.4);
+      transition: all .2s; }
+      .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick.next-slick {
+        margin-right: -23px; }
+      .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick.prev-slick {
+        margin-left: -23px; }
+      .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick:hover {
+        background: #ff5f2e; }
+      .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick.slick-arrow.slick-hidden {
+        display: none; }
+      .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick[aria-disabled="true"] {
+        visibility: hidden; }
+
+.bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media {
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 22px;
+  position: relative; }
+  .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media img {
+    width: 100%;
+    border-radius: 50%; }
+  .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials {
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+    background: rgba(255, 102, 130, 0.3);
+    padding: 31px 34px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    transition: all .3s;
+    opacity: 0; }
+    .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item {
+      font-size: 14px;
+      line-height: 1;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      z-index: 0;
+      margin: 6px;
+      transition: all .3s;
+      transform: scale(0); }
+      .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item .icon-background {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item .icon-background .flower {
+          width: 21px;
+          height: 21px;
+          border-radius: 50%;
+          position: relative;
+          background-color: #fff; }
+          .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item .icon-background .flower .petal {
+            height: 36px;
+            width: 10px;
+            position: absolute;
+            top: calc(50% - 18px);
+            left: calc(50% - 5px);
+            background-color: inherit;
+            border-radius: 5px; }
+            .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item .icon-background .flower .petal:nth-child(2) {
+              transform: rotateZ(36deg); }
+            .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item .icon-background .flower .petal:nth-child(3) {
+              transform: rotateZ(72deg); }
+            .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item .icon-background .flower .petal:nth-child(4) {
+              transform: rotateZ(108deg); }
+            .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item .icon-background .flower .petal:nth-child(5) {
+              transform: rotateZ(144deg); }
+        .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item .icon-background img {
+          width: 100%;
+          height: 100%; }
+      .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item img {
+        max-width: 100%; }
+      .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item:hover {
+        color: #fff !important; }
+        .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media .socials .social-item:hover .icon-background .flower {
+          background-color: #ff5f2e; }
+  .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media:hover .socials {
+    opacity: 1; }
+    .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-media:hover .socials .social-item {
+      transform: scale(1); }
+
+.bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-text {
+  text-align: center; }
+  .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-text .name {
+    font-family: Sniglet;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.3;
+    color: #56509f;
+    word-break: break-word;
+    margin: 0; }
+    .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-text .name a {
+      color: #56509f; }
+      .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-text .name a:hover {
+        color: #ff5f2e; }
+  .bp-element-our-team.kindergarten-layout-slider-1 .wrap-element .teacher-item .teacher-text .info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #797979;
+    word-break: break-word; }
+
+.bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher {
+  position: relative; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher .slide-slick .slick-list {
+    margin-right: -20px;
+    margin-left: -20px; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher .slide-slick .item-slick {
+    padding: 0 20px 30px 20px; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher .wrap-arrow-slick {
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 82%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+    .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick {
+      pointer-events: auto;
+      cursor: pointer;
+      font-size: 30px;
+      line-height: 1;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 56px;
+      height: 55px;
+      border-radius: 50%;
+      background: rgba(17, 17, 17, 0.4);
+      transition: all .2s; }
+      .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick.next-slick {
+        margin-right: -27px; }
+      .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick.prev-slick {
+        margin-left: -27px; }
+      .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick:hover {
+        background: #ff5562; }
+      .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick.slick-arrow.slick-hidden {
+        display: none; }
+      .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .slide-teacher .wrap-arrow-slick .arow-slick[aria-disabled="true"] {
+        visibility: hidden; }
+
+.bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item {
+  box-shadow: 13px 15px 15px 0px rgba(105, 105, 105, 0.08); }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item.color-1 {
+    background-color: #ff5562; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item.color-2 {
+    background-color: #64cadb; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item.color-3 {
+    background-color: #7cc576; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item.color-4 {
+    background-color: #ffa0d3; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item.color-5 {
+    background-color: #a864a8; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-media {
+    width: 100%;
+    position: relative; }
+    .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-media img {
+      width: 100%; }
+    .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-media .socials {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: transparent;
+      background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+      background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+      background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+      background: linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+      padding: 0px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-end;
+      align-content: flex-end;
+      transition: all .3s;
+      opacity: 0;
+      pointer-events: none; }
+      .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-media .socials .social-item {
+        pointer-events: auto;
+        font-size: 14px;
+        line-height: 1;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        margin: 29px 6px -17px 6px;
+        transition: all .3s;
+        transform: scale(0); }
+        .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-media .socials .social-item:hover {
+          background: #ff5562;
+          color: #fff !important; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-text {
+    text-align: center;
+    padding: 35px 20px; }
+    .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-text .name {
+      font-weight: 700;
+      font-size: 18px;
+      margin: 0;
+      line-height: 1.5;
+      color: #fff;
+      word-break: break-word; }
+      .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-text .name a {
+        color: #fff;
+        transition: all .2s; }
+        .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-text .name a:hover {
+          color: #282828; }
+    .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item .teacher-text .info {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #fff;
+      word-break: break-word; }
+  .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item:hover .teacher-media .socials {
+    opacity: 1; }
+    .bp-element-our-team.kindergarten-layout-slider-2 .wrap-element .teacher-item:hover .teacher-media .socials .social-item {
+      transform: scale(1); }
+
+.bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher {
+  position: relative; }
+  .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher .slide-slick {
+    overflow: hidden; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher .slide-slick .slick-list {
+      margin-right: -20px;
+      margin-left: -20px; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher .slide-slick .item-slick {
+      padding: 0 20px; }
+  .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher .wrap-dot-slick {
+    padding-top: 34px; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher .wrap-dot-slick .dots-slick {
+      text-align: center;
+      line-height: 1; }
+      .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher .wrap-dot-slick .dots-slick li {
+        display: inline-block;
+        cursor: pointer;
+        padding: 4px; }
+        .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher .wrap-dot-slick .dots-slick li span {
+          display: block;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: #ccc; }
+        .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher .wrap-dot-slick .dots-slick li.slick-active span, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .slide-teacher .wrap-dot-slick .dots-slick li:hover span {
+          background: #f96a9a; }
+
+.bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item {
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; }
+  .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-image {
+    display: block;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 10px;
+    border: 2px dashed #f96a9a;
+    margin: 0px auto 24px auto; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-image img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+  .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-text {
+    margin-bottom: 22px; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-text .title {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      color: rgba(3, 59, 98, 0.5);
+      word-break: break-word;
+      margin-bottom: 5px; }
+      .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-text .title .name {
+        font-size: 18px;
+        color: #033b62;
+        text-transform: uppercase;
+        transition: all .2s; }
+        .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-text .title .name:hover {
+          color: #f96a9a; }
+      .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-text .title .info {
+        color: #f96a9a; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-text .description {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #666;
+      word-break: break-word; }
+  .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item {
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin: 2px;
+    position: relative;
+    transition: all .2s; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item::before {
+      content: '';
+      display: block;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      border: 1px dotted #fff;
+      position: absolute;
+      top: 4px;
+      left: 4px; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(1), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(5), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(9), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(13), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(17), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(21) {
+      background: #2aaae2; }
+      .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(1):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(5):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(9):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(13):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(17):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(21):hover {
+        background: #1a8dbf; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(2), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(6), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(10), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(14), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(18), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(22) {
+      background: #f86a9a; }
+      .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(2):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(6):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(10):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(14):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(18):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(22):hover {
+        background: #f63979; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(3), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(7), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(11), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(15), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(19), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(23) {
+      background: #43cd66; }
+      .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(3):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(7):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(11):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(15):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(19):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(23):hover {
+        background: #2eaf4f; }
+    .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(4), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(8), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(12), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(16), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(20), .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(24) {
+      background: #f9b001; }
+      .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(4):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(8):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(12):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(16):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(20):hover, .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-social .social-item:nth-child(24):hover {
+        background: #c68c01; }
+
+.bp-element-our-team.marketing-layout-1 .wrap-element [class*="col-"] {
+  padding-bottom: 50px; }
+
+.bp-element-our-team.marketing-layout-1 .wrap-element .item-team .image-team {
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 31px; }
+  .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .image-team img {
+    width: 100%;
+    border-radius: inherit; }
+  .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .image-team .overlay-image {
+    display: block;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(left, #ab7ee4, #124ee8);
+    background: -webkit-linear-gradient(left, #ab7ee4, #124ee8);
+    background: -o-linear-gradient(left, #ab7ee4, #124ee8);
+    background: -moz-linear-gradient(left, #ab7ee4, #124ee8);
+    transition: all .2s;
+    opacity: 0; }
+  .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .image-team .social-team {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%; }
+    .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .image-team .social-team .item-social {
+      font-size: 18px;
+      color: #fff;
+      margin: 0 13px;
+      transition: all .2s;
+      display: inline-block;
+      transform: scale(0); }
+      .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .image-team .social-team .item-social:hover {
+        color: #ffbc42; }
+  .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .image-team:hover .overlay-image {
+    opacity: .6; }
+  .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .image-team:hover .social-team .item-social {
+    transform: scale(1); }
+
+.bp-element-our-team.marketing-layout-1 .wrap-element .item-team .text-team {
+  text-align: center; }
+  .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .text-team .name-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #2a2a2a;
+    word-break: break-word;
+    padding-top: 0;
+    margin-bottom: 2px; }
+    .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .text-team .name-team a {
+      color: inherit;
+      transition: all .2s; }
+      .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .text-team .name-team a:hover {
+        color: #ffbc42; }
+  .bp-element-our-team.marketing-layout-1 .wrap-element .item-team .text-team .info-team {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #828282;
+    word-break: break-word; }
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .bp-element-our-team.kindergarten-layout-slider-3 .wrap-element .teacher-item .teacher-text .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: inherit;
+    max-height: 24px;
+    overflow: hidden; } }

@@ -1,0 +1,141 @@
+
+.bp-element-images-slide {
+  &.coach-life-layout-1 {
+    height: 100%;
+    .wrap-element {
+      height: 100%;
+      .slide-image {
+        height: 100%;
+        position: relative;
+        [class*="slick-"] {
+          height: 100%;
+        }
+        .item-slick {
+          position: relative;
+          &::before {
+            content: '';
+            display: block;
+            width: 100%;
+            padding-top: 70.4%;
+          }
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: auto;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+          }
+        }
+        .wrap-arrow-slick {
+          display: flex;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: auto;
+          .arow-slick {
+            cursor: pointer;
+            font-size: 30px;
+            color: #fff;
+            line-height: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 77px;
+            height: 77px;
+            background-color: #614ef9;
+            transition: all .2s;
+            &:hover {
+              background-color: #5746e0;
+            }
+            &.slick-arrow.slick-hidden {
+              display: none;
+            }
+            &[aria-disabled="true"] {
+              visibility: hidden;
+            }
+          }
+        }
+        .wrap-dot-slick {
+          min-height: 77px;
+          position: absolute;
+          right: 100%;
+          left: auto;
+          bottom: 0;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          padding: 0 27px;
+          .dots-slick {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            li {
+              cursor: pointer;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 1.5;
+              color: #c1c1c1;
+              letter-spacing: normal;
+              position: relative;
+              display: inline-block;
+              padding: 0 10px;
+              margin: 0;
+              transition: all .9s;
+              &::before,
+              &:after {
+                content: '';
+                display: block;
+                width: 93px;
+                height: 2px;
+                background: #ebebeb;
+                position: absolute;
+                right: 0;
+                top: calc(50% - 1px);
+                width: 0;
+                transition: width .9s, right .9s;
+              }
+              &.slick-active {
+                pointer-events: none;
+                color: #614ef9;
+                padding-right: 133px;
+                &::before,
+                &:after {
+                  right: 15px;
+                  width: 93px;
+                }
+              }
+              &::after {
+                background: #614ef9;
+                transform-origin: left;
+                transform: scaleX(0);
+              }
+              &.process-dot.slick-active::after {
+                transition: transform 5s linear;
+                transform: scaleX(1);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: 991px) {
+      .wrap-element {
+        .slide-image {
+          .wrap-arrow-slick {
+            .arow-slick {
+              width: 50px;
+              height: 50px;
+            }
+          }
+          .wrap-dot-slick {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+

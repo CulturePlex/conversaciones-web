@@ -1,0 +1,77 @@
+.bp-element-counters.layout-1 .counter-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .bp-element-counters.layout-1 .counter-boxes .item {
+    flex-grow: 1;
+    position: relative;
+    text-align: center; }
+    .bp-element-counters.layout-1 .counter-boxes .item:before {
+      content: '';
+      display: block;
+      width: 1px;
+      height: 62px;
+      background: #ebebeb;
+      transform: rotateZ(15deg);
+      position: absolute;
+      top: 6px;
+      right: 0; }
+    .bp-element-counters.layout-1 .counter-boxes .item:last-child:before {
+      display: none; }
+    .bp-element-counters.layout-1 .counter-boxes .item .number {
+      display: block;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 1.2;
+      color: #1e1e1e;
+      text-transform: uppercase; }
+    .bp-element-counters.layout-1 .counter-boxes .item .text {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.444444;
+      color: #fff; }
+    .bp-element-counters.layout-1 .counter-boxes .item .title {
+      display: block;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #6e6e6e; }
+  .bp-element-counters.layout-1 .counter-boxes.align-left .item .number,
+  .bp-element-counters.layout-1 .counter-boxes.align-left .item .text {
+    text-align: left; }
+  .bp-element-counters.layout-1 .counter-boxes.align-center .item .number,
+  .bp-element-counters.layout-1 .counter-boxes.align-center .item .text {
+    text-align: center; }
+  .bp-element-counters.layout-1 .counter-boxes.align-right .item .number,
+  .bp-element-counters.layout-1 .counter-boxes.align-right .item .text {
+    text-align: right; }
+  .bp-element-counters.layout-1 .counter-boxes.show-line .item:before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 86px;
+    background: rgba(149, 149, 149, 0.25);
+    transform: rotateZ(28deg);
+    position: absolute;
+    top: 10px;
+    right: 0; }
+
+.bp-element-counters.layout-1.color-2 .counter-boxes .item:before {
+  background: #7cf9c5; }
+
+/*---------------------------------------------*/
+@media (max-width: 767px) {
+  .responsive .bp-element-counters.layout-1 .item .number {
+    font-size: 30px; }
+  .responsive .bp-element-counters.layout-1 .item .text {
+    font-size: 14px; } }
+
+@media (max-width: 575px) {
+  .responsive .bp-element-counters.layout-1 .counter-boxes {
+    flex-wrap: wrap; }
+    .responsive .bp-element-counters.layout-1 .counter-boxes .item {
+      width: 50%;
+      margin-bottom: 25px;
+      margin-top: 25px; }
+      .responsive .bp-element-counters.layout-1 .counter-boxes .item::before {
+        display: none; } }

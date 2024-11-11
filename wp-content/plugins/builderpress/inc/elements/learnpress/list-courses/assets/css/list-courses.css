@@ -1,0 +1,1668 @@
+/*\
+ *
+ * course layout-slider
+ *
+\*/
+.bp-element-list-courses.layout-slider .slide-course {
+  position: relative;
+  margin-right: -20px;
+  margin-left: -20px; }
+  .bp-element-list-courses.layout-slider .slide-course .item-slick {
+    padding: 0 20px 30px 20px; }
+  .bp-element-list-courses.layout-slider .slide-course .wrap-arrow-slick {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 124px; }
+    .bp-element-list-courses.layout-slider .slide-course .wrap-arrow-slick .arow-slick {
+      font-size: 30px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: rgba(149, 149, 149, 0.8);
+      cursor: pointer;
+      position: absolute;
+      top: -27px;
+      transition: all 0.2s; }
+      .bp-element-list-courses.layout-slider .slide-course .wrap-arrow-slick .arow-slick:hover {
+        background: #f8b944; }
+      .bp-element-list-courses.layout-slider .slide-course .wrap-arrow-slick .arow-slick.prev-slick {
+        left: -8px; }
+      .bp-element-list-courses.layout-slider .slide-course .wrap-arrow-slick .arow-slick.next-slick {
+        right: -8px; }
+
+.bp-element-list-courses.layout-slider .course-item {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  transition: all 0.3s;
+  position: relative; }
+  .bp-element-list-courses.layout-slider .course-item:hover {
+    box-shadow: 13px 15px 15px 0px rgba(105, 105, 105, 0.08); }
+    .bp-element-list-courses.layout-slider .course-item:hover .image img {
+      transform: scale(1.1); }
+  .bp-element-list-courses.layout-slider .course-item .link-item {
+    position: absolute;
+    z-index: 11;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+  .bp-element-list-courses.layout-slider .course-item .image {
+    margin: 8px 8px 0 8px;
+    overflow: hidden; }
+    .bp-element-list-courses.layout-slider .course-item .image img {
+      width: 100%;
+      transition: all .3s; }
+  .bp-element-list-courses.layout-slider .course-item .content {
+    padding: 0px 15px 23px 15px; }
+    .bp-element-list-courses.layout-slider .course-item .content .ava {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      overflow: hidden;
+      position: relative;
+      z-index: 100;
+      margin: -34px auto 10px auto; }
+      .bp-element-list-courses.layout-slider .course-item .content .ava img {
+        width: 100%;
+        height: 100%; }
+    .bp-element-list-courses.layout-slider .course-item .content .name {
+      text-align: center;
+      position: relative;
+      z-index: 101; }
+      .bp-element-list-courses.layout-slider .course-item .content .name a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #292929;
+        text-transform: uppercase;
+        transition: all 0.2s; }
+        .bp-element-list-courses.layout-slider .course-item .content .name a:hover {
+          text-decoration: none;
+          color: #f8b944; }
+    .bp-element-list-courses.layout-slider .course-item .content .star {
+      font-size: 12px;
+      color: #f8b944;
+      text-align: center;
+      margin-bottom: 21px; }
+    .bp-element-list-courses.layout-slider .course-item .content .title {
+      text-align: center;
+      position: relative;
+      z-index: 101; }
+      .bp-element-list-courses.layout-slider .course-item .content .title a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.444444;
+        color: #292929;
+        text-align: center;
+        transition: all 0.2s; }
+        .bp-element-list-courses.layout-slider .course-item .content .title a:hover {
+          text-decoration: none;
+          color: #f8b944; }
+    .bp-element-list-courses.layout-slider .course-item .content .description {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #7c7c7c;
+      text-align: center; }
+  .bp-element-list-courses.layout-slider .course-item .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+    padding: 17px 15px 14px 15px; }
+    .bp-element-list-courses.layout-slider .course-item .info .price {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.3;
+      color: #292929;
+      padding-right: 15px; }
+      .bp-element-list-courses.layout-slider .course-item .info .price.free {
+        color: #f8b944; }
+      .bp-element-list-courses.layout-slider .course-item .info .price .old-price {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #747474;
+        position: relative;
+        margin-left: 8px; }
+        .bp-element-list-courses.layout-slider .course-item .info .price .old-price::after {
+          content: '';
+          display: block;
+          position: absolute;
+          width: calc(100% + 4px);
+          height: 1px;
+          background: #747474;
+          top: calc(50% - 1px);
+          left: -2px; }
+    .bp-element-list-courses.layout-slider .course-item .info .numbers {
+      position: relative;
+      z-index: 101; }
+      .bp-element-list-courses.layout-slider .course-item .info .numbers a {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #747474;
+        transition: all 0.2s; }
+        .bp-element-list-courses.layout-slider .course-item .info .numbers a i {
+          font-size: 18px;
+          color: #cacaca;
+          transition: all 0.2s; }
+        .bp-element-list-courses.layout-slider .course-item .info .numbers a:hover {
+          text-decoration: none;
+          color: #f8b944; }
+          .bp-element-list-courses.layout-slider .course-item .info .numbers a:hover i {
+            color: #f8b944; }
+      .bp-element-list-courses.layout-slider .course-item .info .numbers .contact {
+        margin-right: 7px; }
+
+.bp-element-list-courses.layout-list .list-courses .item {
+  margin-bottom: 40px;
+  padding-bottom: 0;
+  padding-top: 0; }
+  .bp-element-list-courses.layout-list .list-courses .item .thumbnail {
+    float: left;
+    margin-right: 25px;
+    max-width: 100px; }
+  .bp-element-list-courses.layout-list .list-courses .item .content .title {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all .3s;
+    margin-bottom: 6px;
+    line-height: 24px;
+    color: #747474;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    .bp-element-list-courses.layout-list .list-courses .item .content .title a {
+      color: #202121; }
+    .bp-element-list-courses.layout-list .list-courses .item .content .title:hover {
+      color: #ffb606; }
+  .bp-element-list-courses.layout-list .list-courses .item .content .list-meta .post-date {
+    font-size: 16px;
+    font-weight: 300;
+    color: #f8b944; }
+  .bp-element-list-courses.layout-list .list-courses .item .content .course-price .value {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f8b944; }
+  .bp-element-list-courses.layout-list .list-courses .item:last-child {
+    margin-bottom: 0; }
+
+.bp-element-list-courses.layout-list-2 .course-item {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  margin-bottom: 40px; }
+  .bp-element-list-courses.layout-list-2 .course-item .term {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 35px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #f8b944;
+    padding: 0 14px; }
+  .bp-element-list-courses.layout-list-2 .course-item .pic {
+    width: 270px; }
+    .bp-element-list-courses.layout-list-2 .course-item .pic img {
+      width: 100%; }
+  .bp-element-list-courses.layout-list-2 .course-item .text {
+    width: calc(100% - 270px - 30px);
+    padding-top: 12px; }
+    .bp-element-list-courses.layout-list-2 .course-item .text .title {
+      margin-bottom: 2px; }
+      .bp-element-list-courses.layout-list-2 .course-item .text .title a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.3;
+        color: #292929;
+        transition: all .2s; }
+        .bp-element-list-courses.layout-list-2 .course-item .text .title a:hover {
+          color: #f8b944; }
+    .bp-element-list-courses.layout-list-2 .course-item .text .description {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #7c7c7c;
+      margin-bottom: 20px; }
+    .bp-element-list-courses.layout-list-2 .course-item .text .content {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.666666;
+      color: #7c7c7c; }
+
+.bp-element-list-courses.layout-grid .custom-col {
+  margin-bottom: 40px; }
+
+.bp-element-list-courses.layout-grid .item-course {
+  text-align: left;
+  height: 100%;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 13px 15px 15px 0px rgba(105, 105, 105, 0.08); }
+  .bp-element-list-courses.layout-grid .item-course.color-1 .pic {
+    border-bottom: 5px solid #5061d9; }
+    .bp-element-list-courses.layout-grid .item-course.color-1 .pic .price {
+      background: rgba(77, 88, 177, 0.9);
+      background: -webkit-linear-gradient(left, rgba(77, 88, 177, 0.9), rgba(80, 98, 217, 0.9));
+      background: -o-linear-gradient(left, rgba(77, 88, 177, 0.9), rgba(80, 98, 217, 0.9));
+      background: -moz-linear-gradient(left, rgba(77, 88, 177, 0.9), rgba(80, 98, 217, 0.9));
+      background: linear-gradient(left, rgba(77, 88, 177, 0.9), rgba(80, 98, 217, 0.9)); }
+  .bp-element-list-courses.layout-grid .item-course.color-2 .pic {
+    border-bottom: 5px solid #f7c370; }
+    .bp-element-list-courses.layout-grid .item-course.color-2 .pic .price {
+      background: rgba(243, 174, 127, 0.9);
+      background: -webkit-linear-gradient(left, rgba(243, 174, 127, 0.9), rgba(248, 199, 109, 0.9));
+      background: -o-linear-gradient(left, rgba(243, 174, 127, 0.9), rgba(248, 199, 109, 0.9));
+      background: -moz-linear-gradient(left, rgba(243, 174, 127, 0.9), rgba(248, 199, 109, 0.9));
+      background: linear-gradient(left, rgba(243, 174, 127, 0.9), rgba(248, 199, 109, 0.9)); }
+  .bp-element-list-courses.layout-grid .item-course .pic {
+    position: relative; }
+    .bp-element-list-courses.layout-grid .item-course .pic .price {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 34px;
+      color: #fff;
+      position: absolute;
+      z-index: 2;
+      top: 20px;
+      right: 0;
+      height: 34px;
+      padding: 0 15px; }
+      .bp-element-list-courses.layout-grid .item-course .pic .price .old-price {
+        font-weight: 300;
+        font-style: italic;
+        font-size: 12px;
+        text-decoration: line-through;
+        margin-right: 7px; }
+    .bp-element-list-courses.layout-grid .item-course .pic img {
+      width: 100%; }
+  .bp-element-list-courses.layout-grid .item-course .text {
+    padding: 0 20px 30px 20px; }
+    .bp-element-list-courses.layout-grid .item-course .text .teacher {
+      margin-bottom: 14px; }
+      .bp-element-list-courses.layout-grid .item-course .text .teacher .ava {
+        width: 43px;
+        height: 43px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        overflow: hidden;
+        margin-top: -24px;
+        position: relative;
+        z-index: 10;
+        margin-bottom: 4px; }
+        .bp-element-list-courses.layout-grid .item-course .text .teacher .ava img {
+          width: 100%;
+          height: 100%; }
+      .bp-element-list-courses.layout-grid .item-course .text .teacher a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #292929;
+        transition: all .2s; }
+        .bp-element-list-courses.layout-grid .item-course .text .teacher a:hover {
+          color: #f7c370; }
+    .bp-element-list-courses.layout-grid .item-course .text .title-course {
+      margin-bottom: 18px;
+      line-height: 18px; }
+      .bp-element-list-courses.layout-grid .item-course .text .title-course a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.333333;
+        color: #292929;
+        transition: all .2s; }
+        .bp-element-list-courses.layout-grid .item-course .text .title-course a:hover {
+          color: #f7c370; }
+    .bp-element-list-courses.layout-grid .item-course .text .info-course {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 1.7;
+      color: #7c7c7c; }
+      .bp-element-list-courses.layout-grid .item-course .text .info-course span {
+        white-space: nowrap;
+        margin-right: 10px; }
+        .bp-element-list-courses.layout-grid .item-course .text .info-course span i {
+          margin-right: 2px; }
+      .bp-element-list-courses.layout-grid .item-course .text .info-course a {
+        white-space: nowrap;
+        color: #7c7c7c;
+        margin-right: 10px;
+        transition: all .2s; }
+        .bp-element-list-courses.layout-grid .item-course .text .info-course a:hover {
+          color: #f7c370; }
+        .bp-element-list-courses.layout-grid .item-course .text .info-course a i {
+          margin-right: 2px; }
+      .bp-element-list-courses.layout-grid .item-course .text .info-course .star i {
+        color: #f8c66c; }
+
+.bp-element-list-courses.layout-slider-2 .slide-course {
+  position: relative; }
+  .bp-element-list-courses.layout-slider-2 .slide-course .slide-slick {
+    overflow: hidden; }
+    .bp-element-list-courses.layout-slider-2 .slide-course .slide-slick .slick-list {
+      margin-right: -20px;
+      margin-left: -20px; }
+    .bp-element-list-courses.layout-slider-2 .slide-course .slide-slick .item-slick {
+      padding: 0px 24px 0 16px; }
+  .bp-element-list-courses.layout-slider-2 .slide-course .wrap-arrow-slick {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .bp-element-list-courses.layout-slider-2 .slide-course .wrap-arrow-slick .arow-slick {
+      pointer-events: auto;
+      font-size: 30px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: rgba(24, 27, 29, 0.6);
+      cursor: pointer;
+      transition: all 0.2s; }
+      .bp-element-list-courses.layout-slider-2 .slide-course .wrap-arrow-slick .arow-slick:hover {
+        background: #ef4360; }
+      .bp-element-list-courses.layout-slider-2 .slide-course .wrap-arrow-slick .arow-slick.prev-slick {
+        margin-left: -27px;
+        margin-right: auto; }
+      .bp-element-list-courses.layout-slider-2 .slide-course .wrap-arrow-slick .arow-slick.next-slick {
+        margin-left: auto;
+        margin-right: -27px; }
+      .bp-element-list-courses.layout-slider-2 .slide-course .wrap-arrow-slick .arow-slick.slick-arrow.slick-hidden {
+        display: none; }
+      .bp-element-list-courses.layout-slider-2 .slide-course .wrap-arrow-slick .arow-slick[aria-disabled="true"] {
+        display: none !important; }
+      .bp-element-list-courses.layout-slider-2 .slide-course .wrap-arrow-slick .arow-slick[aria-disabled="false"] {
+        display: flex !important; }
+
+.bp-element-list-courses.layout-slider-2 .course-item .course-image {
+  overflow: hidden; }
+  .bp-element-list-courses.layout-slider-2 .course-item .course-image img {
+    width: 100%;
+    transition: all .5s ease; }
+  .bp-element-list-courses.layout-slider-2 .course-item .course-image:hover img {
+    transform: scale(1.1); }
+
+.bp-element-list-courses.layout-slider-2 .course-item .course-text {
+  text-align: center;
+  background-color: #fff;
+  width: calc(100% - 30px);
+  margin-right: auto;
+  margin-left: auto;
+  padding: 25px 20px;
+  margin-top: -45px;
+  position: relative;
+  z-index: 10; }
+  .bp-element-list-courses.layout-slider-2 .course-item .course-text .title {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #181b1d;
+    word-break: break-word;
+    margin-bottom: 18px; }
+    .bp-element-list-courses.layout-slider-2 .course-item .course-text .title a {
+      color: #181b1d;
+      transition: all .2s; }
+      .bp-element-list-courses.layout-slider-2 .course-item .course-text .title a:hover {
+        color: #ef4360; }
+  .bp-element-list-courses.layout-slider-2 .course-item .course-text .info-list {
+    margin-bottom: 10px; }
+    .bp-element-list-courses.layout-slider-2 .course-item .course-text .info-list .info-item {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #777;
+      word-break: break-word; }
+      .bp-element-list-courses.layout-slider-2 .course-item .course-text .info-list .info-item span {
+        color: #181b1d; }
+  .bp-element-list-courses.layout-slider-2 .course-item .course-text .price {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #181b1d; }
+    .bp-element-list-courses.layout-slider-2 .course-item .course-text .price .number {
+      font-weight: 700;
+      font-size: 26px;
+      color: #ef4360; }
+    .bp-element-list-courses.layout-slider-2 .course-item .course-text .price .line {
+      font-size: 22px; }
+
+.bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element {
+  text-align: center; }
+  .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-links {
+    margin-bottom: 55px; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-links .link-item {
+      font-family: Sniglet;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.444444;
+      color: #56509f;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      max-width: 100%;
+      height: 47px;
+      border-radius: 23px;
+      background: #fff;
+      padding: 0 40px;
+      margin: 5px 3px;
+      box-shadow: 0px -2px 5px 0px rgba(86, 80, 159, 0.1);
+      transition: all .2s; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-links .link-item.active {
+        background: #ff5f2e;
+        border-color: #ff5f2e !important;
+        color: #fff; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-links .link-item:hover {
+        background: #ff5f2e;
+        border-color: #ff5f2e !important;
+        color: #fff; }
+  .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element [class*="col-"] {
+    padding-bottom: 40px; }
+  .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-1 .flower {
+      background-color: #f9c00c; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-1 .class-text .cat a:hover {
+      color: #f9c00c; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-1 .class-text .title a:hover {
+      color: #f9c00c; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-2 .flower {
+      background-color: #00b9f1; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-2 .class-text .cat a:hover {
+      color: #00b9f1; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-2 .class-text .title a:hover {
+      color: #00b9f1; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-3 .flower {
+      background-color: #56a902; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-3 .class-text .cat a:hover {
+      color: #56a902; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-3 .class-text .title a:hover {
+      color: #56a902; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-4 .flower {
+      background-color: #bd66ff; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-4 .class-text .cat a:hover {
+      color: #bd66ff; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-4 .class-text .title a {
+      text-decoration: none; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-4 .class-text .title a:hover {
+        color: #bd66ff; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-5 .flower {
+      background-color: #519d9e; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-5 .class-text .cat a:hover {
+      color: #519d9e; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-5 .class-text .title a:hover {
+      color: #519d9e; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-6 .flower {
+      background-color: #ee7785; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-6 .class-text .cat a {
+      text-decoration: none; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-6 .class-text .cat a:hover {
+        color: #ee7785; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item.color-6 .class-text .title a:hover {
+      color: #ee7785; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-image {
+      overflow: hidden; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-image img {
+        width: 100%;
+        transition: all .5s ease; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-image:hover img {
+        transform: scale(1.1); }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price {
+      text-align: center;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 1;
+      color: #fff;
+      width: 80px;
+      height: 81px;
+      margin: -40px 15px -41px auto;
+      position: relative;
+      z-index: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price .price-background {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price .price-background .flower {
+          width: 46px;
+          height: 46px;
+          border-radius: 50%;
+          position: relative; }
+          .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price .price-background .flower .petal {
+            height: 80px;
+            width: 24px;
+            position: absolute;
+            top: calc(50% - 40px);
+            left: calc(50% - 12px);
+            background-color: inherit;
+            border-radius: 12px; }
+            .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price .price-background .flower .petal:nth-child(2) {
+              transform: rotateZ(36deg); }
+            .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price .price-background .flower .petal:nth-child(3) {
+              transform: rotateZ(72deg); }
+            .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price .price-background .flower .petal:nth-child(4) {
+              transform: rotateZ(108deg); }
+            .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price .price-background .flower .petal:nth-child(5) {
+              transform: rotateZ(144deg); }
+        .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price .price-background img {
+          width: 100%;
+          height: 100%; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-price .number {
+        font-family: Sniglet;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1;
+        color: #fff; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text {
+      flex-grow: 1;
+      background: #56509f;
+      padding: 24px 20px 26px 20px; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text .cat {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #cccae2;
+        word-break: break-word;
+        padding-right: 80px; }
+        .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text .cat a {
+          text-decoration: none;
+          color: #cccae2; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text .title {
+        font-family: Sniglet;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.444444;
+        color: #fff;
+        word-break: break-word;
+        padding-right: 80px;
+        margin-bottom: 19px; }
+        .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text .title a {
+          text-decoration: none;
+          color: #fff; }
+      .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text .info {
+        display: flex; }
+        .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text .info .info-item {
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 1.3;
+          color: #cccae2;
+          display: flex;
+          flex-direction: column;
+          position: relative; }
+          .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text .info .info-item span {
+            color: #fff; }
+        .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text .info .line {
+          flex-grow: 1;
+          display: block;
+          min-width: 20px;
+          max-width: 41px;
+          align-self: stretch; }
+          .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-item .class-text .info .line::after {
+            content: '';
+            display: block;
+            width: 1px;
+            height: calc(100% - 7px);
+            background: #fff;
+            opacity: .15;
+            position: relative;
+            top: 3px;
+            margin-right: auto;
+            margin-left: auto; }
+
+.bp-element-list-courses.coach-life-layout-slider-1 .wrap-element {
+  position: relative;
+  z-index: 0;
+  padding-bottom: 40px; }
+  .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element:before {
+    content: '';
+    display: block;
+    width: calc((100% - 1200px) / 2 + 1200px - 270px);
+    max-width: 100%;
+    height: 74%;
+    background: #f9f8fc;
+    position: absolute;
+    z-index: -2;
+    bottom: 0;
+    left: 0;
+    right: auto; }
+  .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .container {
+    position: relative; }
+  .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .link-element {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #6c6c6c;
+    text-transform: uppercase;
+    border-bottom: 1px solid #6c6c6c;
+    position: absolute;
+    top: -88px;
+    right: 20px;
+    left: auto;
+    transition: all .2s; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .link-element:hover {
+      color: #ff3b47;
+      border-color: #ff3b47; }
+    @media (max-width: 767px) {
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .link-element {
+        left: 20px;
+        right: auto;
+        top: -45px; } }
+  .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses.show-dot-number .wrap-dot-slick {
+    position: relative; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses.show-dot-number .wrap-dot-slick .dots-slick {
+      width: 1px;
+      height: 1px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      pointer-events: none; }
+  .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .slide-slick {
+    overflow: hidden; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .slide-slick .slick-list {
+      margin-right: -20px;
+      margin-left: -20px; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .slide-slick .item-slick {
+      padding: 0 20px; }
+  .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .wrap-arrow-slick {
+    padding-top: 40px;
+    text-align: right;
+    line-height: 1; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .wrap-arrow-slick .arow-slick {
+      cursor: pointer;
+      font-size: 60px;
+      color: #000;
+      vertical-align: middle;
+      display: inline-block;
+      letter-spacing: normal;
+      transition: all .2s; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .wrap-arrow-slick .arow-slick:hover {
+        color: #ff3b47; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .wrap-arrow-slick .arow-slick.slick-arrow.slick-hidden {
+        display: none; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .wrap-arrow-slick .arow-slick[aria-disabled="true"] {
+        visibility: hidden; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .wrap-arrow-slick .wrap-dot-slick {
+      font-weight: 300;
+      font-size: 18px;
+      color: #6c6c6c;
+      text-align: center;
+      display: inline-block;
+      min-width: 80px;
+      letter-spacing: normal;
+      vertical-align: middle; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .wrap-arrow-slick .wrap-dot-slick .num-active {
+        font-weight: 600;
+        color: #ff3b47; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .slide-courses .wrap-arrow-slick .wrap-dot-slick .div-num {
+        margin: 0 5px; }
+  .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course {
+    position: relative;
+    z-index: 0; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .image-course {
+      display: block;
+      overflow: hidden; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .image-course img {
+        width: 100%;
+        transition: all .5s ease; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course::before {
+      pointer-events: none;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 83%;
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      right: auto;
+      background: -webkit-linear-gradient(top, transparent, #000);
+      background: -o-linear-gradient(top, transparent, #000);
+      background: -moz-linear-gradient(top, transparent, #000);
+      background: linear-gradient(top, transparent, #000);
+      opacity: .8; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course:hover .image-course img {
+      transform: scale(1.05); }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .price-course {
+      pointer-events: none;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #fff;
+      text-transform: uppercase;
+      background-color: #614ef9;
+      padding: 9px 15px;
+      position: absolute;
+      z-index: 2;
+      top: 8%;
+      right: -6px;
+      left: auto; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .price-course.free-label {
+        background-color: #ff3b47;
+        padding-right: 20px;
+        padding-left: 20px; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .price-course .old-price {
+        text-decoration: line-through; }
+    .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course {
+      position: absolute;
+      z-index: 3;
+      bottom: 0;
+      left: 0;
+      right: auto;
+      width: 100%;
+      padding: 30px 6.66%; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .date-course {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #c1c1c1;
+        text-transform: uppercase;
+        margin-bottom: 3px; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .title-course {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fff;
+        word-break: break-word;
+        margin-bottom: 13px; }
+        .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .title-course a {
+          color: inherit;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          max-height: calc(1.5 * 2em);
+          transition: all .2s; }
+          .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .title-course a:hover {
+            color: #ff3b47; }
+      .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .author-course {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start; }
+        .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .author-course .ava-author {
+          width: 28px;
+          border-radius: 50%;
+          border: 1px solid #fff; }
+          .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .author-course .ava-author img {
+            width: 100%;
+            border-radius: 50%; }
+        .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .author-course .text-author {
+          width: calc(100% - 28px - 10px);
+          align-self: center;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 1.5;
+          color: #c1c1c1; }
+          .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .author-course .text-author a {
+            color: #ff3b47;
+            transition: all .2s; }
+            .bp-element-list-courses.coach-life-layout-slider-1 .wrap-element .item-course .text-course .author-course .text-author a:hover {
+              color: #fff; }
+
+.bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element {
+  padding-bottom: 25px; }
+  .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element::before {
+    height: 73%; }
+  .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element .link-element:hover {
+    color: #614ef9;
+    border-color: #614ef9; }
+  .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element .slide-courses .wrap-arrow-slick .arow-slick:hover {
+    color: #614ef9; }
+  .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element .slide-courses .wrap-arrow-slick .wrap-dot-slick .num-active {
+    color: #614ef9; }
+  .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element .item-course .price-course.free-label {
+    background-color: #41d3bd; }
+  .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element .item-course .text-course .date-course {
+    color: #41d3bd; }
+  .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element .item-course .text-course .title-course a:hover {
+    color: #41d3bd; }
+  .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element .item-course .text-course .author-course .text-author {
+    color: #c1c1c1; }
+    .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element .item-course .text-course .author-course .text-author a {
+      color: inherit; }
+      .bp-element-list-courses.coach-life-layout-slider-1.color-2 .wrap-element .item-course .text-course .author-course .text-author a:hover {
+        color: #41d3bd; }
+
+.bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course {
+  position: relative; }
+  .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course.show-dot-number .wrap-dot-slick {
+    position: relative; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course.show-dot-number .wrap-dot-slick .dots-slick {
+      width: 1px;
+      height: 1px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      pointer-events: none; }
+  .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .slide-slick {
+    width: calc(100% + 5000px);
+    overflow: hidden; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .slide-slick .slick-list {
+      width: calc(100% - 5000px + 40px);
+      margin-left: -20px;
+      overflow: visible; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .slide-slick .slick-track {
+      display: flex;
+      align-items: stretch; }
+  .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .item-slick {
+    height: auto;
+    padding: 40px 20px; }
+  .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) {
+    line-height: 1;
+    width: calc(50% + 20px);
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    right: calc(100% + 20px);
+    left: auto;
+    padding: 0 20px; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) .arow-slick {
+      cursor: pointer;
+      font-size: 45px;
+      color: #000;
+      vertical-align: middle;
+      display: inline-block;
+      letter-spacing: normal;
+      transition: all .2s; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) .arow-slick:hover {
+        color: #ff360d; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) .arow-slick.slick-arrow.slick-hidden {
+        display: none; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) .arow-slick[aria-disabled="true"] {
+        visibility: hidden; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) .wrap-dot-slick {
+      font-weight: 300;
+      font-size: 16px;
+      color: #6c6c6c;
+      text-align: center;
+      display: inline-block;
+      min-width: 74px;
+      letter-spacing: normal;
+      vertical-align: middle; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) .wrap-dot-slick .num-active {
+        font-weight: 600;
+        color: #ff360d; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) .wrap-dot-slick .div-num {
+        margin: 0 5px; }
+    @media (max-width: 991px) {
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) {
+        position: static;
+        padding: 0;
+        width: 100%; } }
+  .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(3) {
+    pointer-events: none;
+    width: 100%;
+    height: calc(100% - 80px);
+    position: absolute;
+    z-index: 10;
+    top: 40px;
+    left: 0;
+    right: auto; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(3) .arow-slick {
+      cursor: pointer;
+      pointer-events: auto;
+      width: 5000px;
+      height: 100%;
+      position: absolute;
+      top: 0; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(3) .arow-slick.prev-slick {
+        display: none !important;
+        right: 100%;
+        left: auto; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(3) .arow-slick.next-slick {
+        left: calc(100% + 40px);
+        right: auto; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(3) .arow-slick.slick-arrow.slick-hidden {
+        display: none; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(3) .arow-slick[aria-disabled="true"] {
+        visibility: hidden; }
+
+.bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course {
+  height: 100%;
+  box-shadow: 13px 15px 15px 0px rgba(105, 105, 105, 0.08);
+  display: flex;
+  flex-direction: column; }
+  .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .image-course {
+    overflow: hidden;
+    position: relative; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .image-course img {
+      width: 100%;
+      transition: all .5s ease; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .image-course .price-course {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #fff;
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: auto;
+      background: #ff360d;
+      padding: 4px 15px; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .image-course .price-course .old-price {
+        text-decoration: line-through; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .image-course:hover img {
+      transform: scale(1.1); }
+  .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course {
+    background: #fff;
+    flex-grow: 1;
+    padding: 33px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course::after {
+      content: '';
+      display: block;
+      order: 3;
+      flex-grow: 1; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .title-course {
+      order: 1;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1.5;
+      color: #000;
+      word-break: break-word;
+      margin-bottom: 16px; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .title-course a {
+        color: inherit;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        max-height: calc(1.5 * 2em);
+        transition: all .2s; }
+        .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .title-course a:hover {
+          color: #ff360d; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .description-course {
+      order: 2;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #6c6c6c;
+      word-break: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      max-height: calc(1.625 * 3em);
+      margin-bottom: 32px; }
+    .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item {
+      order: 4;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      border-top: 1px solid #ebebeb;
+      padding: 20px 0; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .author-course {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 10px; }
+        .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .author-course .ava-author {
+          width: 39px;
+          border-radius: 50%; }
+          .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .author-course .ava-author img {
+            width: 100%;
+            border-radius: 50%; }
+        .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .author-course .name-author {
+          width: calc(100% - 39px - 15px);
+          align-self: center;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 1.5; }
+          .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .author-course .name-author a {
+            color: #000;
+            transition: all .2s; }
+            .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .author-course .name-author a:hover {
+              color: #ff360d; }
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .info-course {
+        width: 40%;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.7;
+        color: #6c6c6c;
+        letter-spacing: 9px;
+        text-align: right; }
+        .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .info-course .item-info {
+          display: inline-block;
+          letter-spacing: normal; }
+          .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .info-course .item-info i {
+            margin-right: 3px; }
+            .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course .foot-item .info-course .item-info i[class*="star"] {
+              color: #f8b56c; }
+    @media (max-width: 480px) {
+      .bp-element-list-courses.coach-life-layout-slider-2 .wrap-element .item-course .text-course {
+        padding: 33px 15px 0px 15px; } }
+
+.bp-element-list-courses.coach-life-layout-slider-2.style-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) {
+  bottom: 85px; }
+  .bp-element-list-courses.coach-life-layout-slider-2.style-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) .arow-slick:hover {
+    color: #ffc040; }
+  .bp-element-list-courses.coach-life-layout-slider-2.style-2 .wrap-element .slide-course .wrap-arrow-slick:nth-child(1) .wrap-dot-slick .num-active {
+    color: #ffc040; }
+
+.bp-element-list-courses.coach-life-layout-slider-2.style-2 .wrap-element .item-course .image-course .price-course {
+  color: #000;
+  background: #ffc040; }
+
+.bp-element-list-courses.coach-life-layout-slider-2.style-2 .wrap-element .item-course .text-course .title-course a:hover {
+  color: #ffc040; }
+
+.bp-element-list-courses.coach-life-layout-slider-2.style-2 .wrap-element .item-course .text-course .foot-item .author-course .name-author:hover {
+  color: #ffc040; }
+
+.bp-element-list-courses.coach-life-layout-grid-1 .wrap-element [class*="col-"] {
+  padding-bottom: 40px; }
+
+.bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course {
+  height: 100%;
+  box-shadow: 13px 15px 15px 0px rgba(105, 105, 105, 0.08);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
+  .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .image-course {
+    overflow: hidden;
+    position: relative; }
+    .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .image-course img {
+      width: 100%;
+      transition: all .5s ease; }
+    .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .image-course .price-course {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #000;
+      text-transform: uppercase;
+      position: absolute;
+      top: 20px;
+      right: 0;
+      left: auto;
+      background: #f3dd6e;
+      padding: 4px 15px; }
+      .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .image-course .price-course .old-price {
+        text-decoration: line-through; }
+    .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .image-course:hover img {
+      transform: scale(1.1); }
+  .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course {
+    flex-grow: 1;
+    padding: 33px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course::after {
+      content: '';
+      display: block;
+      order: 3;
+      flex-grow: 1; }
+    .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .title-course {
+      order: 1;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1.5;
+      color: #000;
+      word-break: break-word;
+      margin-bottom: 16px; }
+      .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .title-course a {
+        color: inherit;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        max-height: calc(1.5 * 2em);
+        transition: all .2s; }
+        .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .title-course a:hover {
+          color: #3dad7c; }
+    .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .description-course {
+      order: 2;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #6c6c6c;
+      word-break: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      max-height: calc(1.625 * 3em);
+      margin-bottom: 32px; }
+    .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item {
+      order: 4;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      border-top: 1px solid #ebebeb;
+      padding: 20px 0; }
+      .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .author-course {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 10px; }
+        .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .author-course .ava-author {
+          width: 39px;
+          border-radius: 50%; }
+          .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .author-course .ava-author img {
+            width: 100%;
+            border-radius: 50%; }
+        .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .author-course .name-author {
+          width: calc(100% - 39px - 15px);
+          align-self: center;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 1.5;
+          text-transform: capitalize; }
+          .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .author-course .name-author a {
+            color: #3dad7c;
+            transition: all .2s; }
+            .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .author-course .name-author a:hover {
+              color: #000; }
+      .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .info-course {
+        width: 40%;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.7;
+        color: #6c6c6c;
+        letter-spacing: 9px;
+        text-align: right; }
+        .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .info-course .item-info {
+          display: inline-block;
+          letter-spacing: normal; }
+          .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .info-course .item-info i {
+            margin-right: 3px; }
+            .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course .foot-item .info-course .item-info i[class*="star"] {
+              color: #f8b56c; }
+    @media (max-width: 480px) {
+      .bp-element-list-courses.coach-life-layout-grid-1 .wrap-element .item-course .text-course {
+        padding: 33px 15px 0px 15px; } }
+
+/*\
+ *
+ * course layout-2 on paged
+ *
+\*/
+.page .bp-element-course-collection.layout-2 .slide-course .item-slick {
+  padding: 0 20px 40px 20px; }
+
+@media (max-width: 1400px) {
+  .bp-element-list-courses.layout-slider .slide-course {
+    margin-right: -15px;
+    margin-left: -15px; }
+    .bp-element-list-courses.layout-slider .slide-course .item-slick {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .bp-element-list-courses.layout-slider .course-item .info {
+    padding-right: 10px;
+    padding-left: 10px; }
+    .bp-element-list-courses.layout-slider .course-item .info .price {
+      font-size: 18px;
+      padding-right: 5px; }
+      .bp-element-list-courses.layout-slider .course-item .info .price .old-price {
+        margin-left: 2px; }
+    .bp-element-list-courses.layout-slider .course-item .info .numbers {
+      font-size: 16px; } }
+
+@media (max-width: 1199px) {
+  .bp-element-list-courses.layout-slider .slide-course .wrap-arrow-slick .arow-slick.prev-slick {
+    left: -0px; }
+  .bp-element-list-courses.layout-slider .slide-course .wrap-arrow-slick .arow-slick.next-slick {
+    right: -0px; } }
+
+@media (max-width: 991px) {
+  .bp-element-list-courses.layout-slider .slide-course {
+    margin-right: -15px;
+    margin-left: -15px; }
+    .bp-element-list-courses.layout-slider .slide-course .item-slick {
+      padding: 0 15px; } }
+
+/*\
+ *
+ * kindergarten-layout-slider-1
+ *
+\*/
+.bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes {
+  position: relative; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .slide-slick .slick-list {
+    margin-right: -20px;
+    margin-left: -20px; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .slide-slick .item-slick {
+    padding: 30px 20px 30px 20px; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick {
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick {
+      pointer-events: auto;
+      cursor: pointer;
+      padding: 10px 0; }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transition: all .2s; }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.next-slick {
+        margin-right: -207px; }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.prev-slick {
+        margin-left: -207px; }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick:hover img {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%); }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.slick-arrow.slick-hidden {
+        display: none; }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick[aria-disabled="true"] {
+        visibility: hidden; }
+
+.bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item {
+  box-shadow: 8px 6px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-image {
+    overflow: hidden; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-image img {
+      width: 100%;
+      transition: all .5s ease; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-image:hover img {
+      transform: scale(1.1); }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-price {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #fff;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background: rgba(249, 106, 154, 0.9);
+    margin: -63px auto -28px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    transition: all .3s; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-price::before {
+      content: '';
+      display: block;
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      border: 1px dashed #fff;
+      position: absolute;
+      z-index: -1;
+      top: 4px;
+      left: 4px;
+      transition: all .3s; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-price .number {
+      font-weight: 400; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text {
+    background: #fff;
+    padding: 46px 23px 23px 23px;
+    position: relative;
+    transition: all .3s; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .border-top {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      overflow: hidden; }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .border-top::before {
+        content: '\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b\f21b';
+        font-family: Ionicons;
+        font-size: 56px;
+        line-height: 1;
+        color: #fff;
+        display: block;
+        transition: all .3s; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .title {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.5;
+      color: #033b62;
+      text-transform: uppercase;
+      word-break: break-word;
+      overflow: hidden;
+      text-align: center;
+      margin-bottom: 12px;
+      max-height: 24px; }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .title a {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        color: inherit;
+        transition: all .3s; }
+        .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .title a:hover {
+          color: #033b62; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .description {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #666;
+      word-break: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-align: center;
+      margin-bottom: 18px;
+      transition: all .3s;
+      height: 78px; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .info {
+      display: flex; }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .info .info-item {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #666;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-right: 40px;
+        transition: all .3s; }
+        .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .info .info-item:last-child {
+          padding-right: 0; }
+          .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .info .info-item:last-child:after {
+            display: none; }
+        .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .info .info-item span {
+          font-weight: 400; }
+        .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .info .info-item::after {
+          content: '';
+          display: block;
+          width: 2px;
+          height: calc(100% - 13px);
+          background: rgba(102, 102, 102, 0.2);
+          position: absolute;
+          right: 20px;
+          top: 7px;
+          margin-right: auto;
+          margin-left: auto;
+          transition: all .3s; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-price {
+    color: #033b62;
+    background: rgba(255, 255, 255, 0.9); }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-price::before {
+      border: 1px dashed #f96a9a; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-text {
+    background: #f96a9a; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-text .border-top::before {
+      color: #f96a9a; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-text .title {
+      color: #fff; }
+      .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-text .title a {
+        color: inherit; }
+        .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-text .title a:hover {
+          color: #033b62; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-text .description {
+      color: #fff; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-text .info .info-item {
+      color: #fff; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item:hover .class-text .info .line::after {
+      background: rgba(255, 255, 255, 0.3); }
+
+.bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element [class*="col-"] {
+  padding-bottom: 40px; }
+
+.bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch; }
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item.color-1 .class-text {
+    background-color: #ff5562; }
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item.color-2 .class-text {
+    background-color: #64cadb; }
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item.color-3 .class-text {
+    background-color: #7cc576; }
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item.color-4 .class-text {
+    background-color: #ffa0d3; }
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item.color-5 .class-text {
+    background-color: #a864a8; }
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item.color-6 .class-text {
+    background-color: #ffb500; }
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text {
+    min-height: 225px;
+    width: calc(100% - 260px);
+    padding: 22px 25px 16px 25px;
+    display: flex;
+    flex-direction: column; }
+    .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .content {
+      flex-grow: 1; }
+      .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .content .cat {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #fff;
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin-bottom: 2px; }
+        .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .content .cat a {
+          color: #fff;
+          transition: all .2s; }
+          .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .content .cat a:hover {
+            color: #282828; }
+      .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .content .title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.444444;
+        color: #fff;
+        word-break: break-word;
+        overflow: hidden;
+        margin-bottom: 20px;
+        max-height: 28px; }
+        .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .content .title a {
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          color: #fff;
+          transition: all .2s; }
+          .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .content .title a:hover {
+            color: #282828; }
+      .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .content .description {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.375;
+        color: #fff;
+        word-break: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin-bottom: 15px; }
+    .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .price {
+      font-family: Nunito;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 1.3;
+      color: #fff;
+      word-break: break-word; }
+      .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text .price span {
+        font-weight: 700;
+        font-size: 30px; }
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-media {
+    width: 260px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    overflow: hidden; }
+    .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-media img {
+      width: 100%;
+      transition: all .5s ease; }
+    .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-media::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 50%;
+      background: transparent;
+      background: -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0));
+      background: -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0));
+      background: -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0));
+      background: linear-gradient(bottom, black, rgba(0, 0, 0, 0));
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      bottom: -1px;
+      opacity: .7;
+      transition: all .5s; }
+    .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-media .info {
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      padding: 22px 20px; }
+      .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-media .info .info-item {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.3;
+        color: #fff;
+        word-break: break-word;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+      .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-media .info .line {
+        display: block;
+        flex-basis: 1px;
+        min-width: 1px;
+        background: #fff;
+        opacity: .3;
+        margin: 3px 11%; }
+    .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-media:hover img {
+      transform: scale(1.05); }
+
+.bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .btn-view-all {
+  font-family: Sniglet;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 25px;
+  background: #ff5f2e;
+  padding: 0 64px;
+  transition: all .2s;
+  margin-top: 20px; }
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .btn-view-all:hover {
+    background: #fa3b00; }
+
+@media (max-width: 1630px) {
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.next-slick {
+    margin-right: -107px; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.prev-slick {
+    margin-left: -107px; } }
+
+@media (max-width: 1420px) {
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.next-slick {
+    margin-right: -30px; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.prev-slick {
+    margin-left: -30px; } }
+
+@media (max-width: 1280px) {
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .info .info-item {
+    padding-right: 30px; }
+    .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .class-item .class-text .info .info-item:after {
+      right: 15px; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.prev-slick {
+    margin-left: -67px; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.next-slick {
+    margin-right: -67px; } }
+
+@media (max-width: 1024px) {
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.prev-slick {
+    margin-left: -30px; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.next-slick {
+    margin-right: -30px; } }
+
+@media (max-width: 767px) {
+  .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .bp-element-list-courses.kindergarten-layout-grid-1 .wrap-element .class-links .link-item {
+      box-shadow: none;
+      border: 1px solid #56509f;
+      margin-top: 5px;
+      margin-bottom: 5px; } }
+
+@media (max-width: 575px) {
+  .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; }
+    .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-text {
+      width: 100%;
+      order: 2; }
+    .bp-element-list-courses.kindergarten-layout-grid-2 .wrap-element .class-item .class-media {
+      width: 100%;
+      order: 1; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.next-slick {
+    margin-right: -20px; }
+  .bp-element-list-courses.kindergarten-layout-slider-1 .wrap-element .slide-classes .wrap-arrow-slick .arow-slick.prev-slick {
+    margin-left: -20px; } }

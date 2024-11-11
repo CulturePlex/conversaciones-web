@@ -1,0 +1,23 @@
+.bp-element-product-isotope .product-tabs li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px; }
+
+.bp-element-product-isotope ul {
+  list-style: none; }
+
+.bp-element-product-isotope.layout-1 {
+  max-width: 1014px;
+  margin: 0 auto; }
+  .bp-element-product-isotope.layout-1 .product-grid li .content_product .product_content .title {
+    font-size: 21px;
+    font-weight: 600; }
+  .bp-element-product-isotope.layout-1 .product-grid li .content_product .product_content .price {
+    margin-top: 15px; }
+    .bp-element-product-isotope.layout-1 .product-grid li .content_product .product_content .price del .amount {
+      font-size: 16px;
+      font-weight: normal;
+      color: #666 !important; }
+    .bp-element-product-isotope.layout-1 .product-grid li .content_product .product_content .price > .amount,
+    .bp-element-product-isotope.layout-1 .product-grid li .content_product .product_content .price ins {
+      font-size: 21px; }

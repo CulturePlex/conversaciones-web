@@ -1,0 +1,24 @@
+/*\
+ *
+ * block comment
+ *
+\*/
+.bl-comment .comment-item {
+  background: #fff;
+  padding: 26px 30px;
+  margin-bottom: 20px; }
+  .bl-comment .comment-item .star {
+    font-size: 14px;
+    color: #f8b944;
+    margin-bottom: 7px; }
+  .bl-comment .comment-item .name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.222222;
+    color: #292929;
+    margin-bottom: 22px; }
+  .bl-comment .comment-item .content {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.375;
+    color: #7c7c7c; }

@@ -1,0 +1,144 @@
+.bp-element-countdown {
+  &.layout-1 {
+      .is-countdown {
+          border: none;
+          background-color: transparent;
+      }
+      .wrap-countdown {
+          width: 750px;
+          max-width: 100%;
+          margin: 0 auto;
+          .countdown-row {
+              display: flex;
+              justify-content: center;
+
+              .countdown-section {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  padding: 0 45px;
+                  position: relative;
+                  background-color: transparent;
+                  border: none;
+                  width: auto;
+                  height: auto;
+
+                  &::after {
+                      content: ':';
+                      font-weight: 300;
+                      font-size: 75px;
+                      line-height: 1;
+                      color: #292929;
+                      position: absolute;
+                      top: 0;
+                      right: -10px;
+                  }
+
+                  &:last-child:after {
+                      display: none;
+                  }
+
+                  .countdown-amount {
+                      font-weight: 300;
+                      font-size: 75px;
+                      width: auto;
+                      height: auto;
+                      line-height: 1;
+                      color: #292929;
+                  }
+
+                  .countdown-period {
+                      font-weight: 300;
+                      font-size: 18px;
+                      line-height: 1.5;
+                      color: #7c7c7c;
+                  }
+              }
+          }
+      }
+  }
+
+  &.kindergarten-layout-1 {
+      .wrap-element {
+          .tp_event_counter {
+              background-color: transparent;
+              border: none;
+              padding: 0;
+              max-width: 660px;
+              margin-right: auto;
+              margin-left: auto;
+
+              .countdown-row {
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-around;
+                  margin: -15px;
+                  background: transparent;
+                  border: 0;
+                  padding: 0;
+
+                  .countdown-section {
+                      background-color: transparent;
+                      border: none;
+                      width: 124px;
+                      height: 126px;
+
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: center;
+                      align-items: center;
+                      background-position: 0 0;
+                      background-size: 100% 100%;
+                      background-repeat: no-repeat;
+                      margin: 15px;
+
+                      &:nth-child(1) {
+                          background-image: url(../images/icon-box-bg-01.png);
+                      }
+
+                      &:nth-child(2) {
+                          background-image: url(../images/icon-box-bg-02.png);
+                      }
+
+                      &:nth-child(3) {
+                          background-image: url(../images/icon-box-bg-03.png);
+                      }
+
+                      &:nth-child(4) {
+                          background-image: url(../images/icon-box-bg-04.png);
+                      }
+
+                      .countdown-amount {
+                          font-family: Sniglet;
+                          font-weight: 400;
+                          font-size: 45px;
+                          line-height: 1;
+                          color: #fff;
+                      }
+
+                      .countdown-period {
+                          font-weight: 300;
+                          font-size: 16px;
+                          line-height: 1;
+                          color: #fff;
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+
+@media (max-width: 991px) {
+    .bp-element-countdown {
+        &.kindergarten-layout-1 {
+            .wrap-element {
+                .tp_event_counter {
+                    .countdown-row {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

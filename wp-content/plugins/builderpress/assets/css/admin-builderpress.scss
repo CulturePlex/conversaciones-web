@@ -1,0 +1,70 @@
+
+.vc_edit-form-tab.vc_row.vc_ui-flex-row {
+    margin-bottom: 20px;
+}
+
+.vc_wrapper-param-type-radio_image .icon_style_wrap img.selected {
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.vc_row .vc_suggest-field .vc_suggester li.input {
+    width: 100%;
+}
+
+.buildpress-premium-link {
+    color: #39b54a;
+    font-weight: 700;
+}
+
+.xdsoft_datetimepicker {
+    z-index: 99999 !important;
+}
+
+#bp-admin-page {
+    margin: 30px auto;
+    font-family: sans-serif;
+    color: #555;
+    font-size: 14px;
+    line-height: 24px;
+    .tabs {
+        li {
+            float: left;
+            width: 20%;
+        }
+        a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #888;
+            padding: 20px 0;
+            border-bottom: 2px solid #888;
+            background: #f7f7f7;
+
+            &:hover,
+            &.active {
+                background: #ddd;
+            }
+        }
+    }
+    #admin-tab-content {
+        div {
+            padding: 30px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+            display: none;
+            &:first-child {
+                display: block;
+            }
+        }
+    }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+.wpb_column.bp-row-background-overlay {
+    .wpb_wrapper {
+        position: relative;
+    }
+}

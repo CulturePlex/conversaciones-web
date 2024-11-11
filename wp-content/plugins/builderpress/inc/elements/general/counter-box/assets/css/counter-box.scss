@@ -1,0 +1,337 @@
+
+.bp-element-counter-box {
+    &.style-horizontal {
+        .counter-boxes {
+            .counter-box {
+                display: flex;
+                align-items: flex-end;
+            }
+        }
+    }
+    &.layout-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .item {
+            flex-grow: 1;
+            position: relative;
+
+            .number {
+
+                font-weight: 600;
+                font-size: 60px;
+                line-height: 1;
+                color: #fff;
+                text-transform: uppercase;
+            }
+
+            .text {
+
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 1.444444;
+                color: #fff;
+            }
+            .title {
+                line-height: 100%;
+            }
+        }
+
+        &.align-left {
+            .item {
+                .number,
+                .text {
+                    text-align: left;
+                }
+            }
+        }
+
+        &.align-center {
+            .item {
+                .number,
+                .text {
+                    text-align: center;
+                }
+            }
+        }
+
+        &.align-right {
+            .item {
+                .number,
+                .text {
+                    text-align: right;
+                }
+            }
+        }
+
+        &.show-line {
+            .item {
+
+                &:before {
+                    content: '';
+                    display: block;
+                    width: 2px;
+                    height: 86px;
+                    background: rgba(149, 149, 149, .25);
+                    transform: rotateZ(28deg);
+                    position: absolute;
+                    top: 10px;
+                    right: 0;
+                }
+
+            }
+        }
+
+    }
+    &.layout-2 {
+        .counter-boxes {
+            .item {
+                .counter-box {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto;
+                    .number {
+                        font-family: Playfair Display;
+                        font-weight: 700;
+                        font-size: 60px;
+                        line-height: 1.1;
+                        padding-bottom: 25px;
+                        position: relative;
+                        white-space: nowrap;
+                        .number_counter {
+                            &:after {
+                                content: '';
+                                display: inline-block;
+                                width: 1px;
+                                height: 42px;
+                                background-color: rgba(225,225,225,0.15);
+                                transform: rotateZ(20deg);
+                                position: relative;
+                                top: 8px;
+                                margin-left: 20px;
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.kindergarten-layout-1 {
+        &.color-1 {
+            .line,
+            .number {
+                color: #ff5562;
+            }
+        }
+
+        &.color-2 {
+            .line,
+            .number {
+                color: #64cadb;
+            }
+        }
+
+        &.color-3 {
+            .line,
+            .number {
+                color: #7cc576;
+            }
+        }
+
+        &.color-4 {
+            .line,
+            .number {
+                color: #ffa0d3;
+            }
+        }
+
+        &.color-5 {
+            .line,
+            .number {
+                color: #a864a8;
+            }
+        }
+
+        &.align-left {
+            text-align: left;
+        }
+
+        &.align-center {
+            text-align: center;
+        }
+
+        &.align-right {
+            text-align: right;
+        }
+
+        .wrap-element {
+            .number {
+                font-family: Nunito;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 1.1;
+                word-break: break-word;
+                margin-bottom: 10px;
+            }
+
+            .line {
+                display: inline-block;
+                width: 90px;
+                overflow: hidden;
+                margin-bottom: 12px;
+
+                &::after {
+                    content: '\f401\f401\f401\f401\f401\f401\f401\f401';
+                    font-family: Ionicons;
+                    font-size: 18px;
+                    line-height: 1;
+                    color: inherit;
+                    letter-spacing: 5px;
+                    display: flex;
+                    align-items: flex-end;
+                    height: 4px;
+                    overflow: hidden;
+                }
+
+                &::before {
+                    content: '\f401\f401\f401\f401\f401\f401\f401\f401';
+                    font-family: Ionicons;
+                    font-size: 18px;
+                    line-height: 1;
+                    color: inherit;
+                    letter-spacing: 5px;
+                    display: flex;
+                    align-items: flex-start;
+                    height: 4px;
+                    overflow: hidden;
+                    transform: translateX(10px);
+                }
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .title {
+                font-family: Nunito;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 1.3;
+                color: #fff;
+                word-break: break-word;
+                margin-bottom: 9px;
+            }
+
+            .description {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 1.375;
+                color: #dedede;
+                word-break: break-word;
+            }
+        }
+    }
+
+    &.kindergarten-layout-2 {
+        .wrap-element {
+            width: 100%;
+            padding-top: 100%;
+            position: relative;
+
+            .content {
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                border: 2px dashed rgba(255, 255, 255, .4);
+                padding: 64px 40px 30px;
+
+                .icon {
+                    height: 50px;
+                    margin-bottom: 35px;
+
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                }
+
+                .number {
+                    font-family: Sniglet;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 1.1;
+                    color: #fff;
+                    margin-bottom: 5px;
+                }
+
+                .text {
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 1.5;
+                    color: #fff;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .bp-element-counter-box.layout-1 {
+        .item {
+            & + .item::before {
+                height: 66px;
+            }
+
+            .number {
+                font-size: 50px;
+            }
+
+            .text {
+                font-size: 15px;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 767px) {
+    .bp-element-counter-box.layout-1 {
+        .item {
+            & + .item::before {
+                height: 50px;
+            }
+
+            .number {
+                font-size: 30px;
+            }
+
+            .text {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .bp-element-counter-box.layout-1 {
+        flex-wrap: wrap;
+
+        .item {
+            & + .item::before {
+                display: none;
+            }
+        }
+
+    }
+}

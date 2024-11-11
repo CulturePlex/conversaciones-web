@@ -1,0 +1,11 @@
+.bp-element-event-categories ul {
+  display: flex;
+  flex-wrap: wrap; }
+  .bp-element-event-categories ul li {
+    padding-left: 15px; }
+    .bp-element-event-categories ul li:nth-child(odd) {
+      width: 56%; }
+    .bp-element-event-categories ul li:nth-child(even) {
+      width: 44%; }
+    .bp-element-event-categories ul li a {
+      margin: 0; }
