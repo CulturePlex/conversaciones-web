@@ -1,0 +1,78 @@
+.bp-element-login-form {
+  width: 600px;
+  margin: 0 auto;
+  max-width: 100%;
+  .login-form-wrap {
+    padding: 35px 30px;
+    border: 2px solid #e6e6e6;
+    background-color: #ffffff;
+    .subtitle {
+      font-weight: 300;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    .title {
+      font-weight: 500;
+      font-size: 30px;
+    }
+    form {
+      margin-top: 30px;
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        height: auto;
+        padding: 0 20px;
+        margin-bottom: 20px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 50px;
+        display: inline-block;
+        color: #7c7c7c;
+        &:-webkit-autofill {
+          -webkit-box-shadow: 0 0 0 50px #fff inset;
+        }
+        &:focus {
+          border-color: #3ac569;
+        }
+      }
+      .login-password {
+        position: relative;
+        #show_pass {
+          position: absolute;
+          right: 15px;
+          line-height: 50px;
+          top: 0;
+        }
+      }
+      .login-remember {
+        margin-bottom: 10px;
+      }
+      .wrap-fields {
+        .login-submit {
+          margin-bottom: 0;
+          display: inline-block;
+          input[type="submit"] {
+            border-radius: 25px;
+            padding: 0 40px;
+            margin-bottom: 20px;
+            margin-right: 15px;
+            font-size: 16px;
+            line-height: 50px;
+            color: #ffffff;
+            border: none;
+            background-color: #3ac569;
+          }
+        }
+        .lost-pass-link{
+          display: inline-block;
+        }
+      }
+    }
+    .link-bottom {
+      margin-top: 30px;
+    }
+  }
+}

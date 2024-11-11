@@ -1,0 +1,22 @@
+.bp-element-event-categories {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      padding-left: 15px;
+
+      &:nth-child(odd) {
+        width: 56%;
+      }
+
+      &:nth-child(even) {
+        width: 44%;
+      }
+
+      a {
+        margin: 0;
+      }
+    }
+  }
+}

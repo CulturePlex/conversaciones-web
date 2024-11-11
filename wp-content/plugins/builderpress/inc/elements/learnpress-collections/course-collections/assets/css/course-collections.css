@@ -1,0 +1,440 @@
+/*\
+ *
+ * Course layout-1
+ *
+\*/
+.bp-element-course-collections.layout-slider .item-slick {
+  padding: 0 20px; }
+
+.bp-element-course-collections.layout-slider .image img {
+  width: 100%; }
+
+.bp-element-course-collections.layout-slider .content .symbol {
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -41px auto auto auto; }
+
+.bp-element-course-collections.layout-slider .content .title {
+  text-align: center;
+  margin-top: -9px;
+  margin-bottom: 2px;
+  position: relative;
+  z-index: 101; }
+  .bp-element-course-collections.layout-slider .content .title a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.444444;
+    color: #1d1d2b;
+    text-transform: uppercase;
+    text-align: center; }
+
+.bp-element-course-collections.layout-slider .content .description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #7c7c7c;
+  text-align: center; }
+
+.bp-element-course-collections.layout-slider .slide-course {
+  position: relative;
+  margin-right: -20px;
+  margin-left: -20px; }
+  .bp-element-course-collections.layout-slider .slide-course .item-slick {
+    padding: 0 20px 30px 20px; }
+  .bp-element-course-collections.layout-slider .slide-course .wrap-arrow-slick {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 39%;
+    transform: translate(0, -50%); }
+    .bp-element-course-collections.layout-slider .slide-course .wrap-arrow-slick .arow-slick {
+      font-size: 30px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: rgba(149, 149, 149, 0.8);
+      cursor: pointer;
+      position: absolute;
+      top: -27px;
+      transition: all 0.2s; }
+      .bp-element-course-collections.layout-slider .slide-course .wrap-arrow-slick .arow-slick.prev-slick {
+        left: -8px; }
+      .bp-element-course-collections.layout-slider .slide-course .wrap-arrow-slick .arow-slick.next-slick {
+        right: -8px; }
+
+.bp-element-course-collections.layout-slider-2 .slide-category-course {
+  margin-right: -20px;
+  margin-left: -20px;
+  position: relative; }
+  .bp-element-course-collections.layout-slider-2 .slide-category-course .slide-slick {
+    width: calc(100% + 1920px);
+    margin-left: -1920px;
+    overflow: hidden; }
+    .bp-element-course-collections.layout-slider-2 .slide-category-course .slide-slick .slick-list {
+      width: calc(100% - 1920px);
+      margin-left: 1920px;
+      overflow: visible; }
+  .bp-element-course-collections.layout-slider-2 .slide-category-course .item-slick {
+    padding: 0 20px 30px 20px;
+    opacity: .5;
+    pointer-events: none; }
+    .bp-element-course-collections.layout-slider-2 .slide-category-course .item-slick.slick-active {
+      opacity: 1;
+      pointer-events: auto; }
+  .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: calc((100% - 30px) / 2); }
+    .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick .arow-slick {
+      font-size: 90px;
+      color: #292929;
+      line-height: 1;
+      transition: all 0.2s;
+      cursor: pointer;
+      position: absolute;
+      z-index: 100;
+      top: -45px; }
+      .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick .arow-slick.prev-slick {
+        left: -18px;
+        visibility: hidden;
+        opacity: 0; }
+      .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick .arow-slick.next-slick {
+        right: -18px; }
+      .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick .arow-slick:hover {
+        color: #f7c370; }
+      .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick .arow-slick.slick-arrow.slick-hidden {
+        display: none; }
+      .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick .arow-slick[aria-disabled="true"] {
+        display: none !important; }
+  .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick-clone {
+    position: absolute;
+    z-index: 1000;
+    width: 1920px;
+    height: calc(100% - 30px);
+    top: 0;
+    right: calc(100% + 20px); }
+    .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick-clone .arow-slick.next-slick {
+      width: 100%;
+      height: 100%; }
+      .bp-element-course-collections.layout-slider-2 .slide-category-course .wrap-arrow-slick-clone .arow-slick.next-slick:hover {
+        cursor: pointer; }
+  .bp-element-course-collections.layout-slider-2 .slide-category-course:hover .arow-slick.prev-slick {
+    visibility: visible;
+    opacity: 1; }
+
+.bp-element-course-collections.layout-slider-2 .course-item.color-1 .content::before {
+  background: #4d58b1;
+  background: -webkit-linear-gradient(left, #4d58b1, #5062d9);
+  background: -o-linear-gradient(left, #4d58b1, #5062d9);
+  background: -moz-linear-gradient(left, #4d58b1, #5062d9);
+  background: linear-gradient(left, #4d58b1, #5062d9); }
+
+.bp-element-course-collections.layout-slider-2 .course-item.color-2 .content::before {
+  background: #f3ae7f;
+  background: -webkit-linear-gradient(left, #f8c76c, #f3ae7f);
+  background: -o-linear-gradient(left, #f8c76c, #f3ae7f);
+  background: -moz-linear-gradient(left, #f8c76c, #f3ae7f);
+  background: linear-gradient(left, #f8c76c, #f3ae7f); }
+
+.bp-element-course-collections.layout-slider-2 .course-item .content {
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 13px 15px 15px 0px rgba(105, 105, 105, 0.08);
+  padding: 30px; }
+  .bp-element-course-collections.layout-slider-2 .course-item .content::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transition: all .4s; }
+  .bp-element-course-collections.layout-slider-2 .course-item .content:hover:before {
+    opacity: .8; }
+  .bp-element-course-collections.layout-slider-2 .course-item .content .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.333333;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 6px; }
+  .bp-element-course-collections.layout-slider-2 .course-item .content .description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center; }
+
+.bp-element-course-collections.layout-grid .wrap-element {
+  position: relative; }
+  .bp-element-course-collections.layout-grid .wrap-element > div > div {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .bp-element-course-collections.layout-grid .wrap-element .link-view-all {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ef4360;
+    text-transform: uppercase;
+    text-decoration: underline;
+    transition: all .2s;
+    position: absolute;
+    right: 0;
+    top: -73px; }
+    .bp-element-course-collections.layout-grid .wrap-element .link-view-all:hover {
+      color: #181b1d; }
+  .bp-element-course-collections.layout-grid .wrap-element .course-item {
+    text-align: center;
+    margin-bottom: 80px; }
+    .bp-element-course-collections.layout-grid .wrap-element .course-item .course-image {
+      overflow: hidden; }
+      .bp-element-course-collections.layout-grid .wrap-element .course-item .course-image img {
+        width: 100%;
+        transition: all .5s ease; }
+      .bp-element-course-collections.layout-grid .wrap-element .course-item .course-image:hover img {
+        transform: scale(1.1); }
+    .bp-element-course-collections.layout-grid .wrap-element .course-item .course-text .title {
+      font-family: Playfair Display;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 1.3;
+      color: #fff;
+      word-break: break-word;
+      width: calc(100% - 30px);
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: -50px;
+      margin-bottom: 18px;
+      transition: all .2s;
+      position: relative;
+      z-index: 10; }
+      .bp-element-course-collections.layout-grid .wrap-element .course-item .course-text .title a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 19px 7px; }
+    .bp-element-course-collections.layout-grid .wrap-element .course-item .course-text .content {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #777;
+      word-break: break-word;
+      max-width: 290px;
+      margin-right: auto;
+      margin-left: auto; }
+    .bp-element-course-collections.layout-grid .wrap-element .course-item.color-1 .course-text .title {
+      background-color: #ef4360; }
+      .bp-element-course-collections.layout-grid .wrap-element .course-item.color-1 .course-text .title:hover {
+        background-color: #eb1438; }
+    .bp-element-course-collections.layout-grid .wrap-element .course-item.color-2 .course-text .title {
+      background-color: #618fb1; }
+      .bp-element-course-collections.layout-grid .wrap-element .course-item.color-2 .course-text .title:hover {
+        background-color: #4a7595; }
+    .bp-element-course-collections.layout-grid .wrap-element .course-item.color-3 .course-text .title {
+      background-color: #89c869; }
+      .bp-element-course-collections.layout-grid .wrap-element .course-item.color-3 .course-text .title:hover {
+        background-color: #6cba44; }
+    .bp-element-course-collections.layout-grid .wrap-element .course-item.color-4 .course-text .title {
+      background-color: #b29e2d; }
+      .bp-element-course-collections.layout-grid .wrap-element .course-item.color-4 .course-text .title:hover {
+        background-color: #897a23; }
+    .bp-element-course-collections.layout-grid .wrap-element .course-item.color-5 .course-text .title {
+      background-color: #0eb1b2; }
+      .bp-element-course-collections.layout-grid .wrap-element .course-item.color-5 .course-text .title:hover {
+        background-color: #0a8283; }
+    .bp-element-course-collections.layout-grid .wrap-element .course-item.color-6 .course-text .title {
+      background-color: #9bc1d5; }
+      .bp-element-course-collections.layout-grid .wrap-element .course-item.color-6 .course-text .title:hover {
+        background-color: #77abc6; }
+
+.bp-element-course-collections.stocklab-layout-slider-3 .item-slick {
+  padding: 0 15px; }
+
+.bp-element-course-collections.stocklab-layout-slider-3 .image img {
+  width: 100%; }
+
+.bp-element-course-collections.stocklab-layout-slider-3 .course-item {
+  position: relative; }
+  .bp-element-course-collections.stocklab-layout-slider-3 .course-item .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .bp-element-course-collections.stocklab-layout-slider-3 .course-item .content:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      opacity: 0;
+      visibility: hidden;
+      background: #124fe8;
+      background: -moz-linear-gradient(45deg, #844bed 0%, #844bed 17%, #04cd84 87%, #04cd84 100%);
+      background: -webkit-gradient(left bottom, right top, color-stop(0%, #844bed), color-stop(17%, #844bed), color-stop(87%, #04cd84), color-stop(100%, #04cd84));
+      background: -webkit-linear-gradient(45deg, #844bed 0%, #844bed 17%, #04cd84 87%, #04cd84 100%);
+      background: -o-linear-gradient(45deg, #844bed 0%, #844bed 17%, #04cd84 87%, #04cd84 100%);
+      background: -ms-linear-gradient(45deg, #844bed 0%, #844bed 17%, #04cd84 87%, #04cd84 100%);
+      background: linear-gradient(45deg, #844bed 0%, #844bed 17%, #04cd84 87%, #04cd84 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00d280', endColorstr='#9143fd', GradientType=1); }
+    .bp-element-course-collections.stocklab-layout-slider-3 .course-item .content .title {
+      text-align: center;
+      margin-bottom: 2px;
+      position: relative;
+      z-index: 101;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: translate(0, -20px);
+      -moz-transform: translate(0, -20px);
+      -ms-transform: translate(0, -20px);
+      -o-transform: translate(0, -20px);
+      transform: translate(0, -20px);
+      -webkit-transition: all 0.3s ease 0.2s;
+      -moz-transition: all 0.3s ease 0.2s;
+      -o-transition: all 0.3s ease 0.2s;
+      transition: all 0.3s ease 0.2s; }
+      .bp-element-course-collections.stocklab-layout-slider-3 .course-item .content .title a {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.444444;
+        color: #ffffff;
+        text-align: center;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s; }
+    .bp-element-course-collections.stocklab-layout-slider-3 .course-item .content .description {
+      position: relative;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #ffffff;
+      text-align: center;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: translate(0, -20px);
+      -moz-transform: translate(0, -20px);
+      -ms-transform: translate(0, -20px);
+      -o-transform: translate(0, -20px);
+      transform: translate(0, -20px);
+      -webkit-transition: all 0.3s ease 0.2s;
+      -moz-transition: all 0.3s ease 0.2s;
+      -o-transition: all 0.3s ease 0.2s;
+      transition: all 0.3s ease 0.2s; }
+  .bp-element-course-collections.stocklab-layout-slider-3 .course-item:hover .content:before {
+    opacity: 0.6;
+    visibility: visible; }
+  .bp-element-course-collections.stocklab-layout-slider-3 .course-item:hover .content .title {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0); }
+  .bp-element-course-collections.stocklab-layout-slider-3 .course-item:hover .content .description {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+.bp-element-course-collections.stocklab-layout-slider-3 .slide-course .slide-slick {
+  padding-right: 100px;
+  overflow: hidden; }
+  .bp-element-course-collections.stocklab-layout-slider-3 .slide-course .slide-slick .slick-list {
+    overflow: visible; }
+
+.bp-element-course-collections.stocklab-layout-slider-3 .slide-course .item-slick {
+  padding: 0 15px; }
+
+.bp-element-course-collections.stocklab-layout-slider-3 .slide-course .wrap-arrow-slick {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  .bp-element-course-collections.stocklab-layout-slider-3 .slide-course .wrap-arrow-slick .arow-slick {
+    font-size: 28px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #b7afff;
+    float: left; }
+    .bp-element-course-collections.stocklab-layout-slider-3 .slide-course .wrap-arrow-slick .arow-slick:after {
+      content: '';
+      display: block;
+      clear: both; }
+    .bp-element-course-collections.stocklab-layout-slider-3 .slide-course .wrap-arrow-slick .arow-slick.prev-slick {
+      margin-right: 9px; }
+    .bp-element-course-collections.stocklab-layout-slider-3 .slide-course .wrap-arrow-slick .arow-slick:hover {
+      background: #04ce83;
+      border-color: #04ce83; }
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .bp-element-course-collections.layout-slider-2 .slide-category-course .item-slick {
+    padding-right: 10px;
+    padding-left: 10px; }
+  .bp-element-course-collections.layout-slider-2 .course-item .content {
+    box-shadow: 5px 10px 10px 0px rgba(105, 105, 105, 0.08); }
+  .bp-element-course-collections.layout-slider .slide-course {
+    margin-right: -10px;
+    margin-left: -10px; }
+    .bp-element-course-collections.layout-slider .slide-course .item-slick {
+      padding-right: 10px;
+      padding-left: 10px; }
+    .bp-element-course-collections.layout-slider .slide-course .wrap-arrow-slick .arow-slick {
+      top: -42px; }
+      .bp-element-course-collections.layout-slider .slide-course .wrap-arrow-slick .arow-slick.prev-slick {
+        left: -12px; }
+      .bp-element-course-collections.layout-slider .slide-course .wrap-arrow-slick .arow-slick.next-slick {
+        right: -12px; }
+  .bp-element-course-collections.layout-slider .content .symbol img {
+    max-width: 35px; } }

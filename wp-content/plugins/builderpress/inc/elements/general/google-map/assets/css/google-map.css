@@ -1,0 +1,19 @@
+.bp-element-google-map {
+  position: relative;
+  overflow: hidden;
+  min-height: 100px; }
+  .bp-element-google-map .map-cover {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover; }
+  .bp-element-google-map .ob-google-map-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; }

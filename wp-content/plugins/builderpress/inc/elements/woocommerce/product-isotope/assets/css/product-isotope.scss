@@ -1,0 +1,35 @@
+.bp-element-product-isotope {
+
+  .product-tabs li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+  }
+  ul {
+    list-style: none;
+  }
+  &.layout-1 {
+    max-width: 1014px;
+    margin: 0 auto;
+    .product-grid li .content_product .product_content {
+      .title {
+        font-size: 21px;
+        font-weight: 600;
+      }
+      .price {
+        margin-top: 15px;
+        del .amount {
+          font-size: 16px;
+          font-weight: normal;
+          color: #666 !important;
+        }
+        >.amount,
+        ins {
+          font-size: 21px;
+        }
+      }
+    }
+
+  }
+}
+

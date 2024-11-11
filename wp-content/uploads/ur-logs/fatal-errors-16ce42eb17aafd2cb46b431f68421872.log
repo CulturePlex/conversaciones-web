@@ -1,0 +1,168 @@
+2024-10-30T17:48:02-04:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php:64
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): wplalr_sort_user_last_login_column(Object(WP_User_Query))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-user-query.php(283): do_action_ref_array('pre_get_users', Array)
+#4 /var/www/html/wp-includes/class-wp-user-query.php(79): WP_User_Query->prepare_query(Array)
+#5 /var/www/html/wp-includes/user.php(794): WP_User_Query->__construct(Array)
+#6 /var/www/html/wp-content/plugins/user-registration/includes/functions-ur-core.php(3016): get_users(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): ur_profile_picture_migration_script('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/plugins/user-registration/user-registration.php(337): do_action('user_registrati...')
+#11 /var/www/html/wp-includes/class-wp-hook.php(324): UserRegistration->init('')
+#12 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-settings.php(700): do_action('init')
+#15 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#16 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#17 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#18 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php on line 64
+
+2024-10-30T17:48:10-04:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php:64
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): wplalr_sort_user_last_login_column(Object(WP_User_Query))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-user-query.php(283): do_action_ref_array('pre_get_users', Array)
+#4 /var/www/html/wp-includes/class-wp-user-query.php(79): WP_User_Query->prepare_query(Array)
+#5 /var/www/html/wp-includes/user.php(794): WP_User_Query->__construct(Array)
+#6 /var/www/html/wp-content/plugins/user-registration/includes/functions-ur-core.php(3016): get_users(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): ur_profile_picture_migration_script('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/plugins/user-registration/user-registration.php(337): do_action('user_registrati...')
+#11 /var/www/html/wp-includes/class-wp-hook.php(324): UserRegistration->init('')
+#12 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-settings.php(700): do_action('init')
+#15 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#16 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#17 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#18 /var/www/html/wp-admin/plugin-install.php(16): require_once('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php on line 64
+
+2024-10-30T17:48:11-04:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php:64
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): wplalr_sort_user_last_login_column(Object(WP_User_Query))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-user-query.php(283): do_action_ref_array('pre_get_users', Array)
+#4 /var/www/html/wp-includes/class-wp-user-query.php(79): WP_User_Query->prepare_query(Array)
+#5 /var/www/html/wp-includes/user.php(794): WP_User_Query->__construct(Array)
+#6 /var/www/html/wp-content/plugins/user-registration/includes/functions-ur-core.php(3016): get_users(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): ur_profile_picture_migration_script('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/plugins/user-registration/user-registration.php(337): do_action('user_registrati...')
+#11 /var/www/html/wp-includes/class-wp-hook.php(324): UserRegistration->init('')
+#12 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-settings.php(700): do_action('init')
+#15 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#16 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#17 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#18 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php on line 64
+
+2024-10-30T17:48:14-04:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php:64
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): wplalr_sort_user_last_login_column(Object(WP_User_Query))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-user-query.php(283): do_action_ref_array('pre_get_users', Array)
+#4 /var/www/html/wp-includes/class-wp-user-query.php(79): WP_User_Query->prepare_query(Array)
+#5 /var/www/html/wp-includes/user.php(794): WP_User_Query->__construct(Array)
+#6 /var/www/html/wp-content/plugins/user-registration/includes/functions-ur-core.php(3016): get_users(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): ur_profile_picture_migration_script('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/plugins/user-registration/user-registration.php(337): do_action('user_registrati...')
+#11 /var/www/html/wp-includes/class-wp-hook.php(324): UserRegistration->init('')
+#12 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-settings.php(700): do_action('init')
+#15 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#16 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#17 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#18 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php on line 64
+
+2024-10-30T17:48:16-04:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php:64
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): wplalr_sort_user_last_login_column(Object(WP_User_Query))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-user-query.php(283): do_action_ref_array('pre_get_users', Array)
+#4 /var/www/html/wp-includes/class-wp-user-query.php(79): WP_User_Query->prepare_query(Array)
+#5 /var/www/html/wp-includes/user.php(794): WP_User_Query->__construct(Array)
+#6 /var/www/html/wp-content/plugins/user-registration/includes/functions-ur-core.php(3016): get_users(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): ur_profile_picture_migration_script('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/plugins/user-registration/user-registration.php(337): do_action('user_registrati...')
+#11 /var/www/html/wp-includes/class-wp-hook.php(324): UserRegistration->init('')
+#12 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-settings.php(700): do_action('init')
+#15 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#16 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#17 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#18 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php on line 64
+
+2024-10-30T17:48:17-04:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php:64
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): wplalr_sort_user_last_login_column(Object(WP_User_Query))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-user-query.php(283): do_action_ref_array('pre_get_users', Array)
+#4 /var/www/html/wp-includes/class-wp-user-query.php(79): WP_User_Query->prepare_query(Array)
+#5 /var/www/html/wp-includes/user.php(794): WP_User_Query->__construct(Array)
+#6 /var/www/html/wp-content/plugins/user-registration/includes/functions-ur-core.php(3016): get_users(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): ur_profile_picture_migration_script('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/plugins/user-registration/user-registration.php(337): do_action('user_registrati...')
+#11 /var/www/html/wp-includes/class-wp-hook.php(324): UserRegistration->init('')
+#12 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-settings.php(700): do_action('init')
+#15 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#16 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#17 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#18 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php on line 64
+
+2024-10-30T17:48:19-04:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php:64
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(324): wplalr_sort_user_last_login_column(Object(WP_User_Query))
+#1 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/class-wp-user-query.php(283): do_action_ref_array('pre_get_users', Array)
+#4 /var/www/html/wp-includes/class-wp-user-query.php(79): WP_User_Query->prepare_query(Array)
+#5 /var/www/html/wp-includes/user.php(794): WP_User_Query->__construct(Array)
+#6 /var/www/html/wp-content/plugins/user-registration/includes/functions-ur-core.php(3016): get_users(Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): ur_profile_picture_migration_script('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/plugins/user-registration/user-registration.php(337): do_action('user_registrati...')
+#11 /var/www/html/wp-includes/class-wp-hook.php(324): UserRegistration->init('')
+#12 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /var/www/html/wp-settings.php(700): do_action('init')
+#15 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#16 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#17 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#18 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#19 {main}
+  thrown in /var/www/html/wp-content/plugins/wp-login-and-logout-redirect/includes/login-user-time/login-user-time.php on line 64
+

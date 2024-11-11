@@ -1,0 +1,111 @@
+/*
+Theme Name: ivy-school Theme
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+#thimHeaderTopBar ul.list-inline>li.list-inline-item:not(:last-child) {
+    margin-left: 30px;
+    margin-right: 0;
+}
+#thimHeaderTopBar ul.list-inline>li.list-inline-item>i {
+    margin-left: 13px;
+    margin-right: 0;
+}
+#thimHeaderTopBar .bp-element-social-links.custom-bg-shape {
+    margin-right: 29px;
+    margin-left: 0;
+}
+
+/**/
+.single-lp_course .course-curriculum .curriculum-sections .section .section-heading::before {
+    right: 0;
+    left: auto;
+}
+.single-lp_course #learn-press-course-curriculum .section-heading {
+    margin-right: 25px;
+    margin-left: 0;
+}
+.single-lp_course #learn-press-course-curriculum .section-heading .meta {
+    left:28px;
+    right: unset;
+}
+
+/**/
+#course-item-content-header .course-item-search button {
+    left: 45px;
+    right: auto;
+}
+#course-item-content-header .course-item-search input {
+    float: right;
+}
+#learn-press-content-item #course-item-content-header .course-item-search {
+    display: block !important;
+    opacity: 1 !important;
+    float: right;
+}
+#learn-press-content-item #course-item-content-header .lp-form.form-button {
+    float: left;
+}
+#learn-press-content-item #course-item-content-header .toggle-content-item {
+    float: left;
+}
+
+body.course-item-popup #learn-press-content-item {
+    left: 0;
+    right: 400px;
+}
+body.course-item-popup #learn-press-course-curriculum {
+    right: 0;
+    left: auto;
+}
+.lp-learning .header-course .header-content .learn-press-course-results-progress .lp-course-progress:after {
+    right: 96%;
+    left: auto;
+}
+.lp-learning .header-course .header-content .course-thumbnail img {
+    width: 100%;
+}
+div.bp-element-posts.layout-slider .heading-post {
+    padding-right: 0;
+    padding-left: 100px;
+}
+div.bp-element-posts.layout-slider .heading-post .title {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.slick-list {
+    direction: ltr;
+}
+.bp-element-heading.align-left .title, .bp-element-heading.align-left .description, .bp-element-heading.align-left .content {
+    text-align: right !important;
+}
+footer.site-footer .footer .footer-sidebars aside .widget-title:before {
+    left: auto;
+    right: 0;
+}
+
+.bp-element-list-events.layout-slider .slide-events .slide-slick .item-slick .item-event {
+    flex-direction: row-reverse;
+}
+div.bp-element.bp-element-list-events.layout-slider .slide-events .slide-slick .item-slick .item-event .date-event {
+    margin-right: 0;
+    margin-left: 20px;
+}
+div.bl-why-choose-list li::before {
+    left: auto;
+    right: 0;
+}
+div.bl-why-choose-list li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+div.bl-open-day .info i {
+    margin-right: 0;
+    margin-left: 12px;
+}

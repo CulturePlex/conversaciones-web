@@ -1,0 +1,49 @@
+.bp-element-twitter .list-tweets {
+  list-style: none; }
+  .bp-element-twitter .list-tweets .tweet-item > a {
+    float: left; }
+  .bp-element-twitter .list-tweets .tweet-item:not(:last-child) {
+    margin-bottom: 12px; }
+  .bp-element-twitter .list-tweets .tweet-content {
+    margin-left: 32px; }
+
+.bp-element-twitter.layout-slider .list-tweets {
+  width: 875px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative; }
+  .bp-element-twitter.layout-slider .list-tweets .tweet-item .top a i {
+    font-size: 32px;
+    color: #3ac569;
+    margin-bottom: 33px; }
+  .bp-element-twitter.layout-slider .list-tweets .tweet-item .tweet-content {
+    color: #aeaeae;
+    font-size: 18px; }
+    .bp-element-twitter.layout-slider .list-tweets .tweet-item .tweet-content a {
+      color: #3ac569; }
+
+.bp-element-twitter.layout-slider .dots-slick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 10px; }
+  .bp-element-twitter.layout-slider .dots-slick li.slick-active span {
+    background: #3ac569; }
+  .bp-element-twitter.layout-slider .dots-slick li span {
+    opacity: 1;
+    font-size: 0;
+    line-height: 0;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #8c8c8c;
+    border-radius: 50%;
+    margin: 0 3px;
+}

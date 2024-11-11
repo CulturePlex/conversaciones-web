@@ -1,0 +1,282 @@
+.bp-element-steps {
+  &.layout-1 {
+    .nav {
+      margin: 0 0 60px;gulp
+      .nav-item {
+        position: relative;
+        margin-right: 94px;
+        &:last-child {
+          margin-right: 0;
+          &:after {
+            display: none;
+          }
+        }
+        &:after {
+          width: 58px;
+          height: 8px;
+          background-image: radial-gradient(circle 5px,rgba(102, 102, 102, 0.7) 12%,transparent 16%);
+          background-size: 4px 7px;
+          content: '';
+          left: 82px;
+          top: 30px;
+          border-bottom: none;
+          position: absolute;
+        }
+        .nav-link {
+          width: 64px;
+          height: 64px;
+          color: #d6161c;
+          border: 1px solid #d6161c;
+          border-radius: 50%;
+          font-size: 20px;
+          text-transform: uppercase;
+          padding: 0;
+          display: flex !important;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          line-height: 120%;
+
+          .text {
+            display: block;
+            font-size: 12px;
+            letter-spacing: .2px;
+            font-weight: 400;
+            margin-top: -1px;
+            line-height: normal;
+          }
+
+          &.active,
+          &:hover {
+            background-color: #d6161c;
+            color: #fff;
+            box-shadow: 5.7px 8.2px 20px 0 rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+    .description {
+      letter-spacing: 0.3px;
+      color: #999999;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+    .tab-content>.tab-pane {
+      transition: all .3s;
+    }
+    .readmore {
+      height: 50px;
+      line-height: 50px;
+      padding: 0 48px;
+      margin-top: 73px;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 0.9px;
+      color: #ffffff;
+      border-radius: 30px;
+      text-transform: uppercase;
+      background-color: #d6161c;
+    }
+  }
+
+  &.layout-2 {
+    .nav {
+      margin: 0 0 56px;
+      .nav-item {
+        position: relative;
+        margin-right: 208px;
+
+        &:last-child {
+          margin-right: 0;
+          &:after {
+            display: none;
+          }
+        }
+        &:after {
+          width: 100%;
+          height: 61px;
+          background-image: url("../images/arrow-steps.png");
+          content: '';
+          margin-right: -17px;
+          right: -100%;
+          position: absolute;
+          top: 50%;
+          background-size: contain;
+          background-repeat: no-repeat;
+          transform: translate(0,-50%);
+        }
+
+        &:nth-child(2n) {
+          &:after {
+            margin-top: 30px;
+            background-image: url("../images/arrow-steps-1.png");
+          }
+        }
+
+        .nav-link {
+          width: 181px;
+          height: 181px;
+          color: #ec235a;
+          border-radius: 50%;
+          font-size: 60px;
+          text-transform: uppercase;
+          padding: 0;
+          display: flex !important;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          line-height: 120%;
+          i, span, div {
+            position: relative;
+            z-index: 5;
+          }
+          &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 181px;
+            height: 181px;
+            border-radius: 50%;
+            color: #ec235a;
+            border: 1px solid #ec235a;
+            z-index: 3;
+            transition: all .3s;
+          }
+          &:after {
+            content: "";
+            position: absolute;
+            top: -2px;
+            left: 12px;
+            width: 181px;
+            height: 181px;
+            display: inline-block;
+            border: 1px solid #f9ca27;
+            border-radius: 50%;
+            z-index: 1;
+            transition: all .5s;
+          }
+
+          .text {
+            display: block;
+            font-size: 18px;
+            letter-spacing: .2px;
+            font-weight: 400;
+            margin-top: -1px;
+            line-height: normal;
+          }
+
+          &.active,
+          &:hover {
+            color: #fff !important;
+            &:before {
+              background-color: #ec235a;
+            }
+            &:after {
+              background-color: #f9ca27;
+            }
+          }
+        }
+      }
+    }
+    .tab-content>.tab-pane {
+      display: inline-block;
+
+      &.columns-4 {
+        width: 25%;
+        float: left;
+        text-align: center;
+        padding-right: 58px;
+        .tab-title {
+          width: 100%;
+        }
+        .tab-sub-title {
+
+        }
+        .description {
+
+        }
+        &:nth-last-child(2) {
+          padding-right: 0;
+          padding-left: 45px;
+        }
+
+        &:first-child {
+          .tab-title {
+            text-align: center;
+            padding-right: 77px;
+          }
+          .tab-sub-title {
+            text-align: left;
+          }
+          .description {
+            text-align: left;
+          }
+        }
+        &:last-child {
+          padding-right: 0;
+          padding-left: 58px;
+          .tab-title {
+            text-align: right;
+          }
+          .tab-sub-title {
+            text-align: right;
+          }
+          .description {
+            text-align: right;
+          }
+        }
+      }
+      &.active {
+        .description {
+          opacity: 1;
+        }
+      }
+    }
+    .description {
+      font-weight: 300;
+      font-style: normal;
+      color: #666666;
+      opacity: 0;
+    }
+    .tab-content>.tab-pane {
+      transition: all .3s;
+    }
+    .tab-title {
+      font-size: 20.5px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 1.44;
+      letter-spacing: 0.6px;
+      text-align: center;
+      color: #333333;
+      width: 181px;
+    }
+    .tab-sub-title {
+      margin-top: 20px;
+      margin-bottom: 11px;
+      font-size: 18.5px;
+      font-weight: normal;
+      line-height: 1.38;
+      letter-spacing: 0.6px;
+      color: rgba(102, 102, 102, 0.87);
+    }
+    .readmore {
+      height: 50px;
+      line-height: 50px;
+      padding: 0 48px;
+      margin-top: 73px;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 0.9px;
+      color: #ffffff;
+      border-radius: 30px;
+      text-transform: uppercase;
+      background-color: #d6161c;
+    }
+  }
+}

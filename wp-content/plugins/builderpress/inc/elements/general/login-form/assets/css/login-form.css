@@ -1,0 +1,65 @@
+.bp-element-login-form {
+  width: 600px;
+  margin: 0 auto;
+  max-width: 100%; }
+  .bp-element-login-form .login-form-wrap {
+    padding: 35px 30px;
+    border: 2px solid #e6e6e6;
+    background-color: #ffffff; }
+    .bp-element-login-form .login-form-wrap .subtitle {
+      font-weight: 300;
+      font-size: 20px;
+      text-transform: uppercase; }
+    .bp-element-login-form .login-form-wrap .title {
+      font-weight: 500;
+      font-size: 30px; }
+    .bp-element-login-form .login-form-wrap form {
+      margin-top: 30px; }
+      .bp-element-login-form .login-form-wrap form input[type="text"],
+      .bp-element-login-form .login-form-wrap form input[type="email"],
+      .bp-element-login-form .login-form-wrap form input[type="password"] {
+        width: 100%;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        height: auto;
+        padding: 0 20px;
+        margin-bottom: 20px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 50px;
+        display: inline-block;
+        color: #7c7c7c; }
+        .bp-element-login-form .login-form-wrap form input[type="text"]:-webkit-autofill,
+        .bp-element-login-form .login-form-wrap form input[type="email"]:-webkit-autofill,
+        .bp-element-login-form .login-form-wrap form input[type="password"]:-webkit-autofill {
+          -webkit-box-shadow: 0 0 0 50px #fff inset; }
+        .bp-element-login-form .login-form-wrap form input[type="text"]:focus,
+        .bp-element-login-form .login-form-wrap form input[type="email"]:focus,
+        .bp-element-login-form .login-form-wrap form input[type="password"]:focus {
+          border-color: #3ac569; }
+      .bp-element-login-form .login-form-wrap form .login-password {
+        position: relative; }
+        .bp-element-login-form .login-form-wrap form .login-password #show_pass {
+          position: absolute;
+          right: 15px;
+          line-height: 50px;
+          top: 0; }
+      .bp-element-login-form .login-form-wrap form .login-remember {
+        margin-bottom: 10px; }
+      .bp-element-login-form .login-form-wrap form .wrap-fields .login-submit {
+        margin-bottom: 0;
+        display: inline-block; }
+        .bp-element-login-form .login-form-wrap form .wrap-fields .login-submit input[type="submit"] {
+          border-radius: 25px;
+          padding: 0 40px;
+          margin-bottom: 20px;
+          margin-right: 15px;
+          font-size: 16px;
+          line-height: 50px;
+          color: #ffffff;
+          border: none;
+          background-color: #3ac569; }
+      .bp-element-login-form .login-form-wrap form .wrap-fields .lost-pass-link {
+        display: inline-block; }
+    .bp-element-login-form .login-form-wrap .link-bottom {
+      margin-top: 30px; }

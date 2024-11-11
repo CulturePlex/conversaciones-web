@@ -1,0 +1,292 @@
+.bp-element-list-instructors.layout-grid .custom-col {
+  padding-bottom: 25px; }
+
+.bp-element-list-instructors.layout-grid .btn-loadmore-teacher {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 264px;
+  background: #f8b944;
+  margin: 0 auto 0 auto;
+  transition: all 0.2s; }
+  .bp-element-list-instructors.layout-grid .btn-loadmore-teacher:hover {
+    background: #f6a713; }
+
+.bp-element-list-instructors.layout-grid .item-teacher {
+  transition: all 0.3s; }
+  .bp-element-list-instructors.layout-grid .item-teacher .pic img {
+    width: 100%; }
+  .bp-element-list-instructors.layout-grid .item-teacher .content .social-link {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    transform: translateY(40px);
+    transition: all 0.3s; }
+    .bp-element-list-instructors.layout-grid .item-teacher .content .social-link .item {
+      font-size: 16px;
+      color: #878787;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      background: #fff;
+      border-radius: 50%;
+      border: 1px solid #e7e7e7;
+      margin: -20px 5px 0 5px;
+      transition: all 0.2s; }
+      .bp-element-list-instructors.layout-grid .item-teacher .content .social-link .item:hover {
+        background: #f8b944;
+        border-color: #f8b944;
+        color: #fff; }
+  .bp-element-list-instructors.layout-grid .item-teacher .content .info {
+    position: relative;
+    z-index: 11;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 15px 31px 15px; }
+    .bp-element-list-instructors.layout-grid .item-teacher .content .info .name {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.222222;
+      color: #292929;
+      text-transform: uppercase;
+      text-align: center;
+      transition: all 0.2s;
+      margin-bottom: 6px; }
+      .bp-element-list-instructors.layout-grid .item-teacher .content .info .name:hover {
+        color: #f8b944; }
+    .bp-element-list-instructors.layout-grid .item-teacher .content .info .description {
+      font-weight: 300;
+      font-size: 16px;
+      display: block;
+      line-height: 1.375;
+      color: #747474;
+      text-align: center; }
+  .bp-element-list-instructors.layout-grid .item-teacher:hover {
+    box-shadow: 13px 15px 18px 0px rgba(0, 0, 0, 0.08); }
+    .bp-element-list-instructors.layout-grid .item-teacher:hover .content .social-link {
+      transform: translateY(0); }
+
+.bp-element-list-instructors.layout-slider .slide-teachers {
+  position: relative;
+  margin-right: -20px;
+  margin-left: -20px; }
+  .bp-element-list-instructors.layout-slider .slide-teachers .item-slick {
+    padding: 0 20px; }
+  .bp-element-list-instructors.layout-slider .slide-teachers .wrap-dot-slick .dots-slick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 56px; }
+    .bp-element-list-instructors.layout-slider .slide-teachers .wrap-dot-slick .dots-slick li {
+      padding: 4px; }
+      .bp-element-list-instructors.layout-slider .slide-teachers .wrap-dot-slick .dots-slick li.slick-active span {
+        background: #f8b944; }
+      .bp-element-list-instructors.layout-slider .slide-teachers .wrap-dot-slick .dots-slick li span {
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #959595;
+        cursor: pointer; }
+
+.bp-element-list-instructors.layout-slider .teacher-item {
+  background: #fff;
+  padding: 8px 8px 0 8px;
+  overflow: hidden; }
+  .bp-element-list-instructors.layout-slider .teacher-item .pic img {
+    width: 100%; }
+  .bp-element-list-instructors.layout-slider .teacher-item .info {
+    padding-top: 25px;
+    padding-bottom: 22px;
+    transition: all 0.3s;
+    background: #fff;
+    position: relative;
+    z-index: 10; }
+    .bp-element-list-instructors.layout-slider .teacher-item .info .name {
+      text-align: center;
+      margin-bottom: 4px; }
+      .bp-element-list-instructors.layout-slider .teacher-item .info .name a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.444444;
+        color: #292929;
+        text-transform: uppercase;
+        transition: all 0.2s; }
+        .bp-element-list-instructors.layout-slider .teacher-item .info .name a:hover {
+          color: #f6b744; }
+    .bp-element-list-instructors.layout-slider .teacher-item .info .description {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #747474;
+      display: block;
+      text-align: center; }
+    .bp-element-list-instructors.layout-slider .teacher-item .info .social-link {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: center;
+      overflow: hidden;
+      height: 0;
+      transition: all 0.3s; }
+      .bp-element-list-instructors.layout-slider .teacher-item .info .social-link a {
+        color: #a1a1a1;
+        transition: all 0.2s;
+        margin-right: 6px;
+        margin-left: 6px; }
+        .bp-element-list-instructors.layout-slider .teacher-item .info .social-link a:hover {
+          color: #f6b744; }
+  .bp-element-list-instructors.layout-slider .teacher-item:hover .info {
+    margin-top: -46px; }
+    .bp-element-list-instructors.layout-slider .teacher-item:hover .info .social-link {
+      height: 46px;
+      padding-top: 19px;
+      padding-bottom: 3px; }
+
+.bp-element-list-instructors.layout-slider-2 .wrap-element .element-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.25;
+  color: #fff;
+  word-break: break-word;
+  width: calc(100% - 400px - 70px);
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 45px; }
+
+.bp-element-list-instructors.layout-slider-2 .wrap-element .slide-instructor {
+  margin-top: -130px;
+  position: relative; }
+  .bp-element-list-instructors.layout-slider-2 .wrap-element .slide-instructor .wrap-arrow-slick {
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px; }
+    .bp-element-list-instructors.layout-slider-2 .wrap-element .slide-instructor .wrap-arrow-slick .arow-slick {
+      pointer-events: auto;
+      font-size: 55px;
+      line-height: 1;
+      color: #fff;
+      cursor: pointer;
+      opacity: .4;
+      transition: all .2s; }
+      .bp-element-list-instructors.layout-slider-2 .wrap-element .slide-instructor .wrap-arrow-slick .arow-slick:hover {
+        opacity: 1; }
+      .bp-element-list-instructors.layout-slider-2 .wrap-element .slide-instructor .wrap-arrow-slick .arow-slick.prev-slick {
+        margin-left: calc(-35px - 65px);
+        margin-right: auto; }
+      .bp-element-list-instructors.layout-slider-2 .wrap-element .slide-instructor .wrap-arrow-slick .arow-slick.next-slick {
+        margin-right: calc(-35px - 65px);
+        margin-left: auto; }
+
+.bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-image {
+    width: 378px;
+    max-width: 100%; }
+    .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-image img {
+      max-width: 100%; }
+  .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-text {
+    width: calc(100% - 400px - 70px);
+    padding-top: 130px; }
+    .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-text .info {
+      font-weight: 500;
+      line-height: 1.5;
+      color: #fff;
+      word-break: break-word;
+      margin-bottom: 50px; }
+      .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-text .info .name {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff; }
+      .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-text .info .line {
+        font-size: 12px;
+        padding-right: 3px;
+        padding-left: 3px; }
+      .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-text .info .more-info {
+        font-family: Roboto;
+        font-style: italic;
+        font-size: 16px; }
+    .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-text .content {
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #fff;
+      word-break: break-word;
+      margin-bottom: 32px; }
+    .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-text .socials {
+      margin: -6px; }
+      .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-text .socials .social-item {
+        font-size: 14px;
+        line-height: 1;
+        color: #fff;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        transition: all .2s;
+        margin: 6px; }
+        .bp-element-list-instructors.layout-slider-2 .wrap-element .instructor-item .instructor-text .socials .social-item:hover {
+          background: #fff;
+          border-color: #fff;
+          color: #428dd9; }
+
+.bp-element-list-instructors.layout-list .list .item {
+  display: flex;
+  align-items: stretch;
+  padding: 20px 0; }
+  .bp-element-list-instructors.layout-list .list .item .pic {
+    width: 147px;
+    margin-right: 27px; }
+    .bp-element-list-instructors.layout-list .list .item .pic img {
+      width: 100%;
+      border-radius: 50%; }
+  .bp-element-list-instructors.layout-list .list .item .content {
+    width: calc(100% - 147px - 27px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .bp-element-list-instructors.layout-list .list .item .content .para {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.666666;
+      color: #7c7c7c;
+      margin-bottom: 25px; }
+    .bp-element-list-instructors.layout-list .list .item .content .info {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.625;
+      color: #7c7c7c; }
+      .bp-element-list-instructors.layout-list .list .item .content .info .name {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.444444;
+        color: #383838; }
+
+@media (max-width: 767px) {
+  .bp-element-list-instructors.layout-list .list .item {
+    display: block; }
+    .bp-element-list-instructors.layout-list .list .item .pic {
+      margin-bottom: 15px; }
+    .bp-element-list-instructors.layout-list .list .item .content {
+      width: 100%; } }
