@@ -1,7 +1,7 @@
 services:
-  database:
+  database-cedro:
     image: mysql:8.0
-    container_name: database
+    container_name: database-cedro
     restart: unless-stopped
     env_file: .env
     ports:
@@ -20,11 +20,11 @@ services:
     networks:
       - cedro-network
 
-  wordpress:
+  wordpress-cedro:
     build: 
       context: .
       dockerfile: Dockerfile
-    container_name: wordpress
+    container_name: wordpress-cedro
     restart: unless-stopped
     env_file: .env
     volumes:
@@ -32,11 +32,11 @@ services:
     networks:
       - cedro-network
 
-  webserver:
+  webserver-cedro:
     depends_on:
-      - wordpress
+      - database-cedro
     image: nginx:1.15.12-alpine
-    container_name: webserver
+    container_name: webserver-cedro
     restart: unless-stopped
     ports:
       - "80:80"
@@ -49,8 +49,8 @@ services:
       - cedro-network
 
   # Cloudflare Tunnel
-  cloudflared:
-    container_name: cloudflared
+  cloudflared-cedro:
+    container_name: cloudflared-cedro
     image: cloudflare/cloudflared:latest
     command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TOKEN}
     restart: unless-stopped
