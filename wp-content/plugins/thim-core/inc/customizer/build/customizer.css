@@ -47,7 +47,7 @@
 
 .control-section-thim-default,
 .control-section-thim-outer {
-  min-height: 100%;
+  /* min-height: 100%; */
 }
 
 .customize-control-has-small-gap {
