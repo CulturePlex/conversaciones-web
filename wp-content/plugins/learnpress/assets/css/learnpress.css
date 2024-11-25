@@ -4079,11 +4079,11 @@ body .entry-content.has-global-padding {
 .lp-archive-courses ol ol {
   padding: 2px 0 2px 20px;
 }
-
+/* 
 .learnpress #left-area ul, .learnpress .entry-content ul, .learnpress .et-l--body ul, .learnpress .et-l--footer ul, .learnpress .et-l--header ul, .learnpress-profile #left-area ul, .learnpress-profile .entry-content ul, .learnpress-profile .et-l--body ul, .learnpress-profile .et-l--footer ul, .learnpress-profile .et-l--header ul {
   padding: 0;
   list-style: none !important;
-}
+} */
 
 .learnpress.dt-the7 .learn-press-filters {
   margin-bottom: 20px;

@@ -5,3 +5,9 @@ body.left_courses .wrapper-item-course .item-course .pic .image:hover .thumbnail
     -ms-transform: scale(1.01) !important;
     transform: scale(1.01) !important;
 }
+
+
+.important-square {
+    padding: 10px;
+    border: 1px solid #000;
+}

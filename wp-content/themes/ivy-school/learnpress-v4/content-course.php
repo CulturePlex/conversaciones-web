@@ -25,7 +25,6 @@ $course = learn_press_get_course();
 	if ( $layout_courses === "left_courses" && $course ) {
 		?>
 		<div class="item-course color-2">
-
 			<div class="pic">
 				<?php learn_press_get_template( 'loop/course/thumbnail.php' ) ?>
 			</div>
