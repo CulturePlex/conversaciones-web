@@ -84,12 +84,12 @@ Template::instance()->get_frontend_template('single-course/progress.php');
             $categories = get_the_terms( $course_id, 'course_category' );
             
             $breadcrumb_html = '<nav class="thim-font-heading learn-press-breadcrumb">';
-            $breadcrumb_html .= '<a href="' . esc_url( home_url() ) . '">' . esc_html__( 'Home', 'course-builder' ) . '</a>';
+            $breadcrumb_html .= '<a href="' . esc_url( home_url() ) . '">' . esc_html__( 'Home', 'learnpress' ) . '</a>';
             
             $all_course_page_id = LP_Settings::instance()->get_option('courses_page_id', false);
             if ( $all_course_page_id ) {
                 $breadcrumb_html .= ' <span class="delimiter">/</span> ';
-                $breadcrumb_html .= '<a href="' . esc_url( get_permalink( $all_course_page_id ) ) . '">' . esc_html__( 'All Courses', 'course-builder' ) . '</a>';
+                $breadcrumb_html .= '<a href="' . esc_url( get_permalink( $all_course_page_id ) ) . '">' . esc_html__( 'All Courses', 'learnpress' ) . '</a>';
             }
             
             if ( $categories && ! is_wp_error( $categories ) ) {
