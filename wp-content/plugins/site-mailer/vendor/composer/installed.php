@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'elementor/site-mailer',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '2b42b518afc796f72313f32cebd68dcd3d12f1df',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '08621fac9379999d5f5a6436bb283ad26dfbc840',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'elementor/site-mailer' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '2b42b518afc796f72313f32cebd68dcd3d12f1df',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '08621fac9379999d5f5a6436bb283ad26dfbc840',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

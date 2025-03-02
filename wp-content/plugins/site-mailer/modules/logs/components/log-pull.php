@@ -2,9 +2,10 @@
 
 namespace SiteMailer\Modules\Logs\Components;
 
+use SiteMailer\Classes\Logger;
 use SiteMailer\Classes\Utils;
 use SiteMailer\Modules\Connect\Module as Connect;
-use SiteMailer\Modules\Logs\Database\Log_Entry;
+use SiteMailer\Modules\Statuses\Database\Status_Entry;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -14,6 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Class Log_Pull
  */
 class Log_Pull {
+	// phpcs:disable WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase
 	const PULL_LOG_HOOKS = 'site_mailer_pull_logs';
 	const STATUSES_REFRESH_TIMESTAMP = 'site-mailer-statuses_refresh_timestamp';
 
@@ -73,8 +75,9 @@ class Log_Pull {
 			'log',
 		);
 
-		if ( empty( $response ) || is_wp_error( $response ) ) {
-			error_log( 'Cannot get logs response from mail service' );
+		if ( is_wp_error( $response ) ) { // Log error only on is_wp_error, empty response is correct
+			Logger::error( 'Cannot get logs response from mail service' );
+
 			return;
 		}
 
@@ -90,13 +93,13 @@ class Log_Pull {
 				continue;
 			}
 
-			if ( Log_Entry::validate_status( $log->status ) ) {
-				Log_Entry::patch_log( $log->emailId, $log->status );
+			if ( Status_Entry::validate_status( $log->status ) ) {
+				Status_Entry::patch_status( $log->emailId, $log->to, $log->status );
 			}
 
 			// Check for opened email status
 			if ( 'open' === $log->status ) {
-				Log_Entry::set_log_opened( $log->emailId );
+				Status_Entry::set_opened( $log->emailId, $log->to );
 			}
 		}
 	}

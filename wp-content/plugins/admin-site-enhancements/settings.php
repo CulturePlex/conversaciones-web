@@ -246,7 +246,7 @@ function asenha_add_settings_page() {
     ?></label>
 					    <input id="tab-login-logout" type="radio" name="tabs"><label for="tab-login-logout"><?php 
     echo wp_kses( $icon_login_logout, get_kses_with_svg_ruleset() );
-    echo esc_html__( 'Log In | Log Out', 'admin-site-enhancements' );
+    echo esc_html__( 'Log In/Out | Register', 'admin-site-enhancements' );
     ?></label>
 					    <input id="tab-custom-code" type="radio" name="tabs"><label for="tab-custom-code"><?php 
     echo wp_kses( $icon_custom_code, get_kses_with_svg_ruleset() );
@@ -656,6 +656,7 @@ function asenha_admin_scripts(  $hook_suffix  ) {
             'mediaFrameTitle'      => __( 'Select an Image', 'admin-site-enhancements' ),
             'mediaFrameButtonText' => __( 'Use Selected Image', 'admin-site-enhancements' ),
             'resetMenuNonce'       => wp_create_nonce( 'reset-menu-nonce' ),
+            'sendTestEmailNonce'   => wp_create_nonce( 'send-test-email-nonce_' . get_current_user_id() ),
             'expandText'           => __( 'Expand', 'admin-site-enhancements' ),
             'collapseText'         => __( 'Collapse', 'admin-site-enhancements' ),
             'dataTable'            => array(
@@ -735,6 +736,9 @@ function asenha_admin_scripts(  $hook_suffix  ) {
             wp_enqueue_style( 'asenha-image-sizes-panel', ASENHA_URL . 'assets/css/image-sizes-panel.css' );
         }
     }
+    // Code Snippets Manager
+    if ( 'post' == $current_screen->base && 'asenha_code_snippet' == $current_screen->id || 'edit' == $current_screen->base && 'edit-asenha_code_snippet' == $current_screen->id ) {
+    }
     // Content Management >> Hide Admin Notices
     if ( array_key_exists( 'hide_admin_notices', $options ) && $options['hide_admin_notices'] ) {
         $hide_for_nonadmins = ( isset( $options['hide_admin_notices_for_nonadmins'] ) ? $options['hide_admin_notices_for_nonadmins'] : false );
@@ -794,13 +798,12 @@ function asenha_admin_scripts(  $hook_suffix  ) {
     $current_date = date( 'Y-m-d', time() );
     $show_support_nudge = false;
     $asenha_stats_localized = array(
-        'firstSaveDate'       => '',
-        'lastSaveDate'        => '',
-        'saveCount'           => 0,
-        'hideUpgradeNudge'    => false,
-        'hidePromoNudge'      => false,
-        'showSupportNudge'    => false,
-        'saveChangesJsonpUrl' => 'https://bowo.io/asenha-save-btn',
+        'firstSaveDate'    => '',
+        'lastSaveDate'     => '',
+        'saveCount'        => 0,
+        'hideUpgradeNudge' => false,
+        'hidePromoNudge'   => false,
+        'showSupportNudge' => false,
     );
     if ( !empty( $asenha_stats ) ) {
         $hide_upgrade_nudge = ( isset( $asenha_stats['upgrade_nudge_dismissed'] ) ? $asenha_stats['upgrade_nudge_dismissed'] : false );
@@ -853,13 +856,12 @@ function asenha_admin_scripts(  $hook_suffix  ) {
         $first_save_date = ( isset( $asenha_stats['first_save_date'] ) ? $asenha_stats['first_save_date'] : '' );
         $last_save_date = ( isset( $asenha_stats['last_save_date'] ) ? $asenha_stats['last_save_date'] : '' );
         $asenha_stats_localized = array(
-            'firstSaveDate'       => $first_save_date,
-            'lastSaveDate'        => $last_save_date,
-            'saveCount'           => $save_count,
-            'hideUpgradeNudge'    => $hide_upgrade_nudge,
-            'hidePromoNudge'      => $hide_promo_nudge,
-            'showSupportNudge'    => $show_support_nudge,
-            'saveChangesJsonpUrl' => 'https://bowo.io/asenha-save-btn',
+            'firstSaveDate'    => $first_save_date,
+            'lastSaveDate'     => $last_save_date,
+            'saveCount'        => $save_count,
+            'hideUpgradeNudge' => $hide_upgrade_nudge,
+            'hidePromoNudge'   => $hide_promo_nudge,
+            'showSupportNudge' => $show_support_nudge,
         );
     }
     wp_localize_script( 'asenha-admin-page', 'asenhaStats', $asenha_stats_localized );
@@ -901,6 +903,8 @@ function asenha_dequeue_scritps() {
         wp_dequeue_script( 'otgsPopoverTooltip' );
         // WPML String Translation
         wp_dequeue_script( 'wpml-theme-plugin-localization-scan' );
+        // Asset Cleanup
+        wp_dequeue_script( 'wpassetcleanup-script' );
     }
 }
 

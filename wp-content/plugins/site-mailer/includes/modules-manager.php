@@ -18,11 +18,12 @@ final class Manager {
 		return [
 			'Core',
 			'Connect',
-			'Webhooks',
 			'Settings',
 			'Logs',
 			'Mailer',
 			'Domain',
+			'Suppressions',
+			'Statuses',
 		];
 	}
 

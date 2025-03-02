@@ -2,14 +2,18 @@
 
 namespace SiteMailer\Modules\Settings;
 
+use Exception;
+use SiteMailer\Classes\Logger;
 use SiteMailer\Classes\Module_Base;
-use SiteMailer\Modules\Connect\Classes\Config;
-use SiteMailer\Modules\Connect\Module as Connect;
-use SiteMailer\Modules\Connect\Classes\Data;
 use SiteMailer\Classes\Utils;
+use SiteMailer\Modules\Connect\Classes\Config;
+use SiteMailer\Modules\Connect\Classes\Data;
 use SiteMailer\Modules\Connect\Classes\Utils as Connect_Utils;
-use SiteMailer\Modules\Settings\Classes\Settings;
+use SiteMailer\Modules\Connect\Module as Connect;
 use SiteMailer\Modules\Logs\Components\Log_Pull;
+use SiteMailer\Modules\Settings\Banners\Sale_Banner;
+use SiteMailer\Modules\Settings\Classes\Settings;
+use Throwable;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
@@ -21,9 +25,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 class Module extends Module_Base {
 
 
-	const SETTING_PREFIX     = 'site_mailer_';
-	const SETTING_GROUP      = 'site_mailer_settings';
-	const SETTING_BASE_SLUG  = 'site-mailer-settings';
+	const SETTING_PREFIX = 'site_mailer_';
+	const SETTING_GROUP = 'site_mailer_settings';
+	const SETTING_BASE_SLUG = 'site-mailer-settings';
 	const SETTING_CAPABILITY = 'manage_options';
 
 	/**
@@ -43,7 +47,7 @@ class Module extends Module_Base {
 		];
 	}
 
-	public static function routes_list() : array {
+	public static function routes_list(): array {
 		return [
 			'Get_Settings',
 		];
@@ -57,6 +61,7 @@ class Module extends Module_Base {
 
 	public function render_app() {
 		?>
+		<?php Sale_Banner::get_banner( 'https://go.elementor.com/sm-panel-wp-dash-upgrade-panel/' ); ?>
 		<!-- The hack required to wrap WP notifications -->
 		<div class="wrap">
 			<h1 style="display: none;" role="presentation"></h1>
@@ -78,6 +83,9 @@ class Module extends Module_Base {
 		);
 	}
 
+	/**
+	 * @throws Throwable
+	 */
 	public function maybe_add_url_mismatch_notice() {
 		if ( ! Utils::is_plugin_page() || Connect_Utils::is_valid_home_url() ) {
 			return;
@@ -99,7 +107,8 @@ class Module extends Module_Base {
 						'site-mailer'
 					); ?>
 
-					<button type="button" onclick="document.dispatchEvent( new Event( 'site-mailer/auth/url-mismatch-modal/open' ) );">
+					<button type="button"
+							onclick="document.dispatchEvent( new Event( 'site-mailer/auth/url-mismatch-modal/open' ) );">
 						<?php esc_html_e(
 							'Fix mismatched URL',
 							'site-mailer'
@@ -135,6 +144,9 @@ class Module extends Module_Base {
 		);
 	}
 
+	/**
+	 * @throws Exception
+	 */
 	public function on_connect() {
 		if ( ! Connect::is_connected() ) {
 			return;
@@ -152,16 +164,12 @@ class Module extends Module_Base {
 				'POST',
 				'site/info'
 			);
-
-			if ( ! empty( $response->site_url ) && Data::get_home_url() !== $response->site_url ) {
-				Data::set_home_url( $response->site_url );
-			}
 		}
 		if ( ! is_wp_error( $response ) ) {
 			update_option( self::SETTING_PREFIX . 'plan_data', $response );
 			update_option( Settings::IS_VALID_PLAN_DATA, true );
 		} else {
-			error_log( esc_html( $response->get_error_message() ) );
+			Logger::error( esc_html( $response->get_error_message() ) );
 			update_option( Settings::IS_VALID_PLAN_DATA, false );
 		}
 	}
@@ -172,60 +180,63 @@ class Module extends Module_Base {
 	 * Register settings for the plugin.
 	 *
 	 * @return void
+	 * @throws Throwable
 	 */
 	public function register_settings() {
 		$settings = [
-			'keep_log'                       => [
-				'type'         => 'boolean',
-				'description'  => __( 'Site Mailer Keep Log', 'site-mailer' ),
+			'keep_log' => [
+				'type' => 'boolean',
 			],
-			'close_post_connect_modal'       => [
-				'type'         => 'boolean',
-				'description'  => __( 'Site Mailer Close Post Connect Modal', 'site-mailer' ),
+			'unsubscribe' => [
+				'type' => 'boolean',
 			],
-			'from_name'                      => [
-				'type'         => 'string',
-				'description'  => __( 'Site Mailer From Email', 'site-mailer' ),
+			'close_post_connect_modal' => [
+				'type' => 'boolean',
+				'description' => _x( 'Site Mailer Close Post Connect Modal', 'Descrption for API usage. no need to translate', 'site-mailer' ),
 			],
-			'reply_to_email'                 => [
-				'type'         => 'string',
-				'description'  => __( 'Site Mailer Reply Email', 'site-mailer' ),
+			'from_name' => [
+				'type' => 'string',
+				'description' => _x( 'Site Mailer From Email', 'Descrption for API usage. no need to translate', 'site-mailer' ),
 			],
-			'sender_domain'                  => [
-				'type'         => 'string',
-				'description'  => __( 'Site Mailer Sender Domain', 'site-mailer' ),
+			'reply_to_email' => [
+				'type' => 'string',
+				'description' => _x( 'Site Mailer Reply Email', 'Descrption for API usage. no need to translate', 'site-mailer' ),
 			],
-			'sender_email_prefix'            => [
-				'type'         => 'string',
-				'description'  => __( 'Site Mailer Sender Mail Prefix', 'site-mailer' ),
+			'sender_domain' => [
+				'type' => 'string',
+				'description' => _x( 'Site Mailer Sender Domain', 'Descrption for API usage. no need to translate', 'site-mailer' ),
 			],
-			'custom_domain_dns_records'      => [
-				'type'         => 'string',
-				'description'  => __( 'Site Mailer custom domain DNS records', 'site-mailer' ),
+			'sender_email_prefix' => [
+				'type' => 'string',
+				'description' => _x( 'Site Mailer Sender Mail Prefix', 'Descrption for API usage. no need to translate', 'site-mailer' ),
 			],
-			'verification_started'           => [
-				'type'         => 'boolean',
+			'custom_domain_dns_records' => [
+				'type' => 'string',
+				'description' => _x( 'Site Mailer custom domain DNS records', 'Descrption for API usage. no need to translate', 'site-mailer' ),
 			],
-			'registration_started'           => [
-				'type'         => 'boolean',
+			'verification_started' => [
+				'type' => 'boolean',
+			],
+			'registration_started' => [
+				'type' => 'boolean',
 			],
 			'confirm_domain_settings_opened' => [
-				'type'         => 'boolean',
+				'type' => 'boolean',
 			],
-			'confirm_dns_settings_added'     => [
-				'type'         => 'boolean',
+			'confirm_dns_settings_added' => [
+				'type' => 'boolean',
 			],
-			'active_step'                    => [
-				'type'         => 'boolean',
+			'active_step' => [
+				'type' => 'boolean',
 			],
-			'custom_domain_verified'         => [
-				'type'         => 'boolean',
+			'custom_domain_verified' => [
+				'type' => 'boolean',
 			],
-			'custom_domain_verified_alert'   => [
-				'type'         => 'boolean',
+			'custom_domain_verified_alert' => [
+				'type' => 'boolean',
 			],
 			'custom_domain_verification_start_time' => [
-				'type'         => 'string',
+				'type' => 'string',
 			],
 			'is_valid_plan_data' => [
 				'type' => 'boolean',
@@ -250,8 +261,8 @@ class Module extends Module_Base {
 	 * @return string
 	 */
 	public static function get_sender_email(): string {
-		$settings    = Settings::get( Settings::PLAN_DATA );
-		$sender_in_used    = Settings::get( Settings::SENDER_EMAIL_PREFIX );
+		$settings = Settings::get( Settings::PLAN_DATA );
+		$sender_in_used = Settings::get( Settings::SENDER_EMAIL_PREFIX );
 		$sender_mail = '';
 		$domain_verified = 'verified' === Settings::get( Settings::CUSTOM_DOMAIN_VERIFICATION_STATUS );
 
@@ -289,13 +300,42 @@ class Module extends Module_Base {
 		if ( ( ! empty( $email ) && ! is_email( $email ) ) || empty( $email ) ) {
 			return get_bloginfo( 'admin_email' );
 		}
+
 		return $email;
+	}
+
+	/**
+	 * Get unsubscribe encryption key
+	 *
+	 * @return array|bool
+	 */
+	public static function get_unsubscribe_encryption_data(): array {
+		if ( ! function_exists( 'openssl_encrypt' ) ) {
+			Logger::error( 'the openssl extension is not installed in the environment' );
+
+			return false;
+		}
+		$data = Settings::get( Settings::UNSUBSCRIBE_ENCRYPTION_DATA );
+		if ( ! $data ) {
+			$cipher = 'aes128';
+			$iv_length = openssl_cipher_iv_length( $cipher );
+			$iv = openssl_random_pseudo_bytes( $iv_length );
+			$data = [
+				'key' => wp_generate_uuid4(),
+				'cipher' => $cipher,
+				'iv' => base64_encode( $iv ),
+			];
+			update_option( Settings::UNSUBSCRIBE_ENCRYPTION_DATA, $data );
+		}
+
+		return $data;
 	}
 
 	/**
 	 * Refresh plan data when the settings page is loaded.
 	 *
 	 * @return void
+	 * @throws Throwable
 	 */
 	public static function refresh_plan_data() {
 		$response = Utils::get_api_client()->make_request(
@@ -303,21 +343,18 @@ class Module extends Module_Base {
 			'site/info'
 		);
 
-		if ( ! empty( $response->site_url ) && Data::get_home_url() !== $response->site_url ) {
-			Data::set_home_url( $response->site_url );
-		}
-
 		if ( ! is_wp_error( $response ) ) {
 			update_option( self::SETTING_PREFIX . 'plan_data', $response );
 			update_option( Settings::IS_VALID_PLAN_DATA, true );
 		} else {
-			error_log( esc_html( $response->get_error_message() ) );
+			Logger::error( esc_html( $response->get_error_message() ) );
 			update_option( Settings::IS_VALID_PLAN_DATA, false );
 		}
 	}
 
 	public static function clear_settings_cache() {
 		wp_cache_delete( Settings::KEEP_LOG, 'option' );
+		wp_cache_delete( Settings::UNSUBSCRIBE, 'option' );
 		wp_cache_delete( Settings::CLOSE_POST_CONNECT_MODAL, 'option' );
 		wp_cache_delete( Settings::PLAN_DATA, 'option' );
 		wp_cache_delete( Settings::SENDER_EMAIL_PREFIX, 'option' );
@@ -338,30 +375,33 @@ class Module extends Module_Base {
 	/**
 	 * Get all plugin settings data
 	 * @return array
+	 * @throws Throwable
 	 */
 	public static function get_plugin_settings(): array {
 		self::refresh_plan_data();
 		self::clear_settings_cache();
 
 		return [
-			'isConnected'            => Connect::is_connected(),
-			'isUrlMismatch'          => ! Connect_Utils::is_valid_home_url(),
-			'subscriptionId'         => Data::get_subscription_id(),
-			'keepLog'                => Settings::get( Settings::KEEP_LOG ),
-			'isDevelopment'          => defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG,
-			'siteUrl'                => wp_parse_url( get_site_url(), PHP_URL_HOST ),
-			'closePostConnectModal'  => Settings::get( Settings::CLOSE_POST_CONNECT_MODAL ),
-			'senderEmail'            => self::get_sender_email() ?? '',
-			'fromName'               => self::get_sender_from_name(),
-			'replyToEmail'           => self::get_sender_reply_email(),
-			'settings'               => Settings::get( Settings::PLAN_DATA ),
+			'isConnected' => Connect::is_connected(),
+			'isUrlMismatch' => ! Connect_Utils::is_valid_home_url(),
+			'subscriptionId' => Data::get_subscription_id(),
+			'keepLog' => Settings::get( Settings::KEEP_LOG ),
+			'unsubscribe' => Settings::get( Settings::UNSUBSCRIBE ),
+			'isDevelopment' => defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG,
+			'siteUrl' => wp_parse_url( get_site_url(), PHP_URL_HOST ),
+			'closePostConnectModal' => Settings::get( Settings::CLOSE_POST_CONNECT_MODAL ),
+			'senderEmail' => self::get_sender_email() ?? '',
+			'fromName' => self::get_sender_from_name(),
+			'replyToEmail' => self::get_sender_reply_email(),
+			'settings' => Settings::get( Settings::PLAN_DATA ),
 			'customDomainDNSRecords' => Settings::get( Settings::CUSTOM_DOMAIN_DNS_RECORDS ),
-			'verificationStatus'     => Settings::get( Settings::CUSTOM_DOMAIN_VERIFICATION_STATUS ),
-			'verificationRecords'    => Settings::get( Settings::CUSTOM_DOMAIN_VERIFICATION_RECORDS ),
-			'verificationStartTime'  => Settings::get( Settings::CUSTOM_DOMAIN_VERIFICATION_START_TIME ), //TODO: check use of this
-			'isValidPlanData'        => Settings::get( Settings::IS_VALID_PLAN_DATA ),
+			'verificationStatus' => Settings::get( Settings::CUSTOM_DOMAIN_VERIFICATION_STATUS ),
+			'verificationRecords' => Settings::get( Settings::CUSTOM_DOMAIN_VERIFICATION_RECORDS ),
+			'verificationStartTime' => Settings::get( Settings::CUSTOM_DOMAIN_VERIFICATION_START_TIME ),
+			//TODO: check use of this
+			'isValidPlanData' => Settings::get( Settings::IS_VALID_PLAN_DATA ),
 			'isRTL' => is_rtl(),
-			'lastLogRefresh'         => Log_Pull::check_refresh_time(),
+			'lastLogRefresh' => Log_Pull::check_refresh_time(),
 		];
 	}
 
@@ -369,9 +409,9 @@ class Module extends Module_Base {
 		$this->register_routes();
 		$this->register_components( self::component_list() );
 
-		add_action('current_screen', function () {
+		add_action( 'current_screen', function () {
 			add_action( 'admin_notices', [ $this, 'maybe_add_url_mismatch_notice' ] );
-		});
+		} );
 
 		add_action( 'admin_menu', [ $this, 'register_page' ] );
 		add_action( 'in_admin_header', [ $this, 'render_top_bar' ] );

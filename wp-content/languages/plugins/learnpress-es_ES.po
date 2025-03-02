@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - LearnPress &#8211; WordPress LMS Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-11 23:39+0000\n"
+"PO-Revision-Date: 2025-01-27 18:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,7 @@ msgstr ""
 "POT-Creation-Date: 2024-12-11 23:30+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español\n"
-"X-Loco-Version: 2.6.11; wp-6.7"
+"X-Loco-Version: 2.6.11; wp-6.7.1"
 
 #: inc/TemplateHooks/Course/SingleCourseOfflineTemplate.php:181
 msgid "Capacity"
@@ -1138,7 +1138,7 @@ msgstr "Has empezado:"
 
 #: templates/single-course/buttons/retry.php:25
 msgid "Do you want to retake the course"
-msgstr "¿Quieres retomar el curso?"
+msgstr "¿Quieres retomar el curso"
 
 #: templates/single-course/buttons/enroll.php:28
 msgid "Start Now"
@@ -1287,7 +1287,7 @@ msgstr "Has completado esta lección en "
 
 #: templates/content-lesson/button-complete.php:22
 msgid "Do you want to complete the lesson"
-msgstr "¿Quieres completar la lección?"
+msgstr "¿Quieres completar la lección"
 
 #: config/settings/gateway/paypal.php:30
 msgid "Enable PayPal sandbox"

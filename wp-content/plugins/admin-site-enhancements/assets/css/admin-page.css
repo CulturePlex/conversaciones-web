@@ -956,6 +956,10 @@ a.asenha-support-nudge-dismiss:hover,
     display: block;
 }
 
+.smtp-email-delivery .asenha-subfield-radio-button-wrapper {
+    margin-top: 6px;
+}
+
 .asenha-subfield-description {
     display: block;
 }
@@ -967,6 +971,7 @@ a.asenha-support-nudge-dismiss:hover,
 .form-table .asenha-subfields td:not(.datatable-td) label {
     position: relative;
     top: -2px;
+    text-align: left;
 }
 
 .form-table .asenha-subfields .with-description td:not(.datatable-td) label.asenha-subfield-checkbox-label {

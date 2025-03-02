@@ -22,7 +22,7 @@ class Quota_Exhausted_Banner {
 		$plan_data = get_option( 'site_mailer_plan_data' );
 
 		// Return if plan data is not available
-		if ( $plan_data === false ) {
+		if ( false === $plan_data ) {
 			return;
 		}
 
@@ -35,7 +35,7 @@ class Quota_Exhausted_Banner {
 		$quota_used = (int) ( $plan_data->plan->quota->used / $plan_data->plan->quota->allowed ) * 100;
 
 		// Return if quota used is not 100%
-		if ( $quota_used !== 100 ) {
+		if ( 100 !== $quota_used ) {
 			return;
 		}
 
@@ -63,9 +63,7 @@ class Quota_Exhausted_Banner {
 				); ?>
 			</p>
 			<p class="sub-heading">
-				<?php 
-				esc_html_e( $message ); 
-				?>
+				<?php echo esc_html( $message ); ?>
 			</p>
 			<a style="display: inline-block;background:#93003f;padding: 5px 16px;border-radius: 3px;color: #fff; text-decoration:none;"
 			href="https://go.elementor.com/sm-trialend-notice/">

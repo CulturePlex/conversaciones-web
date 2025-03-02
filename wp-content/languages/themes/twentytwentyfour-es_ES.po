@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Four package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-16 15:10:46+0000\n"
+"PO-Revision-Date: 2024-11-13 07:26:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,6 +23,16 @@ msgstr "Twenty Twenty-Four está diseñado para ser flexible, versátil y aplica
 msgid "Twenty Twenty-Four"
 msgstr "Twenty Twenty-Four"
 
+#: patterns/text-centered-statement.php
+msgctxt "Pattern description"
+msgid "A centered text statement with a large amount of padding on all sides."
+msgstr "Una declaración de texto centrada con una gran cantidad de relleno en todos los lados."
+
+#: patterns/hidden-posts-heading.php
+msgctxt "Pattern title"
+msgid "Posts heading"
+msgstr "Encabezado de las entradas"
+
 #: patterns/text-title-left-image-right.php
 msgctxt "Pattern description"
 msgid "A title, a paragraph and a CTA button on the left with an image on the right."
@@ -30,7 +40,7 @@ msgstr "Un título, un párrafo y un botón de llamada a la acción a la izquier
 
 #: patterns/text-project-details.php
 msgctxt "Pattern description"
-msgid "A text only section for project details."
+msgid "A text-only section for project details."
 msgstr "Una sección solo de texto para los detalles del proyecto."
 
 #: patterns/text-feature-grid-3-col.php
@@ -45,28 +55,23 @@ msgstr "¿Quién está tras Études?"
 
 #: patterns/text-faq.php
 msgctxt "Pattern description"
-msgid "A FAQ section with a large FAQ heading and list of toggle questions and answers."
-msgstr "Una sección de preguntas frecuentes con un encabezado de FAQ grande y una lista conmutable de preguntas y respuestas."
-
-#: patterns/text-centered-statement.php
-msgctxt "Pattern description"
-msgid "A centered text statement with a large paddings."
-msgstr "Una declaración de texto centrada con un gran relleno."
+msgid "A FAQ section with a large FAQ heading and a group of questions and answers."
+msgstr "Una sección de FAQ con un encabezado grande de FAQ y un grupo de preguntas y respuestas."
 
 #: patterns/text-centered-statement-small.php
 msgctxt "Pattern description"
-msgid "A centered itallic text statement with compact padding."
-msgstr "Una declaración de texto en cursiva centrada con relleno compacto."
+msgid "A centered italic text statement with compact padding."
+msgstr "Una declaración centrada de texto en cursiva con relleno compacto."
 
 #: patterns/text-alternating-images.php
 msgctxt "Pattern description"
-msgid "A text section, then a two column section with text in one and image in another."
-msgstr "Una sección de texto, luego una sección de dos columnas con texto en una e imagen en otra."
+msgid "A text section, then a two-column section with text in one column and an image in the other."
+msgstr "Una sección de texto, luego una sección de dos columnas con texto en una y una imagen en la otra."
 
 #: patterns/testimonial-centered.php
 msgctxt "Pattern description"
-msgid "A centered testimonial section with a avatar, name, and job title."
-msgstr "Una sección de testimonios centrada con un avatar, nombre y cargo."
+msgid "A centered testimonial section with an avatar, name, and job title."
+msgstr "Una sección centrada de recomendaciones con un avatar, nombre y cargo."
 
 #: patterns/team-4-col.php
 msgctxt "Pattern description"
@@ -120,8 +125,8 @@ msgstr "Una página de inicio de porfolio con una descripción y una sección de
 
 #: patterns/page-home-portfolio-gallery.php
 msgctxt "Pattern description"
-msgid "A porfolio home page that features a gallery."
-msgstr "Una página de inicio de porfolio que incluye una galería."
+msgid "A portfolio home page that features a gallery."
+msgstr "Una página de inicio de porfolio que destaca una galería."
 
 #: patterns/page-home-business.php
 msgctxt "Pattern description"
@@ -1306,6 +1311,7 @@ msgid "Previous: "
 msgstr "Anterior: "
 
 #: patterns/hidden-post-navigation.php:9 patterns/hidden-post-navigation.php:10
+#: patterns/hidden-posts-heading.php:10
 #: patterns/template-index-portfolio.php:16
 msgid "Posts"
 msgstr "Entradas"

@@ -4,6 +4,7 @@ namespace SiteMailer\Modules\Logs\Rest;
 
 use SiteMailer\Modules\Logs\Classes\Route_Base;
 use SiteMailer\Modules\Logs\Database\Log_Entry;
+use SiteMailer\Modules\Statuses\Database\Status_Entry;
 use Throwable;
 use WP_Error;
 use WP_REST_Request;
@@ -30,12 +31,6 @@ class Delete_Logs extends Route_Base {
 	 *
 	 * @return WP_Error|WP_REST_Response
 	 *
-	 * @query {
-	 *     require numeric 0 < $limit < 100
-	 *     require numeric $page
-	 *     string $orderBy
-	 *     string $order
-	 * }
 	 */
 	public function DELETE( WP_REST_Request $request ) {
 		try {
@@ -46,7 +41,9 @@ class Delete_Logs extends Route_Base {
 			}
 
 			$ids = $request->get_json_params();
+
 			Log_Entry::delete_logs( $ids );
+			Status_Entry::delete_statuses( $ids );
 
 			return $this->respond_success_json();
 		} catch ( Throwable $t ) {

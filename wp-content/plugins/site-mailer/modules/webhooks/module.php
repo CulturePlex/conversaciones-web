@@ -19,7 +19,7 @@ class Module extends Module_Base {
 	 * @access public
 	 * @return string Module name.
 	 */
-	public function get_name() {
+	public function get_name(): string {
 		return 'webhooks';
 	}
 

@@ -22,9 +22,9 @@ class Not_Connected {
 			 data-notice-slug="<?php echo esc_attr( self::NOT_CONNECTED_NOTICE_SLUG ); ?>">
 			<div class="site-mailer__icon-block">
 				<svg width="32" height="32" fill="none" role="presentation">
-				<g clipPath="url(#clip0_5917_59556)">
+				<g clip-path="url(#clip0_5917_59556)">
 				<circle cx="16" cy="16" r="16" fill="#FF7BE5" />
-				<path fillRule="evenodd" clipRule="evenodd" d="M15.9452 7.70649C15.9805 7.69159 16.0203 7.69159 16.0556 7.70649L26.0368 11.9176C26.337 12.0442 26.532 12.3383 26.532 12.664V23.899C26.532 24.1221 26.3507 24.3029 26.127 24.3029H5.87381C5.6501 24.3029 5.46875 24.1221 5.46875 23.899V12.1673L16.0004 15.7966L19.4434 15.2903L16.0004 17.0118V24.1952C16.0004 24.2326 16.0468 24.25 16.0714 24.2218L26.1924 12.6549C26.3643 12.4585 26.2248 12.1511 25.9638 12.1511L5.46875 12.1511V12.1266L15.9452 7.70649Z" fill="white" />
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M15.9452 7.70649C15.9805 7.69159 16.0203 7.69159 16.0556 7.70649L26.0368 11.9176C26.337 12.0442 26.532 12.3383 26.532 12.664V23.899C26.532 24.1221 26.3507 24.3029 26.127 24.3029H5.87381C5.6501 24.3029 5.46875 24.1221 5.46875 23.899V12.1673L16.0004 15.7966L19.4434 15.2903L16.0004 17.0118V24.1952C16.0004 24.2326 16.0468 24.25 16.0714 24.2218L26.1924 12.6549C26.3643 12.4585 26.2248 12.1511 25.9638 12.1511L5.46875 12.1511V12.1266L15.9452 7.70649Z" fill="white" />
 			</g>
 			<defs>
 				<clipPath id="clip0_5917_59556">
@@ -41,7 +41,7 @@ class Not_Connected {
 						'site-mailer'
 					); ?>
 				</b>
-					<a href="<?php echo admin_url( 'options-general.php?page=' . \SiteMailer\Modules\Settings\Module::SETTING_BASE_SLUG ); ?>">
+					<a href="<?php echo esc_url( admin_url( 'options-general.php?page=' . \SiteMailer\Modules\Settings\Module::SETTING_BASE_SLUG ) ); ?>">
 						<?php esc_html_e(
 							'Connect now',
 							'site-mailer'
@@ -94,7 +94,7 @@ class Not_Connected {
 		if ( Pointers::is_dismissed( self::NOT_CONNECTED_NOTICE_SLUG ) ) {
 			return;
 		}
-		
+
 		wp_enqueue_style(
 			'site-mailer-notice',
 			\SITE_MAILER_ASSETS_URL . 'css/notice.css',

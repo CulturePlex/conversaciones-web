@@ -13,6 +13,8 @@ class Settings {
 	public const CUSTOM_DOMAIN_VERIFICATION_STATUS = 'site_mailer_verification_status';
 	public const CUSTOM_DOMAIN_VERIFICATION_RECORDS = 'site_mailer_verification_records';
 	public const KEEP_LOG = 'site_mailer_keep_log';
+	public const UNSUBSCRIBE = 'site_mailer_unsubscribe';
+	public const UNSUBSCRIBE_ENCRYPTION_DATA = 'site_mailer_unsubscribe_encryption_data';
 	public const PLAN_DATA = 'site_mailer_plan_data';
 	public const CLOSE_POST_CONNECT_MODAL = 'site_mailer_close_post_connect_modal';
 	public const IS_VALID_PLAN_DATA = 'site_mailer_is_valid_plan_data';

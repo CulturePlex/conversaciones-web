@@ -36,7 +36,6 @@ class Module extends Module_Base {
 		return [
 			'Get_Logs',
 			'Delete_Logs',
-			'Get_Stats',
 			'Refresh_Statuses',
 		];
 	}

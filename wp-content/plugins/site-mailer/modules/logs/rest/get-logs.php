@@ -5,6 +5,7 @@ namespace SiteMailer\Modules\Logs\Rest;
 use SiteMailer\Modules\Logs\Classes\Route_Base;
 use SiteMailer\Modules\Logs\Database\Log_Entry;
 use SiteMailer\Modules\Logs\Database\Logs_Table;
+use SiteMailer\Modules\Statuses\Database\Statuses_Table;
 use Throwable;
 use WP_Error;
 use WP_REST_Request;
@@ -55,33 +56,26 @@ class Get_Logs extends Route_Base {
 			//Set offset
 			$offset = ( $params['page'] - 1 ) * $params['limit'];
 
-			// Set order/default order
-			$order = $params['orderBy'] && $params['order']
-				? [ '`' . $params['orderBy'] . '`' => $params['order'] ]
-				: [ Logs_Table::CREATED_AT => 'DESC' ];
-
 			// Add period
 			$where = $params['period'] ? [
 				[
-					'column' => 'created_at',
+					'column' => Logs_Table::table_name() . '.created_at',
 					'value' => $params['period'],
 					'operator' => '>',
 				],
 			] : '1';
 
-			$logs = Log_Entry::get_logs(
-				'`id`, `api_id`, `subject`, `message`, `to`, `headers`, `source`, `status`, `opened`, `created_at`',
-				$where,
-				$limit,
-				$offset,
-				'',
-				$order,
-			);
+			// Set order/default order
+			$order_by = $params['orderBy'] && $params['order']
+				? [ Logs_Table::table_name() . '.' . $params['orderBy'] => $params['order'] ]
+				: [ Logs_Table::table_name() . '.created_at' => 'DESC' ];
+
+			$logs = Log_Entry::get_logs( $where, $limit, $offset, $order_by );
 
 			$total = Log_Entry::get_logs_count( $where );
 
 			return $this->respond_success_json( [
-				'logs'  => $logs,
+				'items'  => $logs,
 				'total' => $total[0]->count,
 			]);
 		} catch ( Throwable $t ) {

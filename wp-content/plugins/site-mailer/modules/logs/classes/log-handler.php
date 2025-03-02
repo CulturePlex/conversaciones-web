@@ -3,8 +3,11 @@
 namespace SiteMailer\Modules\Logs\Classes;
 
 use Exception;
+use SiteMailer\Classes\Logger;
 use SiteMailer\Classes\Services\Client;
 use SiteMailer\Modules\Logs\Database\Log_Entry;
+use SiteMailer\Modules\Statuses\Database\Status_Entry;
+use Throwable;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -55,16 +58,10 @@ class Log_Handler {
 	 */
 	public static function update_log( string $log_id, $retry = 1 ): void {
 		try {
-			$status = self::get_log_status( $log_id );
-			if ( Log_Entry::validate_status( $status ) ) {
-				Log_Entry::patch_log( $log_id, $status );
-			}
-			// Check for opened email status
-			if ( 'open' === $status ) {
-				Log_Entry::set_log_opened( $log_id );
-			}
-		} catch ( Exception $e ) {
-			// TODO Add logger for errors
+			$response = self::get_log_status( $log_id );
+			//TODO: Add logic for webhook if needed (removed unused legacy logic)
+		} catch ( Throwable $t ) {
+			Logger::error( $t );
 
 			// Retry get log status 3 times
 			if ( $retry < 4 ) {
@@ -99,6 +96,7 @@ class Log_Handler {
 	 */
 	public static function remove_expired_logs() {
 		Log_Entry::delete_expired_logs();
+		Status_Entry::delete_expired_statuses();
 	}
 
 	/**

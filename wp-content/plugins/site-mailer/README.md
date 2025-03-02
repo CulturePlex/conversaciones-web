@@ -3,16 +3,16 @@
 **Contributors:** elemntor \
 **Tags:** email, email log, SMTP, email API, sender \
 **Requires at least:** 6.3 \
-**Tested up to:** 6.6 \
+**Tested up to:** 6.7 \
 **Requires PHP:** 7.4 \
-**Stable tag:** 1.1.0 \
+**Stable tag:** 1.2.3 \
 **License:** GPL-3 \
 **License URI:** https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Effortlessly manage transactional emails with Site Mailer. High deliverability, logs and statistics, and no SMTP plugins needed.
 
 ## Description
-
+[![ISite Mailer intro video](https://img.youtube.com/vi/1hOxkEO-22I/0.jpg)](https://www.youtube.com/watch?v=1hOxkEO-22I)
 https://www.youtube.com/watch?v=1hOxkEO-22I
 
 Has your WordPress site stopped sending emails? Are emails from your WordPress site landing in spam or not getting delivered? Are customers complaining about missing messages?
@@ -59,6 +59,10 @@ Send a test email to confirm your site is properly configured for seamless trans
 
 Did an email fail to deliver? Easily resend it with a single click to ensure your message reaches its intended recipient.
 
+### Suppression List
+
+Enable easy unsubscribe options for your emails. Track and manage all unsubscribed recipients directly in the Suppressions tab.
+
 == Benefits ==
 
 * **No Integration Needed**: Use Site Mailer without the need for additional plugins or integrations.
@@ -90,7 +94,6 @@ This plugin uses a 3rd party service operated by Elementor, which accepts Email 
 3. Go to the Site Mailer tab within the Settings menu.
 4. Press the ‘Connect’ button and follow the instructions.
 
-
 ## Frequently Asked Questions
 
 ### How does the Site Mailer plugin work?
@@ -117,32 +120,60 @@ Using the PHP mail() function can cause issues with email deliverability and sec
 
 Yes, the Elementor team offers full support for Site Mailer questions. You can contact us via our [Contact Page](https://go.elementor.com/wp-repo-wp-dash-sm-contact-us/)
 
+### How can I report security bugs?
+
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability](https://patchstack.com/database/vdp/site-mailer).
+
 ## Screenshots
 
 ### 1. Dashboard – Email sending activity, including total emails sent, delivery and open rates, and failed emails.
 
-![Dashboard – Email sending activity, including total emails sent, delivery and open rates, and failed emails.](./wporg-assets/screenshot-1.png)
+![Dashboard – Email sending activity, including total emails sent, delivery and open rates, and failed emails.](https://ps.w.org/site-mailer/assets/screenshot-1.png)
 
 ### 2. Email setup complete in one click – Your site is now ready to send emails using a default sender.
 
-![Email setup complete in one click – Your site is now ready to send emails using a default sender.](./wporg-assets/screenshot-2.png)
+![Email setup complete in one click – Your site is now ready to send emails using a default sender.](https://ps.w.org/site-mailer/assets/screenshot-2.png)
 
 ### 3. Settings- configure your sender details. You can add a custom domain, send test emails, and save content for future resends.
 
-![Settings- configure your sender details. You can add a custom domain, send test emails, and save content for future resends.](./wporg-assets/screenshot-3.png)
+![Settings- configure your sender details. You can add a custom domain, send test emails, and save content for future resends.](https://ps.w.org/site-mailer/assets/screenshot-3.png)
 
 ### 4. Custom Domain Authentication Wizard - Guides you through adding a custom domain - 1.
 
-![Custom Domain Authentication Wizard - Guides you through adding a custom domain - 1.](./wporg-assets/screenshot-4.png)
+![Custom Domain Authentication Wizard - Guides you through adding a custom domain - 1.](https://ps.w.org/site-mailer/assets/screenshot-4.png)
 
 ### 5. Custom Domain Authentication Wizard - Guides you through adding a custom domain - 2.
 
-![Custom Domain Authentication Wizard - Guides you through adding a custom domain - 2.](./wporg-assets/screenshot-5.png)
+![Custom Domain Authentication Wizard - Guides you through adding a custom domain - 2.](https://ps.w.org/site-mailer/assets/screenshot-5.png)
 
 
 ## Changelog
 
-### 1.1.0 2024-22-10
+### 1.2.3 2024-02-04
+
+* Fix: Resend not working in some cases
+
+### 1.2.2 2024-02-03
+
+* Tweak: Fallback to native `wp_mail` on error
+* Fix: Statistics incorrect count when deleting logs
+* Fix: Connect refresh token stuck in edge cases
+* Fix: Connect mismatch when home url is not site url
+
+### 1.2.1 2024-11-28
+
+* Fix: Some strings are not translatable
+* Fix: RTL issue in certain scenarios
+
+### 1.2.0 2024-11-19
+
+* New: Added support for `List-Unsubscribe` headers
+* New: Added suppressions management interface
+* New: Added statuses for multiple recipients in email logs
+* Tweak: Some logs table UI corrections
+* Fix: Settings crashes when the "To" field is null in email logs
+
+### 1.1.0 2024-10-22
 
 * Tweak: Refactor settings module for easier maintenance.
 * Tweak: Only send if email is valid.
@@ -152,8 +183,7 @@ Yes, the Elementor team offers full support for Site Mailer questions. You can c
 * Fix: Incorrect direction of some components in RTL.
 * Fix: Firefox not displaying connect illustration correctly.
 
-
-### 1.0.1- 2024-08-10
+### 1.0.1- 2024-10-08
 
 * New: Connect helper for users that are not connected
 * New: Added 100% quota reached notice for admin pages
@@ -166,8 +196,7 @@ Yes, the Elementor team offers full support for Site Mailer questions. You can c
 * Fix: Refresh token error and reconnect
 * Fix: Support multiple recipients emails
 
-
-### 1.0.0- 2024-25-09
+### 1.0.0- 2024-09-25
 
 * New: Added option to see full email on hover in logs.
 * New: Added a popup to show warning when plan data is not available.
@@ -185,7 +214,6 @@ Yes, the Elementor team offers full support for Site Mailer questions. You can c
 * Fix: UI jumps when pressing navigating between tabs.
 * Fix: Custom domain prefix overriding default sender in edge cases.
 
-
-### 0.0.1- 2024-16-09
+### 0.0.1- 2024-09-16
 
 * Initial release

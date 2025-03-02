@@ -194,12 +194,15 @@ class Admin_Site_Enhancements {
                 3
             );
             add_filter( 'wp_calculate_image_srcset', [$svg_upload, 'disable_svg_srcset'] );
-            add_filter(
-                'wp_calculate_image_sizes',
-                [$svg_upload, 'remove_svg_responsive_image_attr'],
-                10,
-                3
-            );
+            if ( !in_array( 'auto-sizes/auto-sizes.php', get_option( 'active_plugins', array() ) ) ) {
+                // Only add this filter when https://wordpress.org/plugins/auto-sizes/ is not active to prevent PHP deprecation notice
+                add_filter(
+                    'wp_calculate_image_sizes',
+                    [$svg_upload, 'remove_svg_responsive_image_attr'],
+                    10,
+                    3
+                );
+            }
             add_action( 'wp_ajax_svg_get_attachment_url', [$svg_upload, 'get_svg_attachment_url'] );
             add_filter( 'wp_prepare_attachment_for_js', [$svg_upload, 'get_svg_url_in_media_library'] );
         }
@@ -266,6 +269,9 @@ class Admin_Site_Enhancements {
         if ( array_key_exists( 'external_links_new_tab', $options ) && $options['external_links_new_tab'] ) {
             $open_external_links_in_new_tab = new ASENHA\Classes\Open_External_Links_In_New_Tab();
             add_filter( 'the_content', [$open_external_links_in_new_tab, 'add_target_and_rel_atts_to_content_links'] );
+            if ( in_array( 'elementor/elementor.php', get_option( 'active_plugins', array() ) ) ) {
+                add_filter( 'elementor/frontend/the_content', [ $open_external_links_in_new_tab,'add_target_and_rel_atts_to_content_links'] );
+            }
         }
         // Allow Custom Menu Links to Open in New Tab
         if ( array_key_exists( 'custom_nav_menu_items_new_tab', $options ) && $options['custom_nav_menu_items_new_tab'] ) {
@@ -520,7 +526,7 @@ class Admin_Site_Enhancements {
             add_filter( 'wp_setup_nav_menu_item', [$login_logout_menu, 'set_login_logout_menu_item_dynamic_url'] );
             add_filter( 'wp_nav_menu_objects', [$login_logout_menu, 'maybe_remove_login_or_logout_menu_item'] );
         }
-        // Enable Last Login Column
+        // Last Login Column
         if ( array_key_exists( 'enable_last_login_column', $options ) && $options['enable_last_login_column'] ) {
             $last_login_column = new ASENHA\Classes\Last_Login_Column();
             add_action(
@@ -538,6 +544,17 @@ class Admin_Site_Enhancements {
                 3
             );
             add_action( 'admin_print_styles-users.php', [$last_login_column, 'add_column_style'] );
+        }
+        // Registration Date Column
+        if ( array_key_exists( 'registration_date_column', $options ) && $options['registration_date_column'] ) {
+            $registration_date_column = new ASENHA\Classes\Registration_Date_Column();
+            add_filter( 'manage_users_columns', [$registration_date_column, 'add_registration_date_column'] );
+            add_filter(
+                'manage_users_custom_column',
+                [$registration_date_column, 'display_registration_date'],
+                10,
+                3
+            );
         }
         // Redirect After Login
         if ( array_key_exists( 'redirect_after_login', $options ) && $options['redirect_after_login'] ) {
@@ -623,7 +640,7 @@ class Admin_Site_Enhancements {
             add_filter(
                 'robots_txt',
                 [$manage_robots_txt, 'maybe_show_custom_robots_txt_content'],
-                10,
+                PHP_INT_MAX,
                 2
             );
         }
@@ -992,6 +1009,7 @@ class Admin_Site_Enhancements {
             add_action( 'admin_bar_menu', [$view_admin_as_role, 'view_admin_as_admin_bar_menu'], 8 );
             // Priority 8 so it is next to username section
             add_action( 'init', [$view_admin_as_role, 'role_switcher_to_view_admin_as'] );
+            add_action( 'profile_update', [$view_admin_as_role, 'maybe_prevent_switchback_to_administrator'], 20 );
             // add_action( 'wp_die_handler', [ $view_admin_as_role, 'custom_error_page_on_switch_failure' ] );
             add_action( 'admin_footer', [$view_admin_as_role, 'add_floating_reset_button'] );
         }
@@ -1022,6 +1040,7 @@ class Admin_Site_Enhancements {
         }
         // Display System Summary
         if ( array_key_exists( 'display_system_summary', $options ) && $options['display_system_summary'] ) {
+            // require_once ASENHA_PATH . 'includes/premium/display-system-summary/ignore-directories.php';
             $display_system_summary = new ASENHA\Classes\Display_System_Summary();
             add_action( 'rightnow_end', [$display_system_summary, 'display_system_summary'] );
         }

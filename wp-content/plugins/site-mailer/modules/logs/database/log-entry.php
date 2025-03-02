@@ -3,6 +3,7 @@
 namespace SiteMailer\Modules\Logs\Database;
 
 use SiteMailer\Classes\Database\Entry;
+use SiteMailer\Modules\Statuses\Database\Statuses_Table;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -30,33 +31,39 @@ class Log_Entry extends Entry {
 	}
 
 	/**
-	 * @param string $status
-	 *
-	 * @return bool
-	 */
-	public static function validate_status( string $status ): bool {
-		return in_array( $status, Logs_Table::LOG_STATUSES, true );
-	}
-
-	/**
-	 * @param string $fields
 	 * @param string | array $where
-	 * @param number $limit
-	 * @param number $offset
-	 * @param string $join
+	 * @param null $limit
+	 * @param null $offset
 	 * @param array $order_by
 	 *
 	 * @return array
 	 */
 	public static function get_logs(
-		string $fields = '*',
 		$where = '1',
 		$limit = null,
 		$offset = null,
-		string $join = '',
 		array $order_by = []
 	): array {
-		return Logs_Table::select( $fields, $where, $limit, $offset, $join, $order_by );
+
+		$logs_table = Logs_Table::table_name();
+		$statuses_table = Statuses_Table::table_name();
+
+		$fields = [
+			"$logs_table.*",
+			"$statuses_table.status AS single_status",
+			"$statuses_table.opened AS single_opened",
+			"COUNT($statuses_table.id) AS status_count",
+		];
+
+		$group_by = [
+			"$logs_table.id",
+		];
+
+		$join = "LEFT JOIN $statuses_table ON $logs_table.api_id = $statuses_table.log_id";
+
+		$query = Logs_Table::build_sql_string( $fields, $where, $limit, $offset, $join, $order_by, $group_by );
+
+		return Logs_Table::db()->get_results( $query );
 	}
 
 	/**
@@ -75,42 +82,13 @@ class Log_Entry extends Entry {
 	 */
 	public static function get_logs_stats( $where ): array {
 		return Logs_Table::select(
-			"COUNT(*) as total,
+			"COUNT(
+					CASE WHEN `status` NOT IN ('not sent', 'rate limit', 'not valid', 'unsubscribed') THEN 1 END
+				) as total,
 				COUNT(CASE WHEN `status` = 'delivered' THEN 1 END) as delivered,
 				COUNT(CASE WHEN `status` IN ('failed', 'bounce', 'dropped') THEN 1 END) as failed,
 				COUNT(CASE WHEN `opened` = 1 THEN 1 END) as opened",
 			$where
-		);
-	}
-
-	/**
-	 * @param string $id
-	 * @param string $status
-	 *
-	 * @return void
-	 */
-	public static function patch_log( string $id, string $status ): void {
-		Logs_Table::update(
-			[
-				Logs_Table::STATUS => $status,
-				Logs_Table::UPDATED_AT => current_time( 'mysql' ),
-			],
-			[ Logs_Table::API_ID => $id ]
-		);
-	}
-
-	/**
-	 * @param string $id
-	 *
-	 * @return void
-	 */
-	public static function set_log_opened( string $id ): void {
-		Logs_Table::update(
-			[
-				Logs_Table::OPENED => true,
-				Logs_Table::STATUS => 'delivered',
-			],
-			[ Logs_Table::API_ID => $id ]
 		);
 	}
 
@@ -120,11 +98,10 @@ class Log_Entry extends Entry {
 	 * @return void
 	 */
 	public static function delete_logs( array $ids ): void {
-		$ids_int = array_map( 'absint', $ids );
-		$escaped = implode( ',', array_map(function( $item ) {
-			return Logs_Table::db()->prepare( '%d', $item );
-		}, $ids_int));
-		$query = 'DELETE FROM `' . Logs_Table::table_name() . '` WHERE `' . Logs_Table::ID . '` IN(' . $escaped . ')';
+		$escaped = implode( ',', array_map( function ( $item ) {
+			return Logs_Table::db()->prepare( '%s', $item );
+		}, $ids ) );
+		$query = 'DELETE FROM `' . Logs_Table::table_name() . '` WHERE `' . Logs_Table::API_ID . '` IN(' . $escaped . ')';
 		Logs_Table::query( $query );
 	}
 

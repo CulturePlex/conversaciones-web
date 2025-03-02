@@ -1,10 +1,10 @@
 	=== Loco Translate ===
 Contributors: timwhitlock
 Tags: translation, language, multilingual, l10n, i18n
-Requires at least: 5.2
-Requires PHP: 5.6.20
-Tested up to: 6.6.0
-Stable tag: 2.6.11
+Requires at least: 6.6
+Requires PHP: 7.2.24
+Tested up to: 6.7.1
+Stable tag: 2.7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,6 +99,31 @@ We don't collect your data or snoop on you. See the [plugin privacy notice](http
 
 
 == Changelog ==
+
+= 2.7.1
+* Debug logging of unloaded domains reduced to a summary
+
+= 2.7.0
+* Raised minimum requirements to WordPress 6.6
+* Minimum PHP version becomes 7.2.24 as per WordPress 6.6
+* Locale-filtered bundle list now searches for base language
+* Loading helper forcefully removes prematurely loaded text domains
+* Machine translation hooks now have access to message context
+* Persistent UI state for code view and invisible character modes
+
+= 2.6.14 =
+* Critical fix: A relative path passed to `load_textdomain` no longer throws exception.
+
+= 2.6.13 =
+* Fix for direct calls to load_textdomain with custom paths
+* This resolves a regression in 2.6.12
+
+= 2.6.12 =
+* Major fix to custom load_textdomain loader. Works when original file is absent
+* Fixed bug in template comparison when JSON files need to be merged
+* CSS fixes including reinstating of unsaved "star" icon
+* Domain listener fixed for JIT loading
+* Bumped WordPress compatibility to 6.7
 
 = 2.6.11 =
 * Removed accidental console trace
@@ -537,7 +562,7 @@ We don't collect your data or snoop on you. See the [plugin privacy notice](http
 
 == Upgrade Notice ==
 
-= 2.6.11 =
+= 2.7.1 =
 * Various improvements and bug fixes
 
 
