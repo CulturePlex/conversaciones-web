@@ -26,7 +26,7 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
     // Initialize event inheritance
     EventDispatcher.call(self);
 
-    var flipped, timer, counter, popup, $bottom, $taskComplete, $feedback, $wrapper, maxWidth, numCols, audioCard;
+    var flipped, timer, counter, popup, $bottom, $feedback, $wrapper, maxWidth, numCols, audioCard;
     var cards = [];
     var score = 0;
     numInstances++;
@@ -100,8 +100,8 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
         popup.show(desc, imgs, cardStyles ? cardStyles.back : undefined, function (refocus) {
           if (isFinished) {
             // Game done
-            card.makeUntabbable();
             finished();
+            card.makeUntabbable();
           }
           else {
             // Popup is closed, continue.
@@ -115,8 +115,8 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
       }
       else if (isFinished) {
         // Game done
-        card.makeUntabbable();
         finished();
+        card.makeUntabbable();
       }
     };
 
@@ -130,30 +130,36 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
       if (!params.restoring) {
         timer.stop();
       }
-      $taskComplete.show();
-      $feedback.addClass('h5p-show'); // Announce
-      setTimeout(function () {
-        $bottom.focus();
-      }, 0); // Give closing dialog modal time to free screen reader
       score = 1;
-
-      if (!params.restoring) {
-        self.trigger(self.createXAPICompletedEvent());
-      }
 
       if (parameters.behaviour && parameters.behaviour.allowRetry) {
         // Create retry button
-        self.retryButton = createButton('reset', parameters.l10n.tryAgain || 'Reset', function () {
+        self.retryButton = createButton('reset', parameters.l10n.tryAgain || 'Reset', () => {
+          removeRetryButton();
           self.resetTask(true);
         });
-        self.retryButton.classList.add('h5p-memory-transin');
-        setTimeout(function () {
-          // Remove class on nextTick to get transition effectupd
-          self.retryButton.classList.remove('h5p-memory-transin');
-        }, 0);
-
-        $wrapper[0].appendChild(self.retryButton); // Add to DOM
-        self.trigger('resize');
+        self.retryButton.style.fontSize = (parseFloat($wrapper.children('ul')[0].style.fontSize) * 0.75) + 'px';
+        
+        const retryModal = document.createElement('div');
+        retryModal.setAttribute('role', 'dialog');
+        retryModal.setAttribute('aria-modal', 'true');
+        retryModal.setAttribute('aria-describedby', 'modalDescription');
+        retryModal.setAttribute('tabindex', -1);
+        const status = document.createElement('div');
+        status.style.width = '1px';
+        status.style.height = '1px';
+        status.setAttribute('id', 'modalDescription');
+        status.innerText = `${$feedback[0].innerHTML} ${parameters.l10n.done} ${$status[0].innerText}`.replace(/\n/g, " ");
+        retryModal.appendChild(status);
+        retryModal.appendChild(self.retryButton);
+        
+        $bottom[0].appendChild(retryModal); // Add to DOM
+        retryModal.focus();
+      }
+      $feedback.addClass('h5p-show'); // Announce
+      
+      if (!params.restoring) {
+        self.trigger(self.createXAPICompletedEvent());
       }
     };
 
@@ -162,15 +168,10 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
      * @private
      */
     const removeRetryButton = function () {
-      if (!self.retryButton || self.retryButton.parentNode !== $wrapper[0]) {
+      if (!self.retryButton || self.retryButton.parentNode.parentNode !== $bottom[0]) {
         return; // Button not defined or attached to wrapper
       }
-
       self.retryButton.classList.add('h5p-memory-transout');
-      setTimeout(function () {
-        // Remove button on nextTick to get transition effect
-        $wrapper[0].removeChild(self.retryButton);
-      }, 300);
     };
 
     /**
@@ -184,7 +185,6 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
 
       // Remove feedback
       $feedback[0].classList.remove('h5p-show');
-      $taskComplete.hide();
 
       popup.close();
 
@@ -197,8 +197,8 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
 
       // Randomize cards
       H5P.shuffleArray(cards);
-
-      setTimeout(function () {
+      
+      setTimeout(() => {
         // Re-append to DOM after flipping back
         for (var i = 0; i < cards.length; i++) {
           cards[i].reAppend();
@@ -212,6 +212,9 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
         maxWidth = -1;
         self.trigger('resize');
         moveFocus && cards[0].setFocus();
+        if (self.retryButton) {
+          $bottom[0].removeChild(self.retryButton.parentNode);
+        }
       }, 600);
     };
 
@@ -220,20 +223,10 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
      * @private
      */
     var createButton = function (name, label, action) {
-      var buttonElement = document.createElement('div');
+      var buttonElement = document.createElement('button');
       buttonElement.classList.add('h5p-memory-' + name);
       buttonElement.innerHTML = label;
-      buttonElement.setAttribute('role', 'button');
-      buttonElement.tabIndex = 0;
-      buttonElement.addEventListener('click', function () {
-        action.apply(buttonElement);
-      }, false);
-      buttonElement.addEventListener('keypress', function (event) {
-        if (event.which === 13 || event.which === 32) { // Enter or Space key
-          event.preventDefault();
-          action.apply(buttonElement);
-        }
-      }, false);
+      buttonElement.addEventListener('click', action, false);
       return buttonElement;
     };
 
@@ -317,15 +310,15 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
 
         card.updateLabel(isMatched, !(isMatched && isLast));
 
+        let okToCheck = false;
+        
         if (flipped !== undefined) {
           var matie = flipped;
           // Reset the flipped card.
           flipped = undefined;
 
           if (!event.data?.restoring) {
-            setTimeout(() => {
-              check(card, matie, mate);
-            }, 800);
+            okToCheck = true;
           }
         }
         else {
@@ -342,6 +335,10 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
 
           // Count number of cards turned
           counter.increment();
+        }
+        
+        if (okToCheck) {
+          check(card, matie, mate);
         }
       });
 
@@ -553,13 +550,7 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
       });
 
       $bottom = $('<div/>', {
-        'class': 'h5p-programatically-focusable',
-        tabindex: '-1',
-      });
-      $taskComplete = $('<div/>', {
-        'class': 'h5p-memory-complete h5p-memory-hidden-read',
-        html: parameters.l10n.done,
-        appendTo: $bottom
+        'class': 'h5p-programatically-focusable'
       });
 
       $feedback = $('<div class="h5p-feedback">' + parameters.l10n.feedback + '</div>').appendTo($bottom);
@@ -619,8 +610,10 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
         $bottom.appendTo($wrapper);
         popup.appendTo($wrapper);
         $wrapper.append(ariaLiveRegion.getDOM());
-        $wrapper.click(function () {
-          popup.close();
+        $wrapper.click(function (e) {
+          if (!popup.getElement()?.contains(e.target)) {
+            popup.close();
+          }
         });
       }
       else {
@@ -816,7 +809,6 @@ H5P.MemoryGame = (function (EventDispatcher, $) {
      */
     self.resetTask = function (moveFocus = false) {
       if (self.attached) {
-        removeRetryButton();
         resetGame(moveFocus);
       }
       else {

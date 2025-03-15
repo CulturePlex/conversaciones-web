@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnPress - Collections\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-15 16:46+0000\n"
+"PO-Revision-Date: 2025-03-15 16:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.1\n"
+"X-Domain: learnpress-collections"
+
+#: inc/load.php:167
+msgid "\" target=\"_blank\">here</a>."
+msgstr "\" target=\"_blank\">aquí</a>."
+
+#: inc/functions.php:29
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr "– Página %s"
+
+#: inc/class-lp-collection-post-type.php:93
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: inc/class-lp-collection-post-type.php:92
+msgid "Add New Collection"
+msgstr "Añadir nueva colección"
+
+#. Description of the plugin
+msgid "Collecting related courses into one collection by administrator."
+msgstr ""
+"Recopilación de cursos relacionados en una sola colección por parte del "
+"administrador."
+
+#: inc/lp-collections-metaboxes.php:33
+msgid "Collecting related courses into one collection."
+msgstr "Recopilación de cursos relacionados en una sola colección."
+
+#: inc/functions.php:35 inc/load.php:89 inc/load.php:159
+#: inc/class-lp-collection-post-type.php:88
+#: inc/class-lp-collection-post-type.php:90
+#: inc/class-lp-collection-post-type.php:149 inc/widget.php:72
+#: inc/class-lp-collection-settings.php:11
+msgid "Collections"
+msgstr "Colecciones"
+
+#: inc/class-lp-collection-settings.php:23
+msgid "Collections Slug"
+msgstr "Colecciones Slug"
+
+#: inc/lp-collections-metaboxes.php:32
+#: inc/class-lp-collection-post-type.php:172
+msgid "Courses"
+msgstr "Cursos"
+
+#: inc/widget.php:25
+msgid "Courses Collections"
+msgstr "Colecciones de cursos"
+
+#: inc/lp-collections-metaboxes.php:47
+msgid "Courses per page"
+msgstr "Cursos por página"
+
+#: inc/widget.php:26
+msgid "Display course collections"
+msgstr "Mostrar colecciones de cursos"
+
+#: inc/class-lp-collection-post-type.php:94
+msgid "Edit Collection"
+msgstr "Editar colección"
+
+#. Author URI of the plugin
+msgid "http://thimpress.com"
+msgstr "http://thimpress.com"
+
+#. URI of the plugin
+msgid "http://thimpress.com/learnpress"
+msgstr "http://thimpress.com/learnpress"
+
+#. Name of the plugin
+msgid "LearnPress - Collections"
+msgstr "LearnPress - Colecciones"
+
+#: inc/class-lp-collection-post-type.php:97
+msgid "No collection found"
+msgstr "No se encontró ninguna colección"
+
+#: inc/class-lp-collection-post-type.php:98
+msgid "No collection found in Trash"
+msgstr "No se encontró ninguna colección en la Papelera"
+
+#: templates/archive-collection-course.php:41
+msgid "No course found!"
+msgstr "¡No se encontró ningún curso!"
+
+#: inc/class-lp-collection-post-type.php:190
+msgid "No Items"
+msgstr "No hay artículos"
+
+#: inc/widget.php:82
+msgid "Number of collections to show:"
+msgstr "Número de colecciones a mostrar:"
+
+#: inc/lp-collections-metaboxes.php:48
+msgid "Number of courses per each page. Default is 10."
+msgstr "Número de cursos por página. El valor predeterminado es 10."
+
+#: inc/class-lp-collection-post-type.php:89
+msgid "Parent Item:"
+msgstr "Elemento principal:"
+
+#: inc/class-lp-collection-post-type.php:86
+msgctxt "Post Type General Name"
+msgid "Collections"
+msgstr "Colecciones"
+
+#: inc/class-lp-collection-post-type.php:87
+msgctxt "Post Type Singular Name"
+msgid "Collection"
+msgstr "Recopilación"
+
+#: inc/class-lp-collection-post-type.php:96
+msgid "Search Collection"
+msgstr "Colección de búsqueda"
+
+#: inc/functions.php:26
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr "Resultados de la búsqueda: “%s”"
+
+#: inc/load.php:165
+msgid "Select collections that contains this course."
+msgstr "Seleccione colecciones que contengan este curso."
+
+#. Author of the plugin
+msgid "ThimPress"
+msgstr "ThimPress"
+
+#: inc/widget.php:76
+msgid "Title:"
+msgstr "Título:"
+
+#: inc/class-lp-collection-post-type.php:95
+msgid "Update Collection"
+msgstr "Actualizar colección"
+
+#: inc/class-lp-collection-post-type.php:91
+msgid "View Collection"
+msgstr "Ver colección"

@@ -1,0 +1,506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnPress - Certificates\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-15 16:45+0000\n"
+"PO-Revision-Date: 2025-03-15 16:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.1\n"
+"X-Domain: learnpress-certificates"
+
+#: inc/class-lp-certificate-post-type.php:430
+msgid "-"
+msgstr "-"
+
+#: templates/admin-certificate.php:32
+#: inc/admin/views/course-certificates.php:45
+msgid "Active:"
+msgstr "Activo:"
+
+#: templates/button-woo-certificate-add-to-cart.php:28
+msgid "Add certificate to cart"
+msgstr "Añadir certificado al carrito"
+
+#: inc/class-lp-certificate-post-type.php:307
+#: inc/class-lp-certificate-post-type.php:336
+msgid "Add New Certificate"
+msgstr "Agregar nuevo certificado"
+
+#: templates/admin-layout-add-certificate.php:17
+#: inc/admin/views/course-certificates.php:70
+msgid "Add new Certificate"
+msgstr "Agregar nuevo certificado"
+
+#: inc/layers/class-lp-certificate-layer.php:148
+msgid "Angle"
+msgstr "Ángulo"
+
+#: inc/layers/class-lp-certificate-layer.php:90
+msgid "Bold"
+msgstr "Atrevido"
+
+#: inc/layers/class-lp-certificate-layer.php:129
+msgid "Bottom"
+msgstr "Abajo"
+
+#: templates/button-purchase-certificate.php:36
+msgid "Buy this certificate"
+msgstr "Compre este certificado"
+
+#: inc/layers/class-lp-certificate-layer.php:117
+#: inc/admin/views/editor-layer-options.php:34
+msgid "Center"
+msgstr "Centro"
+
+#: inc/admin/views/editor-layer-options.php:35
+msgid "Center Horizontal"
+msgstr "Centro horizontal"
+
+#: inc/admin/views/editor-layer-options.php:36
+msgid "Center Vertical"
+msgstr "Centro vertical"
+
+#: inc/class-lp-certificate-woo.php:316
+#: inc/class-lp-certificate-post-type.php:304
+#: inc/class-lp-certificate-post-type.php:306
+#: inc/class-lp-certificate-post-type.php:392
+#: inc/class-lp-certificate-order.php:252
+#: inc/class-lp-certificate-order.php:259 templates/view-button.php:28
+msgid "Certificate"
+msgstr "Certificado"
+
+#: inc/rest-api/class-lp-rest-admin-certificate-controller.php:91
+msgid "Certificate assigned successfully"
+msgstr "Certificado asignado exitosamente"
+
+#: inc/class-lp-certificate.php:493
+msgid "Certificate is free. So you do not need to buy"
+msgstr "El certificado es gratuito. No necesitas comprarlo."
+
+#: inc/class-lp-certificate.php:488
+msgid "Certificate not available"
+msgstr "Certificado no disponible"
+
+#: inc/class-lp-certificate-settings.php:86
+msgid "Certificate per page"
+msgstr "Certificado por página"
+
+#: inc/rest-api/class-lp-rest-admin-certificate-controller.php:91
+msgid "Certificate removed successfully"
+msgstr "Certificado eliminado exitosamente"
+
+#: inc/class-lp-certificate-post-type.php:506
+msgid "Certificate Settings"
+msgstr "Configuración del certificado"
+
+#: inc/class-lp-certificate-woo.php:69
+#: inc/class-lp-certificate-post-type.php:180
+#: inc/class-lp-certificate-order.php:78 inc/class-lp-certificate-order.php:279
+#: inc/class-lp-certificate-order.php:286 templates/order/order-item.php:32
+msgid "Certificate:"
+msgstr "Certificado:"
+
+#: inc/load.php:238 inc/load.php:262 inc/class-lp-certificate-settings.php:9
+#: inc/class-lp-certificate-post-type.php:69
+#: inc/class-lp-certificate-post-type.php:305
+#: inc/class-lp-certificate-post-type.php:309
+#: templates/list-certificates.php:16
+msgid "Certificates"
+msgstr "Certificados"
+
+#: inc/layers/class-lp-certificate-layer.php:108
+msgid "Color"
+msgstr "Color"
+
+#: inc/load.php:520
+msgid "Course end date"
+msgstr "Fecha de finalización del curso"
+
+#: inc/rest-api/class-lp-rest-admin-certificate-controller.php:79
+msgid "Course ID is invalid"
+msgstr "El ID del curso no es válido"
+
+#: inc/rest-api/class-lp-rest-admin-certificate-controller.php:75
+msgid "Course ID is required"
+msgstr "Se requiere identificación del curso"
+
+#: inc/admin/AdminCourseCertificates.php:33
+msgid "Course is invalid!"
+msgstr "¡El curso no es válido!"
+
+#: inc/load.php:505
+msgid "Course name"
+msgstr "Nombre del curso"
+
+#: inc/load.php:515
+msgid "Course start date"
+msgstr "Fecha de inicio del curso"
+
+#: inc/class-lp-certificate-woo.php:69
+#: inc/class-lp-certificate-post-type.php:182
+#: inc/class-lp-certificate-order.php:279
+#: inc/class-lp-certificate-order.php:286
+msgid "Course:"
+msgstr "Curso:"
+
+#: inc/class-lp-certificate-post-type.php:389
+msgid "Courses"
+msgstr "Cursos"
+
+#. Description of the plugin
+msgid "Create certificates for online courses."
+msgstr "Crear certificados para cursos en línea."
+
+#: inc/load.php:525
+msgid "Current time"
+msgstr "Hora actual"
+
+#: inc/load.php:535
+msgid "Custom"
+msgstr "Costumbre"
+
+#: inc/layers/class-lp-certificate-layer.php:180
+msgid "Custom Text"
+msgstr "Texto personalizado"
+
+#: inc/admin/views/editor-layer-options.php:19
+msgid "Delete layer"
+msgstr "Eliminar capa"
+
+#: inc/load.php:487
+msgid "Delete this layer?"
+msgstr "¿Borrar esta capa?"
+
+#: inc/class-lp-certificate-settings.php:48
+msgid "Download certificate types"
+msgstr "Descargar tipos de certificados"
+
+#: inc/class-lp-certificate-post-type.php:308
+#: inc/class-lp-certificate-post-type.php:337
+msgid "Edit Certificate"
+msgstr "Editar certificado"
+
+#: inc/class-lp-certificate-ajax.php:74
+msgid "error"
+msgstr "error"
+
+#: inc/rest-api/class-lp-rest-certificate-controller.php:114
+msgid "Error: Can't add Certificate to cart."
+msgstr "Error: No se puede agregar el certificado al carrito."
+
+#: inc/class-lp-certificate-post-type.php:372
+msgid "Export"
+msgstr "Exportar"
+
+#: inc/class-lp-certificate-settings.php:83
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/layers/class-lp-certificate-layer.php:51
+msgid "Font"
+msgstr "Fuente"
+
+#: inc/class-lp-certificate-settings.php:27
+msgid "Font families separated by |, eg: Open Sans|Roboto."
+msgstr "Familias de fuentes separadas por |, por ejemplo: Open Sans|Roboto."
+
+#: inc/class-lp-certificate-settings.php:31
+msgid "Font family"
+msgstr "Familia de fuentes"
+
+#: inc/layers/class-lp-certificate-layer.php:67
+msgid "Font size"
+msgstr "Tamaño de fuente"
+
+#: inc/layers/class-lp-certificate-layer.php:75
+msgid "Font style"
+msgstr "Estilo de fuente"
+
+#: inc/class-lp-certificate-settings.php:38
+msgid "Font subsets separated by comma, eg: greek,latin."
+msgstr ""
+"Subconjuntos de fuentes separados por coma, por ejemplo: griego, latín."
+
+#: inc/layers/class-lp-certificate-layer.php:86
+msgid "Font weight"
+msgstr "Peso de la fuente"
+
+#: inc/layers/_datetime.php:24
+msgid "Format"
+msgstr "Formato"
+
+#: inc/class-lp-certificate-settings.php:26
+msgid "Google Fonts"
+msgstr "Fuentes de Google"
+
+#: inc/admin/views/layer-options/font.php:28
+msgid "Google fonts"
+msgstr "Fuentes de Google"
+
+#. Author URI of the plugin
+msgid "http://thimpress.com"
+msgstr "http://thimpress.com"
+
+#. URI of the plugin
+msgid "https://thimpress.com/product/certificates-add-on-for-learnpress/"
+msgstr "https://thimpress.com/product/certificates-add-on-for-learnpress/"
+
+#: inc/class-lp-certificate-settings.php:52
+msgid "Image"
+msgstr "Imagen"
+
+#: templates/list-certificates.php:61
+#: templates/profile/list-certificates.php:55
+#, php-format
+msgid "In order to get the certificate of the %s course, please pay first!"
+msgstr "Para obtener el certificado del curso %s, ¡por favor paga primero!"
+
+#: inc/rest-api/class-lp-rest-certificate-controller.php:72
+msgid "Invalid params!"
+msgstr "¡Parámetros inválidos!"
+
+#: inc/rest-api/class-lp-rest-certificate-controller.php:82
+msgid "It's not type Certificate"
+msgstr "No es tipo Certificado"
+
+#: inc/layers/class-lp-certificate-layer.php:79
+msgid "Italic"
+msgstr "Itálico"
+
+#: inc/class-lp-certificate-post-type.php:499
+msgid "Layer Options"
+msgstr "Opciones de capa"
+
+#: inc/class-lp-certificate-post-type.php:492
+msgid "Layers"
+msgstr "Capas"
+
+#. Name of the plugin
+msgid "LearnPress - Certificates"
+msgstr "LearnPress - Certificados"
+
+#: inc/layers/class-lp-certificate-layer.php:116
+#: inc/layers/class-lp-certificate-layer.php:142
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/layers/class-lp-certificate-layer.php:102
+msgid "Line-through"
+msgstr "Línea pasante"
+
+#: templates/admin-button-loadmore-certificates.php:16
+msgid "Load More"
+msgstr "Cargar más"
+
+#: inc/admin/AdminCourseCertificates.php:71
+msgid "Load more"
+msgstr "Cargar más"
+
+#: inc/load.php:557
+msgid "Loading"
+msgstr "Cargando"
+
+#: inc/layers/class-lp-certificate-layer.php:128
+msgid "Middle"
+msgstr "Medio"
+
+#: inc/rest-api/class-lp-rest-admin-certificate-controller.php:111
+msgid "No certificate available"
+msgstr "No hay certificado disponible"
+
+#: inc/rest-api/class-lp-rest-certificate-controller.php:149
+msgid "No Certificate available."
+msgstr "No hay certificado disponible."
+
+#: templates/list-certificates.php:70
+msgid "No certificates!"
+msgstr "¡Sin certificados!"
+
+#: inc/rest-api/class-lp-rest-certificate-controller.php:77
+msgid "No Course available."
+msgstr "No hay cursos disponibles."
+
+#: inc/admin/views/editor-no-template.php:2
+msgid "No template selected."
+msgstr "No hay ninguna plantilla seleccionada"
+
+#: inc/rest-api/class-lp-rest-admin-certificate-controller.php:116
+msgid "No user available"
+msgstr "No hay ningún usuario disponible"
+
+#: inc/layers/class-lp-certificate-layer.php:78
+#: inc/layers/class-lp-certificate-layer.php:89
+#: inc/layers/class-lp-certificate-layer.php:99
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/layers/class-lp-certificate-layer.php:80
+msgid "Oblique"
+msgstr "Oblicuo"
+
+#: inc/layers/class-lp-certificate-layer.php:101
+msgid "Overline"
+msgstr "Sobre línea"
+
+#: inc/class-lp-certificate-ajax.php:78
+msgid "Params invalid"
+msgstr "Parámetros no válidos"
+
+#: inc/class-lp-certificate-settings.php:53
+msgid "PDF"
+msgstr "PDF"
+
+#: inc/rest-api/class-lp-rest-certificate-controller.php:109
+msgid "Please setup lp page checkout"
+msgstr "Por favor, configure la página de pago lp"
+
+#: inc/admin/views/advanced-settings.php:12
+msgid "Price"
+msgstr "Precio"
+
+#: inc/admin/views/cert-editor.php:21
+msgid "Publish certificate before editing!"
+msgstr "¡Publica el certificado antes de editarlo!"
+
+#: inc/load.php:530
+msgid "QR code"
+msgstr "Código QR"
+
+#: inc/layers/class-lp-verified-link-layer.php:43
+msgid "QR Size"
+msgstr "Tamaño QR"
+
+#: inc/layers/class-lp-certificate-layer.php:118
+msgid "Right"
+msgstr "Bien"
+
+#: inc/layers/class-lp-certificate-layer.php:156
+msgid "Scale X"
+msgstr "Escala X"
+
+#: inc/layers/class-lp-certificate-layer.php:165
+msgid "Scale Y"
+msgstr "Escala Y"
+
+#: inc/admin/views/editor-no-template.php:3
+msgid "Select Template"
+msgstr "Seleccionar plantilla"
+
+#: inc/class-lp-certificate-settings.php:58
+#: inc/class-lp-certificate-settings.php:59
+msgid "Show certificate popup"
+msgstr "Mostrar ventana emergente de certificado"
+
+#: inc/class-lp-certificate-settings.php:65
+msgid "Slug show link certificate of user"
+msgstr "Slug muestra el enlace del certificado de usuario"
+
+#: inc/class-lp-certificate-settings.php:71
+msgid "Social Sharing"
+msgstr "Compartir en redes sociales"
+
+#: inc/load.php:510
+msgid "Student name"
+msgstr "Nombre del estudiante"
+
+#: inc/class-lp-certificate-settings.php:42
+msgid "Subset"
+msgstr "Subconjunto"
+
+#: inc/admin/views/layer-options/font.php:21
+msgid "System fonts"
+msgstr "Fuentes del sistema"
+
+#: inc/layers/class-lp-certificate-layer.php:114
+msgid "Text align"
+msgstr "Alinear texto"
+
+#: inc/layers/class-lp-certificate-layer.php:96
+msgid "Text decoration"
+msgstr "Decoración de texto"
+
+#: inc/layers/class-lp-certificate-layer.php:125
+msgid "Text vertical align"
+msgstr "Alineación vertical del texto"
+
+#: inc/admin/views/advanced-settings.php:16
+msgid ""
+"The price of this certificate. Default is 0, means this certificate is free "
+"to download. Currency is what you chose in Learn Press settings."
+msgstr ""
+"El precio de este certificado. El valor predeterminado es 0, lo que "
+"significa que se puede descargar gratis. La moneda es la que seleccionó en "
+"la configuración de Learn Press."
+
+#: inc/class-lp-certificate-settings.php:93
+msgid ""
+"The total number of displayed certificates per page. If set 0 then show all."
+msgstr ""
+"Número total de certificados mostrados por página. Si se establece en 0, se "
+"mostrarán todos."
+
+#. Author of the plugin
+msgid "ThimPress"
+msgstr "ThimPress"
+
+#: inc/admin/views/editor-no-template.php:4
+msgid "to starts design your favorite certificate now"
+msgstr "Para empezar a diseñar tu certificado favorito ahora"
+
+#: inc/layers/class-lp-certificate-layer.php:127
+#: inc/layers/class-lp-certificate-layer.php:136
+msgid "Top"
+msgstr "Arriba"
+
+#: inc/class-lp-certificate-settings.php:76
+msgid "Twitter"
+msgstr "Gorjeo"
+
+#: inc/class-lp-certificate-post-type.php:468
+msgid "Unassigned"
+msgstr "Sin asignar"
+
+#: inc/layers/class-lp-certificate-layer.php:100
+msgid "Underline"
+msgstr "Subrayar"
+
+#: inc/class-lp-certificate-post-type.php:254
+msgid "Updated success"
+msgstr "Éxito actualizado"
+
+#: inc/class-lp-certificate-post-type.php:333
+#: inc/class-lp-certificate-post-type.php:335
+msgid "User Certificate"
+msgstr "Certificado de usuario"
+
+#: inc/class-lp-certificate-post-type.php:334
+#: inc/class-lp-certificate-post-type.php:338
+msgid "User Certificates"
+msgstr "Certificados de usuario"
+
+#: inc/rest-api/class-lp-rest-certificate-controller.php:139
+msgid "User invalid!"
+msgstr "¡Usuario inválido!"
+
+#: inc/functions.php:75 inc/class-lp-certificate-ajax.php:103
+msgid "View cart certificate"
+msgstr "Ver certificado del carrito"
+
+#: templates/details.php:25
+msgid "You can't get this certificate"
+msgstr "No puedes obtener este certificado"
+
+#: inc/class-lp-certificate-ajax.php:112
+msgid "You cannot add this certificate to your cart. Maybe certificate exists"
+msgstr "No puedes añadir este certificado a tu carrito. Quizás ya exista."
+
+#: inc/class-lp-certificate.php:505
+msgid "You still didn't passed course"
+msgstr "Aún no has aprobado el curso"

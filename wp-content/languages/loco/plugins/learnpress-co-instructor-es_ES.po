@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnPress - Co-Instructors\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-15 16:48+0000\n"
+"PO-Revision-Date: 2025-03-15 16:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.1\n"
+"X-Domain: learnpress-co-instructor"
+
+#: inc/load.php:279
+msgid "All"
+msgstr "Todo"
+
+#. Description of the plugin
+msgid "Building courses with other instructors."
+msgstr "Construyendo cursos con otros instructores."
+
+#: inc/load.php:718
+#: inc/emails/class-lp-co-instructor-email-finished-course.php:27
+msgid "Co-Instructor"
+msgstr "Co-instructor"
+
+#: inc/load.php:287
+#: inc/emails/class-lp-co-instructor-email-enrolled-course.php:26
+msgid "Co-instructor"
+msgstr "Co-instructor"
+
+#: inc/load.php:148
+msgid "Co-Instructors"
+msgstr "Co-instructores"
+
+#: inc/load.php:149
+msgid "Colleagues will work with you."
+msgstr "Los colegas trabajarán contigo."
+
+#: inc/load.php:285
+msgid "Draft"
+msgstr "Borrador"
+
+#: inc/emails/class-lp-co-instructor-email-enrolled-course.php:33
+msgid "Enrolled course"
+msgstr "Curso matriculado"
+
+#: inc/load.php:624
+msgid "Example link is"
+msgstr "El enlace de ejemplo es"
+
+#: inc/emails/class-lp-co-instructor-email-finished-course.php:34
+msgid "Finished course"
+msgstr "Curso terminado"
+
+#. Author URI of the plugin
+msgid "http://thimpress.com"
+msgstr "http://thimpress.com"
+
+#. URI of the plugin
+msgid "http://thimpress.com/learnpress"
+msgstr "http://thimpress.com/learnpress"
+
+#: inc/load.php:613
+msgid "Instructor"
+msgstr "Instructor"
+
+#. Name of the plugin
+msgid "LearnPress - Co-Instructors"
+msgstr "LearnPress - Co-instructores"
+
+#: inc/load.php:280
+msgid "Mine"
+msgstr "Mío"
+
+#: inc/load.php:283
+msgid "Pending Review"
+msgstr "Pendiente de revisión"
+
+#: inc/load.php:282
+msgid "Private"
+msgstr "Privado"
+
+#: inc/load.php:281
+msgid "Published"
+msgstr "Publicado"
+
+#: inc/load.php:284
+msgid "Scheduled"
+msgstr "Programado"
+
+#: inc/emails/class-lp-co-instructor-email-finished-course.php:28
+msgid ""
+"Send this email to co-instructor of course when a user finished the course"
+msgstr ""
+"Envía este correo electrónico al co-instructor del curso cuando un usuario "
+"finaliza el curso"
+
+#: inc/emails/class-lp-co-instructor-email-enrolled-course.php:27
+msgid "Send this email to co-instructor when they have enrolled course."
+msgstr ""
+"Envíe este correo electrónico al co-instructor cuando se haya inscrito en el "
+"curso."
+
+#: templates/profile-tab.php:49
+msgid "There isn't any courses created by you as an instructor."
+msgstr "No hay ningún curso creado por usted como instructor."
+
+#. Author of the plugin
+msgid "ThimPress"
+msgstr "ThimPress"
+
+#: inc/load.php:619
+msgid "This is a slug and should be unique."
+msgstr "Esta es una babosa y debería ser única."
+
+#: inc/load.php:286
+msgid "Trash"
+msgstr "Basura"
+
+#: inc/emails/class-lp-co-instructor-email-enrolled-course.php:32
+msgid "{{user_display_name}} has enrolled course"
+msgstr "{{user_display_name}} se ha inscrito en el curso"
+
+#: inc/emails/class-lp-co-instructor-email-finished-course.php:33
+msgid "{{user_display_name}} has finished course"
+msgstr "{{user_display_name}} ha terminado el curso"

@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnPress - Export/Import Courses\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-15 16:46+0000\n"
+"PO-Revision-Date: 2025-03-15 16:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.1\n"
+"X-Domain: learnpress-import-export"
+
+#: inc/admin/views/learnpress/export/step-1.php:24
+msgid "Author/Instructor"
+msgstr "Autor/Instructor"
+
+#: inc/admin/views/learnpress/export/step-1.php:67
+#: inc/admin/views/learnpress/export/step-2.php:47
+msgid "Back"
+msgstr "Atrás"
+
+#: inc/functions.php:162
+msgid "Can not create dir [%d]"
+msgstr "No se puede crear el directorio [%d]"
+
+#: inc/admin/background/class-lp-import-export-background.php:83
+msgid "Can not create order"
+msgstr "No se puede crear el pedido"
+
+#: inc/admin/providers/learnpress/class-lp-import-user-data.php:118
+#: inc/admin/providers/learnpress/class-lp-import-learnpress.php:109
+#: inc/admin/views/learnpress/export/step-2.php:48
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: inc/admin/providers/learnpress/class-lp-import-user-data.php:116
+#: inc/admin/providers/learnpress/class-lp-import-learnpress.php:107
+msgid "Confirm Import"
+msgstr "Confirmar importación"
+
+#: inc/admin/views/export.php:43
+msgid "Continue"
+msgstr "Continuar"
+
+#: inc/admin/views/learnpress/export/step-1.php:22
+msgid "Course"
+msgstr "Curso"
+
+#: inc/admin/providers/learnpress/class-lp-import-user-data.php:101
+#: inc/admin/providers/learnpress/class-lp-import-learnpress.php:92
+msgid "Course(s) found on this file"
+msgstr "Curso(s) encontrado(s) en este archivo"
+
+#: inc/admin/views/learnpress/export/step-2.php:41
+msgid "Custom name of export file"
+msgstr "Nombre personalizado del archivo de exportación"
+
+#: inc/admin/views/import.php:95 inc/admin/views/export.php:94
+msgid "Download"
+msgstr "Descargar"
+
+#: inc/admin/views/learnpress/import-user/form-import.php:30
+msgid "Download example CSV file "
+msgstr "Descargar archivo CSV de ejemplo"
+
+#: inc/admin/views/learnpress/export/step-2.php:19
+msgid "Download file"
+msgstr "Descargar archivo"
+
+#: inc/admin/views/learnpress/export/step-2.php:22
+msgid "Download file after exporting is completed"
+msgstr "Descargar archivo una vez completada la exportación"
+
+#: inc/functions.php:171
+msgid "Error with WP_Filesystem"
+msgstr "Error con WP_Filesystem"
+
+#: inc/admin/views/settings-page.php:11 inc/admin/views/export.php:16
+msgid "Export"
+msgstr "Exportar"
+
+#: inc/admin/views/learnpress/export/step-3.php:38
+msgid "Export again!"
+msgstr "¡Exportar de nuevo!"
+
+#. Description of the plugin
+msgid "Export and Import your courses with all lesson and quiz in easiest way."
+msgstr ""
+"Exporta e importa tus cursos con todas las lecciones y cuestionarios de la "
+"manera más sencilla."
+
+#: inc/admin/views/learnpress/export/step-3.php:36
+msgid "Export new"
+msgstr "Exportar nuevo"
+
+#: inc/admin/views/learnpress/export/step-2.php:45
+msgid "Export now"
+msgstr "Exportar ahora"
+
+#: inc/admin/views/learnpress/export/step-3.php:22
+msgid "Exported"
+msgstr "Exportado"
+
+#: inc/admin/views/learnpress/export/step-3.php:18
+#: inc/admin/views/learnpress/export/step-2.php:13
+msgid "Exporting..."
+msgstr "Exportador..."
+
+#: inc/admin/views/import.php:78 inc/admin/views/export.php:77
+msgid "File"
+msgstr "Archivo"
+
+#: inc/functions.php:270
+msgid "FileSystem error!"
+msgstr "¡Error del sistema de archivos!"
+
+#: inc/admin/views/learnpress/import-user/form-import.php:30
+msgid "here"
+msgstr "aquí"
+
+#. Author URI of the plugin
+msgid "http://thimpress.com"
+msgstr "http://thimpress.com"
+
+#. URI of the plugin
+msgid "http://thimpress.com/learnpress"
+msgstr "http://thimpress.com/learnpress"
+
+#: inc/admin/views/settings-page.php:12 inc/admin/views/import.php:101
+#: inc/admin/views/export.php:100
+#: inc/admin/views/learnpress/import-user/step-1.php:30
+#: inc/admin/views/learnpress/import/step-1.php:30
+msgid "Import"
+msgstr "Importar"
+
+#: inc/admin/views/learnpress/import-user/step-3.php:15
+#: inc/admin/views/learnpress/import/step-3.php:15
+msgid "Import another"
+msgstr "Importar otro"
+
+#: inc/admin/views/import.php:20
+msgid "Import Courses"
+msgstr "Cursos de importación"
+
+#: inc/admin/views/learnpress/import-user/step-3.php:17
+#: inc/admin/views/learnpress/import/step-3.php:17
+msgid "Import Fail!"
+msgstr "¡Error de importación!"
+
+#: inc/admin/views/learnpress/import-user/step-3.php:12
+#: inc/admin/views/learnpress/import/step-3.php:12
+msgid "Import Successfully!"
+msgstr "¡Importación exitosa!"
+
+#: inc/admin/views/learnpress/import-user/form-import.php:9
+msgid "Import Users"
+msgstr "Importar usuarios"
+
+#: inc/load.php:94 inc/load.php:95 inc/admin/views/settings-page.php:18
+msgid "Import/Export"
+msgstr "Importación/Exportación"
+
+#: inc/admin/views/learnpress/import-user/step-2.php:9
+#: inc/admin/views/learnpress/import/step-2.php:9
+msgid "Importing..."
+msgstr "Importador..."
+
+#. Name of the plugin
+msgid "LearnPress - Export/Import Courses"
+msgstr "LearnPress - Exportar/Importar cursos"
+
+#: inc/admin/views/learnpress/export/step-1.php:65
+msgid "Next"
+msgstr "Próximo"
+
+#: inc/admin/views/learnpress/export/step-1.php:60
+msgid "No course available to export."
+msgstr "No hay ningún curso disponible para exportar."
+
+#: inc/admin/views/import.php:113 inc/admin/views/export.php:112
+msgid "No exported files"
+msgstr "No hay archivos exportados"
+
+#: inc/admin/background/class-lp-import-export-background.php:69
+msgid "Order on"
+msgstr "Ordene en"
+
+#: inc/admin/views/export.php:61
+msgid "Recent exported"
+msgstr "Exportaciones recientes"
+
+#: inc/admin/views/import.php:62
+msgid "Recent imported"
+msgstr "Importados recientemente"
+
+#: inc/admin/views/import.php:104 inc/admin/views/export.php:103
+msgid "Remove"
+msgstr "Eliminar"
+
+#: inc/admin/views/import.php:68 inc/admin/views/import.php:71
+#: inc/admin/views/export.php:67 inc/admin/views/export.php:70
+msgid "Remove selected"
+msgstr "Eliminar seleccionados"
+
+#: inc/admin/views/learnpress/export/step-2.php:25
+msgid "Save exported file"
+msgstr "Guardar archivo exportado"
+
+#: inc/admin/views/learnpress/export/step-2.php:28
+msgid "Save exported file on your server so you can download it later"
+msgstr ""
+"Guarde el archivo exportado en su servidor para poder descargarlo más tarde"
+
+#: inc/admin/views/learnpress/import-user/step-1.php:11
+#: inc/admin/views/learnpress/import/step-1.php:11
+msgid "Save imported file"
+msgstr "Guardar archivo importado"
+
+#: inc/admin/views/learnpress/import-user/step-1.php:15
+#: inc/admin/views/learnpress/import/step-1.php:15
+msgid "Save imported file on your server so you can download/import it later"
+msgstr ""
+"Guarde el archivo importado en su servidor para poder descargarlo/importarlo "
+"más tarde"
+
+#: inc/admin/views/learnpress/export/step-1.php:53
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: inc/admin/views/learnpress/export/step-1.php:15
+msgid "Select courses"
+msgstr "Seleccionar cursos"
+
+#: inc/admin/views/export.php:26
+msgid "Select source"
+msgstr "Seleccionar fuente"
+
+#: inc/admin/views/import.php:80 inc/admin/views/export.php:79
+msgid "Size"
+msgstr "Tamaño"
+
+#: inc/admin/views/learnpress/export/step-1.php:23
+msgid "Status"
+msgstr "Estado"
+
+#: inc/functions.php:328
+#, php-format
+msgid "The file %s doesn't exists"
+msgstr "El archivo %s no existe"
+
+#. Author of the plugin
+msgid "ThimPress"
+msgstr "ThimPress"
+
+#: inc/admin/views/import.php:79 inc/admin/views/export.php:78
+msgid "Time"
+msgstr "Tiempo"
+
+#: inc/admin/views/import.php:98 inc/admin/views/export.php:97
+msgid "View"
+msgstr "Vista"

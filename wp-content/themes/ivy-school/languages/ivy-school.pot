@@ -1,0 +1,2748 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ivy School\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-15 16:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.1\n"
+"X-Domain: ivy-school"
+
+#: learnpress-v4/single-course/tabs/curriculumm.php:58
+#: learnpress-v4/single-course/tabs/curriculum-v2.php:56
+msgid " / %d quiz"
+msgid_plural " / %d quizzes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:369
+msgid " at "
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid " By "
+msgstr ""
+
+#: learnpress-v4/single-course/progress.php:48
+msgid " completed"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:169
+msgid " Description Styling"
+msgstr ""
+
+#: inc/template-tags.php:124
+msgid "% Comments"
+msgstr ""
+
+#: learnpress-v4/single-course/progress.php:47
+#, php-format
+msgid "%1$d of %2$d items"
+msgstr ""
+
+#: inc/template-tags.php:109
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/admin/installer/installer.php:775
+#, php-format
+msgid "%1$s - We recommend a minimum PHP version of 5.6. See: %2$s"
+msgstr ""
+
+#. 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:567
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: learnpress-v4/single-course/tabs/curriculumm.php:54
+#: learnpress-v4/single-course/tabs/curriculum-v2.php:52
+msgid "%d lesson"
+msgid_plural "%d lessons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:533 inc/template-tags.php:535
+#: inc/template-tags.php:537 inc/template-tags.php:563
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/learnpress-functions.php:48
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/learnpress-functions.php:51
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/learnpress-functions.php:54
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/installer/installer.php:356
+#, php-format
+msgid "%s Theme notice!"
+msgstr ""
+
+#: inc/learnpress-functions.php:45
+#, php-format
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/installer/installer.php:863
+msgid "&copy; ThimPress 2017. All rights reserved. Powered by WordPress."
+msgstr ""
+
+#: comments.php:33 comments.php:45
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: learnpress-v4/single-course/course-info.php:69
+#, php-format
+msgid "( %s Rating )"
+msgid_plural "( %s Ratings )"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/learnpress-functions.php:107
+#, php-format
+msgid "(%1$s vote )"
+msgid_plural " (%1$s votes)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress-v4/single-course/course-info.php:64
+#: learnpress-v4/single-course/course-info.php:66
+#, php-format
+msgid "(%s Review)"
+msgid_plural "(%s Reviews)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/learnpress-functions.php:107
+msgid "(0 vote)"
+msgstr ""
+
+#: bbpress/form-topic.php:117
+msgid "(No Forum)"
+msgstr ""
+
+#: inc/custom-functions.php:274
+msgid "-- Select Sidebar --"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:142
+msgid "1"
+msgstr ""
+
+#: inc/template-tags.php:124
+msgid "1 Comment"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:143
+#: inc/admin/customizer-sections/blog-general.php:163
+msgid "2"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:164
+msgid "3"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:165
+msgid "4"
+msgstr ""
+
+#: 404.php:15
+msgid "404"
+msgstr ""
+
+#: inc/template-tags.php:569
+msgid "404 Page"
+msgstr ""
+
+#: inc/admin/installer/installer.php:629
+#, php-format
+msgid ""
+"<button data-href=\"%s\" class=\"thim-button-link button button-primary\">"
+"Return to Dashboard</button>"
+msgstr ""
+
+#: inc/admin/installer/installer.php:788
+#, php-format
+msgid ""
+"<strong>%s</strong> - We recommend setting memory to at least <strong>"
+"128MB</strong>. To learn how, see: <a href=\"%s\" target=\"_blank\">"
+"Increasing memory allocated to PHP.</a>"
+msgstr ""
+
+#: inc/admin/installer/installer.php:729
+msgid "Activate again"
+msgstr ""
+
+#: inc/admin/installer/installer.php:686
+msgid "Activating Thim Core"
+msgstr ""
+
+#: inc/admin/installer/installer.php:724
+msgid "Activating Thim Core failed!"
+msgstr ""
+
+#: inc/admin/installer/installer.php:710
+msgid "Activating Thim Core successfully!"
+msgstr ""
+
+#: inc/admin/installer/installer.php:688
+msgid "Activating..."
+msgstr ""
+
+#: inc/admin/installer/class-thim-plugin.php:386
+msgid "Active"
+msgstr ""
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:384
+msgid "Add"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:196
+msgid "Add an embed link like video, PDF, slider..."
+msgstr ""
+
+#: comments.php:61
+msgid "Add Comment:"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:8
+msgid "Add sub title for Collection"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:225
+msgid "Add text info button"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:83
+msgid "Allows to select color for hamburger menu on mobile device."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:68
+msgid "Allows you can choose background color for your header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:40
+msgid "Allows you can enable or disable parallax in page title."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:23
+#: inc/admin/customizer-sections/blog-general.php:42
+#: inc/admin/customizer-sections/learnpress-single.php:43
+#: inc/admin/customizer-sections/learnpress-archive.php:60
+#: inc/admin/customizer-sections/event-archive.php:43
+#: inc/admin/customizer-sections/event-single.php:43
+msgid "Allows you can hidden or show page title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:55
+#: inc/admin/customizer-sections/learnpress-single.php:60
+#: inc/admin/customizer-sections/learnpress-archive.php:77
+#: inc/admin/customizer-sections/event-archive.php:60
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:23
+#: inc/admin/customizer-sections/event-single.php:60
+msgid "Allows you can HIDE breadcrumb on page title bar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:110
+msgid ""
+"Allows you can select a color make background color for header sticky menu . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:23
+msgid ""
+"Allows you can select a color make background color sub menu on header  . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:139
+msgid "Allows you can select a color make text color on header sticky menu . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:45
+msgid "Allows you can select a color make text color sub menu on header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:169
+msgid ""
+"Allows you can select color for text link when hover text link on header "
+"sticky menu. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:68
+msgid ""
+"Allows you can select color for text link when hover text link sub menu on "
+"header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:54
+msgid "Allows you can select fonts property for breadcrumb. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:170
+msgid "Allows you can select fonts property for page title description. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:133
+msgid "Allows you can select fonts property for page title. "
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:23
+msgid "Allows you can select fonts property for sidebars title. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:23
+msgid "Allows you can select header layout for header on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:90
+msgid "Allows you can select position layout for header layout. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:92
+msgid "Allows you can select sticky menu style for your header . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:23
+msgid "Allows you can show or hide sticky header menu on your site . "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:14
+msgid "Allows you to add, remove, change logo on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:41
+msgid "Allows you to add, remove, change mobile logo on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:27
+msgid "Allows you to add, remove, change sticky logo on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:51
+msgid ""
+"Allows you to assign a value for logo width. Example: 10px, 3em, 48%, 90vh "
+"etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mobile-menu.php:21
+msgid "Allows you to choose a background color for mobile menu."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:93
+msgid "Allows you to choose a background color for widget on topbar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:44
+msgid ""
+"Allows you to choose a layout to display for all archive pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:25
+msgid ""
+"Allows you to choose a layout to display for all blog archive, blog category "
+"page on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:25
+msgid "Allows you to choose a layout to display for all contents on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:168
+msgid "Allows you to choose a layout to display for all pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:22
+#: inc/admin/customizer-sections/event-archive.php:22
+msgid ""
+"Allows you to choose a layout to display for archive pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:89
+msgid ""
+"Allows you to choose a layout to display for only blog single page on your "
+"site."
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-single.php:22
+#: inc/admin/customizer-sections/general-layouts.php:106
+#: inc/admin/customizer-sections/event-single.php:22
+msgid "Allows you to choose a layout to display for single pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:23
+msgid "Allows you to choose a primary color for your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:70
+msgid "Allows you to choose a secondary primary color for your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mobile-menu.php:42
+msgid "Allows you to choose a text color."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mobile-menu.php:75
+msgid "Allows you to choose a text hover color."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:58
+msgid "Allows you to choose background color for your copyright area. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:206
+msgid ""
+"Allows you to enable or disable box shadow at body tag when you selected "
+"boxed layout. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:196
+msgid "Allows you to enable or disable Search feature."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:21
+msgid "Allows you to enable or disable Top bar."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:22
+msgid ""
+"Allows you to select a background for body content when you selected box "
+"layout in General Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:92
+msgid "Allows you to select a background for body tag content on your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:109
+msgid ""
+"Allows you to select a color make background color for header on mobile. "
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:134
+msgid "Allows you to select a color make color of header text on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:61
+msgid ""
+"Allows you to select a mobile menu effect position for header on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:62
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on archive layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:43
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Blog archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:186
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on page layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:107
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Post layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:124
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on single layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:65
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:83
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on archive layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:207
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on page layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:128
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Post layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:145
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on single layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:23
+msgid "Allows you to select all font font properties for header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:30
+msgid "Allows you to select all font properties of body tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:71
+msgid "Allows you to select all font properties of H1 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:102
+msgid "Allows you to select all font properties of H2 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:133
+msgid "Allows you to select all font properties of H3 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:164
+msgid "Allows you to select all font properties of H4 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:195
+msgid "Allows you to select all font properties of H5 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:226
+msgid "Allows you to select all font properties of H6 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:50
+msgid "Allows you to select color for text link when hover text link . "
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:160
+msgid ""
+"Allows you to select color for text link when hover text link on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:37
+msgid "Allows you to select font properties for topbar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:21
+msgid "Allows you to select font-family for headings (h1, h2, h3, h4, h5, h6)"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:58
+msgid "Allows you to select font-family for Subtitle Heading"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:23
+msgid "Allows you to show author meta tags to display at all blog page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:180
+msgid "Allows you to show button real more to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:57
+msgid "Allows you to show category meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:91
+msgid "Allows you to show comment meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:40
+msgid "Allows you to show date meta tags to display at all blog page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:23
+#: inc/admin/customizer-sections/event-sharing.php:23
+#: inc/admin/customizer-sections/learnpress-sharing.php:23
+msgid "Allows you to show Sharing on single post."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:74
+#: inc/admin/customizer-sections/blog-general.php:215
+msgid "Allows you to show tags meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/event-setting.php:20
+msgid "Amount Events Feature"
+msgstr ""
+
+#: functions.php:316
+msgid "Appears in copy right of footer."
+msgstr ""
+
+#: functions.php:275
+msgid "Appears in right of primary menu."
+msgstr ""
+
+#: functions.php:239 functions.php:251 functions.php:263
+msgid "Appears in the Sidebar section of the site."
+msgstr ""
+
+#: functions.php:287
+msgid "Appears in top of footer."
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:21
+#: inc/admin/customizer-sections/event-archive.php:21
+#: inc/admin/customizer-sections/general-layouts.php:43
+msgid "Archive Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:35
+#: inc/admin/customizer-sections/learnpress-archive.php:11
+#: inc/admin/customizer-sections/event-archive.php:11
+msgid "Archive Page"
+msgstr ""
+
+#. Name of the template
+#: templates/archive-service.php:2
+msgid "Archive Service"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:12
+msgid "Archive Settings"
+msgstr ""
+
+#: inc/template-tags.php:573
+msgid "Archives"
+msgstr ""
+
+#: inc/custom-functions.php:162
+msgid "Attachment"
+msgstr ""
+
+#: inc/custom-functions.php:234
+msgid "Author"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:84
+msgid "Back To Top"
+msgstr ""
+
+#: inc/extras.php:258 inc/extras.php:435 inc/extras.php:442
+msgid "Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:133
+#: inc/admin/customizer-sections/general-styling.php:204
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:76
+#: inc/admin/customizer-sections/header-sticky-menu.php:109
+#: inc/admin/customizer-sections/blog-general.php:83
+#: inc/admin/customizer-sections/learnpress-single.php:96
+#: inc/admin/customizer-sections/header-mobile-menu.php:20
+#: inc/admin/customizer-sections/learnpress-archive.php:113
+#: inc/admin/customizer-sections/header-layouts.php:67
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:34
+#: inc/admin/customizer-sections/event-archive.php:96
+#: inc/admin/customizer-sections/page-title-styling.php:42
+#: inc/admin/customizer-sections/header-topbar.php:92
+#: inc/admin/customizer-sections/general-styling.php:105
+#: inc/admin/customizer-sections/event-single.php:96
+#: inc/admin/customizer-sections/responsive.php:108
+#: inc/admin/customizer-sections/footer-copyright.php:57
+#: inc/admin/customizer-sections/header-sub-menu.php:22
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:259
+msgid "Background color"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:101
+#: inc/admin/customizer-sections/learnpress-single.php:118
+#: inc/admin/customizer-sections/learnpress-archive.php:135
+#: inc/admin/customizer-sections/event-archive.php:118
+#: inc/admin/customizer-sections/page-title-styling.php:64
+#: inc/admin/customizer-sections/event-single.php:118
+msgid "Background Color Opacity"
+msgstr ""
+
+#: inc/extras.php:459
+msgid "Background Color Overlay"
+msgstr ""
+
+#: inc/extras.php:449 inc/admin/customizer-sections/blog-general.php:67
+#: inc/admin/customizer-sections/learnpress-single.php:76
+#: inc/admin/customizer-sections/learnpress-archive.php:93
+#: inc/admin/customizer-sections/event-archive.php:76
+#: inc/admin/customizer-sections/page-title-styling.php:22
+#: inc/admin/customizer-sections/event-single.php:76
+msgid "Background Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:57
+#: inc/admin/customizer-sections/general-styling.php:128
+msgid "Background image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:106
+#: inc/admin/customizer-sections/general-styling.php:177
+msgid "Background Position"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:78
+#: inc/admin/customizer-sections/general-styling.php:149
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/custom-functions.php:227 templates/page-title/page-title.php:299
+#: inc/admin/customizer-sections/blog.php:12
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:24
+msgid "Blog Archive Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:127
+msgid "Blog List 3"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:157
+msgid "Blog Masonry Number Columns"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:136
+msgid "Blog Number Column"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:88
+msgid "Blog Single Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:119
+msgid "Blog Style"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:25
+msgid "Body"
+msgstr ""
+
+#: functions.php:138
+msgid "Body Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:29
+msgid "Body Font"
+msgstr ""
+
+#: wp-events-manager/loop/register.php:62
+msgid "Booked Slot:"
+msgstr ""
+
+#: functions.php:144
+msgid "Border Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:16
+msgid "Boxed Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:205
+msgid "Boxed Layouts Box Shadow"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:53
+msgid "Breadcrumb Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:41
+msgid "Breadcrumb Icon"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:12
+msgid "Breadcrumbs"
+msgstr ""
+
+#: comments.php:63
+msgid "Cancel Reply"
+msgstr ""
+
+#: wp-events-manager/content-single-event.php:28
+#: learnpress-v4/single-course/course-info.php:34
+msgid "Categories"
+msgstr ""
+
+#: inc/custom-functions.php:243
+msgid "Category"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:111
+#: inc/admin/customizer-sections/general-styling.php:182
+msgid "Center"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:65
+#: inc/admin/customizer-sections/header-layouts.php:133
+msgid "Change padding bottom for your header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:40
+#: inc/admin/customizer-sections/header-layouts.php:108
+msgid "Change padding top for your header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:158
+msgid "Choose the number of columns for archive masonry."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:137
+msgid "Choose the number of columns for archive post."
+msgstr ""
+
+#: inc/admin/customizer-sections/event-setting.php:21
+msgid "Choose the number of event on feature box."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:201
+msgid ""
+"Choose the number of words you want to cut from the content to be the "
+"excerpt of search and archive"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:52
+msgid ""
+"Choose the number of words you want to space between widgets on sidebars. "
+"Example: 10px, 3em, 48%, 90vh etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:120
+msgid "Choose the style for archive post."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:47
+#: inc/admin/customizer-sections/event-sharing.php:47
+#: inc/admin/customizer-sections/learnpress-sharing.php:47
+msgid ""
+"Click on eye icon to show or hide social icon. Drag and drop to change the "
+"order of social icons."
+msgstr ""
+
+#: templates/page-title/page-title.php:274
+msgid "Collections"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:26
+#: inc/admin/customizer-sections/general-styling.php:96
+msgid "Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:97
+#: inc/admin/customizer-sections/footer-copyright.php:79
+msgid "Colors"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:302
+msgid "Columns of Related Post"
+msgstr ""
+
+#. Name of the template
+#: templates/comingsoon.php:2
+msgid "Coming Soon Mode"
+msgstr ""
+
+#: inc/extras.php:233
+msgid "Coming Soon Mode - Settings"
+msgstr ""
+
+#: comments.php:32 comments.php:44
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:27
+msgid "Comments"
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/template-tags.php:124
+msgid "Comments are off for this post"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:256
+msgid "Comments Form"
+msgstr ""
+
+#: inc/admin/installer/installer.php:759
+msgid "Configuration Check"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:108
+msgid "Container"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:52
+msgid "Controls the number of columns in the footer."
+msgstr ""
+
+#: functions.php:314
+msgid "Copy Right"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:11
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:64
+msgid "Copyright Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:120
+msgid "Copyright Text"
+msgstr ""
+
+#: wp-events-manager/loop/register.php:66
+msgid "Cost:"
+msgstr ""
+
+#: learnpress-v4/single-course/tabs/curriculumm.php:21
+#: learnpress-v4/single-course/tabs/curriculum-v2.php:31
+msgid "Course Content"
+msgstr ""
+
+#: bbpress/form-topic.php:43
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:43
+#, php-format
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/admin/installer/installer.php:797
+msgid "cURL version"
+msgstr ""
+
+#: learnpress-v4/single-course/tabs/curriculumm.php:137
+msgid "Curriculum is empty"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:99
+msgid "Custom"
+msgstr ""
+
+#: inc/extras.php:475
+msgid "Custom Layout"
+msgstr ""
+
+#: inc/extras.php:348
+msgid "Custom Page Title"
+msgstr ""
+
+#: inc/extras.php:414
+msgid "Custom Sub Title & Description"
+msgstr ""
+
+#: inc/extras.php:394
+msgid "Custom Title"
+msgstr ""
+
+#: inc/template-tags.php:543
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/extras.php:253
+msgid "Date"
+msgstr ""
+
+#: wp-events-manager/loop/register.php:22
+msgid "Date & Time"
+msgstr ""
+
+#: inc/custom-functions.php:184
+msgid "Day"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:249
+msgid "Day of Week"
+msgstr ""
+
+#: inc/template-tags.php:543
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: templates/comingsoon.php:51
+msgid "Days"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:107
+#: inc/admin/customizer-sections/blog-general.php:125
+#: inc/admin/customizer-sections/learnpress-archive.php:47
+#: inc/admin/customizer-sections/header-layouts.php:96
+#: inc/admin/customizer-sections/header-layouts.php:224
+#: inc/admin/customizer-sections/header-topbar.php:140
+msgid "Default"
+msgstr ""
+
+#: woocommerce/custom-functions.php:90
+msgid "Default sorting"
+msgstr ""
+
+#: inc/data/demos.php:46 inc/data/demos.php:172
+msgid "Demo 1"
+msgstr ""
+
+#: inc/data/demos.php:67 inc/data/demos.php:194
+msgid "Demo 2"
+msgstr ""
+
+#: inc/data/demos.php:4 inc/data/demos.php:128
+msgid "Demo 3"
+msgstr ""
+
+#: inc/data/demos.php:25 inc/data/demos.php:150
+msgid "Demo 4"
+msgstr ""
+
+#: inc/data/demos.php:88 inc/data/demos.php:216
+msgid "Demo 5"
+msgstr ""
+
+#: inc/data/demos.php:109 inc/data/demos.php:238
+msgid "Demo 6"
+msgstr ""
+
+#: functions.php:226
+msgid "Display in sidebar logo."
+msgstr ""
+
+#: functions.php:200
+msgid "Display in topbar left."
+msgstr ""
+
+#: functions.php:211
+msgid "Display in topbar right."
+msgstr ""
+
+#: functions.php:188
+msgid "Display in topbar."
+msgstr ""
+
+#: inc/extras.php:328
+msgid "Display settings"
+msgstr ""
+
+#: inc/template-tags.php:378 inc/libs/tax-meta-class/Tax-meta-class.php:364
+#: inc/libs/tax-meta-class/Tax-meta-class.php:364
+msgid "Edit"
+msgstr ""
+
+#: inc/learnpress-functions.php:270
+msgid "Edit item"
+msgstr ""
+
+#: inc/template-tags.php:332
+msgid "Email"
+msgstr ""
+
+#: inc/template-tags.php:738
+msgid "Email *"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:73
+msgid "Enter any valid dimension CSS value"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:23
+msgid "Enter footer custom class."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:23
+msgid "Enter main content custom class."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:121
+msgid ""
+"Enter the text that displays in the copyright bar. HTML markup can be used."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:180
+msgid "Enter url login redirect."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:204
+msgid "Enter url logout redirect."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:192
+msgid "Enter url register redirect."
+msgstr ""
+
+#: comments.php:65
+msgid "Enter your comment *"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:168
+msgid "Enter your ID Facebook Pixel."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:156
+msgid "Enter your ID Google Analytics."
+msgstr ""
+
+#: templates/page-title/page-title.php:261
+#: inc/admin/customizer-sections/event.php:12
+msgid "Events"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:200
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/widgets.php:50
+msgid "Extra Class"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:13
+msgid "Extra Features"
+msgstr ""
+
+#: inc/extras.php:270
+msgid "Extra Information"
+msgstr ""
+
+#: inc/template-tags.php:191 inc/admin/customizer-sections/blog-sharing.php:57
+#: inc/admin/customizer-sections/event-sharing.php:57
+#: inc/admin/customizer-sections/learnpress-sharing.php:57
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:167
+msgid "Facebook Pixel"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:243
+msgid "Featured Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:138
+#: inc/admin/customizer-sections/general-styling.php:209
+msgid "Fixed"
+msgstr ""
+
+#: vc_templates/js_composer.php:15
+msgid "Flex slider fade"
+msgstr ""
+
+#: vc_templates/js_composer.php:16
+msgid "Flex slider slide"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:22
+msgid "Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer.php:12
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:22
+msgid "Footer Custom Class"
+msgstr ""
+
+#: functions.php:285
+msgid "Footer Top"
+msgstr ""
+
+#: bbpress/form-topic.php:114
+msgid "Forum:"
+msgstr ""
+
+#: wp-events-manager/loop/register.php:66
+#: learnpress-v4/addons/paid-membership-pro/pages/levels.php:64
+msgid "Free"
+msgstr ""
+
+#: vc_templates/js_composer.php:12
+msgid "Gallery type"
+msgstr ""
+
+#: inc/admin/customizer-sections/general.php:12
+msgid "General"
+msgstr ""
+
+#: learnpress-v4/addons/paid-membership-pro/pages/levels.php:150
+msgid "GET STARTED"
+msgstr ""
+
+#: inc/template-tags.php:207 inc/admin/customizer-sections/blog-sharing.php:60
+#: inc/admin/customizer-sections/event-sharing.php:60
+#: inc/admin/customizer-sections/learnpress-sharing.php:60
+msgid "Google"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:155
+msgid "Google Analytics"
+msgstr ""
+
+#: inc/template-tags.php:207
+msgid "Google Plus"
+msgstr ""
+
+#: inc/template-tags.php:589
+msgid "Google plus"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:118
+msgid "Google Theme"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:135
+msgid "Google Theme Color"
+msgstr ""
+
+#: inc/learnpress-functions.php:69 inc/learnpress-functions.php:73
+msgid "h"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:82
+msgid "Hamburger icon color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header.php:13
+msgid "Header"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:22
+msgid "Header Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:64
+#: inc/admin/customizer-sections/header-layouts.php:132
+msgid "Header Padding Bottom"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:39
+#: inc/admin/customizer-sections/header-layouts.php:107
+msgid "Header Padding Top"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:89
+msgid "Header Positions"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:218
+msgid "Header Size "
+msgstr ""
+
+#: inc/extras.php:249
+msgid "Heading"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:70
+msgid "Heading 1"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:101
+msgid "Heading 2"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:132
+msgid "Heading 3"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:163
+msgid "Heading 4"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:194
+msgid "Heading 5"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:225
+msgid "Heading 6"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:20
+msgid "Heading Font-Family"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:16
+msgid "Headings"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:85
+#: inc/admin/customizer-sections/header-topbar.php:72
+msgid "Height"
+msgstr ""
+
+#: inc/extras.php:504
+msgid "Hidden Footer Top"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:22
+#: inc/admin/customizer-sections/blog-general.php:41
+#: inc/admin/customizer-sections/learnpress-single.php:42
+#: inc/admin/customizer-sections/learnpress-archive.php:59
+#: inc/admin/customizer-sections/event-archive.php:42
+#: inc/admin/customizer-sections/event-single.php:42
+msgid "Hidden Page Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:29
+#: inc/admin/customizer-sections/blog-meta.php:46
+#: inc/admin/customizer-sections/blog-meta.php:63
+#: inc/admin/customizer-sections/blog-meta.php:80
+#: inc/admin/customizer-sections/blog-meta.php:97
+#: inc/admin/customizer-sections/blog-general.php:185
+#: inc/admin/customizer-sections/blog-general.php:220
+#: inc/admin/customizer-sections/blog-sharing.php:29
+#: inc/admin/customizer-sections/event-sharing.php:29
+#: inc/admin/customizer-sections/learnpress-sharing.php:29
+msgid "Hide"
+msgstr ""
+
+#: inc/extras.php:368
+msgid "Hide All Page Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:54
+#: inc/admin/customizer-sections/learnpress-single.php:59
+#: inc/admin/customizer-sections/learnpress-archive.php:76
+#: inc/admin/customizer-sections/event-archive.php:59
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:22
+#: inc/admin/customizer-sections/event-single.php:59
+msgid "Hide Breadcrumb"
+msgstr ""
+
+#: inc/extras.php:423
+msgid "Hide Breadcrumbs"
+msgstr ""
+
+#: woocommerce/widgets/class-wc-widget-cart.php:104
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: inc/extras.php:405
+msgid "Hide Sub Title & Description"
+msgstr ""
+
+#: inc/extras.php:385
+msgid "Hide Title"
+msgstr ""
+
+#. Name of the template
+#: templates/home-page.php:2
+msgid "Home Page"
+msgstr ""
+
+#: templates/comingsoon.php:65
+msgid "Hours"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:104
+#: inc/admin/customizer-sections/footer-copyright.php:85
+msgid "Hover"
+msgstr ""
+
+#: inc/admin/installer/installer.php:775
+msgid "How to update your PHP version"
+msgstr ""
+
+#. URI of the theme
+msgid "http://ivy-school.thimpress.com/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://thimpress.com"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:260
+msgid "Icon color"
+msgstr ""
+
+#: inc/extras.php:297
+msgid "Icon Service"
+msgstr ""
+
+#: inc/extras.php:306
+msgid "Icon Upload"
+msgstr ""
+
+#: inc/custom-functions.php:956
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:84
+#: inc/admin/customizer-sections/learnpress-single.php:97
+#: inc/admin/customizer-sections/learnpress-archive.php:114
+#: inc/admin/customizer-sections/event-archive.php:97
+#: inc/admin/customizer-sections/page-title-styling.php:43
+#: inc/admin/customizer-sections/event-single.php:97
+msgid ""
+"If you do not use background image, then can use background color for page "
+"title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:27
+#: inc/admin/customizer-sections/general-styling.php:97
+msgid "Image"
+msgstr ""
+
+#: vc_templates/js_composer.php:18
+msgid "Image grid"
+msgstr ""
+
+#: learnpress-v4/single-course/progress.php:55
+msgid "In Progress"
+msgstr ""
+
+#: inc/admin/installer/class-thim-plugin.php:387
+msgid "Inactive"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:233
+msgid "Includes"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:234
+msgid "Includes infomation of Courses"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:224
+msgid "Info Button Box"
+msgstr ""
+
+#: inc/admin/installer/installer.php:652
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/admin/installer/installer.php:358
+#, php-format
+msgid ""
+"Installed the theme successfully. <a href=\"%s\">Enable Thim Core to start "
+"now!</a>"
+msgstr ""
+
+#: inc/admin/installer/installer.php:678
+msgid "Installing Thim Core"
+msgstr ""
+
+#: learnpress-v4/single-course/instructor.php:34
+#: learnpress-v4/single-course/tabs/instructor.php:32
+msgid "Instructor"
+msgstr ""
+
+#: templates/template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Name of the theme
+msgid "Ivy School"
+msgstr ""
+
+#: inc/admin/plugins-require.php:350
+msgid "ivy-school"
+msgstr ""
+
+#: bbpress/form-topic.php:184
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:226
+#: inc/admin/customizer-sections/header-topbar.php:141
+msgid "Large"
+msgstr ""
+
+#: inc/extras.php:336
+msgid "Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:41
+msgid "Layout Courses"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-archive.php:48
+msgid "Layout Courses Left"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:12
+#: inc/admin/customizer-sections/header-layouts.php:11
+#: inc/admin/customizer-sections/general-layouts.php:12
+msgid "Layouts"
+msgstr ""
+
+#: templates/template-parts/content.php:69
+#: templates/template-parts/content.php:108
+#: templates/template-parts/content.php:132
+#: templates/template-parts/content.php:156
+#: templates/template-parts/content.php:183
+msgid "Learn More"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress.php:12
+msgid "Learnpress"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:110
+#: inc/admin/customizer-sections/general-styling.php:181
+#: inc/admin/customizer-sections/responsive.php:67
+msgid "Left"
+msgstr ""
+
+#: inc/custom-shortcodes.php:8
+#: inc/admin/customizer-sections/footer-options.php:103
+#: inc/admin/customizer-sections/footer-copyright.php:84
+msgid "Link"
+msgstr ""
+
+#: inc/custom-shortcodes.php:13
+msgid "Link Image"
+msgstr ""
+
+#: templates/features/preloading/custom-image.php:10
+msgid "Loading..."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:179
+msgid "Login Redirect"
+msgstr ""
+
+#: inc/extras.php:242 inc/admin/customizer-options.php:30
+#: inc/admin/customizer-sections/general-logo.php:13
+msgid "Logo"
+msgstr ""
+
+#: functions.php:224
+msgid "Logo Right"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:50
+msgid "Logo width"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:203
+msgid "Logout Redirect"
+msgstr ""
+
+#: inc/learnpress-functions.php:69 inc/learnpress-functions.php:71
+msgid "m"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:86
+msgid "Main Content Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:22
+msgid "Main Content Custom Class"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:11
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:159
+msgid "Main Menu Height"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:126
+msgid "Masonry"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:195
+msgid "Media"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:216
+msgid "Media UR"
+msgstr ""
+
+#: templates/header/header_v2.php:18
+msgid "Menu"
+msgstr ""
+
+#: functions.php:57
+msgid "Menu Account"
+msgstr ""
+
+#: inc/admin/customizer-sections/nav-menus.php:12
+msgid "Menus"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:12
+msgid "Meta Tags"
+msgstr ""
+
+#: templates/comingsoon.php:79
+msgid "Minutes"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:40
+msgid "Mobile Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-mobile-menu.php:9
+#: inc/admin/customizer-sections/responsive.php:55
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/custom-functions.php:182
+msgid "Month"
+msgstr ""
+
+#: inc/template-tags.php:541
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:541
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:331
+msgid "Name"
+msgstr ""
+
+#: comments.php:34 comments.php:46
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: templates/template-parts/content-single.php:121
+msgid "Next"
+msgstr ""
+
+#: vc_templates/js_composer.php:17
+msgid "Nivo slider"
+msgstr ""
+
+#: inc/template-tags.php:124
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:51
+msgid "No comment yet! You will be the first to comment."
+msgstr ""
+
+#: learnpress-v4/single-course/loop-section.php:72
+msgid "No items in this section"
+msgstr ""
+
+#: inc/extras.php:496
+msgid "No Padding"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:85
+#: inc/admin/customizer-sections/general-styling.php:156
+msgid "No Repeat"
+msgstr ""
+
+#: inc/admin/installer/class-thim-plugin.php:388
+msgid "Not Installed"
+msgstr ""
+
+#: templates/template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: bbpress/form-topic.php:168
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-topic.php:164
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-topic.php:41
+#, php-format
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: learnpress-v4/addons/paid-membership-pro/pages/levels.php:19
+#: learnpress-v4/addons/paid-membership-pro/pages/levels.php:113
+msgid "Number of courses"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:282
+msgid "Numbers of Related Post"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:29
+#: inc/admin/customizer-sections/page-title.php:46
+#: inc/admin/customizer-sections/footer-options.php:41
+#: inc/admin/customizer-sections/general-features.php:40
+#: inc/admin/customizer-sections/general-features.php:57
+#: inc/admin/customizer-sections/general-features.php:74
+#: inc/admin/customizer-sections/general-features.php:91
+#: inc/admin/customizer-sections/general-features.php:125
+#: inc/admin/customizer-sections/header-sticky-menu.php:29
+#: inc/admin/customizer-sections/blog-general.php:47
+#: inc/admin/customizer-sections/blog-general.php:60
+#: inc/admin/customizer-sections/blog-general.php:249
+#: inc/admin/customizer-sections/blog-general.php:262
+#: inc/admin/customizer-sections/blog-general.php:275
+#: inc/admin/customizer-sections/learnpress-single.php:49
+#: inc/admin/customizer-sections/learnpress-single.php:66
+#: inc/admin/customizer-sections/learnpress-archive.php:66
+#: inc/admin/customizer-sections/learnpress-archive.php:83
+#: inc/admin/customizer-sections/header-layouts.php:202
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:211
+#: inc/admin/customizer-sections/event-archive.php:49
+#: inc/admin/customizer-sections/event-archive.php:66
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:29
+#: inc/admin/customizer-sections/header-topbar.php:27
+#: inc/admin/customizer-sections/event-single.php:49
+#: inc/admin/customizer-sections/event-single.php:66
+#: inc/admin/customizer-sections/responsive.php:29
+#: inc/admin/customizer-sections/footer-copyright.php:29
+msgid "Off"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:28
+#: inc/admin/customizer-sections/page-title.php:45
+#: inc/admin/customizer-sections/footer-options.php:40
+#: inc/admin/customizer-sections/general-features.php:39
+#: inc/admin/customizer-sections/general-features.php:56
+#: inc/admin/customizer-sections/general-features.php:73
+#: inc/admin/customizer-sections/general-features.php:90
+#: inc/admin/customizer-sections/general-features.php:124
+#: inc/admin/customizer-sections/header-sticky-menu.php:28
+#: inc/admin/customizer-sections/blog-general.php:46
+#: inc/admin/customizer-sections/blog-general.php:59
+#: inc/admin/customizer-sections/blog-general.php:248
+#: inc/admin/customizer-sections/blog-general.php:261
+#: inc/admin/customizer-sections/blog-general.php:274
+#: inc/admin/customizer-sections/learnpress-single.php:48
+#: inc/admin/customizer-sections/learnpress-single.php:65
+#: inc/admin/customizer-sections/learnpress-archive.php:65
+#: inc/admin/customizer-sections/learnpress-archive.php:82
+#: inc/admin/customizer-sections/header-layouts.php:201
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:210
+#: inc/admin/customizer-sections/event-archive.php:48
+#: inc/admin/customizer-sections/event-archive.php:65
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:28
+#: inc/admin/customizer-sections/header-topbar.php:26
+#: inc/admin/customizer-sections/event-single.php:48
+#: inc/admin/customizer-sections/event-single.php:65
+#: inc/admin/customizer-sections/responsive.php:28
+#: inc/admin/customizer-sections/footer-copyright.php:28
+msgid "On"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:67
+msgid "Open Graph Meta Tags"
+msgstr ""
+
+#: bbpress/form-topic.php:188
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: templates/single-service.php:36
+msgid "Other Services"
+msgstr ""
+
+#: templates/page-title/page-title.php:257
+msgid "Our Team"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:97
+msgid "Overlay"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:111
+msgid "Padding Top"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:167
+msgid "Page Layouts"
+msgstr ""
+
+#: inc/custom-functions.php:246
+msgid "Page Not Found!"
+msgstr ""
+
+#: 404.php:16
+msgid "Page not found!"
+msgstr ""
+
+#: inc/extras.php:332 inc/admin/customizer-sections/page-title-bar.php:11
+msgid "Page Title"
+msgstr ""
+
+#: templates/template-parts/content-single.php:68
+#: templates/template-parts/content-page.php:16
+msgid "Pages:"
+msgstr ""
+
+#: learnpress-v4/single-course/progress.php:65
+#, php-format
+msgid "Passing condition: %s%%"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:28
+#: inc/admin/customizer-sections/general-styling.php:98
+msgid "Pattern"
+msgstr ""
+
+#: inc/admin/installer/installer.php:784
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: inc/admin/installer/installer.php:770
+msgid "PHP Version"
+msgstr ""
+
+#: inc/template-tags.php:202 inc/admin/customizer-sections/blog-sharing.php:59
+#: inc/admin/customizer-sections/event-sharing.php:59
+#: inc/admin/customizer-sections/learnpress-sharing.php:59
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/installer/installer.php:823
+#, php-format
+msgid ""
+"Please follow those instructions above to make sure your server is ready to "
+"use %s theme. If you need assistance, please get our support <a href=\"%s\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: inc/admin/installer/installer.php:802
+msgid "Plugins directory"
+msgstr ""
+
+#: inc/admin/installer/installer.php:810
+msgid "Plugins directory writable"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:60
+msgid "Position"
+msgstr ""
+
+#: inc/template-tags.php:545
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:559
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:561
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:547
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:549
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:555
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:553
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:557
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:551
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: wp-events-manager/content-single-event.php:26
+msgid "Posted by"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:215
+msgid "Preloading"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:255
+msgid "Preloading Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:239
+msgid "Preloading Custom Image"
+msgstr ""
+
+#: templates/template-parts/content-single.php:100
+msgid "Previous"
+msgstr ""
+
+#: learnpress-v4/single-course/info-bar.php:38
+msgid "Price"
+msgstr ""
+
+#: functions.php:126 inc/admin/customizer-sections/general-styling.php:22
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr ""
+
+#: templates/page-title/page-title.php:265
+msgid "Products"
+msgstr ""
+
+#: wp-events-manager/loop/booking-form.php:32
+msgid "Quantity"
+msgstr ""
+
+#: templates/template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: wp-events-manager/loop/register.php:82
+#: wp-events-manager/loop/booking-form.php:61
+msgid "Register Now"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:191
+msgid "Register Redirect"
+msgstr ""
+
+#: inc/learnpress-functions.php:95
+msgid "Related Courses"
+msgstr ""
+
+#: templates/template-parts/related-single.php:14
+#: inc/admin/customizer-sections/blog-general.php:269
+msgid "Related Posts"
+msgstr ""
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:371
+#: inc/libs/tax-meta-class/Tax-meta-class.php:418
+#: inc/libs/tax-meta-class/Tax-meta-class.php:418
+msgid "Remove"
+msgstr ""
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:713
+msgid "Remove Image"
+msgstr ""
+
+#: learnpress-v4/addons/paid-membership-pro/pages/levels.php:156
+msgid "Renew"
+msgstr ""
+
+#: comments.php:62
+#, php-format
+msgid "Reply Comment %s"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:11
+#: inc/admin/customizer-sections/responsive.php:22
+msgid "Responsive"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:39
+msgid "Retina Logo"
+msgstr ""
+
+#: woocommerce/custom-functions.php:183
+msgid "Return to course"
+msgstr ""
+
+#: learnpress-v4/single-course/course-info.php:56
+msgid "Review"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:112
+#: inc/admin/customizer-sections/general-styling.php:183
+#: inc/admin/customizer-sections/responsive.php:68
+msgid "Right"
+msgstr ""
+
+#: functions.php:273
+msgid "Right Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:34
+msgid "RTL Support"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:137
+#: inc/admin/customizer-sections/general-styling.php:208
+msgid "Scroll"
+msgstr ""
+
+#: inc/custom-functions.php:237
+msgid "Search"
+msgstr ""
+
+#: inc/template-tags.php:571
+msgid "Search Results Page"
+msgstr ""
+
+#: learnpress-v4/single-course/tabs/curriculumm.php:38
+msgid "Search..."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:69
+msgid "Secondary Primary Color"
+msgstr ""
+
+#: templates/comingsoon.php:93
+msgid "Seconds"
+msgstr ""
+
+#: learnpress-v4/single-course/loop-section.php:61
+#: learnpress-v4/loop/single-course/loop-section.php:46
+#, php-format
+msgid "Section progress %s%%"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:159
+#: inc/admin/customizer-sections/general-styling.php:230
+msgid "Select a Background Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:40
+msgid ""
+"Select an image file for the retina version of the logo. It should be "
+"exactly 2x the size of the logo."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:21
+#: inc/admin/customizer-sections/general-styling.php:91
+msgid "Select Background Type"
+msgstr ""
+
+#: vc_templates/js_composer.php:21
+msgid "Select gallery type."
+msgstr ""
+
+#: inc/extras.php:482
+msgid "Select Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:91
+msgid "Select style"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:113
+msgid "Separated Line Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:114
+msgid "Separated line Topbar vs Header"
+msgstr ""
+
+#: inc/admin/installer/installer.php:765
+msgid "Server Info"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:160
+msgid "Set height for main menu - Header layout 2"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:101
+msgid "Set Position Back To Top By"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:12
+#: inc/admin/customizer-sections/footer-options.php:11
+#: inc/admin/customizer-sections/event-setting.php:11
+msgid "Settings"
+msgstr ""
+
+#: inc/template-tags.php:166
+msgid "Share"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:28
+#: inc/admin/customizer-sections/blog-meta.php:45
+#: inc/admin/customizer-sections/blog-meta.php:62
+#: inc/admin/customizer-sections/blog-meta.php:79
+#: inc/admin/customizer-sections/blog-meta.php:96
+#: inc/admin/customizer-sections/blog-general.php:184
+#: inc/admin/customizer-sections/blog-general.php:219
+#: inc/admin/customizer-sections/blog-sharing.php:28
+#: inc/admin/customizer-sections/event-sharing.php:28
+#: inc/admin/customizer-sections/learnpress-sharing.php:28
+msgid "Show"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:22
+msgid "Show Author"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:56
+msgid "Show Category"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:90
+msgid "Show Comment Number"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:22
+msgid "Show Copyright Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:39
+msgid "Show Date"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:250
+msgid "Show Day of Week Course"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:34
+msgid "Show Footer Widgets"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:179
+msgid "Show Read More"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:195
+msgid "Show Search"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:22
+#: inc/admin/customizer-sections/event-sharing.php:22
+#: inc/admin/customizer-sections/learnpress-sharing.php:22
+msgid "Show Sharing"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:73
+#: inc/admin/customizer-sections/blog-general.php:214
+msgid "Show Tags"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:242
+msgid "Show Time start and time end in course"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:20
+msgid "Show Topbar"
+msgstr ""
+
+#: functions.php:237
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:249
+msgid "Sidebar Courses"
+msgstr ""
+
+#: functions.php:302
+msgid "Sidebar display widgets."
+msgstr ""
+
+#: functions.php:261
+msgid "Sidebar Event"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:61
+msgid "Sidebar Left For Archive Layout "
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:42
+msgid "Sidebar Left For Blog Archive Layout "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:185
+msgid "Sidebar Left For Page Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:106
+#: inc/admin/customizer-sections/general-layouts.php:123
+msgid "Sidebar Left For Post Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:51
+msgid "Sidebar Number"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:82
+msgid "Sidebar Right For Archive Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:64
+msgid "Sidebar Right For Blog Archive Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:206
+msgid "Sidebar Right For Page Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:127
+#: inc/admin/customizer-sections/general-layouts.php:144
+msgid "Sidebar Right For Post Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:22
+msgid "Sidebar Title Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:11
+msgid "Sidebars"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:41
+#: inc/admin/customizer-sections/event-sharing.php:41
+#: inc/admin/customizer-sections/learnpress-sharing.php:41
+msgid "Single"
+msgstr ""
+
+#: inc/admin/customizer-sections/learnpress-single.php:21
+#: inc/admin/customizer-sections/general-layouts.php:105
+#: inc/admin/customizer-sections/event-single.php:21
+msgid "Single Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:237
+#: inc/admin/customizer-sections/learnpress-single.php:11
+#: inc/admin/customizer-sections/event-single.php:11
+msgid "Single Page"
+msgstr ""
+
+#. Name of the template
+#: templates/single-service.php:2
+msgid "Single Service"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:22
+msgid "Single Settings"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:24
+msgid "Site Layouts"
+msgstr ""
+
+#: inc/admin/installer/installer.php:654
+msgid "Skip"
+msgstr ""
+
+#: wp-events-manager/loop/register.php:52
+msgid "Slot"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:225
+msgid "Small"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:50
+msgid "Smooth Scrolling"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:12
+#: inc/admin/customizer-sections/event-sharing.php:12
+#: inc/admin/customizer-sections/learnpress-sharing.php:12
+msgid "Social Share"
+msgstr ""
+
+#: inc/custom-functions.php:953
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: inc/admin/installer/class-thim-plugin.php:66
+#: inc/admin/installer/installer.php:726
+msgid "Something went wrong!"
+msgstr ""
+
+#: templates/template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: 404.php:17
+#, php-format
+msgid ""
+"Sorry, we can't find the page you are looking for. Please go to  <a "
+"href='%s'>Home.</a>"
+msgstr ""
+
+#: woocommerce/custom-functions.php:92
+msgid "Sort by average rating"
+msgstr ""
+
+#: woocommerce/custom-functions.php:93
+msgid "Sort by newness"
+msgstr ""
+
+#: woocommerce/custom-functions.php:91
+msgid "Sort by popularity"
+msgstr ""
+
+#: woocommerce/custom-functions.php:95
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: woocommerce/custom-functions.php:94
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:46
+#: inc/admin/customizer-sections/event-sharing.php:46
+#: inc/admin/customizer-sections/learnpress-sharing.php:46
+msgid "Sortable Buttons Sharing"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:26
+msgid "Sticky Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:11
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:22
+msgid "Sticky On Scroll"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:12
+msgid "Styling"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:11
+msgid "Sub Menu"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:7
+msgid "Sub Title"
+msgstr ""
+
+#: comments.php:64 bbpress/form-topic.php:203
+msgid "Submit"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:57
+msgid "Subtitle Heading Font-Family"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:217
+msgid ""
+"Supports 3 types of video urls: Direct video link, Youtube link, Vimeo link."
+msgstr ""
+
+#: inc/custom-functions.php:240
+msgid "Tag"
+msgstr ""
+
+#: learnpress-v4/single-course/info-bar.php:75
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:109
+msgid "Tags:"
+msgstr ""
+
+#: learnpress-v4/single-course/course-info.php:27
+msgid "Teacher"
+msgstr ""
+
+#: learnpress-v4/single-course/loop-section.php:50
+msgctxt "template title empty"
+msgid "Untitled"
+msgstr ""
+
+#: templates/page-title/page-title.php:278
+msgid "Testimonials"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:102
+#: inc/admin/customizer-sections/footer-copyright.php:83
+msgid "Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:138
+#: inc/admin/customizer-sections/header-mobile-menu.php:41
+#: inc/admin/customizer-sections/responsive.php:133
+#: inc/admin/customizer-sections/header-sub-menu.php:44
+msgid "Text Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:49
+msgid "Text Color Hover"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:168
+#: inc/admin/customizer-sections/header-mobile-menu.php:74
+#: inc/admin/customizer-sections/responsive.php:159
+#: inc/admin/customizer-sections/header-sub-menu.php:67
+msgid "Text Hover Color"
+msgstr ""
+
+#: bbpress/form-topic.php:226
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:98
+msgid "The same with main menu"
+msgstr ""
+
+#. Description of the theme
+msgid "Theme Description."
+msgstr ""
+
+#: wp-events-manager/loop/booking-form.php:52
+msgid ""
+"There are no payment gateway available. Please contact administrator to "
+"setup it."
+msgstr ""
+
+#: inc/admin/installer/installer.php:531 inc/admin/installer/installer.php:610
+msgid "Thim Core Installer"
+msgstr ""
+
+#: inc/admin/installer/installer.php:843
+#, php-format
+msgid "Thim Core Installer &lsaquo; %s"
+msgstr ""
+
+#: vc_templates/js_composer.php:19
+msgid "Thim slider"
+msgstr ""
+
+#. Author of the theme
+msgid "ThimPress"
+msgstr ""
+
+#: wp-events-manager/loop/register.php:79
+msgid "This event is expired."
+msgstr ""
+
+#: bbpress/form-topic.php:53
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:82
+#: inc/admin/customizer-sections/general-styling.php:153
+msgid "Tile"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:83
+#: inc/admin/customizer-sections/general-styling.php:154
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:84
+#: inc/admin/customizer-sections/general-styling.php:155
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/learnpress-v4-functions.php:241
+msgid "Time"
+msgstr ""
+
+#: learnpress-v4/single-course/tabs/curriculumm.php:73
+#: learnpress-v4/single-course/tabs/curriculum-v2.php:69
+msgid "Time: "
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:101
+#: inc/admin/customizer-sections/page-title-styling.php:12
+msgid "Title"
+msgstr ""
+
+#: inc/extras.php:378
+msgid "Title & Breadcrumb"
+msgstr ""
+
+#: functions.php:132
+msgid "Title Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:132
+msgid "Title Styling"
+msgstr ""
+
+#: woocommerce/widgets/class-wc-widget-cart.php:98
+msgid "Title:"
+msgstr ""
+
+#: inc/custom-functions.php:957
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: functions.php:186
+msgid "Top Bar"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:9
+msgid "Top bar"
+msgstr ""
+
+#: functions.php:198
+msgid "Top Bar - Left"
+msgstr ""
+
+#: functions.php:209
+msgid "Top Bar - Right"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:134
+msgid "Top Bar Size "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:36
+msgid "Topbar Typography"
+msgstr ""
+
+#: bbpress/form-topic.php:145
+msgid "Topic Status:"
+msgstr ""
+
+#: bbpress/form-topic.php:101
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:75
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:133
+msgid "Topic Type:"
+msgstr ""
+
+#: learnpress-v4/single-course/tabs/curriculumm.php:52
+#: learnpress-v4/single-course/tabs/curriculum-v2.php:50
+msgid "Total learning: "
+msgstr ""
+
+#: wp-events-manager/loop/register.php:58
+msgid "Total Slot:"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:257
+msgid "Turn on to display comments."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:244
+msgid "Turn on to display featured images on single blog posts.."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:35
+msgid "Turn on to display footer widgets."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:270
+msgid "Turn on to display related posts."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:23
+msgid "Turn on to display the copyright bar."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:68
+msgid ""
+"Turn on to enable open graph meta tags which is mainly used when sharing "
+"pages on social networking sites like Facebook."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:23
+msgid "Turn on to enable responsive on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:51
+msgid "Turn on to enable smooth scrolling."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:85
+msgid ""
+"Turn on to enable the Back To Top script which adds the scrolling to top "
+"functionality."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:119
+msgid "Turn on to set the toolbar color in Chrome for Android."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:39
+msgid "Turn On/Off Parallax"
+msgstr ""
+
+#: inc/template-tags.php:195 inc/admin/customizer-sections/blog-sharing.php:58
+#: inc/admin/customizer-sections/event-sharing.php:58
+#: inc/admin/customizer-sections/learnpress-sharing.php:58
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:13
+msgid "Typography"
+msgstr ""
+
+#: inc/libs/tax-meta-class/Tax-meta-class.php:715
+msgid "Upload Image"
+msgstr ""
+
+#: inc/custom-functions.php:955
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: wp-events-manager/loop/register.php:39
+msgid "Venue"
+msgstr ""
+
+#: woocommerce/content-single-product-lightbox.php:39
+msgid "View Detail"
+msgstr ""
+
+#: archive.php:34
+msgid "view More"
+msgstr ""
+
+#: learnpress-v4/single-course/course-info.php:43
+#: learnpress-v4/single-course/content-learning.php:71
+msgid "Visit Forum: "
+msgstr ""
+
+#: inc/template-tags.php:333
+msgid "Website"
+msgstr ""
+
+#: inc/admin/installer/installer.php:612
+#, php-format
+msgid ""
+"Welcome to the setup Core for %1$s Theme. Thank you for choosing the %1$s "
+"theme!"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:51
+msgid "Widget Margin Bottom"
+msgstr ""
+
+#: inc/admin/customizer-sections/widgets.php:12
+msgid "Widgets"
+msgstr ""
+
+#: inc/custom-functions.php:180
+msgid "Year"
+msgstr ""
+
+#: inc/template-tags.php:539
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:539
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/admin/installer/installer.php:712
+#, php-format
+msgid "You are redirecting to %s theme dashboard..."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:86
+msgid ""
+"You can choose numbers to height for page title. Example: 100px, 30em, 48%, "
+"90vh etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:112
+msgid ""
+"You can choose padding top from page title to menu in header overlay layout. "
+"Example: 10px, 3em, 48%, 90vh etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:68
+#: inc/admin/customizer-sections/learnpress-single.php:77
+#: inc/admin/customizer-sections/learnpress-archive.php:94
+#: inc/admin/customizer-sections/event-archive.php:77
+#: inc/admin/customizer-sections/page-title-styling.php:23
+#: inc/admin/customizer-sections/event-single.php:77
+msgid ""
+"You can upload image make to background image for page title on heading top. "
+msgstr ""
+
+#: bbpress/form-topic.php:234
+msgid "You cannot create new topics."
+msgstr ""
+
+#: wp-events-manager/loop/register.php:77
+msgid "You have registered this event before."
+msgstr ""
+
+#: bbpress/form-topic.php:90
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+#: wp-events-manager/loop/register.php:85
+#, php-format
+msgid "You must <a href=\"%s\">login</a> before register event."
+msgstr ""
+
+#: bbpress/form-topic.php:234
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/form-topic.php:61
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: inc/template-tags.php:382
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: learnpress-v4/addons/paid-membership-pro/pages/levels.php:160
+msgid "Your Level"
+msgstr ""
+
+#: inc/template-tags.php:735
+msgid "Your Name *"
+msgstr ""
+
+#: inc/admin/installer/installer.php:627
+msgid "Your site have already installed Thim Core!"
+msgstr ""

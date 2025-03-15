@@ -1,0 +1,3945 @@
+# Copyright (C) 2023 ThimPress
+# This file is distributed under the same license as the BuilderPress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: BuilderPress 2.0.0-beta-1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/builderpress\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-19T13:28:12+03:00\n"
+"PO-Revision-Date: 2025-03-15 16:48+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: builderpress\n"
+"\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.7.1; wp-6.7.1"
+
+#. Plugin Name of the plugin
+#: inc/admin/class-bp-admin.php:39 inc/builders/elementor/class-bp-el.php:74
+#: inc/builders/visual-composer/class-bp-vc-shortcode.php:122
+msgid "BuilderPress"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://thimpress.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Full of features for page builders: Visual Composer, Site Origin, Elementor"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThimPress"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://thimpress.com"
+msgstr ""
+
+#: builderpress.php:233
+msgid "Upgrade to premium"
+msgstr ""
+
+#: builderpress.php:247
+msgid ""
+"<strong>BuilderPress</strong> plugin supports for <strong>Visual Composer, "
+"Siteorigin or Elementor</strong>. Please install and activate one of the "
+"page builders."
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:350
+#: inc/elements/general/counter-box/config.php:115
+#: inc/elements/general/counters/config.php:124
+#: inc/elements/general/steps/config.php:80
+#: inc/elements/general/steps/config.php:181
+msgid "Icon type"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:354
+#: inc/abstracts/class-bp-abstract-config.php:580
+#: inc/elements/general/counter-box/config.php:79
+#: inc/elements/general/counter-box/config.php:119
+#: inc/elements/general/counters/config.php:83
+#: inc/elements/general/counters/config.php:128
+#: inc/elements/general/icon-box/config.php:100
+#: inc/elements/general/steps/config.php:84
+#: inc/elements/general/steps/config.php:185
+msgid "None"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:355
+#: inc/abstracts/class-bp-abstract-config.php:366
+#: inc/elements/general/call-to-action/config.php:130
+#: inc/elements/general/counter-box/config.php:120
+#: inc/elements/general/counter-box/config.php:132
+#: inc/elements/general/counters/config.php:129
+#: inc/elements/general/counters/config.php:141
+#: inc/elements/general/our-team/config.php:134
+#: inc/elements/general/steps/config.php:85
+#: inc/elements/general/steps/config.php:96
+#: inc/elements/general/steps/config.php:186
+#: inc/elements/general/steps/config.php:197
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:356
+#: inc/abstracts/class-bp-abstract-config.php:385
+#: inc/elements/general/counter-box/config.php:121
+#: inc/elements/general/counter-box/config.php:152
+#: inc/elements/general/counters/config.php:130
+#: inc/elements/general/counters/config.php:161
+#: inc/elements/general/steps/config.php:86
+#: inc/elements/general/steps/config.php:115
+#: inc/elements/general/steps/config.php:187
+#: inc/elements/general/steps/config.php:216
+msgid "Ionicon"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:357
+#: inc/elements/general/counter-box/config.php:122
+#: inc/elements/general/counters/config.php:131
+#: inc/elements/general/steps/config.php:87
+#: inc/elements/general/steps/config.php:188
+msgid "Upload Image"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:379
+#: inc/elements/general/counter-box/config.php:146
+#: inc/elements/general/counter-box/config.php:166
+#: inc/elements/general/counters/config.php:155
+#: inc/elements/general/counters/config.php:175
+#: inc/elements/general/steps/config.php:109
+#: inc/elements/general/steps/config.php:128
+#: inc/elements/general/steps/config.php:210
+#: inc/elements/general/steps/config.php:229
+msgid "Font awesome library."
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:398
+msgid "Ionicons library."
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:404
+#: inc/elements/general/counter-box/config.php:172
+#: inc/elements/general/counters/config.php:181
+#: inc/elements/general/steps/config.php:134
+#: inc/elements/general/steps/config.php:235
+msgid "Upload icon"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:407
+#: inc/elements/general/counter-box/config.php:175
+#: inc/elements/general/counters/config.php:184
+#: inc/elements/general/services/config.php:78
+#: inc/elements/general/steps/config.php:137
+#: inc/elements/general/steps/config.php:238
+msgid "Select an image to upload"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:432
+msgid "Visible Items"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:441
+msgid "Tablet Items"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:450
+msgid "Mobile Items"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:508
+msgid "All Category"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:525
+#: inc/elements/general/counters/config.php:342
+#: inc/elements/general/icon-box/config.php:208
+msgid "Select"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:526
+#: inc/elements/general/button/config.php:58
+#: inc/elements/general/button/config.php:70
+#: inc/elements/general/icon-box/config.php:223
+#: inc/elements/general/slide/config.php:115
+#: inc/elements/woocommerce/product-filter/config.php:194
+msgid "Normal"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:527
+msgid "Bold"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:528
+msgid "100"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:529
+msgid "200"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:530
+msgid "300"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:531
+msgid "400"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:532
+msgid "500"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:533
+msgid "600"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:534
+msgid "700"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:535
+msgid "800"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:536
+msgid "900"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:548
+msgid "Select tag"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:549
+msgid "h2"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:550
+msgid "h3"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:551
+msgid "h4"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:552
+msgid "h5"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:553
+msgid "h6"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:565
+#: inc/elements/general/our-works/tpl/layout-1.php:52
+#: inc/elements/general/our-works/tpl/layout-2.php:51
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:90
+msgid "All"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:566
+msgid "Upcoming"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:567
+msgid "Happening"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:568
+msgid "Expired"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:581
+msgid "Capitalize"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:582
+msgid "Uppercase"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:583
+msgid "Lowercase"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:604
+msgid "Select course"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:626
+msgid "Extra class"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:629
+msgid "Add extra class for element."
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:635
+msgid "Extra ID"
+msgstr ""
+
+#: inc/abstracts/class-bp-abstract-config.php:638
+msgid "Add extra ID for element."
+msgstr ""
+
+#: inc/admin/class-bp-admin.php:52
+msgid "Override Templates"
+msgstr ""
+
+#: inc/admin/class-bp-admin.php:53
+msgid "Elements"
+msgstr ""
+
+#: inc/admin/demo/class-el-demo.php:33 inc/admin/demo/config.php:29
+msgid "Demo"
+msgstr ""
+
+#: inc/admin/demo/config.php:30
+msgid "Display demo"
+msgstr ""
+
+#: inc/admin/demo/config.php:45 inc/elements/general/accordion/config.php:48
+#: inc/elements/general/banner/config.php:48
+#: inc/elements/general/brands/config.php:49
+#: inc/elements/general/call-to-action/config.php:48
+#: inc/elements/general/categories/config.php:48
+#: inc/elements/general/countdown/config.php:48
+#: inc/elements/general/counter-box/config.php:49
+#: inc/elements/general/counters/config.php:48
+#: inc/elements/general/features/config.php:47
+#: inc/elements/general/gallery-images/config.php:48
+#: inc/elements/general/google-maps/config.php:49
+#: inc/elements/general/grid-images/config.php:48
+#: inc/elements/general/heading/config.php:48
+#: inc/elements/general/icon-box/config.php:54
+#: inc/elements/general/image-box/config.php:48
+#: inc/elements/general/images-slide/config.php:49
+#: inc/elements/general/login-popup/config.php:50
+#: inc/elements/general/our-team/config.php:49
+#: inc/elements/general/our-works/config.php:48
+#: inc/elements/general/posts/config.php:49
+#: inc/elements/general/pricing-table/config.php:49
+#: inc/elements/general/search-posts/config.php:48
+#: inc/elements/general/services/config.php:47
+#: inc/elements/general/slide-image-box/config.php:50
+#: inc/elements/general/slide/config.php:49
+#: inc/elements/general/social-links/config.php:49
+#: inc/elements/general/steps/config.php:49
+#: inc/elements/general/tabs/config.php:48
+#: inc/elements/general/testimonials/config.php:48
+#: inc/elements/general/twitter/config.php:48
+#: inc/elements/general/video-box/config.php:49
+#: inc/elements/learnpress-collections/course-collections/config.php:61
+#: inc/elements/learnpress/course-details/config.php:48
+#: inc/elements/learnpress/list-courses/config.php:49
+#: inc/elements/learnpress/list-instructors/config.php:48
+#: inc/elements/learnpress/search-courses/config.php:48
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:49
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:49
+#: inc/elements/Stellar-video-player/st-search-videos/config.php:49
+#: inc/elements/woocommerce/product-banner/config.php:48
+#: inc/elements/woocommerce/product-filter/config.php:48
+#: inc/elements/woocommerce/product-isotope/config.php:49
+#: inc/elements/woocommerce/product-login/config.php:48
+#: inc/elements/woocommerce/product-search/config.php:48
+#: inc/elements/woocommerce/products/config.php:49
+#: inc/elements/wp-events-manager/list-events/config.php:49
+msgid "Layout"
+msgstr ""
+
+#: inc/builders/class-bp-builders.php:59
+msgid "Extra Class"
+msgstr ""
+
+#: inc/builders/elementor/class-bp-el-mapping.php:107
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-mapping.php:94
+msgid "Item"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:294
+msgid "Help"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:312
+msgid "Please refresh this page to start using this widget."
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:338
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:593
+msgid "Optional"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:773
+#: inc/builders/siteorigin/class-bp-so-widget.php:824
+msgid ""
+"You need to <a href=\"%s\">upgrade</a> to WordPress 3.5 to use media fields"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:790
+#: inc/builders/siteorigin/class-bp-so-widget.php:863
+msgid "Choose Media"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:791
+#: inc/builders/siteorigin/class-bp-so-widget.php:864
+msgid "Set Media"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:812
+msgid "Remove"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:895
+msgid "Build Posts Query"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:966
+msgid "Add"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:1882
+msgid "Select URL"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:1883
+msgid "Title: "
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:1885
+msgid "URL: "
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so-widget.php:1918
+msgid "Unknown Field"
+msgstr ""
+
+#: inc/builders/siteorigin/class-bp-so.php:47
+msgid "BuilderPress Widgets"
+msgstr ""
+
+#: inc/builders/visual-composer/class-bp-vc.php:54
+msgid "Background Overlay"
+msgstr ""
+
+#: inc/builders/visual-composer/class-bp-vc.php:62
+msgid "Background Position"
+msgstr ""
+
+#: inc/builders/visual-composer/class-bp-vc.php:81
+msgid "Background Size"
+msgstr ""
+
+#: inc/elements/general/accordion/class-el-accordion.php:37
+#: inc/elements/general/accordion/config.php:29
+#: inc/elements/general/accordion/config.php:63
+#: inc/elements/general/accordion/config.php:128
+msgid "Accordion"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:30
+msgid "Display accordion"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:58
+#: inc/elements/general/banner/config.php:56
+#: inc/elements/general/brands/config.php:58
+#: inc/elements/general/categories/config.php:55
+#: inc/elements/general/gallery-images/config.php:61
+#: inc/elements/general/icon-box/config.php:76
+#: inc/elements/general/images-slide/config.php:55
+#: inc/elements/general/our-team/config.php:63
+#: inc/elements/general/our-works/config.php:55
+#: inc/elements/general/posts/config.php:70
+#: inc/elements/general/pricing-table/config.php:58
+#: inc/elements/general/social-links/config.php:64
+#: inc/elements/general/tabs/config.php:56
+#: inc/elements/general/testimonials/config.php:67
+#: inc/elements/general/twitter/config.php:55
+#: inc/elements/learnpress-collections/course-collections/config.php:70
+#: inc/elements/learnpress/course-details/config.php:55
+#: inc/elements/learnpress/list-courses/config.php:65
+#: inc/elements/learnpress/list-instructors/config.php:57
+#: inc/elements/wp-events-manager/list-events/config.php:62
+msgid "Select type of style."
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:70
+#: inc/elements/general/banner/config.php:79
+#: inc/elements/general/call-to-action/config.php:80
+#: inc/elements/general/categories/config.php:60
+#: inc/elements/general/countdown/config.php:58
+#: inc/elements/general/counter-box/config.php:90
+#: inc/elements/general/counters/config.php:95
+#: inc/elements/general/features/config.php:58
+#: inc/elements/general/gallery-images/config.php:65
+#: inc/elements/general/grid-images/config.php:61
+#: inc/elements/general/grid-images/config.php:145
+#: inc/elements/general/heading/config.php:62
+#: inc/elements/general/image-box/config.php:82
+#: inc/elements/general/newsletter/config.php:48
+#: inc/elements/general/our-works/config.php:59
+#: inc/elements/general/posts/config.php:74
+#: inc/elements/general/posts/config.php:224
+#: inc/elements/general/pricing-table/config.php:69
+#: inc/elements/general/search-posts/config.php:60
+#: inc/elements/general/services/config.php:63
+#: inc/elements/general/slide-image-box/config.php:97
+#: inc/elements/general/slide/config.php:93
+#: inc/elements/general/social-links/config.php:68
+#: inc/elements/general/tabs/config.php:65
+#: inc/elements/general/testimonials/config.php:71
+#: inc/elements/general/twitter/config.php:59
+#: inc/elements/general/video-box/config.php:66
+#: inc/elements/learnpress/course-categories/config.php:48
+#: inc/elements/learnpress/list-courses/config.php:69
+#: inc/elements/learnpress/list-instructors/config.php:61
+#: inc/elements/learnpress/search-courses/config.php:59
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:60
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:69
+#: inc/elements/woocommerce/product-search/config.php:59
+#: inc/elements/woocommerce/products/config.php:61
+#: inc/elements/woocommerce/products/config.php:109
+#: inc/elements/wp-events-manager/event-calendar/config.php:47
+#: inc/elements/wp-events-manager/event-categories/config.php:48
+msgid "Title"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:72
+#: inc/elements/general/banner/config.php:81
+#: inc/elements/general/categories/config.php:63
+#: inc/elements/general/countdown/config.php:60
+#: inc/elements/general/grid-images/config.php:69
+#: inc/elements/general/grid-images/config.php:147
+#: inc/elements/general/image-box/config.php:88
+#: inc/elements/general/slide-image-box/config.php:99
+#: inc/elements/general/slide/config.php:95
+#: inc/elements/general/steps/config.php:250
+#: inc/elements/general/tabs/config.php:67
+#: inc/elements/general/twitter/config.php:61
+#: inc/elements/learnpress/course-categories/config.php:51
+#: inc/elements/learnpress/list-courses/config.php:72
+#: inc/elements/learnpress/search-courses/config.php:62
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:63
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:72
+#: inc/elements/woocommerce/product-banner/config.php:104
+#: inc/elements/woocommerce/product-banner/config.php:162
+#: inc/elements/woocommerce/product-search/config.php:62
+#: inc/elements/woocommerce/products/config.php:64
+#: inc/elements/wp-events-manager/event-calendar/config.php:50
+#: inc/elements/wp-events-manager/event-categories/config.php:51
+msgid "This is title"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:76
+#: inc/elements/general/accordion/config.php:139
+#: inc/elements/general/google-maps/config.php:114
+#: inc/elements/general/tabs/config.php:71
+#: inc/elements/general/testimonials/config.php:118
+msgid "Content"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:78
+#: inc/elements/general/accordion/config.php:141
+#: inc/elements/general/tabs/config.php:73
+msgid "This is content"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:82
+#: inc/elements/general/accordion/config.php:83
+msgid "Hidden icon"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:91
+msgid "Color Border and Icon"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:106
+#: inc/elements/general/banner/config.php:102
+#: inc/elements/general/brands/config.php:118
+#: inc/elements/general/button/config.php:124
+#: inc/elements/general/call-to-action/config.php:118
+#: inc/elements/general/categories/config.php:97
+#: inc/elements/general/countdown/config.php:125
+#: inc/elements/general/counters/config.php:111
+#: inc/elements/general/features/config.php:92
+#: inc/elements/general/gallery-images/config.php:91
+#: inc/elements/general/google-map/config.php:156
+#: inc/elements/general/google-maps/config.php:188
+#: inc/elements/general/grid-images/config.php:166
+#: inc/elements/general/heading/config.php:102
+#: inc/elements/general/icon-box/config.php:192
+#: inc/elements/general/image-box/config.php:158
+#: inc/elements/general/images-slide/config.php:72
+#: inc/elements/general/login-form/config.php:48
+#: inc/elements/general/login-popup/config.php:131
+#: inc/elements/general/newsletter/config.php:60
+#: inc/elements/general/our-team/config.php:198
+#: inc/elements/general/our-works/config.php:75
+#: inc/elements/general/posts/config.php:242
+#: inc/elements/general/pricing-table/config.php:195
+#: inc/elements/general/search-posts/config.php:79
+#: inc/elements/general/services/config.php:117
+#: inc/elements/general/slide-image-box/config.php:136
+#: inc/elements/general/slide/config.php:60
+#: inc/elements/general/social-links/config.php:100
+#: inc/elements/general/steps/config.php:272
+#: inc/elements/general/tabs/config.php:95
+#: inc/elements/general/testimonials/config.php:147
+#: inc/elements/general/twitter/config.php:80
+#: inc/elements/general/video-box/config.php:108
+#: inc/elements/learnpress-collections/course-collections/config.php:130
+#: inc/elements/learnpress-course-review/course-reviews/config.php:63
+#: inc/elements/learnpress/course-categories/config.php:71
+#: inc/elements/learnpress/course-details/config.php:66
+#: inc/elements/learnpress/list-courses/config.php:107
+#: inc/elements/learnpress/list-instructors/config.php:89
+#: inc/elements/learnpress/search-courses/config.php:79
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:96
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:129
+#: inc/elements/Stellar-video-player/st-search-videos/config.php:71
+#: inc/elements/woocommerce/product-banner/config.php:346
+#: inc/elements/woocommerce/product-carousel/config.php:116
+#: inc/elements/woocommerce/product-filter/config.php:212
+#: inc/elements/woocommerce/product-isotope/config.php:140
+#: inc/elements/woocommerce/product-login/config.php:70
+#: inc/elements/woocommerce/product-search/config.php:79
+#: inc/elements/woocommerce/products/config.php:136
+#: inc/elements/wp-events-manager/event-calendar/config.php:54
+#: inc/elements/wp-events-manager/event-categories/config.php:71
+#: inc/elements/wp-events-manager/list-events/config.php:104
+msgid "Style Layout"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:109
+#: inc/elements/general/banner/config.php:105
+#: inc/elements/general/brands/config.php:121
+#: inc/elements/general/button/config.php:127
+#: inc/elements/general/call-to-action/config.php:121
+#: inc/elements/general/categories/config.php:100
+#: inc/elements/general/countdown/config.php:128
+#: inc/elements/general/counters/config.php:115
+#: inc/elements/general/features/config.php:95
+#: inc/elements/general/gallery-images/config.php:94
+#: inc/elements/general/google-map/config.php:159
+#: inc/elements/general/google-maps/config.php:191
+#: inc/elements/general/grid-images/config.php:169
+#: inc/elements/general/heading/config.php:105
+#: inc/elements/general/icon-box/config.php:195
+#: inc/elements/general/image-box/config.php:161
+#: inc/elements/general/images-slide/config.php:75
+#: inc/elements/general/login-form/config.php:51
+#: inc/elements/general/login-popup/config.php:134
+#: inc/elements/general/newsletter/config.php:63
+#: inc/elements/general/our-team/config.php:201
+#: inc/elements/general/our-works/config.php:78
+#: inc/elements/general/posts/config.php:245
+#: inc/elements/general/pricing-table/config.php:198
+#: inc/elements/general/search-posts/config.php:82
+#: inc/elements/general/services/config.php:120
+#: inc/elements/general/slide-image-box/config.php:139
+#: inc/elements/general/slide/config.php:63
+#: inc/elements/general/social-links/config.php:103
+#: inc/elements/general/steps/config.php:275
+#: inc/elements/general/tabs/config.php:98
+#: inc/elements/general/testimonials/config.php:150
+#: inc/elements/general/twitter/config.php:83
+#: inc/elements/general/video-box/config.php:111
+#: inc/elements/learnpress-collections/course-collections/config.php:133
+#: inc/elements/learnpress-course-review/course-reviews/config.php:66
+#: inc/elements/learnpress/course-categories/config.php:74
+#: inc/elements/learnpress/course-details/config.php:69
+#: inc/elements/learnpress/list-courses/config.php:110
+#: inc/elements/learnpress/list-instructors/config.php:92
+#: inc/elements/learnpress/search-courses/config.php:82
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:99
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:132
+#: inc/elements/Stellar-video-player/st-search-videos/config.php:74
+#: inc/elements/woocommerce/product-banner/config.php:349
+#: inc/elements/woocommerce/product-carousel/config.php:119
+#: inc/elements/woocommerce/product-filter/config.php:215
+#: inc/elements/woocommerce/product-isotope/config.php:143
+#: inc/elements/woocommerce/product-login/config.php:73
+#: inc/elements/woocommerce/product-search/config.php:82
+#: inc/elements/woocommerce/products/config.php:139
+#: inc/elements/wp-events-manager/event-calendar/config.php:57
+#: inc/elements/wp-events-manager/event-categories/config.php:74
+#: inc/elements/wp-events-manager/list-events/config.php:107
+msgid "Style Default"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:117
+#: inc/elements/general/tabs/class-el-tabs.php:37
+#: inc/elements/general/tabs/config.php:29
+#: inc/elements/general/tabs/config.php:60
+msgid "Tabs"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:122
+#: inc/elements/general/accordion/config.php:133
+msgid "Tab Title"
+msgstr ""
+
+#: inc/elements/general/accordion/config.php:124
+#: inc/elements/general/accordion/config.php:135
+msgid "This is tab title"
+msgstr ""
+
+#: inc/elements/general/banner/class-el-banner.php:37
+#: inc/elements/general/banner/config.php:29
+msgid "Banner"
+msgstr ""
+
+#: inc/elements/general/banner/class-el-banner.php:44
+#: inc/elements/general/button/class-el-button.php:43
+#: inc/elements/general/grid-images/class-el-grid-images.php:44
+#: inc/elements/general/icon-box/class-el-icon-box.php:45
+#: inc/elements/general/icon-box/config.php:49
+#: inc/elements/general/slide-image-box/class-el-slide-image-box.php:47
+#: inc/elements/general/slide/class-el-slide.php:48
+#: inc/elements/general/video-box/class-el-video-box.php:44
+#: inc/elements/learnpress/list-courses/class-el-list-courses.php:44
+msgid "Link Title"
+msgstr ""
+
+#: inc/elements/general/banner/class-el-banner.php:50
+msgid "Link Title Video"
+msgstr ""
+
+#: inc/elements/general/banner/config.php:30
+msgid "Display banner"
+msgstr ""
+
+#: inc/elements/general/banner/config.php:60
+#: inc/elements/general/slide-image-box/config.php:121
+#: inc/elements/general/slide/config.php:127
+msgid "Main Image"
+msgstr ""
+
+#: inc/elements/general/banner/config.php:67
+#: inc/elements/general/video-box/config.php:92
+msgid "Background Image"
+msgstr ""
+
+#: inc/elements/general/banner/config.php:85
+#: inc/elements/general/call-to-action/config.php:101
+#: inc/elements/general/counter-box/config.php:96
+#: inc/elements/general/counters/config.php:102
+#: inc/elements/general/features/config.php:79
+#: inc/elements/general/grid-images/config.php:85
+#: inc/elements/general/heading/config.php:75
+#: inc/elements/general/icon-box/config.php:185
+#: inc/elements/general/image-box/config.php:92
+#: inc/elements/general/our-team/config.php:85
+#: inc/elements/general/pricing-table/config.php:81
+#: inc/elements/general/services/config.php:70
+#: inc/elements/general/slide-image-box/config.php:110
+#: inc/elements/general/slide/config.php:106
+msgid "Description"
+msgstr ""
+
+#: inc/elements/general/banner/config.php:87
+#: inc/elements/general/grid-images/config.php:93
+#: inc/elements/general/image-box/config.php:98
+#: inc/elements/general/slide-image-box/config.php:112
+#: inc/elements/general/slide/config.php:108
+#: inc/elements/general/steps/config.php:264
+#: inc/elements/woocommerce/product-banner/config.php:170
+msgid "This is description"
+msgstr ""
+
+#: inc/elements/general/banner/config.php:91
+#: inc/elements/general/button/class-el-button.php:37
+#: inc/elements/general/button/config.php:28
+#: inc/elements/general/button/tpl/button.php:91
+#: inc/elements/general/services/config.php:93
+#: inc/elements/general/slide/config.php:81
+#: inc/elements/learnpress/list-courses/config.php:118
+msgid "Button"
+msgstr ""
+
+#: inc/elements/general/banner/config.php:96
+msgid "Link Video"
+msgstr ""
+
+#: inc/elements/general/banner/tpl/coach-life-layout-1.php:58
+#: inc/elements/general/banner/tpl/coach-life-layout-2.php:56
+#: inc/elements/general/banner/tpl/coach-life-layout-3.php:45
+msgid "Get Courses"
+msgstr ""
+
+#: inc/elements/general/banner/tpl/coach-life-layout-3.php:59
+msgid "Watch video"
+msgstr ""
+
+#: inc/elements/general/brands/class-el-brands.php:38
+#: inc/elements/general/brands/config.php:29
+#: inc/elements/general/brands/config.php:62
+#: inc/elements/general/brands/config.php:84
+msgid "Brands"
+msgstr ""
+
+#: inc/elements/general/brands/config.php:30
+msgid "Display brands slider"
+msgstr ""
+
+#: inc/elements/general/brands/config.php:67
+#: inc/elements/general/brands/config.php:89
+#: inc/elements/general/brands/tpl/layout-grid.php:30
+#: inc/elements/general/brands/tpl/layout-slider-title.php:42
+#: inc/elements/general/brands/tpl/layout-slider.php:37
+#: inc/elements/general/brands/tpl/marketing-layout-1.php:29
+msgid "Logo"
+msgstr ""
+
+#: inc/elements/general/brands/config.php:72
+msgid "Brand Link"
+msgstr ""
+
+#: inc/elements/general/brands/config.php:94
+msgid "Brand title hover"
+msgstr ""
+
+#: inc/elements/general/brands/config.php:106
+#: inc/elements/woocommerce/product-carousel/config.php:100
+msgid "Show pagination"
+msgstr ""
+
+#: inc/elements/general/button/config.php:29
+msgid "Display a button"
+msgstr ""
+
+#: inc/elements/general/button/config.php:48
+#: inc/elements/general/features/config.php:84
+#: inc/elements/general/grid-images/config.php:97
+#: inc/elements/general/icon-box/config.php:168
+#: inc/elements/general/image-box/config.php:103
+#: inc/elements/general/posts/config.php:91
+#: inc/elements/general/pricing-table/config.php:110
+#: inc/elements/general/services/config.php:83
+#: inc/elements/general/slide-image-box/config.php:61
+#: inc/elements/general/slide-image-box/config.php:116
+#: inc/elements/general/slide/config.php:122
+#: inc/elements/general/social-links/config.php:91
+#: inc/elements/learnpress-collections/course-collections/config.php:74
+msgid "Link"
+msgstr ""
+
+#: inc/elements/general/button/config.php:50
+msgid "Add link to button."
+msgstr ""
+
+#: inc/elements/general/button/config.php:55
+#: inc/elements/general/counter-box/config.php:102
+#: inc/elements/general/slide-image-box/config.php:73
+msgid "Style"
+msgstr ""
+
+#: inc/elements/general/button/config.php:59
+#: inc/elements/general/call-to-action/config.php:282
+#: inc/elements/general/our-team/config.php:185
+#: inc/elements/general/pricing-table/config.php:182
+#: inc/elements/general/slide/config.php:116
+msgid "Gradient"
+msgstr ""
+
+#: inc/elements/general/button/config.php:66
+#: inc/elements/general/grid-images/config.php:133
+#: inc/elements/general/icon-box/config.php:220
+#: inc/elements/woocommerce/product-filter/config.php:190
+msgid "Size"
+msgstr ""
+
+#: inc/elements/general/button/config.php:69
+#: inc/elements/woocommerce/product-filter/config.php:193
+msgid "Small"
+msgstr ""
+
+#: inc/elements/general/button/config.php:71
+#: inc/elements/woocommerce/product-filter/config.php:195
+msgid "Large"
+msgstr ""
+
+#: inc/elements/general/button/config.php:73
+#: inc/elements/woocommerce/product-filter/config.php:197
+msgid "Select button display size."
+msgstr ""
+
+#: inc/elements/general/button/config.php:80
+msgid "Shape"
+msgstr ""
+
+#: inc/elements/general/button/config.php:83
+msgid "Square"
+msgstr ""
+
+#: inc/elements/general/button/config.php:84
+msgid "Round"
+msgstr ""
+
+#: inc/elements/general/button/config.php:93
+msgid "Border Width"
+msgstr ""
+
+#: inc/elements/general/button/config.php:102
+#: inc/elements/general/heading/config.php:81
+#: inc/elements/general/icon-box/config.php:239
+msgid "Show line"
+msgstr ""
+
+#: inc/elements/general/button/config.php:103
+#: inc/elements/general/heading/config.php:82
+msgid "Line separates title and description"
+msgstr ""
+
+#: inc/elements/general/button/config.php:112
+#: inc/elements/general/heading/config.php:113
+msgid "Alignment"
+msgstr ""
+
+#: inc/elements/general/button/config.php:115
+#: inc/elements/general/button/config.php:265
+#: inc/elements/general/heading/config.php:116
+#: inc/elements/general/icon-box/config.php:115
+#: inc/elements/general/icon-box/config.php:209
+#: inc/elements/general/image-box/config.php:131
+#: inc/elements/general/tabs/config.php:82
+msgid "Left"
+msgstr ""
+
+#: inc/elements/general/button/config.php:116
+#: inc/elements/general/heading/config.php:117
+#: inc/elements/general/icon-box/config.php:211
+msgid "Center"
+msgstr ""
+
+#: inc/elements/general/button/config.php:117
+#: inc/elements/general/button/config.php:266
+#: inc/elements/general/heading/config.php:118
+#: inc/elements/general/icon-box/config.php:117
+#: inc/elements/general/icon-box/config.php:210
+#: inc/elements/general/image-box/config.php:132
+#: inc/elements/general/tabs/config.php:83
+msgid "Right"
+msgstr ""
+
+#: inc/elements/general/button/config.php:138
+msgid "Button font size"
+msgstr ""
+
+#: inc/elements/general/button/config.php:140
+msgid "Custom Button font size. Unit is pixel"
+msgstr ""
+
+#: inc/elements/general/button/config.php:142
+#: inc/elements/general/button/config.php:153
+#: inc/elements/general/call-to-action/config.php:186
+#: inc/elements/general/call-to-action/config.php:198
+#: inc/elements/general/call-to-action/config.php:209
+#: inc/elements/general/call-to-action/config.php:220
+#: inc/elements/general/call-to-action/config.php:232
+#: inc/elements/general/counter-box/config.php:194
+#: inc/elements/general/counter-box/config.php:206
+#: inc/elements/general/counter-box/config.php:217
+#: inc/elements/general/counter-box/config.php:229
+#: inc/elements/general/counter-box/config.php:240
+#: inc/elements/general/counter-box/config.php:251
+#: inc/elements/general/counter-box/config.php:263
+#: inc/elements/general/counter-box/config.php:274
+#: inc/elements/general/counter-box/config.php:286
+#: inc/elements/general/counters/config.php:203
+#: inc/elements/general/counters/config.php:215
+#: inc/elements/general/counters/config.php:226
+#: inc/elements/general/counters/config.php:238
+#: inc/elements/general/counters/config.php:249
+#: inc/elements/general/counters/config.php:260
+#: inc/elements/general/counters/config.php:272
+#: inc/elements/general/counters/config.php:283
+#: inc/elements/general/counters/config.php:295
+#: inc/elements/general/features/config.php:107
+#: inc/elements/general/features/config.php:119
+#: inc/elements/general/features/config.php:130
+#: inc/elements/general/features/config.php:141
+#: inc/elements/general/features/config.php:153
+#: inc/elements/general/features/config.php:163
+#: inc/elements/general/heading/config.php:133
+#: inc/elements/general/heading/config.php:143
+#: inc/elements/general/heading/config.php:154
+#: inc/elements/general/heading/config.php:163
+#: inc/elements/general/heading/config.php:174
+#: inc/elements/general/heading/config.php:185
+#: inc/elements/general/heading/config.php:200
+#: inc/elements/general/heading/config.php:209
+#: inc/elements/general/heading/config.php:224
+#: inc/elements/general/heading/config.php:235
+#: inc/elements/general/heading/config.php:250
+#: inc/elements/general/heading/config.php:265
+#: inc/elements/general/heading/config.php:274
+#: inc/elements/general/heading/config.php:283
+#: inc/elements/general/icon-box/config.php:264
+#: inc/elements/general/icon-box/config.php:275
+#: inc/elements/general/icon-box/config.php:285
+#: inc/elements/general/icon-box/config.php:297
+#: inc/elements/general/icon-box/config.php:308
+#: inc/elements/general/icon-box/config.php:319
+#: inc/elements/general/icon-box/config.php:330
+#: inc/elements/general/icon-box/config.php:342
+msgid "Typography"
+msgstr ""
+
+#: inc/elements/general/button/config.php:149
+msgid "Button font weight"
+msgstr ""
+
+#: inc/elements/general/button/config.php:151
+msgid "Select custom Button font weight"
+msgstr ""
+
+#: inc/elements/general/button/config.php:159
+msgid "Background Color"
+msgstr ""
+
+#: inc/elements/general/button/config.php:161
+msgid "Select custom background color for your element."
+msgstr ""
+
+#: inc/elements/general/button/config.php:163
+#: inc/elements/general/button/config.php:171
+#: inc/elements/general/button/config.php:179
+#: inc/elements/general/button/config.php:187
+#: inc/elements/general/button/config.php:195
+#: inc/elements/general/button/config.php:203
+#: inc/elements/general/call-to-action/config.php:242
+#: inc/elements/general/call-to-action/config.php:250
+#: inc/elements/general/counter-box/config.php:297
+#: inc/elements/general/counter-box/config.php:306
+#: inc/elements/general/counter-box/config.php:314
+#: inc/elements/general/counter-box/config.php:323
+#: inc/elements/general/counter-box/config.php:332
+#: inc/elements/general/counters/config.php:306
+#: inc/elements/general/counters/config.php:315
+#: inc/elements/general/counters/config.php:323
+#: inc/elements/general/counters/config.php:332
+#: inc/elements/general/features/config.php:174
+#: inc/elements/general/features/config.php:184
+#: inc/elements/general/features/config.php:193
+#: inc/elements/general/features/config.php:203
+#: inc/elements/general/features/config.php:213
+#: inc/elements/general/features/config.php:223
+#: inc/elements/general/features/config.php:232
+#: inc/elements/general/heading/config.php:296
+#: inc/elements/general/heading/config.php:311
+#: inc/elements/general/heading/config.php:322
+#: inc/elements/general/heading/config.php:341
+#: inc/elements/general/heading/config.php:361
+#: inc/elements/general/icon-box/config.php:357
+#: inc/elements/general/icon-box/config.php:367
+#: inc/elements/general/icon-box/config.php:376
+#: inc/elements/general/icon-box/config.php:386
+#: inc/elements/general/icon-box/config.php:397
+#: inc/elements/general/icon-box/config.php:406
+#: inc/elements/general/icon-box/config.php:416
+#: inc/elements/general/icon-box/config.php:426
+#: inc/elements/general/icon-box/config.php:437
+#: inc/elements/general/icon-box/config.php:446
+#: inc/elements/general/icon-box/config.php:455
+msgid "Color"
+msgstr ""
+
+#: inc/elements/general/button/config.php:167
+msgid "Text Color"
+msgstr ""
+
+#: inc/elements/general/button/config.php:169
+msgid "Select custom text color for your element."
+msgstr ""
+
+#: inc/elements/general/button/config.php:175
+msgid "Background Hover Color"
+msgstr ""
+
+#: inc/elements/general/button/config.php:177
+msgid "Select custom background hover color for your element."
+msgstr ""
+
+#: inc/elements/general/button/config.php:183
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/elements/general/button/config.php:185
+msgid "Select custom text hover color for your element."
+msgstr ""
+
+#: inc/elements/general/button/config.php:191
+msgid "Border Color"
+msgstr ""
+
+#: inc/elements/general/button/config.php:193
+msgid "Select custom background border color for your element."
+msgstr ""
+
+#: inc/elements/general/button/config.php:199
+msgid "Border Hover Color"
+msgstr ""
+
+#: inc/elements/general/button/config.php:201
+msgid "Select custom border hover color for your element."
+msgstr ""
+
+#: inc/elements/general/button/config.php:210
+msgid "Button Margin"
+msgstr ""
+
+#: inc/elements/general/button/config.php:213
+#: inc/elements/general/button/config.php:222
+#: inc/elements/general/counter-box/config.php:362
+#: inc/elements/general/counter-box/config.php:372
+#: inc/elements/general/counter-box/config.php:382
+#: inc/elements/general/counter-box/config.php:392
+#: inc/elements/general/counters/config.php:358
+#: inc/elements/general/counters/config.php:368
+#: inc/elements/general/counters/config.php:378
+#: inc/elements/general/counters/config.php:388
+#: inc/elements/general/heading/config.php:372
+#: inc/elements/general/heading/config.php:381
+#: inc/elements/general/heading/config.php:394
+#: inc/elements/general/heading/config.php:403
+#: inc/elements/general/icon-box/config.php:467
+#: inc/elements/general/icon-box/config.php:477
+#: inc/elements/general/icon-box/config.php:495
+msgid "0px 0px 0px 0px"
+msgstr ""
+
+#: inc/elements/general/button/config.php:214
+#: inc/elements/general/button/config.php:223
+#: inc/elements/general/button/config.php:231
+#: inc/elements/general/heading/config.php:373
+#: inc/elements/general/heading/config.php:386
+#: inc/elements/general/heading/config.php:395
+#: inc/elements/general/heading/config.php:408
+#: inc/elements/general/icon-box/config.php:468
+#: inc/elements/general/icon-box/config.php:478
+#: inc/elements/general/icon-box/config.php:486
+#: inc/elements/general/icon-box/config.php:500
+#: inc/elements/general/icon-box/config.php:512
+msgid "Spacing"
+msgstr ""
+
+#: inc/elements/general/button/config.php:219
+msgid "Button Padding"
+msgstr ""
+
+#: inc/elements/general/button/config.php:228
+msgid "Button Line Height"
+msgstr ""
+
+#: inc/elements/general/button/config.php:262
+msgid "Icon Alignment"
+msgstr ""
+
+#: inc/elements/general/button/config.php:268
+msgid "Select button alignment."
+msgstr ""
+
+#: inc/elements/general/call-to-action/class-el-call-to-action.php:37
+#: inc/elements/general/call-to-action/config.php:29
+msgid "Call To Action"
+msgstr ""
+
+#: inc/elements/general/call-to-action/class-el-call-to-action.php:44
+msgid "Action Title"
+msgstr ""
+
+#: inc/elements/general/call-to-action/class-el-call-to-action.php:49
+msgid "Action Title 2"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:30
+msgid "Display call to action box."
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:65
+#: inc/elements/general/grid-images/config.php:127
+#: inc/elements/general/image-box/config.php:65
+#: inc/elements/general/images-slide/config.php:64
+#: inc/elements/general/images-slide/tpl/coach-life-layout-1.php:31
+#: inc/elements/general/pricing-table/config.php:116
+#: inc/elements/general/testimonials/config.php:96
+#: inc/elements/woocommerce/product-banner/config.php:68
+#: inc/elements/woocommerce/product-banner/config.php:94
+#: inc/elements/woocommerce/product-banner/config.php:153
+#: inc/elements/wp-events-manager/list-events/config.php:115
+msgid "Image"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:82
+msgid "Contact us today"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:103
+msgid ""
+"Your treatment will be performed by licensed therapist. Schedule your "
+"appointment now."
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:148
+#: inc/elements/general/google-maps/tpl/layout-1.php:68
+#: inc/elements/general/google-maps/tpl/layout-1.php:116
+#: inc/elements/general/login-popup/config.php:184
+msgid "Email"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:161
+#: inc/elements/woocommerce/product-banner/config.php:74
+#: inc/elements/woocommerce/product-banner/config.php:133
+#: inc/elements/woocommerce/product-banner/config.php:190
+#: inc/elements/woocommerce/product-banner/config.php:335
+msgid "Action"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:166
+msgid "Action secondary"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:182
+#: inc/elements/general/counter-box/config.php:190
+#: inc/elements/general/counters/config.php:199
+#: inc/elements/general/heading/config.php:140
+msgid "Title size"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:193
+#: inc/elements/general/counter-box/config.php:201
+#: inc/elements/general/counters/config.php:210
+#: inc/elements/general/heading/config.php:150
+msgid "Title font size"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:196
+#: inc/elements/general/counter-box/config.php:204
+#: inc/elements/general/counter-box/config.php:227
+#: inc/elements/general/counters/config.php:213
+#: inc/elements/general/counters/config.php:236
+#: inc/elements/general/features/config.php:117
+#: inc/elements/general/heading/config.php:152
+#: inc/elements/general/heading/config.php:194
+#: inc/elements/general/icon-box/config.php:295
+msgid "Custom title font size. Unit is pixel"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:205
+#: inc/elements/general/counter-box/config.php:213
+#: inc/elements/general/counters/config.php:222
+#: inc/elements/general/heading/config.php:170
+msgid "Title font weight"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:207
+#: inc/elements/general/counter-box/config.php:215
+#: inc/elements/general/counter-box/config.php:238
+#: inc/elements/general/counters/config.php:224
+#: inc/elements/general/counters/config.php:247
+#: inc/elements/general/features/config.php:128
+#: inc/elements/general/heading/config.php:172
+#: inc/elements/general/heading/config.php:218
+#: inc/elements/general/icon-box/config.php:306
+msgid "Select custom title font weight"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:216
+#: inc/elements/general/counter-box/config.php:247
+#: inc/elements/general/counters/config.php:256
+#: inc/elements/general/features/config.php:137
+#: inc/elements/general/heading/config.php:242
+#: inc/elements/general/icon-box/config.php:326
+msgid "Description font weight"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:218
+#: inc/elements/general/counter-box/config.php:249
+#: inc/elements/general/counters/config.php:258
+#: inc/elements/general/features/config.php:139
+#: inc/elements/general/heading/config.php:244
+#: inc/elements/general/icon-box/config.php:328
+msgid "Select custom description font weight"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:227
+#: inc/elements/general/counter-box/config.php:258
+#: inc/elements/general/counters/config.php:267
+#: inc/elements/general/features/config.php:148
+#: inc/elements/general/heading/config.php:257
+#: inc/elements/general/icon-box/config.php:337
+msgid "Description font size"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:229
+#: inc/elements/general/counter-box/config.php:260
+#: inc/elements/general/counters/config.php:269
+#: inc/elements/general/features/config.php:150
+#: inc/elements/general/heading/config.php:259
+#: inc/elements/general/icon-box/config.php:339
+msgid "Custom description font size. Unit is pixel"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:239
+#: inc/elements/general/heading/config.php:292
+msgid "Title color"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:247
+#: inc/elements/general/features/config.php:230
+#: inc/elements/general/heading/config.php:354
+#: inc/elements/general/icon-box/config.php:444
+msgid "Description color"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:277
+#: inc/elements/general/our-team/config.php:180
+#: inc/elements/general/pricing-table/config.php:177
+msgid "Background color style"
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:279
+#: inc/elements/general/icon-box/config.php:111
+#: inc/elements/general/our-team/config.php:182
+#: inc/elements/general/pricing-table/config.php:179
+msgid "Position of icon relative to content."
+msgstr ""
+
+#: inc/elements/general/call-to-action/config.php:281
+#: inc/elements/general/google-map/config.php:134
+#: inc/elements/general/icon-box/config.php:113
+#: inc/elements/general/icon-box/config.php:152
+#: inc/elements/general/our-team/config.php:184
+#: inc/elements/general/pricing-table/config.php:181
+#: inc/elements/woocommerce/products/config.php:80
+msgid "Default"
+msgstr ""
+
+#: inc/elements/general/call-to-action/tpl/layout-1.php:31
+#: inc/elements/general/call-to-action/tpl/layout-2.php:28
+msgid "Media"
+msgstr ""
+
+#: inc/elements/general/categories/class-el-categories.php:37
+#: inc/elements/general/categories/config.php:29
+msgid "Categories"
+msgstr ""
+
+#: inc/elements/general/categories/config.php:30
+msgid "Display list categories"
+msgstr ""
+
+#: inc/elements/general/categories/config.php:68
+msgid "Number of categories"
+msgstr ""
+
+#: inc/elements/general/categories/config.php:76
+#: inc/elements/general/posts/config.php:103
+#: inc/elements/learnpress/list-courses/config.php:82
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:107
+#: inc/elements/Stellar-video-player/st-search-videos/tpl/vblog-layout-header-2.php:33
+#: inc/elements/woocommerce/product-carousel/config.php:48
+#: inc/elements/woocommerce/product-filter/config.php:62
+#: inc/elements/woocommerce/product-isotope/config.php:61
+#: inc/elements/woocommerce/products/config.php:68
+msgid "Category"
+msgstr ""
+
+#: inc/elements/general/categories/config.php:83
+msgid "Show post counts"
+msgstr ""
+
+#: inc/elements/general/categories/tpl/vblog-layout-sidebar.php:38
+msgid "image-categories"
+msgstr ""
+
+#: inc/elements/general/countdown/class-el-countdown.php:37
+#: inc/elements/general/countdown/config.php:29
+msgid "Countdown"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:30
+msgid "Display countdown"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:64
+#: inc/elements/general/posts/config.php:222
+#: inc/elements/woocommerce/products/config.php:107
+msgid "Date"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:69
+msgid "Text year"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:71
+msgid "Year(s)"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:73
+#: inc/elements/general/countdown/config.php:81
+#: inc/elements/general/countdown/config.php:89
+#: inc/elements/general/countdown/config.php:97
+#: inc/elements/general/countdown/config.php:105
+#: inc/elements/general/countdown/config.php:113
+#: inc/elements/general/countdown/config.php:121
+msgid "Advance"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:77
+msgid "Text month"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:79
+msgid "Month(s)"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:85
+msgid "Text week"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:87
+msgid "Week(s)"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:93
+msgid "Text day"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:95
+msgid "Day(s)"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:101
+msgid "Text hour"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:103
+msgid "Hour(s)"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:109
+msgid "Text minute"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:111
+msgid "Minute(s)"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:117
+msgid "Text second"
+msgstr ""
+
+#: inc/elements/general/countdown/config.php:119
+msgid "Second(s)"
+msgstr ""
+
+#: inc/elements/general/countdown/tpl/countdown.php:25
+msgid "Year"
+msgstr ""
+
+#: inc/elements/general/countdown/tpl/countdown.php:26
+msgid "Month"
+msgstr ""
+
+#: inc/elements/general/countdown/tpl/countdown.php:27
+msgid "Week"
+msgstr ""
+
+#: inc/elements/general/countdown/tpl/countdown.php:28
+msgid "Day"
+msgstr ""
+
+#: inc/elements/general/countdown/tpl/countdown.php:29
+msgid "Hour"
+msgstr ""
+
+#: inc/elements/general/countdown/tpl/countdown.php:30
+msgid "Minute"
+msgstr ""
+
+#: inc/elements/general/countdown/tpl/countdown.php:31
+msgid "Second"
+msgstr ""
+
+#: inc/elements/general/countdown/tpl/kindergarten-layout-1.php:33
+msgid "Days"
+msgstr ""
+
+#: inc/elements/general/counter-box/class-el-counter-box.php:38
+#: inc/elements/general/counter-box/config.php:29
+msgid "Counter Box"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:30
+msgid "Display a counter box"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:61
+#: inc/elements/general/counters/config.php:63
+msgid "Quantity"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:64
+#: inc/elements/general/counters/config.php:66
+msgid "Choose number"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:69
+#: inc/elements/general/counters/config.php:72
+#: inc/elements/general/pricing-table/config.php:103
+msgid "Unit"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:71
+#: inc/elements/general/counters/config.php:74
+msgid "Unit of quantify"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:76
+#: inc/elements/general/counters/config.php:80
+msgid "Separator"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:80
+#: inc/elements/general/counters/config.php:84
+msgid "Comma"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:81
+#: inc/elements/general/counters/config.php:85
+msgid "Dot"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:82
+#: inc/elements/general/counters/config.php:86
+#: inc/elements/general/grid-images/config.php:159
+msgid "Space"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:84
+#: inc/elements/general/counters/config.php:88
+msgid "Thousand separator"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:92
+#: inc/elements/general/counters/config.php:97
+msgid "Point Counter"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:105
+msgid "Vertical"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:106
+msgid "Horizontal"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:108
+msgid "Select style."
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:125
+#: inc/elements/general/counter-box/config.php:145
+#: inc/elements/general/counter-box/config.php:165
+#: inc/elements/general/counter-box/config.php:181
+#: inc/elements/general/counters/config.php:134
+#: inc/elements/general/counters/config.php:154
+#: inc/elements/general/counters/config.php:174
+#: inc/elements/general/counters/config.php:190
+#: inc/elements/general/image-box/config.php:71
+#: inc/elements/general/social-links/config.php:78
+msgid "Icon"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:224
+#: inc/elements/general/counters/config.php:233
+msgid "Number font size"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:236
+#: inc/elements/general/counters/config.php:245
+msgid "Number font weight"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:270
+#: inc/elements/general/counters/config.php:279
+msgid "Icon font weight"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:272
+#: inc/elements/general/counters/config.php:281
+msgid "Select custom icon font weight"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:281
+#: inc/elements/general/counters/config.php:290
+#: inc/elements/general/features/config.php:159
+#: inc/elements/general/icon-box/config.php:315
+msgid "Icon font size"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:283
+#: inc/elements/general/counters/config.php:292
+#: inc/elements/general/features/config.php:161
+#: inc/elements/general/icon-box/config.php:317
+msgid "Custom icon font size. Unit is pixel"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:293
+#: inc/elements/general/counters/config.php:302
+msgid "Color Number"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:302
+#: inc/elements/general/counters/config.php:311
+msgid "Color Title"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:310
+#: inc/elements/general/counters/config.php:319
+msgid "Color Icon"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:319
+#: inc/elements/general/counters/config.php:328
+msgid "Color Description"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:328
+msgid "Color Line"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:343
+#: inc/elements/general/counters/config.php:338
+msgid "Box Align"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:347
+#: inc/elements/general/counters/config.php:343
+msgid "Align Left"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:348
+#: inc/elements/general/counters/config.php:344
+msgid "Align Center"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:349
+#: inc/elements/general/counters/config.php:345
+msgid "Align Right"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:351
+#: inc/elements/general/counter-box/config.php:363
+#: inc/elements/general/counter-box/config.php:373
+#: inc/elements/general/counter-box/config.php:383
+#: inc/elements/general/counter-box/config.php:393
+#: inc/elements/general/counters/config.php:347
+#: inc/elements/general/counters/config.php:359
+#: inc/elements/general/counters/config.php:369
+#: inc/elements/general/counters/config.php:379
+#: inc/elements/general/counters/config.php:389
+msgid "Spacing & Align"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:358
+#: inc/elements/general/counters/config.php:354
+#: inc/elements/general/heading/config.php:369
+#: inc/elements/general/icon-box/config.php:473
+msgid "Title Margin"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:368
+#: inc/elements/general/counters/config.php:364
+msgid "Number Margin"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:378
+#: inc/elements/general/counters/config.php:374
+#: inc/elements/general/icon-box/config.php:463
+msgid "Icon Margin"
+msgstr ""
+
+#: inc/elements/general/counter-box/config.php:388
+#: inc/elements/general/counters/config.php:384
+#: inc/elements/general/heading/config.php:400
+#: inc/elements/general/icon-box/config.php:491
+msgid "Description Margin"
+msgstr ""
+
+#: inc/elements/general/counters/class-el-counters.php:38
+#: inc/elements/general/counters/config.php:29
+msgid "Counters"
+msgstr ""
+
+#: inc/elements/general/counters/config.php:30
+msgid "Display a counters"
+msgstr ""
+
+#: inc/elements/general/counters/config.php:116
+#: inc/elements/general/icon-box/config.php:153
+#: inc/elements/general/slide/config.php:64
+msgid "Style 1"
+msgstr ""
+
+#: inc/elements/general/features/class-el-features.php:37
+#: inc/elements/general/features/config.php:28
+#: inc/elements/general/pricing-table/config.php:140
+msgid "Features"
+msgstr ""
+
+#: inc/elements/general/features/config.php:29
+msgid "Display features list"
+msgstr ""
+
+#: inc/elements/general/features/config.php:74
+#: inc/elements/general/our-team/config.php:73
+#: inc/elements/general/pricing-table/config.php:146
+#: inc/elements/general/testimonials/config.php:89
+msgid "Name"
+msgstr ""
+
+#: inc/elements/general/features/config.php:104
+msgid "Name size"
+msgstr ""
+
+#: inc/elements/general/features/config.php:114
+msgid "Name font size"
+msgstr ""
+
+#: inc/elements/general/features/config.php:126
+msgid "Name font weight"
+msgstr ""
+
+#: inc/elements/general/features/config.php:170
+#: inc/elements/general/icon-box/config.php:349
+#: inc/elements/general/our-team/config.php:161
+msgid "Icon color"
+msgstr ""
+
+#: inc/elements/general/features/config.php:181
+#: inc/elements/general/icon-box/config.php:364
+msgid "Icon border color"
+msgstr ""
+
+#: inc/elements/general/features/config.php:191
+#: inc/elements/general/icon-box/config.php:374
+msgid "Icon background color"
+msgstr ""
+
+#: inc/elements/general/features/config.php:201
+#: inc/elements/general/icon-box/config.php:384
+msgid "Link color"
+msgstr ""
+
+#: inc/elements/general/features/config.php:211
+#: inc/elements/general/icon-box/config.php:414
+msgid "Link hover"
+msgstr ""
+
+#: inc/elements/general/features/config.php:221
+msgid "Name color"
+msgstr ""
+
+#: inc/elements/general/gallery-images/class-el-gallery-images.php:37
+msgid "Gallery-images"
+msgstr ""
+
+#: inc/elements/general/gallery-images/config.php:29
+msgid "Gallery Images"
+msgstr ""
+
+#: inc/elements/general/gallery-images/config.php:30
+msgid "Display gallery images"
+msgstr ""
+
+#: inc/elements/general/gallery-images/config.php:67
+#: inc/elements/general/newsletter/config.php:50
+msgid "Work with Passion"
+msgstr ""
+
+#: inc/elements/general/gallery-images/config.php:78
+msgid "Photos"
+msgstr ""
+
+#: inc/elements/general/gallery-images/config.php:83
+#: inc/elements/woocommerce/product-carousel/config.php:108
+#: inc/elements/woocommerce/product-filter/config.php:204
+#: inc/elements/woocommerce/product-isotope/config.php:132
+msgid "Image Size"
+msgstr ""
+
+#: inc/elements/general/google-map/class-el-google-map.php:37
+#: inc/elements/general/google-map/config.php:29
+msgid "Google Map"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:30
+msgid "Display a Google Map location"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:49
+msgid "Map center location"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:52
+msgid "Paris"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:53
+msgid "Enter a location. It can be a town, city, country or exact address."
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:58
+msgid "Google Map API Key"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:71
+#: inc/elements/general/google-maps/config.php:148
+#: inc/elements/woocommerce/product-banner/config.php:205
+msgid "Height"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:76
+msgid "Height for viewing the location."
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:83
+msgid "Zoom level"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:88
+msgid "From 0 (world level) to 21 (street level)."
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:95
+msgid "Scroll to zoom"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:97
+msgid "Scrolling on the map to zoom in or out."
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:105
+msgid "Draggable"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:107
+msgid "Dragging mouse to move around the map."
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:115
+msgid "Choose pinpoint marker icon"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:123
+msgid "Choose preload cover image"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:131
+msgid "Map Style"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:135
+msgid "Light"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:136
+msgid "Dark"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:137
+msgid "Import JSON"
+msgstr ""
+
+#: inc/elements/general/google-map/config.php:145
+msgid "JSON Data"
+msgstr ""
+
+#: inc/elements/general/google-maps/class-el-google-maps.php:37
+#: inc/elements/general/google-maps/config.php:29
+msgid "Google maps"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:30
+msgid "Display google maps multi address"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:59
+msgid "Display Map"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:62
+#: inc/elements/general/google-maps/config.php:69
+msgid "Iframe"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:63
+#: inc/elements/general/google-maps/config.php:126
+msgid "API key"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:81
+#: inc/elements/general/google-maps/config.php:159
+msgid "Place"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:92
+#: inc/elements/general/google-maps/config.php:169
+msgid "Phone number"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:103
+#: inc/elements/general/google-maps/config.php:174
+msgid "Email address"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:137
+msgid "Marker icon"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:154
+msgid "List Address"
+msgstr ""
+
+#: inc/elements/general/google-maps/config.php:164
+msgid "Title place"
+msgstr ""
+
+#: inc/elements/general/google-maps/tpl/layout-1.php:56
+#: inc/elements/general/google-maps/tpl/layout-1.php:100
+msgid "Address"
+msgstr ""
+
+#: inc/elements/general/google-maps/tpl/layout-1.php:62
+#: inc/elements/general/google-maps/tpl/layout-1.php:108
+msgid "Phone"
+msgstr ""
+
+#: inc/elements/general/grid-images/class-el-grid-images.php:37
+#: inc/elements/general/grid-images/config.php:29
+msgid "Grid Images"
+msgstr ""
+
+#: inc/elements/general/grid-images/config.php:30
+msgid "Display grid images"
+msgstr ""
+
+#: inc/elements/general/grid-images/config.php:73
+#: inc/elements/general/grid-images/config.php:151
+#: inc/elements/general/heading/config.php:69
+#: inc/elements/general/posts/config.php:80
+#: inc/elements/general/slide-image-box/config.php:103
+#: inc/elements/general/slide/config.php:99
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:67
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:76
+msgid "Sub Title"
+msgstr ""
+
+#: inc/elements/general/grid-images/config.php:81
+#: inc/elements/general/grid-images/config.php:153
+#: inc/elements/general/slide-image-box/config.php:105
+#: inc/elements/general/slide/config.php:101
+#: inc/elements/general/steps/config.php:257
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:69
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:82
+msgid "This is sub title"
+msgstr ""
+
+#: inc/elements/general/grid-images/config.php:108
+msgid "Text Link"
+msgstr ""
+
+#: inc/elements/general/grid-images/config.php:116
+#: inc/elements/general/grid-images/tpl/coach-life-layout-isotope-1.php:107
+msgid "Join Now"
+msgstr ""
+
+#: inc/elements/general/grid-images/config.php:122
+#: inc/elements/woocommerce/product-banner/config.php:63
+#: inc/elements/woocommerce/product-banner/config.php:89
+#: inc/elements/woocommerce/product-banner/config.php:148
+msgid "Images"
+msgstr ""
+
+#: inc/elements/general/grid-images/config.php:136
+msgid "1x1"
+msgstr ""
+
+#: inc/elements/general/grid-images/config.php:137
+msgid "2x2"
+msgstr ""
+
+#: inc/elements/general/grid-images/config.php:138
+msgid "3x2"
+msgstr ""
+
+#: inc/elements/general/heading/class-el-heading.php:39
+#: inc/elements/general/heading/config.php:29
+#: inc/elements/general/icon-box/config.php:176
+msgid "Heading"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:30
+msgid "Display a heading"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:90
+msgid "Line Icon"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:130
+msgid "Title Max Width"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:132
+msgid "Custom title max width. Unit is pixel"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:160
+msgid "Title Line height"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:181
+msgid "Title text transform"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:183
+msgid "Select custom title text transform"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:192
+msgid "Sub Title font size"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:206
+msgid "Sub Title Line height"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:216
+msgid "Sub Title font weight"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:231
+msgid "Sub Title text transform"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:233
+msgid "Select custom sub title text transform"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:271
+msgid "Line Width"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:280
+msgid "Line Height"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:295
+#: inc/elements/general/heading/config.php:306
+msgid "Select the title color."
+msgstr ""
+
+#: inc/elements/general/heading/config.php:303
+msgid "Sub Title color"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:318
+msgid "Background color line"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:321
+msgid "Select the background color line."
+msgstr ""
+
+#: inc/elements/general/heading/config.php:337
+msgid "Color line"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:340
+msgid "Select the color line."
+msgstr ""
+
+#: inc/elements/general/heading/config.php:356
+msgid "Select the description color."
+msgstr ""
+
+#: inc/elements/general/heading/config.php:378
+msgid "Sub Title Margin"
+msgstr ""
+
+#: inc/elements/general/heading/config.php:391
+msgid "Line Margin"
+msgstr ""
+
+#: inc/elements/general/heading/tpl/kindergarten-layout-3.php:50
+msgid "image icon"
+msgstr ""
+
+#: inc/elements/general/icon-box/class-el-icon-box.php:38
+#: inc/elements/general/icon-box/config.php:29
+msgid "Icon Box"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:30
+msgid "Display an Icon box"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:83
+msgid "Image hover"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:97
+msgid "Icon shape"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:101
+#: inc/elements/general/icon-box/config.php:132
+msgid "Circle"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:109
+msgid "Icon position"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:114
+#: inc/elements/general/tabs/config.php:84
+msgid "Top"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:116
+msgid "Left Center"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:118
+#: inc/elements/general/tabs/config.php:85
+msgid "Bottom"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:127
+msgid "Icon style"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:130
+msgid "Left rotating square"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:131
+msgid "Right rotating square"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:133
+msgid "Triangular"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:148
+msgid "Style Layout 6"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:154
+#: inc/elements/general/slide/config.php:65
+msgid "Style 2"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:155
+msgid "Style 3"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:177
+msgid "Icon box heading"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:179
+msgid "Provide the title for this icon box."
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:205
+msgid "Text align"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:224
+msgid "Larger"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:232
+msgid "Choose Size"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:240
+msgid "Line separator on the right"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:260
+msgid "Box Icon width"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:262
+msgid "Custom width for box icon. Unit is pixel"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:271
+msgid "Box Icon height"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:273
+msgid "Custom height for box icon. Unit is pixel"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:282
+msgid "Heading size"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:292
+msgid "Heading font size"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:304
+msgid "Heading font weight"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:394
+msgid "Icon hover border color"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:404
+msgid "Icon hover background color"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:424
+msgid "Heading color"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:433
+msgid "Line color"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:436
+msgid "Select the line color."
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:453
+msgid "Button color"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:482
+msgid "Title Custom CSS"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:485
+#: inc/elements/general/icon-box/config.php:507
+msgid "Input custom css"
+msgstr ""
+
+#: inc/elements/general/icon-box/config.php:504
+msgid "Description Custom CSS"
+msgstr ""
+
+#: inc/elements/general/icon-box/tpl/layout-6.php:55
+msgid "Contact Now"
+msgstr ""
+
+#: inc/elements/general/image-box/class-el-image-box.php:37
+msgid "Image Box"
+msgstr ""
+
+#: inc/elements/general/image-box/config.php:29
+msgid "Image box"
+msgstr ""
+
+#: inc/elements/general/image-box/config.php:30
+msgid "Display image box"
+msgstr ""
+
+#: inc/elements/general/image-box/config.php:113
+msgid "Background color"
+msgstr ""
+
+#: inc/elements/general/image-box/config.php:116
+msgid "Color 1"
+msgstr ""
+
+#: inc/elements/general/image-box/config.php:117
+msgid "Color 2"
+msgstr ""
+
+#: inc/elements/general/image-box/config.php:119
+msgid "Select background for box image."
+msgstr ""
+
+#: inc/elements/general/image-box/config.php:128
+msgid "Image Alignment"
+msgstr ""
+
+#: inc/elements/general/image-box/config.php:134
+msgid "Select Image alignment."
+msgstr ""
+
+#: inc/elements/general/image-box/config.php:143
+msgid "Style Image"
+msgstr ""
+
+#: inc/elements/general/image-box/tpl/layout-default.php:28
+#: inc/elements/general/image-box/tpl/marketing-layout-1.php:55
+#: inc/elements/general/posts/tpl/kindergarten-layout-grid-1.php:68
+#: inc/elements/general/posts/tpl/layout-slider.php:70
+#: inc/elements/general/posts/tpl/vblog-layout-grid-2.php:96
+#: inc/elements/general/slide-image-box/tpl/default.php:35
+#: inc/elements/general/slide/tpl/marketing-layout-1.php:65
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-1.php:124
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-grid-1.php:125
+msgid "Read More"
+msgstr ""
+
+#: inc/elements/general/image-box/tpl/teeballon-layout-1.php:34
+msgid "View Post"
+msgstr ""
+
+#: inc/elements/general/image-box/tpl/vblog-layout-2.php:37
+msgid " VIEW POST"
+msgstr ""
+
+#: inc/elements/general/images-slide/class-el-images-slide.php:37
+msgid "Images-slide"
+msgstr ""
+
+#: inc/elements/general/images-slide/config.php:29
+msgid "Images slide"
+msgstr ""
+
+#: inc/elements/general/images-slide/config.php:30
+msgid "Display images slide"
+msgstr ""
+
+#: inc/elements/general/images-slide/config.php:59
+msgid "Images Slide"
+msgstr ""
+
+#: inc/elements/general/login-form/class-el-login-form.php:37
+#: inc/elements/general/login-form/config.php:29
+msgid "Login Form"
+msgstr ""
+
+#: inc/elements/general/login-form/config.php:30
+msgid "Display login-form"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login-form.php:31
+msgid "You have logged in. <a href=\"%s\">Sign Out</a>"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:32
+#: inc/elements/general/login-form/tpl/reset-password.php:78
+msgid "Check your email to get a link to create a new password."
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:36
+#: inc/elements/general/login-form/tpl/login.php:71
+#: inc/elements/general/login-popup/config.php:65
+#: inc/elements/general/login-popup/tpl/login.php:40
+#: inc/elements/general/login-popup/tpl/register.php:44
+msgid "Login"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:38
+msgid "Login with your site account"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:50
+msgid "Username or email *"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:55
+msgid "Password *"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:64
+msgid "Remember Me"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:75
+msgid "Lost Password"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:75
+#: inc/elements/general/login-form/tpl/lost-password.php:27
+#: inc/elements/general/login-popup/tpl/login.php:64
+msgid "Lost your password?"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:84
+msgid "Not a member yet? "
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:84
+msgid "Register now"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/login.php:90
+msgid "Invalid username or password. Please try again!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/lost-password.php:19
+msgid "Please enter a username or email!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/lost-password.php:20
+msgid "The user does not exist. Please try again!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/lost-password.php:25
+msgid "Lost password"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/lost-password.php:36
+#: inc/elements/general/login-popup/tpl/lost-password.php:53
+msgid "Username or email"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/lost-password.php:45
+#: inc/elements/general/login-popup/tpl/lost-password.php:62
+msgid "Reset password"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/lost-password.php:62
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:22
+msgid "Please enter a username!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:23
+msgid "Please type your e-mail address!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:24
+msgid "This username is already registered. Please choose another one!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:25
+msgid "This email is already registered. Please choose another one!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:26
+msgid "The email address isn't correct. Please try again!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:27
+msgid "The username is invalid. Please try again!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:28
+msgid "Passwords must matched!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:38
+#: inc/elements/general/login-form/tpl/register.php:109
+#: inc/elements/general/login-popup/config.php:74
+#: inc/elements/general/login-popup/tpl/login.php:37
+#: inc/elements/general/login-popup/tpl/register.php:41
+msgid "Register"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:40
+msgid "Register to start learning"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:46
+#: inc/elements/general/login-popup/tpl/register.php:63
+#: inc/elements/general/twitter/config.php:66
+msgid "Username"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:51
+#: inc/elements/general/login-popup/tpl/register.php:69
+msgid "Email Address"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:56
+#: inc/elements/general/login-popup/config.php:185
+#: inc/elements/general/login-popup/tpl/register.php:76
+msgid "Password"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:61
+#: inc/elements/general/login-popup/tpl/register.php:82
+msgid "Confirm Password"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:87
+msgid "Sign up"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:94
+#: inc/elements/general/login-popup/tpl/lost-password.php:67
+msgid "Are you a member? "
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:95
+msgid "Login now"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:101
+msgid "Registration is successful. Confirmation will be e-mailed to you."
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/register.php:110
+msgid "Your site does not allow users registration."
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/reset-password.php:19
+msgid "The key is expired. Please try again!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/reset-password.php:20
+msgid "The key is invalid. Please try again!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/reset-password.php:21
+msgid "The password is invalid. Please try again!"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/reset-password.php:31
+msgid "Change Password"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/reset-password.php:33
+msgid "Change password your account"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/reset-password.php:44
+msgid "Sorry, that key has expired. Please try again."
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/reset-password.php:46
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/reset-password.php:62
+msgid "New password *"
+msgstr ""
+
+#: inc/elements/general/login-form/tpl/reset-password.php:70
+#: inc/elements/general/login-popup/tpl/lost-password.php:43
+msgid "Reset Password"
+msgstr ""
+
+#: inc/elements/general/login-popup/class-el-login-popup.php:37
+#: inc/elements/general/login-popup/config.php:29
+msgid "Login Popup"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:30
+msgid "Display a Login button with popup form"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:63
+#: inc/elements/woocommerce/product-login/config.php:58
+msgid "Login Label"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:72
+msgid "Register Label"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:81
+#: inc/elements/woocommerce/product-login/config.php:64
+msgid "Logout Label"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:83
+#: inc/elements/general/login-popup/tpl/layout-2.php:33
+msgid "Account"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:89
+msgid "Color Label"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:97
+msgid "User Menu"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:106
+msgid "Show icon?"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:116
+#: inc/elements/general/newsletter/config.php:55
+msgid "Shortcode"
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:118
+msgid "Shortcode want to embed into popup."
+msgstr ""
+
+#: inc/elements/general/login-popup/config.php:124
+msgid "Popup Image"
+msgstr ""
+
+#: inc/elements/general/login-popup/tpl/layout-1.php:32
+#: inc/elements/general/login-popup/tpl/layout-1.php:42
+#: inc/elements/general/login-popup/tpl/layout-2.php:29
+msgid "Logout"
+msgstr ""
+
+#: inc/elements/general/login-popup/tpl/login.php:45
+#: inc/elements/general/login-popup/tpl/register.php:49
+msgid "We will need..."
+msgstr ""
+
+#: inc/elements/general/login-popup/tpl/login.php:60
+msgid "Sign In"
+msgstr ""
+
+#: inc/elements/general/login-popup/tpl/lost-password.php:51
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: inc/elements/general/login-popup/tpl/lost-password.php:69
+msgid "Sign in now"
+msgstr ""
+
+#: inc/elements/general/login-popup/tpl/register.php:91
+msgid "Sign Up"
+msgstr ""
+
+#: inc/elements/general/newsletter/class-el-newsletter.php:37
+#: inc/elements/general/newsletter/config.php:29
+msgid "newsletter"
+msgstr ""
+
+#: inc/elements/general/newsletter/config.php:30
+msgid "Display Newsletter"
+msgstr ""
+
+#: inc/elements/general/our-team/class-el-our-team.php:38
+#: inc/elements/general/our-team/config.php:29
+msgid "Our Team"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:30
+msgid "Display team members"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:67
+msgid "Team"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:75
+#: inc/elements/general/testimonials/config.php:91
+msgid "John Doe"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:79
+msgid "Profession"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:81
+msgid "Senior specialist"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:91
+msgid "Photo"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:97
+#: inc/elements/general/our-team/config.php:152
+msgid "URL"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:105
+#: inc/elements/general/pricing-table/config.php:124
+#: inc/elements/general/testimonials/config.php:172
+#: inc/elements/wp-events-manager/list-events/config.php:66
+msgid "Background"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:118
+msgid "Contact"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:124
+msgid "Select type of icon"
+msgstr ""
+
+#: inc/elements/general/our-team/config.php:128
+msgid "Font Awesome icon"
+msgstr ""
+
+#: inc/elements/general/our-team/tpl/layout-1.php:34
+#: inc/elements/general/our-team/tpl/layout-4.php:34
+msgid "photo"
+msgstr ""
+
+#: inc/elements/general/our-works/class-el-our-works.php:37
+#: inc/elements/general/our-works/config.php:29
+msgid "Our Works"
+msgstr ""
+
+#: inc/elements/general/our-works/config.php:30
+msgid "Display a Our works"
+msgstr ""
+
+#: inc/elements/general/our-works/config.php:61
+msgid "Our Best Works"
+msgstr ""
+
+#: inc/elements/general/our-works/config.php:65
+msgid "Data"
+msgstr ""
+
+#: inc/elements/general/our-works/config.php:70
+msgid "View All"
+msgstr ""
+
+#: inc/elements/general/posts/class-el-posts.php:38
+#: inc/elements/general/posts/config.php:29
+msgid "Posts"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:30
+msgid "Display list posts"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:110
+msgid "Number of posts"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:117
+msgid "Show post date"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:135
+msgid "Show author"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:150
+msgid "Show number comments"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:165
+#: inc/elements/general/search-posts/config.php:96
+#: inc/elements/learnpress/search-courses/config.php:96
+#: inc/elements/woocommerce/product-search/config.php:96
+msgid "Show number favorite"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:178
+msgid "Show short description"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:192
+#: inc/elements/general/search-posts/config.php:115
+#: inc/elements/learnpress/search-courses/config.php:115
+#: inc/elements/woocommerce/product-search/config.php:115
+msgid "Show read more button"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:206
+msgid "Show Image"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:219
+#: inc/elements/woocommerce/products/config.php:104
+msgid "Sort"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:223
+#: inc/elements/woocommerce/products/config.php:108
+msgid "Random"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:226
+#: inc/elements/woocommerce/products/config.php:111
+msgid "Choose Sort"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:231
+#: inc/elements/woocommerce/products/config.php:117
+msgid "Order By"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:234
+#: inc/elements/woocommerce/products/config.php:121
+msgid "ASC"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:235
+#: inc/elements/woocommerce/products/config.php:120
+msgid "DESC"
+msgstr ""
+
+#: inc/elements/general/posts/config.php:237
+#: inc/elements/woocommerce/products/config.php:123
+msgid "Choose Order By"
+msgstr ""
+
+#: inc/elements/general/posts/tpl/layout-grid.php:91
+#: inc/elements/woocommerce/product-filter/tpl/product-filter.php:122
+msgid "Load More"
+msgstr ""
+
+#: inc/elements/general/posts/tpl/layout-list-1.php:44
+#: inc/elements/general/posts/tpl/layout-list-2.php:54
+#: inc/elements/general/posts/tpl/layout-list.php:53
+msgctxt "Builderpress element Posts"
+msgid "by "
+msgstr ""
+
+#: inc/elements/general/posts/tpl/marketing-layout-grid-1.php:48
+#: inc/elements/general/posts/tpl/vblog-layout-slider-3.php:86
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-grid-1.php:114
+msgid "by"
+msgstr ""
+
+#: inc/elements/general/posts/tpl/vblog-layout-grid-1.php:131
+msgid "read more"
+msgstr ""
+
+#: inc/elements/general/posts/tpl/vblog-layout-grid-2.php:103
+#: inc/elements/general/posts/tpl/vblog-layout-grid-2.php:146
+#: inc/elements/general/posts/tpl/vblog-layout-grid-2.php:176
+#: inc/elements/general/posts/tpl/vblog-layout-grid-2.php:203
+#: inc/elements/general/posts/tpl/vblog-layout-grid-2.php:233
+msgid "SHARE THIS ARTICLE"
+msgstr ""
+
+#: inc/elements/general/pricing-table/class-el-pricing-table.php:37
+#: inc/elements/general/pricing-table/config.php:29
+msgid "Pricing Table"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:30
+msgid "Display pricing table."
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:63
+msgid "Packages"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:71
+msgid "Standard"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:75
+#: inc/elements/general/video-box/config.php:72
+msgid "SubTitle"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:83
+msgid "Price standard package"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:88
+#: inc/elements/woocommerce/product-banner/config.php:117
+#: inc/elements/woocommerce/product-banner/config.php:174
+#: inc/elements/woocommerce/product-banner/config.php:318
+msgid "Price"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:96
+msgid "Original Price"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:131
+#: inc/elements/woocommerce/products/config.php:81
+msgid "Featured"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:133
+msgid "Set package as featured."
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:148
+msgid "Free setup"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:152
+msgid "Show icon"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:153
+msgid "Display icon Features"
+msgstr ""
+
+#: inc/elements/general/pricing-table/config.php:163
+msgid "Number columns"
+msgstr ""
+
+#: inc/elements/general/pricing-table/tpl/layout-1.php:33
+#: inc/elements/general/pricing-table/tpl/layout-3.php:31
+msgid "icon"
+msgstr ""
+
+#: inc/elements/general/pricing-table/tpl/marketing-layout-1.php:85
+msgid "Buy Now"
+msgstr ""
+
+#: inc/elements/general/search-posts/class-el-search-posts.php:37
+#: inc/elements/general/search-posts/config.php:29
+#: inc/elements/woocommerce/product-search/class-el-product-search.php:37
+msgid "Search"
+msgstr ""
+
+#: inc/elements/general/search-posts/config.php:30
+msgid "Display a Search form"
+msgstr ""
+
+#: inc/elements/general/search-posts/config.php:52
+#: inc/elements/general/steps/config.php:53
+#: inc/elements/learnpress/search-courses/config.php:52
+#: inc/elements/woocommerce/product-banner/config.php:52
+#: inc/elements/woocommerce/product-isotope/config.php:53
+#: inc/elements/woocommerce/product-login/config.php:52
+#: inc/elements/woocommerce/product-search/config.php:52
+msgid "Layout 1"
+msgstr ""
+
+#: inc/elements/general/search-posts/config.php:53
+#: inc/elements/general/steps/config.php:54
+#: inc/elements/woocommerce/product-banner/config.php:53
+#: inc/elements/woocommerce/product-isotope/config.php:54
+#: inc/elements/woocommerce/product-search/config.php:53
+msgid "Layout 2"
+msgstr ""
+
+#: inc/elements/general/search-posts/config.php:54
+msgid "vBlog Director"
+msgstr ""
+
+#: inc/elements/general/search-posts/config.php:66
+#: inc/elements/learnpress/search-courses/config.php:66
+#: inc/elements/woocommerce/product-search/config.php:66
+msgid "Placeholder"
+msgstr ""
+
+#: inc/elements/general/search-posts/config.php:69
+#: inc/elements/learnpress/search-courses/config.php:69
+#: inc/elements/woocommerce/product-search/config.php:69
+msgid "What are you looking for?"
+msgstr ""
+
+#: inc/elements/general/search-posts/tpl/layout-1.php:44
+#: inc/elements/general/search-posts/tpl/vblog-layout-popup.php:44
+#: inc/elements/woocommerce/product-search/tpl/layout-1.php:44
+msgid "Hit enter to search or ESC to close"
+msgstr ""
+
+#: inc/elements/general/services/class-el-services.php:37
+#: inc/elements/general/services/config.php:28
+#: inc/elements/general/services/config.php:58
+msgid "Services"
+msgstr ""
+
+#: inc/elements/general/services/config.php:29
+msgid "Display services"
+msgstr ""
+
+#: inc/elements/general/services/config.php:65
+msgid "Enter text used as title."
+msgstr ""
+
+#: inc/elements/general/services/config.php:66
+msgid "Customer service"
+msgstr ""
+
+#: inc/elements/general/services/config.php:72
+msgid "More information for title."
+msgstr ""
+
+#: inc/elements/general/services/config.php:76
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/elements/general/services/config.php:95
+msgid "View all services button."
+msgstr ""
+
+#: inc/elements/general/services/config.php:100
+#: inc/elements/woocommerce/product-filter/config.php:97
+#: inc/elements/woocommerce/product-isotope/config.php:87
+msgid "Number Columns"
+msgstr ""
+
+#: inc/elements/general/services/config.php:103
+msgid "1 Column"
+msgstr ""
+
+#: inc/elements/general/services/config.php:104
+msgid "2 Columns"
+msgstr ""
+
+#: inc/elements/general/services/config.php:105
+msgid "3 Columns"
+msgstr ""
+
+#: inc/elements/general/services/config.php:106
+msgid "4 Columns"
+msgstr ""
+
+#: inc/elements/general/services/config.php:107
+msgid "6 Columns"
+msgstr ""
+
+#: inc/elements/general/slide-image-box/class-el-slide-image-box.php:37
+#: inc/elements/general/slide-image-box/config.php:29
+#: inc/elements/general/slide-image-box/config.php:92
+msgid "Slide Image Box"
+msgstr ""
+
+#: inc/elements/general/slide-image-box/config.php:30
+msgid "Display slide-image-box"
+msgstr ""
+
+#: inc/elements/general/slide-image-box/config.php:76
+msgid "Container"
+msgstr ""
+
+#: inc/elements/general/slide-image-box/config.php:77
+msgid "Full width"
+msgstr ""
+
+#: inc/elements/general/slide-image-box/config.php:128
+msgid "Symbol Image"
+msgstr ""
+
+#: inc/elements/general/slide-image-box/tpl/marketing-layout-1.php:24
+msgid "View More Works"
+msgstr ""
+
+#: inc/elements/general/slide/class-el-slide.php:37
+#: inc/elements/general/slide/config.php:29
+msgid "Slide"
+msgstr ""
+
+#: inc/elements/general/slide/config.php:30
+msgid "Display slide"
+msgstr ""
+
+#: inc/elements/general/slide/config.php:72
+msgid "Show Button"
+msgstr ""
+
+#: inc/elements/general/slide/config.php:88
+msgid "Slide Image"
+msgstr ""
+
+#: inc/elements/general/slide/config.php:112
+msgid "Style Button"
+msgstr ""
+
+#: inc/elements/general/slide/config.php:136
+msgid "Hidden Dot"
+msgstr ""
+
+#: inc/elements/general/social-links/class-el-social-links.php:37
+#: inc/elements/general/social-links/config.php:29
+msgid "Social Links"
+msgstr ""
+
+#: inc/elements/general/social-links/config.php:30
+msgid "Display a list of social accounts linked with your site"
+msgstr ""
+
+#: inc/elements/general/social-links/config.php:80
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/elements/general/steps/class-el-steps.php:37
+#: inc/elements/general/steps/config.php:29
+msgid "Steps"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:30
+msgid "Display steps"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:61
+msgid "Step circle text"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:64
+msgid "This is step circle text"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:69
+#: inc/elements/general/steps/config.php:170
+msgid "Step"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:147
+#: inc/elements/general/steps/config.php:262
+msgid "Step Description"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:149
+msgid "This is step description"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:154
+msgid "Read more text"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:156
+#: inc/elements/general/video-box/tpl/layout-1.php:32
+msgid "Read more"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:161
+msgid "Read more URL"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:248
+msgid "Step Title"
+msgstr ""
+
+#: inc/elements/general/steps/config.php:255
+msgid "Step Sub Title"
+msgstr ""
+
+#: inc/elements/general/tabs/config.php:30
+msgid "Display tabs"
+msgstr ""
+
+#: inc/elements/general/tabs/config.php:79
+msgid "Title position"
+msgstr ""
+
+#: inc/elements/general/testimonials/class-el-testimonials.php:37
+#: inc/elements/general/testimonials/config.php:28
+#: inc/elements/general/testimonials/config.php:84
+msgid "Testimonials"
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:29
+msgid "Display a testimonials box."
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:103
+msgid "Website"
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:111
+msgid "Info"
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:113
+msgid "Founder"
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:121
+msgid ""
+"This is my first time to consult in this hospital and I’m lucky I got a "
+"perfect doctor who takes care of me since day one of my consultation, until "
+"the day of my surgery."
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:126
+msgid "Rating"
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:137
+msgid "Image rating"
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:157
+msgid "Auto Slide?"
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:158
+msgid "Set auto play for slide"
+msgstr ""
+
+#: inc/elements/general/testimonials/config.php:165
+msgid "Speed Auto"
+msgstr ""
+
+#: inc/elements/general/twitter/class-el-twitter.php:37
+#: inc/elements/general/twitter/config.php:29
+msgid "Twitter"
+msgstr ""
+
+#: inc/elements/general/twitter/config.php:30
+msgid "Display list tweets"
+msgstr ""
+
+#: inc/elements/general/twitter/config.php:72
+msgid "Number tweets"
+msgstr ""
+
+#: inc/elements/general/video-box/class-el-video-box.php:37
+#: inc/elements/general/video-box/config.php:30
+msgid "Video Box"
+msgstr ""
+
+#: inc/elements/general/video-box/class-el-video-box.php:49
+msgid "Sub Button Title"
+msgstr ""
+
+#: inc/elements/general/video-box/config.php:31
+msgid "Display popup video box"
+msgstr ""
+
+#: inc/elements/general/video-box/config.php:68
+msgid "Your Business Great Again!"
+msgstr ""
+
+#: inc/elements/general/video-box/config.php:74
+msgid "How do we make"
+msgstr ""
+
+#: inc/elements/general/video-box/config.php:78
+msgid "Sub Button"
+msgstr ""
+
+#: inc/elements/general/video-box/config.php:87
+msgid "Video Button"
+msgstr ""
+
+#: inc/elements/general/video-box/config.php:98
+msgid "Background Image Overlay"
+msgstr ""
+
+#: inc/elements/general/video-box/tpl/layout-1.php:45
+msgid "View"
+msgstr ""
+
+#: inc/elements/learnpress-collections/course-collections/class-el-course-collections.php:37
+#: inc/elements/learnpress-collections/course-collections/config.php:29
+msgid "Course Collections"
+msgstr ""
+
+#: inc/elements/learnpress-collections/course-collections/config.php:30
+msgid "Display LearnPress list course collections"
+msgstr ""
+
+#: inc/elements/learnpress-collections/course-collections/config.php:86
+msgid "Type Get Collections"
+msgstr ""
+
+#: inc/elements/learnpress-collections/course-collections/config.php:90
+msgid "default"
+msgstr ""
+
+#: inc/elements/learnpress-collections/course-collections/config.php:91
+msgid "Custom"
+msgstr ""
+
+#: inc/elements/learnpress-collections/course-collections/config.php:98
+msgid "Input Collection Name"
+msgstr ""
+
+#: inc/elements/learnpress-collections/course-collections/config.php:101
+msgid "Add Post by title."
+msgstr ""
+
+#: inc/elements/learnpress-collections/course-collections/config.php:117
+msgid "Number Items"
+msgstr ""
+
+#: inc/elements/learnpress-course-review/course-reviews/class-el-course-reviews.php:37
+#: inc/elements/learnpress-course-review/course-reviews/config.php:29
+msgid "Course Reviews"
+msgstr ""
+
+#: inc/elements/learnpress-course-review/course-reviews/config.php:30
+msgid "Display Learnpress course reviews"
+msgstr ""
+
+#: inc/elements/learnpress-course-review/course-reviews/config.php:49
+#: inc/elements/learnpress/course-details/config.php:60
+msgid "Course"
+msgstr ""
+
+#: inc/elements/learnpress-course-review/course-reviews/config.php:56
+msgid "Number reviews"
+msgstr ""
+
+#: inc/elements/learnpress-course-review/course-reviews/config.php:59
+msgid "Number of reviews you want to show."
+msgstr ""
+
+#: inc/elements/learnpress/course-categories/class-el-course-categories.php:37
+#: inc/elements/learnpress/course-categories/config.php:29
+msgid "Course Categories"
+msgstr ""
+
+#: inc/elements/learnpress/course-categories/config.php:30
+msgid "Display course categories"
+msgstr ""
+
+#: inc/elements/learnpress/course-categories/config.php:55
+#: inc/elements/wp-events-manager/event-categories/config.php:55
+msgid "Show course counts"
+msgstr ""
+
+#: inc/elements/learnpress/course-categories/config.php:63
+#: inc/elements/wp-events-manager/event-categories/config.php:63
+msgid "Show hierarchy"
+msgstr ""
+
+#: inc/elements/learnpress/course-details/class-el-course-details.php:37
+#: inc/elements/learnpress/course-details/config.php:29
+msgid "Course Details"
+msgstr ""
+
+#: inc/elements/learnpress/course-details/config.php:30
+msgid "Display Learnpress course details"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/class-el-list-courses.php:37
+#: inc/elements/learnpress/list-courses/config.php:30
+msgid "List Courses"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/config.php:31
+msgid "Display LearnPress list courses"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/config.php:77
+#: inc/elements/woocommerce/product-carousel/config.php:56
+#: inc/elements/woocommerce/product-filter/config.php:72
+msgid "Filter by"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/config.php:80
+msgid "Latest"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/config.php:81
+msgid "Popular"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/config.php:89
+msgid "Course category"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/config.php:100
+#: inc/elements/woocommerce/product-carousel/config.php:69
+#: inc/elements/woocommerce/products/config.php:91
+#: inc/elements/wp-events-manager/list-events/config.php:87
+msgid "Number items"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/coach-life-layout-slider-1.php:21
+msgid "View All Courses"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-grid-1.php:28
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-grid-2.php:28
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-slider-1.php:37
+msgid "Free"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-grid-1.php:72
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-slider-1.php:69
+msgid "Years Old"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-grid-1.php:79
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-grid-2.php:74
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-slider-1.php:76
+msgid "Class Size"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-grid-1.php:86
+msgid "Science"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-grid-2.php:67
+msgid "Months Old"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-slider-1.php:22
+msgid "PREV"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-slider-1.php:26
+msgid "NEXT"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/kindergarten-layout-slider-1.php:83
+msgid "Educators"
+msgstr ""
+
+#: inc/elements/learnpress/list-courses/tpl/layout-list-2.php:47
+msgid "to complete"
+msgstr ""
+
+#: inc/elements/learnpress/list-instructors/class-el-list-instructors.php:37
+msgid "List Instructors"
+msgstr ""
+
+#: inc/elements/learnpress/list-instructors/config.php:29
+msgid "List Instructor"
+msgstr ""
+
+#: inc/elements/learnpress/list-instructors/config.php:30
+msgid "Display LearnPress list instructors"
+msgstr ""
+
+#: inc/elements/learnpress/list-instructors/config.php:63
+msgid "Our Instructors"
+msgstr ""
+
+#: inc/elements/learnpress/list-instructors/config.php:71
+msgid "Number instructors"
+msgstr ""
+
+#: inc/elements/learnpress/list-instructors/config.php:78
+msgid "Show Load more"
+msgstr ""
+
+#: inc/elements/learnpress/search-courses/class-el-search-courses.php:37
+#: inc/elements/learnpress/search-courses/config.php:29
+msgid "Search Courses"
+msgstr ""
+
+#: inc/elements/learnpress/search-courses/config.php:30
+msgid "Display a Search Courses form"
+msgstr ""
+
+#: inc/elements/learnpress/search-courses/tpl/layout-1.php:44
+msgid "Hit enter to search courses or ESC to close"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-categories/class-el-st-list-categories.php:37
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:29
+msgid "St-list-categories"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:30
+msgid "Display st-list-categories"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:73
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:101
+msgid "Number of videos"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:79
+#: inc/elements/Stellar-video-player/st-search-videos/config.php:65
+msgid "Parent Category"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:86
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:113
+msgid "Type"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:88
+msgid "Select type of category."
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-categories/config.php:91
+msgid "Trending"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-categories/tpl/vblog-layout-slider-1.php:24
+#: inc/elements/Stellar-video-player/st-list-categories/tpl/vblog-layout-slider-2.php:24
+msgid "Trending Categories"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-videos/class-el-st-list-videos.php:37
+msgid "St-list-videos"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:29
+msgid "St list videos"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:30
+msgid "Display list videos"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:87
+msgid "Link All"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-videos/config.php:119
+#: inc/elements/Stellar-video-player/st-search-videos/config.php:59
+msgid "Show filter category"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-1.php:61
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-grid-1.php:78
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-grid-2.php:76
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-slider-1.php:87
+msgid "IMDb"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-grid-1.php:25
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-grid-2.php:24
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-slider-1.php:24
+msgid "Popular Videos"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-grid-3.php:24
+msgid "Featured Videos"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-list-videos/tpl/vblog-layout-grid-3.php:81
+msgid "BY"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-search-videos/class-el-st-search-videos.php:37
+#: inc/elements/Stellar-video-player/st-search-videos/config.php:29
+msgid "St-search-videos"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-search-videos/config.php:30
+msgid "Display st-search-videos"
+msgstr ""
+
+#: inc/elements/Stellar-video-player/st-search-videos/tpl/vblog-layout-header-1.php:22
+#: inc/elements/Stellar-video-player/st-search-videos/tpl/vblog-layout-header-2.php:41
+msgid "Seach for a Movie..."
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/class-el-product-banner.php:37
+msgid "Product-banner"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:29
+msgid "Product Banner"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:30
+msgid "Display product banner"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:54
+msgid "Layout 3"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:55
+msgid "Layout 4"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:100
+#: inc/elements/woocommerce/product-banner/config.php:159
+msgid "Banner Title"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:109
+msgid "Flag Title"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:113
+msgid "This is flag title"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:119
+msgid "Custom price. Example: $30.00, 25%"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:125
+#: inc/elements/woocommerce/product-banner/config.php:182
+msgid "Sale Price "
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:127
+msgid "Custom price. Example: $10.00"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:167
+msgid "Banner Description"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:176
+msgid "Custom price. Example: $30.00"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:184
+msgid "Custom price. Example: $19.99"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:207
+msgid "Custom height. Unit is pixel"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:222
+msgid "Show background overlay"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:239
+msgid "Title top"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:241
+msgid "The Original"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:251
+msgid "Title large"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:253
+msgid "Chicken"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:263
+#: inc/elements/woocommerce/product-banner/config.php:275
+msgid "Title bottom"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:265
+msgid "Burger"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:283
+msgid ""
+"Extra-virgin calenda tofv olive oil, garlic , mozzarella cheese, onions, "
+"mushrooms, green olives, black olives, fresh tomatoes."
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:287
+msgid "Text line"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:289
+msgid "Pick Size"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:299
+msgid "Sizes"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:304
+msgid "Number"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:306
+msgid "22"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:311
+msgid "Number Unit"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:313
+msgid "cm"
+msgstr ""
+
+#: inc/elements/woocommerce/product-banner/config.php:320
+msgid "$19.90"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/class-el-product-carousel.php:37
+msgid "Carousel"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:29
+msgid "Product Carousel"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:30
+msgid "Display Woocommerce product carousel"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:52
+#: inc/elements/woocommerce/product-filter/config.php:66
+#: inc/elements/woocommerce/product-isotope/config.php:65
+#: inc/elements/woocommerce/products/config.php:72
+msgid "Select product category."
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:60
+#: inc/elements/woocommerce/product-filter/config.php:76
+msgid "Recent products"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:61
+#: inc/elements/woocommerce/product-filter/config.php:77
+msgid "Top rated products"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:62
+#: inc/elements/woocommerce/product-filter/config.php:78
+msgid "Best selling products"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:63
+#: inc/elements/woocommerce/product-filter/config.php:79
+msgid "Featured products"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:76
+msgid "Rows"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:83
+#: inc/elements/woocommerce/product-filter/config.php:171
+#: inc/elements/woocommerce/product-isotope/config.php:123
+msgid "Show label"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:84
+#: inc/elements/woocommerce/product-filter/config.php:172
+#: inc/elements/woocommerce/product-isotope/config.php:124
+msgid "Show label likes Hot, Sale"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/config.php:92
+#: inc/elements/woocommerce/product-filter/config.php:121
+#: inc/elements/woocommerce/product-isotope/config.php:99
+msgid "Show rating"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/tpl/product-carousel.php:106
+#: inc/elements/woocommerce/product-filter/tpl/layout-1.php:29
+#: inc/elements/woocommerce/product-filter/tpl/layout-2.php:29
+#: inc/elements/woocommerce/product-filter/tpl/layout-4.php:29
+#: inc/elements/woocommerce/product-isotope/tpl/layout-1.php:36
+#: inc/elements/woocommerce/product-isotope/tpl/loadmore.php:37
+msgid "New"
+msgstr ""
+
+#: inc/elements/woocommerce/product-carousel/tpl/product-carousel.php:109
+#: inc/elements/woocommerce/product-filter/tpl/layout-1.php:32
+#: inc/elements/woocommerce/product-filter/tpl/layout-2.php:32
+#: inc/elements/woocommerce/product-filter/tpl/layout-4.php:32
+#: inc/elements/woocommerce/product-isotope/tpl/layout-1.php:39
+#: inc/elements/woocommerce/product-isotope/tpl/loadmore.php:40
+msgid "Sale"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/class-el-product-filter.php:37
+#: inc/elements/woocommerce/product-filter/config.php:29
+msgid "Product Filter"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:30
+msgid "Display product filter"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:52
+msgid "Grid 1"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:53
+msgid "Grid 2"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:54
+msgid "List 1"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:55
+msgid "List 2"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:88
+#: inc/elements/woocommerce/product-isotope/config.php:69
+msgid "Number of product"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:100
+#: inc/elements/woocommerce/product-isotope/config.php:90
+msgid "2"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:101
+#: inc/elements/woocommerce/product-isotope/config.php:91
+msgid "3"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:102
+#: inc/elements/woocommerce/product-isotope/config.php:92
+msgid "4"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:109
+msgid "Show Add to cart button"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:134
+#: inc/elements/woocommerce/product-isotope/config.php:107
+msgid "Show description"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:142
+#: inc/elements/woocommerce/product-isotope/config.php:115
+msgid "Show price"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:150
+msgid "Hide \"All\" filter"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:163
+msgid "Hide nav filter"
+msgstr ""
+
+#: inc/elements/woocommerce/product-filter/config.php:184
+msgid "Add Load More button link"
+msgstr ""
+
+#: inc/elements/woocommerce/product-isotope/class-el-product-isotope.php:37
+#: inc/elements/woocommerce/product-isotope/config.php:29
+msgid "Product Isotope"
+msgstr ""
+
+#: inc/elements/woocommerce/product-isotope/config.php:30
+msgid "Display product isotope"
+msgstr ""
+
+#: inc/elements/woocommerce/product-isotope/config.php:78
+msgid "Number item of load more"
+msgstr ""
+
+#: inc/elements/woocommerce/product-login/class-el-product-login.php:37
+#: inc/elements/woocommerce/product-login/config.php:29
+msgid "Product Login"
+msgstr ""
+
+#: inc/elements/woocommerce/product-login/config.php:30
+msgid "Display product login"
+msgstr ""
+
+#: inc/elements/woocommerce/product-search/config.php:29
+msgid "Search Products"
+msgstr ""
+
+#: inc/elements/woocommerce/product-search/config.php:30
+msgid "Display a Search form products"
+msgstr ""
+
+#: inc/elements/woocommerce/products/class-el-products.php:37
+#: inc/elements/woocommerce/products/config.php:29
+msgid "Products"
+msgstr ""
+
+#: inc/elements/woocommerce/products/config.php:30
+msgid "Display products"
+msgstr ""
+
+#: inc/elements/woocommerce/products/config.php:77
+msgid "Product Popular"
+msgstr ""
+
+#: inc/elements/woocommerce/products/config.php:82
+msgid "Sale Price"
+msgstr ""
+
+#: inc/elements/woocommerce/products/config.php:83
+msgid "Average Rating"
+msgstr ""
+
+#: inc/elements/woocommerce/products/config.php:85
+msgid "Choose Product Popular"
+msgstr ""
+
+#: inc/elements/woocommerce/products/config.php:97
+msgid "Number items on mobile"
+msgstr ""
+
+#: inc/elements/woocommerce/products/tpl/vblog-layout-slider-1.php:48
+msgid "in"
+msgstr ""
+
+#: inc/elements/wp-events-manager/event-calendar/class-el-event-calendar.php:37
+#: inc/elements/wp-events-manager/event-calendar/config.php:29
+msgid "Event Calendar"
+msgstr ""
+
+#: inc/elements/wp-events-manager/event-calendar/config.php:30
+msgid "Display event calendar"
+msgstr ""
+
+#: inc/elements/wp-events-manager/event-categories/class-el-event-categories.php:37
+#: inc/elements/wp-events-manager/event-categories/config.php:29
+msgid "Event Categories"
+msgstr ""
+
+#: inc/elements/wp-events-manager/event-categories/config.php:30
+msgid "Display event categories"
+msgstr ""
+
+#: inc/elements/wp-events-manager/list-events/class-el-list-events.php:37
+#: inc/elements/wp-events-manager/list-events/config.php:30
+msgid "List Events"
+msgstr ""
+
+#: inc/elements/wp-events-manager/list-events/config.php:31
+msgid "Display WP Events Manager list events"
+msgstr ""
+
+#: inc/elements/wp-events-manager/list-events/config.php:75
+msgid "Event category"
+msgstr ""
+
+#: inc/elements/wp-events-manager/list-events/config.php:81
+msgid "Event status"
+msgstr ""
+
+#: inc/elements/wp-events-manager/list-events/config.php:93
+msgid "Number event slider"
+msgstr ""
+
+#: inc/elements/wp-events-manager/list-events/tpl/layout-list-2.php:36
+msgid "background"
+msgstr ""
+
+#: inc/functions.php:1235
+msgid "No posts found"
+msgstr ""
+
+#: inc/functions.php:1274 inc/functions.php:1355
+msgid "Wrong username or password."
+msgstr ""
+
+#: inc/functions.php:1277
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: inc/functions.php:1302
+msgid "Something wrong. Please try again."
+msgstr ""
+
+#: inc/functions.php:1319
+msgid "Those passwords didn't match. Try again."
+msgstr ""
+
+#: inc/functions.php:1338
+msgid "This username is already registered."
+msgstr ""
+
+#: inc/functions.php:1342
+msgid "This email address is already registered."
+msgstr ""
+
+#: inc/functions.php:1364
+msgid "Registration successful, redirecting..."
+msgstr ""
+
+#: inc/functions.php:1403
+msgid "No courses found"
+msgstr ""
+
+#: inc/functions.php:1481
+msgid "No videos found"
+msgstr ""
+
+#: inc/functions.php:1521
+msgid "No products found"
+msgstr ""
