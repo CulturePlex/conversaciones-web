@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LearnPress\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-15 16:58+0000\n"
+"POT-Creation-Date: 2025-03-15 18:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.7.1; wp-6.7.1\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
 "X-Domain: learnpress"
 
 #: inc/class-lp-forms-handler.php:292 inc/class-lp-forms-handler.php:408
@@ -82,6 +82,10 @@ msgid "%d student"
 msgid_plural "%d students"
 msgstr[0] ""
 msgstr[1] ""
+
+#: assets/src/apps/js/frontend/question-types/components/question-base/index.js:208
+msgid "%d/%d point"
+msgstr ""
 
 #: inc/order/class-lp-order.php:454
 #, php-format
@@ -464,6 +468,10 @@ msgstr ""
 msgid "Add A New Tag"
 msgstr ""
 
+#: assets/src/apps/js/admin/react/question/index.js:319
+msgid "Add Blank"
+msgstr ""
+
 #: inc/admin/views/meta-boxes/fields/materials.php:79
 msgid "Add Course Materials"
 msgstr ""
@@ -736,6 +744,10 @@ msgstr ""
 msgid "Any"
 msgstr ""
 
+#: assets/src/apps/js/blocks/archive-course/edit.js:11
+msgid "Archive Course"
+msgstr ""
+
 #: config/settings/course.php:44
 msgid "Archive page layout"
 msgstr ""
@@ -753,6 +765,11 @@ msgstr ""
 msgid "Are you sure to reset progress of this item?"
 msgstr ""
 
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:105
+#: assets/src/apps/js/frontend/quiz/components/status/index.js:55
+msgid "Are you sure to submit the quiz?"
+msgstr ""
+
 #: inc/admin/class-lp-install-sample-data.php:72
 msgid "Are you sure you want to delete the sample course data?"
 msgstr ""
@@ -763,6 +780,14 @@ msgstr ""
 
 #: inc/admin/class-lp-install-sample-data.php:71
 msgid "Are you sure you want to install the sample course data?"
+msgstr ""
+
+#: assets/src/js/frontend/profile/avatar.js:146
+msgid "Are you sure you want to remove your avatar?"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:17
+msgid "Are you sure you want to retake the quiz?"
 msgstr ""
 
 #: inc/quiz/class-lp-quiz.php:591
@@ -1192,6 +1217,7 @@ msgstr ""
 #: inc/admin/views/addons.php:232 inc/admin/views/addons.php:245
 #: inc/TemplateHooks/Profile/ProfileTemplate.php:180
 #: inc/admin/views/meta-boxes/fields/date.php:56
+#: assets/src/apps/js/frontend/modal/index.js:44
 msgid "Cancel"
 msgstr ""
 
@@ -1320,6 +1346,10 @@ msgstr ""
 
 #: inc/admin/views/addons.php:191
 msgid "Change Purchase Code"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/buttons/button-check.js:54
+msgid "Check answers"
 msgstr ""
 
 #: inc/admin/views/admin-notices/addons-purchased-extend.php:34
@@ -1631,6 +1661,9 @@ msgid "Core version"
 msgstr ""
 
 #: inc/custom-post-types/question.php:127
+#: assets/src/apps/js/frontend/question-types/components/question-base/index.js:207
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:206
+#: assets/src/apps/js/frontend/question-types/components/questions/fill-in-blanks/index.js:81
 msgid "Correct"
 msgstr ""
 
@@ -2523,6 +2556,7 @@ msgid "Duration."
 msgstr ""
 
 #: templates/single-course/sidebar/user-time.php:41
+#: assets/src/apps/js/frontend/quiz/components/meta/index.js:20
 msgid "Duration:"
 msgstr ""
 
@@ -2544,6 +2578,11 @@ msgid ""
 "result is 5/10 (50%)."
 msgstr ""
 
+#: assets/src/apps/js/frontend/quiz/components/status/index.js:107
+#, javascript-format
+msgid "Earned Point: %s"
+msgstr ""
+
 #: inc/lp-core-functions.php:942
 msgid "East Caribbean dollar"
 msgstr ""
@@ -2552,6 +2591,7 @@ msgstr ""
 #: inc/custom-post-types/abstract.php:899
 #: inc/admin/class-lp-install-sample-data.php:172
 #: templates/content-lesson/content.php:27
+#: assets/src/apps/js/frontend/quiz/components/questions/question.js:87
 msgid "Edit"
 msgstr ""
 
@@ -2996,6 +3036,7 @@ msgstr ""
 
 #: inc/admin/views/quiz/question-meta.php:50
 #: inc/admin/views/meta-boxes/question/settings.php:35
+#: assets/src/apps/js/frontend/quiz/components/questions/question.js:163
 msgid "Explanation"
 msgstr ""
 
@@ -3044,6 +3085,7 @@ msgstr ""
 #: inc/course/lp-course-functions.php:938 inc/user/class-lp-profile.php:757
 #: inc/user-item/class-lp-user-item-quiz.php:148
 #: inc/templates/class-lp-template-profile.php:144
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:169
 msgid "Failed"
 msgstr ""
 
@@ -3261,6 +3303,11 @@ msgstr ""
 #: templates/single-course/buttons/finish.php:15
 #: templates/single-course/buttons/finish.php:17
 msgid "Finish course"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:288
+#: assets/src/apps/js/frontend/quiz/components/status/index.js:116
+msgid "Finish Quiz"
 msgstr ""
 
 #: inc/quiz/class-lp-quiz.php:586
@@ -3516,6 +3563,8 @@ msgstr ""
 
 #: inc/admin/views/quiz/question-meta.php:39
 #: inc/admin/views/meta-boxes/question/settings.php:30
+#: assets/src/apps/js/frontend/quiz/components/buttons/button-hint.js:22
+#: assets/src/apps/js/frontend/quiz/components/questions/question.js:177
 msgid "Hint"
 msgstr ""
 
@@ -3618,6 +3667,8 @@ msgstr ""
 
 #: inc/admin/meta-box/fields/payment-order.php:8
 #: inc/admin/views/tools/course/html-user.php:28
+#: assets/js/dist/admin/pages/tools.js:774
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:154
 msgid "ID"
 msgstr ""
 
@@ -3700,6 +3751,8 @@ msgid "Include courses in subcategory"
 msgstr ""
 
 #: inc/custom-post-types/question.php:133
+#: assets/src/apps/js/frontend/question-types/components/question-base/index.js:207
+#: assets/src/apps/js/frontend/question-types/components/questions/fill-in-blanks/index.js:82
 msgid "Incorrect"
 msgstr ""
 
@@ -4090,6 +4143,10 @@ msgstr ""
 msgid "Item content."
 msgstr ""
 
+#: assets/src/apps/js/blocks/item-curriculum-course/edit.js:13
+msgid "Item Curriculum Course"
+msgstr ""
+
 #: inc/jwt/rest-api/version1/class-lp-rest-section-items-v1-controller.php:256
 msgid "Item duration."
 msgstr ""
@@ -4271,6 +4328,10 @@ msgstr ""
 #: inc/admin/views/statistics/users.php:11
 #: inc/admin/views/statistics/orders.php:11
 msgid "Last 7 days"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:15
+msgid "Last Attempt"
 msgstr ""
 
 #: inc/user/lp-user-functions.php:1784 inc/user/lp-user-functions.php:1786
@@ -4705,6 +4766,10 @@ msgstr ""
 msgid "Lost your password?"
 msgstr ""
 
+#: assets/src/apps/js/frontend/question-types/components/question-base/index.js:98
+msgid "LP Error: can not set answers"
+msgstr ""
+
 #. Publish box date format, see http://php.net/date
 #: inc/custom-post-types/abstract.php:1011
 msgid "M j, Y @ G:i"
@@ -4751,6 +4816,10 @@ msgstr ""
 #: config/elementor/course/filter-course-el.php:300
 #: config/elementor/course/filter-course-el.php:358
 msgid "Margin"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:23
+msgid "Marks"
 msgstr ""
 
 #: inc/admin/views/question/fib-answer-editor.php:48
@@ -4834,6 +4903,10 @@ msgstr ""
 msgid "Minus for skip"
 msgstr ""
 
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:219
+msgid "Minus points"
+msgstr ""
+
 #: inc/lp-core-functions.php:734
 msgid "Minute(s)"
 msgstr ""
@@ -4903,6 +4976,8 @@ msgstr ""
 #: config/elementor/course/materials.php:66 inc/admin/views/quiz/editor.php:47
 #: templates/profile/tabs/courses/course-list.php:29
 #: inc/admin/views/tools/course/html-user.php:29
+#: assets/js/dist/admin/pages/tools.js:774
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:155
 msgid "Name"
 msgstr ""
 
@@ -5017,6 +5092,10 @@ msgstr ""
 
 #: inc/TemplateHooks/Course/ListCoursesTemplate.php:514
 msgid "Newly published"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:203
+msgid "Next"
 msgstr ""
 
 #: inc/lp-core-functions.php:1042
@@ -5343,6 +5422,7 @@ msgid "Offset Y (px)"
 msgstr ""
 
 #: inc/lp-core-functions.php:2823 inc/class-lp-assets.php:90
+#: assets/src/apps/js/frontend/modal/index.js:41
 msgid "OK"
 msgstr ""
 
@@ -5677,6 +5757,7 @@ msgstr ""
 #: inc/user/class-lp-profile.php:756
 #: inc/user-item/class-lp-user-item-quiz.php:147
 #: inc/templates/class-lp-template-profile.php:143
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:167
 msgid "Passed"
 msgstr ""
 
@@ -5693,9 +5774,17 @@ msgstr ""
 msgid "Passing condition: %s%%"
 msgstr ""
 
+#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:24
+msgid "Passing grade"
+msgstr ""
+
 #: inc/admin/views/meta-boxes/course/settings.php:545
 #: inc/admin/views/meta-boxes/quiz/settings.php:35
 msgid "Passing Grade(%)"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/meta/index.js:25
+msgid "Passing grade:"
 msgstr ""
 
 #: config/profile-tabs.php:76 templates/checkout/account-login.php:35
@@ -5993,12 +6082,18 @@ msgstr ""
 msgid "Please provide a valid email address."
 msgstr ""
 
+#: assets/src/apps/js/frontend/question-types/components/questions/fill-in-blanks/index.js:80
+msgid "point"
+msgstr ""
+
 #: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:702
 msgid "Point."
 msgstr ""
 
 #: inc/admin/views/quiz/question-meta.php:28
 #: inc/admin/views/meta-boxes/question/settings.php:17
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:198
+#: assets/src/apps/js/frontend/question-types/components/questions/fill-in-blanks/index.js:79
 msgid "Points"
 msgstr ""
 
@@ -6042,6 +6137,10 @@ msgstr ""
 #: inc/class-lp-breadcrumb.php:287
 #, php-format
 msgid "Posts tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:159
+msgid "Prev"
 msgstr ""
 
 #: inc/lp-template-functions.php:1110 inc/custom-post-types/abstract.php:1041
@@ -6210,6 +6309,20 @@ msgstr ""
 msgid "Question"
 msgstr ""
 
+#: assets/src/apps/js/frontend/question-types/index.js:34
+#, javascript-format
+msgid "Question <code>%s</code> invalid!"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/status/index.js:95
+#: assets/src/apps/js/frontend/quiz/components/status/index.js:98
+msgid "Question <span>%d of %d</span>"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/status/index.js:93
+msgid "Question <span>%d to %d of %d</span>"
+msgstr ""
+
 #: inc/custom-post-types/question.php:205
 #: inc/custom-post-types/question.php:206
 msgid "Question Bank"
@@ -6248,7 +6361,13 @@ msgstr ""
 #: inc/custom-post-types/question.php:208 inc/custom-post-types/quiz.php:175
 #: inc/custom-post-types/quiz.php:238 inc/custom-post-types/quiz.php:463
 #: inc/admin/views/quiz/modal-choose-items.php:55
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:202
+#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:21
 msgid "Questions"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/meta/index.js:30
+msgid "Questions:"
 msgstr ""
 
 #: inc/admin/views/admin-notices/setup-wizard.php:20
@@ -6426,6 +6545,7 @@ msgstr ""
 #: inc/TemplateHooks/Profile/ProfileTemplate.php:185
 #: inc/admin/views/tools/course/html-unassign-course.php:97
 #: inc/admin/views/meta-boxes/fields/materials.php:110
+#: assets/src/apps/js/admin/react/question/index.js:313
 msgid "Remove"
 msgstr ""
 
@@ -6500,6 +6620,11 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
+#: assets/js/dist/admin/pages/tools.js:744
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:118
+msgid "Reset Course Progress"
+msgstr ""
+
 #: inc/rest-api/v1/frontend/class-lp-rest-courses-controller.php:450
 msgid "Reset Course progress"
 msgstr ""
@@ -6510,6 +6635,11 @@ msgstr ""
 
 #: inc/admin/views/tools/course/html-user-item.php:12
 msgid "Reset Item Progress"
+msgstr ""
+
+#: assets/js/dist/admin/pages/tools.js:797
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:185
+msgid "Reset now"
 msgstr ""
 
 #: inc/emails/types/class-lp-email-reset-password.php:18
@@ -6524,10 +6654,13 @@ msgstr ""
 
 #: templates/profile/tabs/quizzes.php:57
 #: templates/profile/tabs/courses/course-list.php:30
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:299
+#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:25
 msgid "Result"
 msgstr ""
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:64
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:267
 msgid "Retake"
 msgstr ""
 
@@ -6568,6 +6701,7 @@ msgid "Reupgrade Database"
 msgstr ""
 
 #: inc/admin/views/meta-boxes/quiz/settings.php:91
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:308
 msgid "Review"
 msgstr ""
 
@@ -6701,6 +6835,11 @@ msgstr ""
 msgid "Search Course"
 msgstr ""
 
+#: assets/js/dist/admin/pages/tools.js:747
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:124
+msgid "Search course by name"
+msgstr ""
+
 #: templates/single-course/content-item/popup-sidebar.php:15
 msgctxt "search course input placeholder"
 msgid "Search for course content"
@@ -6747,6 +6886,11 @@ msgstr ""
 
 #: templates/global/breadcrumb.php:31
 msgid "Search results for: "
+msgstr ""
+
+#: assets/js/dist/admin/pages/tools.js:746
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:121
+msgid "Search results only show if courses have user data."
 msgstr ""
 
 #: inc/admin/views/tools/course/html-user.php:15
@@ -7102,6 +7246,10 @@ msgstr ""
 msgid "Single Choice"
 msgstr ""
 
+#: assets/src/apps/js/blocks/single-course/edit.js:11
+msgid "Single Course"
+msgstr ""
+
 #: inc/ExternalPlugin/Elementor/Widgets/Instructor/SingleInstructorElementor.php:16
 msgid "Single Instructor"
 msgstr ""
@@ -7125,6 +7273,10 @@ msgstr ""
 
 #: config/elementor/course/list-courses-by-page.php:41
 msgid "Skin"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:214
+msgid "Skipped"
 msgstr ""
 
 #: inc/settings/class-lp-settings-courses.php:32
@@ -7217,6 +7369,10 @@ msgstr ""
 
 #: inc/custom-post-types/lesson.php:273
 msgid "Standard"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:267
+msgid "Start"
 msgstr ""
 
 #: templates/single-course/buttons/enroll.php:31
@@ -7342,6 +7498,8 @@ msgstr ""
 
 #: inc/custom-post-types/course.php:400 inc/custom-post-types/course.php:417
 #: inc/admin/views/statistics/users.php:35
+#: assets/js/dist/admin/pages/tools.js:774
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:156
 msgid "Students"
 msgstr ""
 
@@ -7385,6 +7543,10 @@ msgstr ""
 
 #: templates/global/become-teacher-form.php:57
 msgid "Submitting"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/status/index.js:116
+msgid "Submitting…"
 msgstr ""
 
 #: templates/order/order-details.php:108 templates/checkout/review-order.php:92
@@ -7732,6 +7894,10 @@ msgstr ""
 msgid "The file is not exist"
 msgstr ""
 
+#: assets/src/js/frontend/profile/avatar.js:131
+msgid "The file size is too large. You need to upload a file < 2MB."
+msgstr ""
+
 #: inc/abstracts/abstract-object-data.php:346
 #, php-format
 msgid "The following functions %1$s do not exist in %2$s"
@@ -7759,6 +7925,11 @@ msgstr ""
 
 #: inc/jwt/includes/class-jwt-public.php:95
 msgid "The ID of the user."
+msgstr ""
+
+#: assets/src/js/frontend/profile/avatar.js:133
+#, javascript-format
+msgid "The image size must be greater than or equal to %1$sx%2$spx"
 msgstr ""
 
 #: inc/admin/views/quiz/question-meta.php:44
@@ -7955,6 +8126,10 @@ msgstr ""
 msgid "The quiz is invalid!"
 msgstr ""
 
+#: assets/src/apps/js/frontend/question-types/components/question-base/index.js:147
+msgid "The render function should be overwritten from the base."
+msgstr ""
+
 #: inc/user/abstract-lp-user.php:713
 #, php-format
 msgid "The role %s for the user doesn't exist"
@@ -8148,6 +8323,11 @@ msgstr ""
 msgid "This action will reset all course progresses of users."
 msgstr ""
 
+#: assets/js/dist/admin/pages/tools.js:746
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:120
+msgid "This action will reset course progress of all users who have enrolled."
+msgstr ""
+
 #: inc/admin/views/tools/course/html-user-item.php:14
 msgid "This action will reset progress of a specific lesson or quiz."
 msgstr ""
@@ -8189,6 +8369,18 @@ msgstr ""
 
 #: inc/class-lp-forms-handler.php:395
 msgid "This email address is already registered."
+msgstr ""
+
+#: assets/src/apps/js/blocks/item-curriculum-course/edit.js:17
+msgid ""
+"This is an editor placeholder for the Item Curriculum Course page. Content "
+"will render content of single item curriculum course. Should be not remove it"
+msgstr ""
+
+#: assets/src/apps/js/blocks/single-course/edit.js:15
+msgid ""
+"This is an editor placeholder for the Single Course page. Content will "
+"render content of single course. Should be not remove it"
 msgstr ""
 
 #: inc/admin/views/html-admin-notice-templates.php:40
@@ -8291,6 +8483,8 @@ msgid "Thumbnail dimensions"
 msgstr ""
 
 #: templates/profile/tabs/quizzes.php:58
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:194
+#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:22
 msgid "Time spent"
 msgstr ""
 
@@ -8304,6 +8498,10 @@ msgstr ""
 
 #: inc/class-lp-datetime.php:297
 msgid "Timezone: UTC"
+msgstr ""
+
+#: assets/src/apps/js/admin/react/question/index.js:306
+msgid "Tip"
 msgstr ""
 
 #: inc/Widgets/course-info.php:32 inc/Widgets/featured-courses.php:28
@@ -9004,6 +9202,10 @@ msgstr ""
 msgid "With of container, Ex: 1140px, 80rem"
 msgstr ""
 
+#: assets/src/apps/js/admin/react/question/index.js:288
+msgid "Words fill"
+msgstr ""
+
 #: inc/background-process/class-lp-background-query-items.php:136
 msgid "WP query plugins empty!"
 msgstr ""
@@ -9023,6 +9225,10 @@ msgstr ""
 #: config/elementor/instructor/sections/count_students.php:16
 #: config/elementor/instructor/sections/button_view.php:16
 msgid "Wrapper"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:210
+msgid "Wrong"
 msgstr ""
 
 #: inc/rest-api/v1/admin/class-lp-admin-rest-statistics-controller.php:265
@@ -9228,6 +9434,10 @@ msgstr ""
 msgid "You must enroll course!"
 msgstr ""
 
+#: assets/src/apps/js/frontend/quiz/components/buttons/button-check.js:57
+msgid "You need to answer the question before checking the answer key."
+msgstr ""
+
 #: inc/Widgets/course-progress.php:56
 msgid "You need to log in to view the Course Progress"
 msgstr ""
@@ -9342,6 +9552,10 @@ msgstr ""
 msgid ""
 "Your request to become an instructor has been sent. We will get back to you "
 "soon!"
+msgstr ""
+
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:176
+msgid "Your Result"
 msgstr ""
 
 #: inc/class-lp-checkout.php:421

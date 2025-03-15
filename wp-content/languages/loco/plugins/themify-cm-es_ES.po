@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Conditional Menus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-15 17:47+0000\n"
+"PO-Revision-Date: 2025-03-15 17:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: themify-cm"
+
+#: templates/conditions.php:47 templates/conditions.php:55
+#, php-format
+msgid "%s Archive View"
+msgstr "Vista de archivo %s"
+
+#: init.php:214
+msgid "+ Conditional Menu"
+msgstr "+ Menú condicional"
+
+#: init.php:213
+msgid "+ Conditions"
+msgstr "+ Condiciones"
+
+#: templates/conditions.php:28
+msgid "404 page"
+msgstr "Página 404"
+
+#: templates/conditions.php:34
+msgid "Author pages"
+msgstr "Páginas de autor"
+
+#: templates/conditions.php:20
+msgid "Categories"
+msgstr "Categorías"
+
+#: templates/conditions.php:32
+msgid "Category archive"
+msgstr "Archivo de categorías"
+
+#: templates/conditions.php:12
+msgid "Condition"
+msgstr "Condición"
+
+#. Name of the plugin
+#: init.php:491
+msgid "Conditional Menus"
+msgstr "Menús condicionales"
+
+#: templates/conditions.php:35
+msgid "Date archive pages"
+msgstr "Páginas de archivo de fechas"
+
+#: templates/conditions.php:38
+msgid "Day based archive"
+msgstr "Archivo basado en días"
+
+#: init.php:215
+msgid "Disable Menu"
+msgstr "Deshabilitar menú"
+
+#: templates/conditions.php:17
+msgid "General"
+msgstr "General"
+
+#: templates/conditions.php:19
+msgid "Has Term"
+msgstr "Tiene término"
+
+#: templates/conditions.php:27
+msgid "Home page"
+msgstr "Página de inicio"
+
+#. Author URI of the plugin
+msgid "https://themify.me/"
+msgstr "https://themify.me/"
+
+#. URI of the plugin
+msgid "https://themify.me/conditional-menus"
+msgstr "https://themify.me/conditional-menus"
+
+#: templates/conditions.php:37
+msgid "Month based archive"
+msgstr "Archivo basado en meses"
+
+#: templates/conditions.php:29
+msgid "Page views"
+msgstr "Visitas de página"
+
+#: templates/conditions.php:18
+msgid "Pages"
+msgstr "Páginas"
+
+#: init.php:57
+msgid "Plugin Changelogs"
+msgstr "Registros de cambios del complemento"
+
+#: templates/conditions.php:21
+msgid "Post Types"
+msgstr "Tipos de publicaciones"
+
+#: templates/conditions.php:133
+msgid "Save"
+msgstr "Ahorrar"
+
+#: templates/conditions.php:31
+msgid "Search pages"
+msgstr "Páginas de búsqueda"
+
+#: templates/conditions.php:46
+#, php-format
+msgid "Single %s View"
+msgstr "Vista única %s"
+
+#: templates/conditions.php:30
+msgid "Single post views"
+msgstr "Vistas de publicaciones individuales"
+
+#: templates/conditions.php:33
+msgid "Tag archive"
+msgstr "Archivo de etiquetas"
+
+#: templates/conditions.php:22
+msgid "Taxonomies"
+msgstr "Taxonomías"
+
+#. Author of the plugin
+msgid "Themify"
+msgstr "Themify"
+
+#: init.php:490
+msgid "Themify Conditional Menus"
+msgstr "Menús condicionales de Themify"
+
+#: init.php:67
+msgid "Themify License"
+msgstr "Licencia de Themify"
+
+#: init.php:71
+msgid "Themify Updater"
+msgstr "Actualizador de Themify"
+
+#. Description of the plugin
+msgid ""
+"This plugin enables you to set conditional menus per posts, pages, "
+"categories, archive pages, etc."
+msgstr ""
+"Este complemento le permite configurar menús condicionales por publicaciones,"
+" páginas, categorías, páginas de archivo, etc."
+
+#: templates/conditions.php:132
+msgid "Uncheck All"
+msgstr "Desmarcar todo"
+
+#: templates/conditions.php:39
+msgid "User logged in"
+msgstr "Usuario conectado"
+
+#: templates/conditions.php:23
+msgid "User Roles"
+msgstr "Roles de usuario"
+
+#: init.php:57
+msgid "View Changelogs"
+msgstr "Ver registros de cambios"
+
+#: templates/conditions.php:36
+msgid "Year based archive"
+msgstr "Archivo basado en años"

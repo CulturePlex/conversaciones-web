@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Ivy School\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-15 16:43+0000\n"
-"PO-Revision-Date: 2025-03-15 16:43+0000\n"
+"PO-Revision-Date: 2025-03-15 17:44+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español\n"
 "Language: es_ES\n"
@@ -1126,7 +1126,7 @@ msgstr "Día de la semana"
 #: inc/template-tags.php:543
 #, php-format
 msgid "Day: %s"
-msgstr "Días"
+msgstr "Días: %s"
 
 #: templates/comingsoon.php:51
 msgid "Days"
@@ -1760,7 +1760,7 @@ msgstr "Mes"
 #: inc/template-tags.php:541
 #, php-format
 msgid "Month: %s"
-msgstr "Meses"
+msgstr "Meses: %s"
 
 #: inc/template-tags.php:541
 msgctxt "monthly archives date format"
@@ -2833,7 +2833,7 @@ msgstr "Año"
 #: inc/template-tags.php:539
 #, php-format
 msgid "Year: %s"
-msgstr "Años"
+msgstr "Años: %s"
 
 #: inc/template-tags.php:539
 msgctxt "yearly archives date format"
