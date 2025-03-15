@@ -883,3 +883,8 @@ add_action('tp_event_after_main_content', function($template) {
 		do_action( 'thim_wrapper_loop_end' );
 	}
 }, 100);
+
+function load_learnpress_translations() {
+    wp_set_script_translations( 'learnpress-custom', 'learnpress', WP_LANG_DIR . '/plugins/' );
+}
+add_action( 'wp_enqueue_scripts', 'load_learnpress_translations' );
